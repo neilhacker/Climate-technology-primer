@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fulldisplay {
+  margin-bottom: 20px;
+  /* color: #e2d8f1 */
+}
+
+
+

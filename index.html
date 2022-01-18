@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Marblestone</title>
+    <link rel="stylesheet" href="tufte.css"/>
+
+    <script type="text/javascript" src="helpers.js"></script>
+    <script async src="https://unpkg.com/@curvenote/article"></script>
+
+
+
+
+  </head>
+
+  <body>    
+
+    <div class="wrapper">
+
+    <article>
+      
+
+    <section id="top">
+    <h1 >Climate technology primer: CO2 removal</h1>
+    <p>
+        This is the second of a series of three blog posts intended as a primer on how technology can help to address climate change. 
+        In the last post, I covered some basics about climate and renewable energy. This post is a summary of what I learned about 
+        carbon dioxide removal technologies.
+    </p>
+
+    <p>
+        <label for="mn-demo" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+        <span class="marginnote" id="cost comparison graph">
+            Note: you can annotate this page in Hypothes.is <a href="https://via.hypothes.is/https://longitudinal.blog/co2-series-part-2-co2-removal/
+            ">here</a>.
+        </span>
+    
+        (Overall, these posts are focused disproportionately on CO2 removal and geo-engineering, as opposed to traditional mitigation or
+        adaptation, though I did cover some cool mitigation technologies in the first post — the total set of opportunities for technology 
+        in climate is much broader than I can hope to cover here. I recommend this paper for a review that is more focused on applications 
+        of machine learning, but covers a much wider set of problem/solution areas.)
+    </p>
+    <p>
+        Acknowledgements: I got a bunch of good suggestions from friends, many of whom are more expert in these fields, including Brad Zamft, Sarah Sclarsic, David Pfau, Will Regan, David Brown, Tom Hunt, Tony Pan, Ryan Orbuch, Marcus Sarofim, Michael Nielsen, Sam Rodriques, James Ough, Evan Miyazono, Nick Barry, John Baez, Kevin Esvelt, Eric Drexler and George Church. 
+
+
+    </p>
+    </section>
+    <section id="disclaimers">
+        <button type="button" class="collapsible"><p>Disclaimers </p></button>
+        <div class="content">
+            <ol>
+                <li>
+                    I am not a climate scientist or an energy professional. I am just a scientifically literate lay-person on the internet, 
+                    reading up in my free time. If you are looking for some climate scientists online, I recommend those that Michael Nielsen 
+                    follows, and this list from Prof. Katharine Hayhoe. Here are some who apparently advise Greta. You should definitely read 
+                    the IPCC reports, as well, and take courses by real climate scientists, like this one. The National Academies and various 
+                    other agencies also often have reports that can claim a much higher degree of expertise and vetting than this one.
+                </li>
+                <li>
+                    Any views expressed here are mine only and do not reflect any current or former employer. Any errors are also my own. This has not been peer-reviewed in any meaningful sense. If you’re an expert on one of these areas I’ll certainly appreciate and try to incorporate your suggestions or corrections.
+                </li>
+                <li>
+                    There is not really anything new here — I try to closely follow and review the published literature and the scientific consensus, so at most my breadcrumb trail may serve to make you more aware of what scientists have already told the world in the form of publications.
+                </li>
+                <li>
+                    I'm focused here on trying to understand the narrowly technical aspects, not on the political aspects, despite those being crucial. This is meant to be a review of the technical literature, not a political statement. I worried that writing a blog purely on the topic of technological intervention in the climate, without attempting or claiming to do justice to the social issues raised, would implicitly suggest that I advocate a narrowly technocratic or unilateral approach, which is not my intention. By focusing on technology, I don’t mean to detract from the importance of the social and policy aspects. I do mention the importance of carbon taxes several times, as possibly necessary to drive the development and adoption of technology. I don’t mean to imply through my emphasis that all solutions are technologically advanced — for example, crucial work is happening on conservation of land and biodiversity. That said, I do view advanced technology as a key lever to allow solutions to scale worldwide, at the hundreds-of-gigatonnes-of-CO2 level of impact, in a cost-effective, environmentally and societally benign way. Indeed, the rights kinds of improvements to our energy system are likely one of the best ways to spur economic growth.
+                </li>
+                <li>
+                    Talking about emerging and future technologies doesn't mean we shouldn't be deploying existing decarbonization technologies now. There is a finite cumulative carbon budget to avoid unacceptable levels of warming. A perfect technology that arrives in 2050 doesn’t solve the primary problem.
+                </li>
+    
+                <li>
+                    For some of the specific technologies discussed, I will give further caveats and arguments in favor of caution in considering deployment.
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+    </section>
+
+    <section id="why">
+        <h3>First: Why even talk about carbon dioxide removal?</h3>
+        <p>
+            I’ll quote the company Stripe’s recent announcement on this (both Stripe and Shopify are committing $1M a year to kickstart industrial scaling and hence cost reduction of carbon sequestration):
+        </p>
+        <blockquote>
+            <p>“Urgent global action is needed to halt greenhouse gas emissions, and it looks increasingly likely that in addition to emissions reduction, humanity will need to remove large amounts of carbon dioxide from the atmosphere. In its most recent summary report, the IPCC notes that most scenarios that stay below 2°C of temperature increase involve “substantial net negative emissions by 2100, on average around 2 gigatons of CO2 per year.””
+
+            </p>
+        </blockquote>
+        <p>
+            Here it is directly from the IPCC, with regard to a 1.5C target:
+        </p>
+        <blockquote>
+            <p>
+                C3. All pathways that limit global warming to 1.5°C with limited or no overshoot project the use of carbon dioxide removal (CDR) on the order of 100-1000 GtCO2 over the 21st century. CDR would be used to compensate for residual emissions and, in most cases, achieve net negative emissions to return global warming to 1.5°C following a peak (high confidence). CDR deployment of several hundreds of GtCO2 is subject to multiple feasibility and sustainability constraints (high confidence). Significant near-term emissions reductions and measures to lower energy and land demand can limit CDR deployment to a few hundred GtC02 without reliance on bioenergy with carbon capture and storage (BECCS) (high confidence).
+            </p>
+            <footer>https://report.ipcc.ch/sr15/pdf/sr15_headline_statements.pdf
+            </footer>
+        </blockquote>
+        <p>
+            Here is a GIF from Glen Peters on how much negative emissions we need to stay under 1.5C warming, for different amounts of positive emissions, based on this work:
+        </p>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Keeping temperature below 1.5°C requires radical short-term reductions of fossil CO₂ emissions (brown), even with large-scale CO₂ removal (negative emissions, green).<br><br>Mitigation rates are only slightly lower as the scale of CO₂ removal increases.<a href="https://t.co/6MqCxSgrau">https://t.co/6MqCxSgrau</a> <a href="https://t.co/1DqHJAcsSR">pic.twitter.com/1DqHJAcsSR</a></p>&mdash; Glen Peters (@Peters_Glen) <a href="https://twitter.com/Peters_Glen/status/1167698283503898625?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <p>
+            Solving the climate problem likely needs both aggressive decarbonization and negative emissions and potentially other mitigation measures.
+            <br><br>
+            Here is a relevant figure with a schematic 2C pathway from the NAS report, showing a key role for large-scale negative emissions:
+            <img src="img/nas_2deg.png" alt="NAS 2 degree scenarios" />  
+        </p>
+        <p>
+            Even if we managed to stop releasing any new CO2 very soon, we might still have big problems, due to the carbon already up there in the atmosphere by that time — it depends on the still-imprecisely-known strengths of all the climate feedbacks. In any case, if and when we get to a certain average temperature, even the steepest emissions reductions as such don’t lead to cooling much below that temperature, except on long timescales, because the natural carbon sinks are slow. The basic idea is described eloquently in the book “Radical Abundance”:
+
+        </p>
+        <blockquote>
+            <p>
+                What makes climate change an unusually difficult problem (aside from the scale of its effects and the momentum of fossil fuel consumption) is the long-term persistence of CO₂ in the atmosphere. Levels of atmospheric pollutants like soot or SO₂ closely track the rate of emissions. Turn off the source and the pollutant soon washes out of the atmosphere. Even chlorofluorocarbons and methane have lifetimes measured in a small span of years. CO₂ is different. It exits the atmosphere on a timescale best measured in decades or centuries. Rain doesn't scrub CO₂ from the atmosphere; instead, CO₂ is slowly absorbed, primarily by the seas.* At any moment, CO₂ levels are only slightly elevated by last year's emissions and are in- stead the cumulative result of emissions that span the industrial era. Deep cuts in emissions wouldn't lower CO₂ levels in proportion, but would instead merely slow down the rate of their rise. The system be- haves more like a bathtub with a drain that's almost closed: If the tap is left open, the tub will eventually overflow.            </p>
+            <footer>Radical Abundance</footer>
+        </blockquote>
+        <p>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                <img src="img/co2_decay.png" alt="co2 decay over time" />  
+                Here is a relevant figure from MacKay
+    
+            </span>
+    
+            The introduction to the National Academies report on negative emissions has a deeper discussion of natural versus artificial sinks on atmospheric CO2, which adds some color to this picture: they don’t claim that negative emissions are the only way to bring down atmospheric CO2 over time, but they do say that “NETs provide the only means to achieve deep (i.e., >100 ppm)… reductions, beyond the capacity of the natural sinks”.
+        </p>
+        <p>
+            As we’ll discuss below, sucking CO2 out of the atmosphere requires a large scale of energy or other resources, and doing so efficiently may require deployment of new kinds of technology that could induce some unique environmental issues of their own. Depending on the scheme, economic incentives may well be needed to bring negative emissions to a truly relevant scale.
+        </p>
+        <p>
+            Some do not view the reliance of IPCC scenarios on negative emissions as a good thing. As Anderson and Peters argued in a perspective piece in Science:
+        </p>
+        <blockquote>
+            <p>
+                Negative-emission technologies are not an insurance policy, but rather an unjust and high-stakes gamble… the mitigation agenda should proceed on the premise that they will not work at scale. The implications of failing to do otherwise are a moral hazard par excellence
+            </p>
+        </blockquote>
+
+        <p>
+            There is a risk that some would misperceive, or falsely label, negative emissions technologies as “quick techno-fixes” that remove the responsibility for global coordination around complex tradeoffs and priorities for emissions reduction. Some with vested interests in the fossil fuel industry could use this false narrative to push against the implementation of crucial policies that incentivize broader decarbonization throughout the economy. There has been some attempt to empirically study the extent to which people’s preferences are actually influenced by such moral hazard, albeit in a limited setting. It is a real concern. 
+            <br><br>
+            To be clear: investing in negative emissions is not an excuse not to reduce positive emissions quickly, but some might try to use it that way. The moral hazard risk has to be weighed carefully against the importance of developing the technologies. I don’t claim to know how best to manage that tradeoff in society, except to say: we should limit the ability of fossil fuel interests to act upon moral hazard, by constraining their negative externalities through carbon taxes, and by out-competing them economically with cheap, clean technologies and appropriate incentives to make them even cheaper, and we should do so regardless of whether negative emissions technology ever looks poised to become truly viable at scale. But frankly, it looks like we need negative emissions technology, in addition to these other things.
+            <br><br>
+            In any case, this is now entering the mainstream public discourse.
+            <br><br>
+            So, here is what I took from a few days looking at the technical literature on negative emissions, also known as carbon dioxide removal (CDR).
+            <br><br>
+            Background: I recommend John Baez’s blog posts and the accompanying thread for an intro to this area. He also links to MacKay’s discussion of the topic. Y Combinator has a great introductory website focused on carbon removal technologies. The Drawdown project is also interesting. The National Academies has a great report on negative emissions that we will look at a bit below — I highly recommend reading that. Here is also a nice report from the Energy Futures Initiative — also highly recommended: it was released just as I was finishing this post, and it covers some closely related ground. There is also a review in Nature on CO2 utilization pathways.
+            
+        </p>
+
+    </section>
+
+    <section id="fundamental_req">
+        <h2>Fundamental energy and volume requirements of CDR</h2>
+      
+    </section>
+    <section id="how_much_to_sequester">
+        <h3>How much do we need to sequester</h3>
+        <p>
+            The 2019 National Academies roadmap thinks we need to be sequestering ~10 GtCO2/year globally by around 2050 and ~20 GtCO2 per year by end of century, in realistic situations where we abide by the Paris Agreement targets:
+        </p>
+        <blockquote>
+            <p>
+                “Approximately 10-20 Gt CO2e of gross anthropogenic emissions come from sources that would be very difficult or expensive to eliminate, including a large fraction of agricultural methane and nitrous oxide. Most scenarios that meet the Paris agreement… thus rely on CO2 removal and storage that ramps up rapidly before midcentury to reach approximately 20 GtCO2 by century’s end… If the goals for climate and economic growth are to be achieved, negative emissions technologies will likely need to play a large role in mitigating climate change by removing ~10 Gt/y CO2 globally by midcentury and ~20 Gt/y CO2 globally by the century’s end.”
+            </p>
+        </blockquote>
+        <p>
+            The Lawrence paper, which reviews a range of carbon sequestration and geoengineering options in the context of the Paris agreement, gives a reference figure for roughly how much they think actually needs to be removed, which they call CDRref:
+        </p>
+        <blockquote>
+            <p>
+                “…in the context of the Paris Agreement, useful reference values can be defined based on the difference between the 2°C versus the 1.5°C limits (see Methods): CDRref ≈ 650 Gt(CO2) for the cumulative CO2 budget, and RFGref ≈ 0.6 W/m² for the equivalent radiative forcing.”
+            </p>
+        </blockquote>
+        <p>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                ¹ Which is $650*\dfrac{12}{44}≈177Gt$ of carbon, or ~83 ppm of atmospheric CO2          
+            </span>
+
+            So, according to the Lawrence paper, CO2 removal methods can be crudely evaluated on whether they can feasibly approach removing CDRref ~ 650 Gt of CO2.¹ This is not as much as would be needed to return to preindustrial levels, but it still serves as a useful order-of-magnitude benchmark of what would make a truly significant dent in the problem. 
+            <br><br>
+            Note that, if operating at the National Academies rate of say 20 GtCO2/year sequestered, reaching the Lawrence CDRref would take on the order of 30 years. In some cases below, I consider what it would take to reach something around CDRref, say 500 GtCO2, in a decade.
+            
+        </p>
+       
+    </section>
+    <section id="energy">
+        <h3>Energy</h3>
+        <p>
+            CDR, it turns out, is amenable to an easy back of the envelope calculation in terms of its fundamental energy requirement.
+            <br><br>
+
+            <!-----------------------------------------------METHOD 1-------------------------------------------------------------------->
+            <b>Method 1:</b>
+            <br>
+            Here’s a simple way to estimate it: What we are asking to do is to compress a dilute gas, and doing so in this scenario requires pressure-volume work at constant temperature. If you know/remember/want to learn some physics, the energy associated with P-V work at constant temperature is given by a logarithmic formula:
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                n= number of moles of CO2 removed
+                <br>
+                R = gas constant
+                <br>
+                T = temperature in Kelvin
+                <br>
+                $V_f$ is the volume of CO2 after capture
+                <br>
+                $V_i$ is the volume of CO2 before capture.
+            </span>
+            <br><br>  
+
+            <span style="font-size: large;">$nRT*ln(\dfrac{V_f}{V_i})$</span>
+
+            <br><br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                ⁴ again in this post I will ignore the small differences between long, short and metric tons, i.e., tonnes     
+            </span> 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                <span style="font-size: small;">$ (~1 atm) * (\dfrac{400}{1e6} &nbsp;ppm) = 0.0004 atm$</span>
+            </span> 
+            To remove all of the CO2 in the atmosphere, around 3000 GigaTons⁴, by compressing it from the (~4.2 billion km³) volume of Earth’s atmosphere, where it lives at a pressure of 0.0004 atm to the volume of its liquid form, we therefore need ~1.3e21 Joules.
+            </p>
+            
+            <p>
+            <!-----------------------------------------------METHOD 2-------------------------------------------------------------------->
+            <b>Method 2:</b>
+            <br>
+            Klaus Lackner, one of the inventors of direct air capture of CO2, used a version of this formula in his first paper on the subject, which you can convince yourself from the ideal gas law (PV=nRT) is equivalent: the energy requirement per mole of CO2 removed is
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                $P_0$ = initial CO2 partial pressure ~ 400/1e6 * 1 atm
+                <br>
+                $P$ is the desired pressure of the output CO2 capture stream, say 1 atm.
+                <br><br>
+                In reality, liquid CO₂ forms only at pressures over 5.1 atm, but this doesn’t change the answer much, since (gas constant) * 300 Kelvin * Ln[(5.1 atm) / (1 atm * 400/1e6)] = 23.5 kJ/mole, versus 20.            
+            </span>
+            <br><br>
+            <span style="font-size: large;">$RT*ln \left( \dfrac{P}{P_0} \right)$ </span>
+            <br><br>
+            
+            Assuming that we condense the CO₂ to about 1 atm pressure, from its initial 0.0004 atm pressure to remove all of it from the atmosphere would take:
+            <br><br>
+            <span style="font-size: medium;">$= (gas&nbsp;constant) * 300 Kelvin * Ln \left( \dfrac{(1 atm)}{\left( 1 atm * \dfrac{400}{1e6} \right)}\right) ≈ 20 kJ/mole$</span>
+            <br><br>
+            Which to remove our 3000 GigaTons of CO₂ would need the same ~1.3e21 Joules.
+            </p>
+
+            <p>
+            <!-----------------------------------------------METHOD 3-------------------------------------------------------------------->
+            <b>Method 3:</b>
+            <br>
+            A somewhat more rigorous way to arrive at this is to use the entropy of mixing, as is done here and here and here. The energy associated with the entropy of mixing is given by:
+            <br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                n is now the total number of moles of all the molecules in the atmosphere
+                <br>
+                $x_1$ is the fraction of gas 1 (# gas 1 molecules / total # of molecules)
+                <br>
+                $x_2$ is the fraction of gas 2.            
+            </span>
+            <br>
+            <span style="font-size: large;">$-nRT(x_1ln(x_1)+x_2ln(x_2))$ </span>
+            
+
+            <br><br>
+            Let $x_1$ be the fraction of CO2, and $x_2$ be the fraction of the rest of the air. For $x_2$ close to 1.0, the $x_2$ term is negligible, which makes 
+            sense: when the rest of the atmosphere expands into the tiny space formerly occupied by the CO2, its entropy doesn’t increase significantly.
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                ² i.e., $x_1=\dfrac{400}{1e6}$           
+            </span> 
+            But for $x_1$ far from 1.0,² we have a significant contribution from the first term. So let’s look at that term. 
+            <br><br>
+            Firstly, how many total moles of air are in the atmosphere? For consistency with the above, I’ll take our ~3000 GigaTonnes of CO2 and multiply by 1e6/400 
+            to get the total number of moles of all molecules in the atmosphere, and also use our same estimate of the atmospheric volume of 4.2 billion cubic 
+            kilometers. That’s roughly 40 mol/m³ of total air in the atmosphere, so,
+            <br><br>
+            <span style="font-size: medium;">$n = 40.6&nbsp; mol/m³ * (4.2 billion&nbsp; cubic&nbsp; kilometers) = 1.7e20&nbsp; moles$ &nbsp;&&nbsp; $x_1=\dfrac{400}{1e6}$</span>
+            <br><br>
+            So to un-mix all CO2 from the atmosphere it would take,
+            <br><br>
+            <span style="font-size: large;">$-nRT x_1 ln(x_1)$ </span>            
+            <br><br>
+            <span style="font-size: medium;">$= -1.7e20&nbsp; moles * gas&nbsp; constant* (temp&nbsp; of Earth’s&nbsp; surface) * \dfrac{400}{1e6} * Ln \left( \dfrac{400}{1e6} \right)$</span>
+            <br><br>
+            <span style="font-size: medium;">$= 1.27e21&nbsp; Joules &nbsp;(That’s&nbsp; our&nbsp; 1.3e21&nbsp; Joules&nbsp; from&nbsp; above)$</span>
+            
+        </p>
+        <p>
+            <!-----------------------------------------------METHOD 4-------------------------------------------------------------------->
+            <b>Method 4:</b>
+            <br>
+            This entropy of mixing framework can be extended to other scenarios like ones with interactions between the molecules, desalination of liquids, and so on. It also leads to a proper calculation for the case where we only remove some of the CO2 from the atmosphere, not all of it, which is what we’d want to do in practice. On a per mole of CO2 removed basis, we have an energy cost for partial removal of:
+            <br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                P1 is the initial pressure of CO2 in the atmosphere
+                <br>
+                P0 is the overall atmospheric pressure 
+                <br>
+                P2 is the pressure of CO2 remaining in the atmosphere after we do our removal    
+            </span>
+            <br>
+            <span style="font-size: medium;">$ ∆G ≈ RT \left(ln\dfrac{P_1}{P_0} - \left( 1- \dfrac{P_1}{P_0} \right) \dfrac{P_2}{P_1 - P_2}   
+                ln\dfrac{P_2}{P_1} - \left( 1- \dfrac{P_1+P_2}{2P_0} \right) \right)$</span>
+            <br><br>
+            Let’s say we want to bring the partial pressure from 410 ppm down to the 278 ppm pre-industrial level. Plugging into this formula, I get 19.91 kJ/mole of CO2 removed, very similar to the above.
+            <br><br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                By the way, MacKay has it in his book at about 30 kJ/mole for the minimum energy cost. His 0.13 in this table kWh / kg in this table is our 20 kJ/mole, and he adds an additional compression cost that adds about a third (I’m not exactly sure where this comes from, maybe he’s pushing towards dry ice densities, but in any case it doesn’t add that much in the grand scheme):
+                <img src="img/energy_cost_of_removal.png" alt="cost breakdown for dac" /> 
+            </span>
+
+            We can now comfortably ask how much energy it would take to remove a tonne of CO2: (20 kJ/mole) / molar mass of CO2 ~ 450 MegaJoules per tonne. So to go down to 278 ppm would be ~5e20 Joules. To suck out 500 GigaTonnes would be 2.5e20 Joules.
+            <br><br>
+            (The astute Sam Rodriques points out that, although this is indeed the minimal work needed to separate out the CO2, not all of this work is necessarily ultimately lost as heat and thus unrecoverable, at least in principle.)
+            <br><br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                ³ Interestingly, this is all much less than the heat of combustion of fossil fuels per mole of CO2, on the order of 500-1000 kJ/mole. That makes sense, since we are not reversing the chemical reaction of combustion, just sequestering the released CO2 to a smaller volume 
+            </span>
+            MacKay goes on to estimate at best a 35% efficiency in practice relative to this limit, so expects about 90 kJ/mole ³ to be the practical limit. That seems pretty reasonable as a ballpark.
+            </p>
+
+            <!-----------------------------------------------DAC FOR FUEL DROPDOWN-------------------------------------------------------------------->
+            <button type="button" class="collapsible"><p>Using DAC to make fuels </p></button>
+            <div class="content">
+                <p>
+                    Prometheus Fuels, as an example, wishes to take atmospheric CO2 all the way back into a fuel, which is going to cost an energy at least equal to the heat of combustion of the fuel, not to mention that associated with the concentration of the CO2 from the atmosphere. Still, this could be useful for fuels like, jet fuel, that are otherwise difficult to decarbonize. I was a bit surprised, but it is not actually in principle crazy to make gasoline this way. For example if we have:
+                    <br>
+                    - higher energy requirement of <b>1000 kJ/mole</b> 
+                    <br>
+                    - a gallon of gas requires/releases <b>20 lbs of CO2</b>
+                    <br>
+                    - energy cost <b>5 cents per kWh</b>
+                    <br>
+                    Then we have a cost per gallon of 
+                    <br><br>
+                    <span style="font-size: medium;">$ \dfrac{20 lbs}{44&nbsp; grams&nbsp; per&nbsp; mole} * (1000 kJ/mole) * 5 cents&nbsp; per&nbsp; kWh = ＄2.86 / gallon$ </span>
+                    <br><br>
+                    Which is not an unreasonable gas price, and this closely matches what was said about this project. See also here.
+                    <br><br>
+                    Beyond actually making fuel from direct air captured CO2, there is also the idea of simply offsetting the use of the fuel with direct air capture. Stephen Pacala in this interview by Elizabeth Kolbert explains the rationale for this latter nicely:
+                </p>
+                <blockquote>
+                    
+                        “Imagine a scenario where you fly over to Germany and burn aviation gas on the way over, but we have a direct air capture machine that for ＄100 a ton takes CO2 out of the atmosphere and puts it in the ground to compensate. And the question is, how much did that cleansing of the atmosphere cost in terms of the fuel? The answer is an extra dollar a gallon. So it’s going from say, ＄2.50 to ＄3.50 a gallon. Now, aviation biogas, which is the alternative, costs way more than that, and it takes land away from other uses that we need.”
+                    
+                </blockquote>
+                
+            </div>
+
+        <p>
+            The excellent Lawrence paper comes to the same conclusion as far as the fundamental energy requirement of CDR:
+        </p>
+        <blockquote>
+            <p>
+                “…energy requirements of three main technology components: (1) sustaining sufficient airflow through the systems to continually expose fresh air for CO2 separation; (2) overcoming the thermodynamic barrier required to capture CO2 at a dilute ambient mixing ratio of 0.04%; and (3) supplying additional energy for the compression of CO2 for underground storage. While components (1) and (3) can be quantified using basic principles, and several studies61,62 indicate that combined they would probably require 300–500 MJ/t(CO2) (or ~80–140 kWh/t(CO2)), the energy and material requirements of the separation technology (2) are much more difficult to estimate. The theoretical thermodynamic minimum for separation of CO2 at current ambient mixing ratios is just under 500 MJ/t(CO2)62.”
+            </p>
+        </blockquote>
+        <p>
+            500 MegaJoules / tonne gives 22 kJ/mole of CO2. If you suck out Lawrence’s 650 GtCO2 you get 3.25e20 Joules, or 9e20 Joules at 35% thermodynamic efficiency.
+            <br><br>
+            In any case, compare our rough numbers, which are on the order of 1e21 Joules for a “full scale” sequestration of the atmosphere’s anthropogenic carbon, with the ~6e20 Joules per year total energy consumption of human civilization. We’re talking perhaps a year or two of civilization’s total current energy consumption, if we wanted to remove decades worth of CO2 emissions.
+            <br><br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="energy_to_remove_all_carbon">
+                1 Joule/second = 1 Watt 
+                <br>
+                31,536,000 seconds in a year ≈ 30,000,000 = 3e7
+                <br>
+                3e8 seconds in 10 years.
+                <br>
+                1 J/second for a decade ≈ 3e8 J = 3e8 Watts
+                <br> 
+                5e20 / 3e8 ≈ 1.7e12 Watts = 1.7 TeraWatts 
+
+            </span> 
+            This is arguably not that much energy in the grand scheme. Even if we assume we need to do it basically twice to compensate for outgassing of CO2 by the oceans (see below), it is still on the order of 5e20 Joules to remove 500 GigaTons, 
+            <span onclick="sidebar('energy_to_remove_all_carbon')" style="cursor: pointer; font-weight: bold;">which works out to 1.5 TeraWatts running continuously over 10 years</span>, which is about 1/10th of civilization’s energy consumption if we were to do it over 10 years. Significant, yes, indeed huge, but not impossibly so. We’re talking on the order of solar panels covering a US state.
+            <br><br>
+            The Lawrence paper points out that reaching this theoretical minimum energy is far from easy, though (we’ll discuss why later):
+        </p>
+        <blockquote>
+            <p>
+                “…thermodynamic minimum values are rarely achievable. Current estimates for the efficiency of DACCS are technology-dependent, ranging from at best 3 to likely 20 or more times the theoretical minimum61, or ~1500–10,000 MJ/t(CO2), implying that removing an amount equivalent to CDRref by 2100 would require a continuous power supply of approximately 400–2600 GW…”
+            </p>
+        </blockquote>
+        <p>
+            Note that not all of the schemes we’ll consider require paying this energy “out of pocket”, as it were: for instance, biology-based schemes rely on the energy of the sun for photosynthesis to do the work, and mineral weathering schemes like Project Vesta rely on chemical free energy in the minerals they harvest.
+
+        </p>
+
+
+    </section>
+    <section id="volume">
+        
+    </section>
+    <section id="cost">
+        
+    </section>
+    <section id="dynamics_issues">
+
+    </section>
+    <section id="chemical">
+       
+    </section>
+    <section id="dac">
+       
+    </section>
+    <section id="econ_commercialization">
+       
+    </section>
+    <section id="ocean_liming">
+       
+    </section>
+    <section id="capture_at_source">
+       
+    </section>
+    <section id="biological">
+       
+    </section>
+    <section id="land">
+       
+    </section>
+    <section id="beccs">
+        
+    </section>
+    <section id="trees">
+       
+    </section>
+    <section id="tree_adjacent">
+        
+    </section>
+    <section id="topsoil">
+       
+    </section>
+    <section id="biochar">
+        
+    </section>
+    <section id="crop_residue">
+       
+    </section>
+    <section id="algal">
+        
+    </section>
+    <section id="bio_land">
+       
+    </section>
+    <section id="roots">
+        
+    </section>
+    <section id="photosynthetic">
+       
+    </section>
+    <section id="ocean">
+        
+    </section>
+    <section id="fertilization">
+       
+    </section>
+    <section id="azolla">
+        
+    </section>
+    <section id="sea_grass">
+       
+    </section>
+    <section id="bio_ocean">
+        
+    </section>
+    <section id="nas">
+       
+    </section>
+    <section id="takeaways">
+        
+    </section>
+    </article>
+
+    <!-- ##################### sidebar #####################-->
+    <div class="sidebar">
+        <ul style="list-style: none; padding: 0;">
+            <li class="top active"><a href="#top" style="text-decoration:none; font-weight: bold;" >Scaling carbon removal</a></li>
+            
+            <li class="introduction"><a href="#introduction" style="text-decoration:none; font-weight: bold;" >Introduction</a></li>
+            <ul style="list-style: none;">
+                <li class="why"><a href="#why" style="text-decoration:none" >Why even talk about this</a></li>
+            </ul>
+
+            <li class="fundamental_req"><a href="#fundamental_req" style="text-decoration:none; font-weight: bold;" >Fundamental energy and space requirements</a></li>
+            <ul style="list-style: none;">
+                <li class="how_much_to_sequester"><a href="#how_much_to_sequester" style="text-decoration:none" >How much do we need to sequester</a></li>
+                <li class="energy"><a href="#energy" style="text-decoration:none" >Energy</a></li>
+                <li class="volume"><a href="#volume" style="text-decoration:none" >Volume</a></li>
+                <li class="cost"><a href="#cost" style="text-decoration:none" >Cost</a></li>
+                <li class="dynamics_issues"><a href="#dynamics_issues" style="text-decoration:none" >Two climate dynamics issues to be aware of</a></li>
+            </ul>
+
+            <li class="chemical"><a href="#chemical" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: chemical</a></li>
+            <ul style="list-style: none;">
+                <li class="dac"><a href="#dac" style="text-decoration:none" >Basics of direct air capture</a></li>
+                <li class="econ_commercialization"><a href="#econ_commercialization" style="text-decoration:none" >Economics and commercialization</a></li>
+                <li class="ocean_liming"><a href="#ocean_liming" style="text-decoration:none" >Ocean liming</a></li>
+                <li class="capture_at_source"><a href="#capture_at_source" style="text-decoration:none" >Capturing at the source</a></li>
+            </ul>
+
+            <li class="biological"><a href="#biological" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: biological</a></li>
+            <ul style="list-style: none;">
+                <li class="land"><a href="#land" style="text-decoration:none; font-weight: bold;" >Land</a></li>
+                <ul style="list-style: none;">
+                    <li class="beccs"><a href="#beccs" style="text-decoration:none" >BECCS</a></li>
+                    <li class="trees"><a href="#trees" style="text-decoration:none" >Trees</a></li>
+                    <li class="tree_adjacent"><a href="#tree_adjacent" style="text-decoration:none" >Ideas adjacent to trees</a></li>
+                    <li class="topsoil"><a href="#topsoil" style="text-decoration:none" >Topsoil</a></li>
+                    <li class="biochar"><a href="#biochar" style="text-decoration:none" >Biochar</a></li>
+                    <li class="crop_residue"><a href="#crop_residue" style="text-decoration:none" >Crop residue sequestration</a></li>
+                    <li class="algal"><a href="#algal" style="text-decoration:none" >Algal bioreactors</a></li>
+                </ul>
+
+                <li class="bio_land"><a href="#bio_land" style="text-decoration:none; font-weight: bold;" >Bioengineering on land</a></li>
+                <ul style="list-style: none;">
+                    <li class="roots"><a href="#roots" style="text-decoration:none" >Root to shoot ratio</a></li>
+                    <li class="photosynthetic"><a href="#photosynthetic" style="text-decoration:none" >Photosynthetic efficiency</a></li>
+                </ul>
+
+                <li class="ocean"><a href="#ocean" style="text-decoration:none; font-weight: bold;" >Ocean</a></li>
+                <ul style="list-style: none;">
+                    <li class="fertilization"><a href="#fertilization" style="text-decoration:none" >Fertilization</a></li>
+                    <li class="azolla"><a href="#azolla" style="text-decoration:none" >Azolla</a></li>
+                    <li class="sea_grass"><a href="#sea_grass" style="text-decoration:none" >Sea grass</a></li>
+                </ul>
+
+                <li class="bio_ocean"><a href="#bio_ocean" style="text-decoration:none; font-weight: bold;" >Bioengineering in the ocean</a></li>
+            </ul>
+
+            <li class="nas"><a href="#nas" style="text-decoration:none; font-weight: bold;" >On the NAS report on negative emissions</a></li>
+
+            <li class="takeaways"><a href="#takeaways" style="text-decoration:none; font-weight: bold;" >Some take-aways</a></li>
+            
+        </ul>
+              
+    </div>
+    
+  </div>  <!-- end of wrapper div -->
+  <script src="./main.js"></script>
+  <script src="./collapse.js"></script>
+
+  </body>
+</html>
