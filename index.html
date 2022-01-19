@@ -16,6 +16,8 @@
   <body>    
 
     <div class="wrapper">
+    <div class="main_content">
+
 
     <article>
       
@@ -185,7 +187,7 @@
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
-                ¹ Which is $650*\dfrac{12}{44}≈177Gt$ of carbon, or ~83 ppm of atmospheric CO2          
+                ¹ Which is <span style="font-size: small;">$650*\dfrac{12}{44}≈177Gt$ </span> of carbon, or ~83 ppm of atmospheric CO2          
             </span>
 
             So, according to the Lawrence paper, CO2 removal methods can be crudely evaluated on whether they can feasibly approach removing CDRref ~ 650 Gt of CO2.¹ This is not as much as would be needed to return to preindustrial levels, but it still serves as a useful order-of-magnitude benchmark of what would make a truly significant dent in the problem. 
@@ -226,14 +228,31 @@
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
-                ⁴ again in this post I will ignore the small differences between long, short and metric tons, i.e., tonnes     
+                ³ I will ignore the small differences between long, short and metric tons, i.e., tonnes     
             </span> 
+
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="cost comparison graph">
+            <span class="marginnote-reactive" id="co2_pressure">
+                <br>
                 <span style="font-size: small;">$ (~1 atm) * (\dfrac{400}{1e6} &nbsp;ppm) = 0.0004 atm$</span>
             </span> 
-            To remove all of the CO2 in the atmosphere, around 3000 GigaTons⁴, by compressing it from the (~4.2 billion km³) volume of Earth’s atmosphere, where it lives at a pressure of 0.0004 atm to the volume of its liquid form, we therefore need ~1.3e21 Joules.
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="total_energy">
+                <br>
+                <a href="https://www.wolframalpha.com/input/?i=%284.2+billion+cubic+kilometers%29+*+%281+atm%29+*+%28400%2F1e6%29*Ln%5B%283000+gigatonne+%2F+%28density+of+liquid+carbon+dioxide%29%29%2F%284.2+billion+cubic+kilometers%29%5D">Wolfram Alpha</a>
+                <br><br>
+                density of liquid CO₂ ≈ 1.84 kg/m³
+                <br><br>
+                <span style="font-size: x-small;">$ (4.2 bn&nbsp; km³) * (1 atm) * \dfrac{400}{1e6} * Ln \left( \dfrac{  \left( \dfrac{3000 Gt}{1.84 kg/m³} \right)}  {4.2 bn&nbsp; km³} \right)$</span>
+                
+            </span> 
+
+            To remove all of the CO2 in the atmosphere, around 3000 GigaTons⁴, by compressing it from the (~4.2 billion km³) volume of Earth’s 
+            atmosphere, where it lives at a pressure of <b onclick="sidebar('co2_pressure')" style="cursor: pointer;">0.0004 atm</b> to the volume of its liquid form, we therefore 
+            <b onclick="sidebar('total_energy')" style="cursor: pointer;">need ~1.3e21 J</b>.
             </p>
             
             <p>
@@ -244,21 +263,56 @@
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
-                $P_0$ = initial CO2 partial pressure ~ 400/1e6 * 1 atm
+                $P_0$ = initial CO₂ partial pressure ~ 400/1e6 * 1 atm
                 <br>
-                $P$ is the desired pressure of the output CO2 capture stream, say 1 atm.
-                <br><br>
-                In reality, liquid CO₂ forms only at pressures over 5.1 atm, but this doesn’t change the answer much, since (gas constant) * 300 Kelvin * Ln[(5.1 atm) / (1 atm * 400/1e6)] = 23.5 kJ/mole, versus 20.            
+                $P$ is the desired pressure of the output CO₂ capture stream, say 1 atm.
             </span>
             <br><br>
             <span style="font-size: large;">$RT*ln \left( \dfrac{P}{P_0} \right)$ </span>
             <br><br>
             
-            Assuming that we condense the CO₂ to about 1 atm pressure, from its initial 0.0004 atm pressure to remove all of it from the atmosphere would take:
-            <br><br>
-            <span style="font-size: medium;">$= (gas&nbsp;constant) * 300 Kelvin * Ln \left( \dfrac{(1 atm)}{\left( 1 atm * \dfrac{400}{1e6} \right)}\right) ≈ 20 kJ/mole$</span>
-            <br><br>
-            Which to remove our 3000 GigaTons of CO₂ would need the same ~1.3e21 Joules.
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="kj_per_mole">
+                <a href="https://www.wolframalpha.com/input/?i=%28gas+constant%29+*+300+Kelvin+*+Ln%5B%281+atm%29+%2F+%281+atm+*+400%2F1e6%29%5D+">Wolfram Alpha</a>
+                <br><br>
+                <span style="font-size: x-small;">$(gas&nbsp;constant) * 300 Kelvin * Ln \left( \dfrac{(1 atm)}{\left( 1 atm * \dfrac{400}{1e6} \right)}\right)$</span>
+                <br><br>
+                ≈ 20 kJ/mole
+                <br><br>
+            </span> 
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="total_energy_equivalence">
+                <a href="https://www.wolframalpha.com/input/?i=20+kJ%2Fmol*+%283000+gigatonnes+%2F+%28molar+mass+of+carbon+dioxide%29%29">Wolfram Alpha</a>
+                <br><br>
+                Molar mass of CO₂ ≈ 44g = 4.4e-5t
+                <br><br>
+                Mass of CO₂ to remove = 3000 Gt or 3e12t
+                <br><br>
+                <span style="font-size: small;">$ 20KJ/mol *  \dfrac{3e12t}{4.4e{-5}t} ≈ 1.36e18 KJ $</span>
+                <br><br>
+                <span style="font-size: small;">$ = 1.36e21J ≈ 1.3e21J $</span>
+                <br><br>
+            </span> 
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="cost comparison graph">
+                In reality, liquid CO₂ forms only at pressures over 5.1 atm, but this doesn’t change the answer much, 
+                <a href="https://www.wolframalpha.com/input/?i=%28gas+constant%29+*+300+Kelvin+*+Ln%5B%285.1+atm%29+%2F+%281+atm+*+400%2F1e6%29%5D">
+                    since
+                </a>
+                <br><br>
+                <span style="font-size: x-small;">$(gas&nbsp;constant) * 300 Kelvin * Ln \left( \dfrac{(5.1 atm)}{\left( 1 atm * \dfrac{400}{1e6} \right)}\right)$</span>
+                <br><br>
+                ≈ 23.5 kJ/mole versus 20KJ/mole.            
+            </span>
+
+            Assuming that we condense the CO₂ to about 1 atm pressure, from its initial 0.0004 atm pressure to remove all of it from 
+            the atmosphere would take <b onclick="sidebar('kj_per_mole')" style="cursor: pointer;">20KJ/mole</b>
+            and to remove our 3000 GigaTons of CO₂ would <b onclick="sidebar('total_energy_equivalence')" style="cursor: pointer;">need the same ~1.3e21 Joules</b>.
             </p>
 
             <p>
@@ -288,21 +342,51 @@
             <span class="marginnote" id="cost comparison graph">
                 ² i.e., $x_1=\dfrac{400}{1e6}$           
             </span> 
-            But for $x_1$ far from 1.0,² we have a significant contribution from the first term. So let’s look at that term. 
+            But for $x_1$ far from 1.0,² we have a significant contribution from the first term. So let's look at that term. 
             <br><br>
-            Firstly, how many total moles of air are in the atmosphere? For consistency with the above, I’ll take our ~3000 GigaTonnes of CO2 and multiply by 1e6/400 
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="mol_meter_cubed">
+                <a href="https://www.wolframalpha.com/input/?i=%283000+gigatonnes%29+%2F+%28molar+mass+of+carbon+dioxide%29+*+1e6%2F400+%2F+%284.2+billion+cubic+kilometers%29">Wolfram Alpha</a>
+                <br><br>
+                Molar mass of CO₂ ≈ 44g
+                <br><br>
+                Moles of CO₂ in the atmosphere 
+                <br><br>
+                <span style="font-size: small;">$= \dfrac{3000 Gt}{44g} ≈ 6.8e16&nbsp; Moles $</span>
+                <br><br>
+                Moles per m³ of CO₂ ≈ <span style="font-size: small;">$\dfrac{6.8e16 Moles}{4.2bn&nbsp; km³} $</span> 
+                <br><br>
+                ≈ 1.62e7 Mol/km³ = 1.62e-2 Mol/m³
+                <br><br>
+                Mulitply this by ratio of air to CO₂, i.e <span style="font-size: small;">$  \dfrac{1e6}{400}  $</span>, ≈ 40.5 Mol/m³ of air
+            </span> 
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="energy_method3">
+                <a href="https://www.wolframalpha.com/input/?i=1.7e20+moles+*+ideal+gas+constant+*+%28400%2F1e6%29+*+Ln%5B400%2F1e6%5D+*+%28temperature+of+Earth%27s+surface%29">wolframalpha</a>                <br><br>
+                <span style="font-size: small;">$n = 40.6&nbsp; mol/m³ * (4.2 bn&nbsp; km³)$ </span>
+                <br>
+                = 1.7e20&nbsp; moles
+                <br><br>
+                <span style="font-size: small;">$x_1=\dfrac{400}{1e6}$</span>
+                <br><br>
+                Energy =  <span style="font-size: small;">$-nRT x_1 ln(x_1)$ </span> 
+                <br><br>
+                <span style="font-size: small;">$= -1.7e20 * gas&nbsp; constant* (Earth’s&nbsp; temp) * \dfrac{400}{1e6} * Ln \left( \dfrac{400}{1e6} \right)$</span>
+                <br><br>
+                = 1.27e21 Joules
+            </span> 
+
+            Firstly, how many total moles of air are in the atmosphere? For consistency with the above, I'll take our ~3000 GigaTonnes of CO2 and multiply by 1e6/400 
             to get the total number of moles of all molecules in the atmosphere, and also use our same estimate of the atmospheric volume of 4.2 billion cubic 
-            kilometers. That’s roughly 40 mol/m³ of total air in the atmosphere, so,
-            <br><br>
-            <span style="font-size: medium;">$n = 40.6&nbsp; mol/m³ * (4.2 billion&nbsp; cubic&nbsp; kilometers) = 1.7e20&nbsp; moles$ &nbsp;&&nbsp; $x_1=\dfrac{400}{1e6}$</span>
-            <br><br>
-            So to un-mix all CO2 from the atmosphere it would take,
-            <br><br>
-            <span style="font-size: large;">$-nRT x_1 ln(x_1)$ </span>            
-            <br><br>
-            <span style="font-size: medium;">$= -1.7e20&nbsp; moles * gas&nbsp; constant* (temp&nbsp; of Earth’s&nbsp; surface) * \dfrac{400}{1e6} * Ln \left( \dfrac{400}{1e6} \right)$</span>
-            <br><br>
-            <span style="font-size: medium;">$= 1.27e21&nbsp; Joules &nbsp;(That’s&nbsp; our&nbsp; 1.3e21&nbsp; Joules&nbsp; from&nbsp; above)$</span>
+            kilometers. 
+            <b onclick="sidebar('mol_meter_cubed')" style="cursor: pointer;">That's roughly</b> 40 mol/m³ of total air in the atmosphere,
+            So to un-mix all CO2 from the atmosphere it would take
+            <b onclick="sidebar('energy_method3')" style="cursor: pointer;"> 1.27e21 Joules</b>
+            (That’s our 1.3e21 Joules from above)
             
         </p>
         <p>
@@ -321,19 +405,93 @@
                 P2 is the pressure of CO2 remaining in the atmosphere after we do our removal    
             </span>
             <br>
-            <span style="font-size: medium;">$ ∆G ≈ RT \left(ln\dfrac{P_1}{P_0} - \left( 1- \dfrac{P_1}{P_0} \right) \dfrac{P_2}{P_1 - P_2}   
-                ln\dfrac{P_2}{P_1} - \left( 1- \dfrac{P_1+P_2}{2P_0} \right) \right)$</span>
+            <span style="font-size: medium;">$ ∆G ≈ RT \left(ln\left(\dfrac{P_1}{P_0} \right) - \left( 1- \dfrac{P_1}{P_0} \right) \dfrac{P_2}{P_1 - P_2}ln \left( \dfrac{P_2}{P_1} \right)- \left( 1- \dfrac{P_1+P_2}{2P_0} \right) \right)$</span>
             <br><br>
-            Let’s say we want to bring the partial pressure from 410 ppm down to the 278 ppm pre-industrial level. Plugging into this formula, I get 19.91 kJ/mole of CO2 removed, very similar to the above.
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="mixing_energy">
+                <br>
+                <a href="https://www.wolframalpha.com/input/?i=-gas+constant+*+300+kelvin+*+%28Ln%5B410%2F1e6%5D+-+%281-410%2F1e6%29*278%2F%28410-278%29*Ln%5B278%2F410%5D+%2B%28410%2B278%29%2F2e6+-+1%29+in+kj%2Fmole">Wolfram Alpha</a>
+                <br>
+                Normalising to ppm we have:
+                <br>
+                $P_0$ = 1,000,000
+                <br>
+                $P_1$ = 410
+                <br>
+                $P_2$ = 278
+            </span> 
+            Let’s say we want to bring the partial pressure from 410 ppm down to the 278 ppm pre-industrial level. 
+            Plugging into this formula I get
+            <b onclick="sidebar('mixing_energy')" style="cursor: pointer;">19.91 kJ/mole</b>
+            of CO₂ removed, very similar to the above.
             <br><br>
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="mj_per_tonne">
+                <a href="https://www.wolframalpha.com/input/?i=20+kJ%2Fmole+%2F+%28molar+mass+of+carbon+dioxide%29+in+megajoules+per+tonne">Wolfram Alpha</a>
+                <br>
+                Moles of CO₂ in a tonne = 1t/44g ≈ 22,700
+                <br>
+                20KJ/mol * 22,700 ≈ 450,000KJ = 450MJ
+                <br><br>
+            </span> 
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="mj_to_remove_historic_emissions">
+                <a href="https://www.wolframalpha.com/input/?i=7.81+*+%28410-278%29+gigatonnes+*+450+megajoules+per+tonne">Wolfram Alpha</a>
+                <br>
+                450MJ per tonne
+                <br>
+                Gt per 1ppm ≈ 7.81
+                <br>
+                ppm removed = 410-278 = 132
+                <br>
+                7.81e9 * 132 * 450MJ ≈ 4.6e5 MJ = 4.6e14MJ ≈ 5e20J
+                <br><br>
+            </span> 
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="mj_to_remove_500gt">
+                <a href="https://www.wolframalpha.com/input/?i=7.81+*+%28410-278%29+gigatonnes+*+450+megajoules+per+tonne">Wolfram Alpha</a>
+                <br>
+                450MJ per tonne
+                <br>
+                500Gt
+                <br>
+                500e9*450e6 = 2.25e20J ≈ 2.5e20J
+                <br><br>
+            </span> 
+
+
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="kwh_kg_to_kj_mol">
+                0.2 kWh/kg = 0.2 * 3600 kWs/kg = 720 kWs/kg = 720KJ/kg
+                <br><br>
+                720KJ/kg = 720*44g KJ/mol = 31.7KJ/mol ≈ 30KJ/mol
+                <br><br>
+            </span> 
+
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
-                By the way, MacKay has it in his book at about 30 kJ/mole for the minimum energy cost. His 0.13 in this table kWh / kg in this table is our 20 kJ/mole, and he adds an additional compression cost that adds about a third (I’m not exactly sure where this comes from, maybe he’s pushing towards dry ice densities, but in any case it doesn’t add that much in the grand scheme):
+                By the way, MacKay has it in his book at about <b onclick="sidebar('kwh_kg_to_kj_mol')" style="cursor: pointer;">30KJ/mole</b> for the minimum energy cost. 
+                His 0.13 in this table kWh / kg in this table is our 20 kJ/mole, and he adds an additional compression cost that adds about a third (I’m not exactly sure where this comes from, maybe he’s pushing towards dry ice densities, but in any case it doesn’t add that much in the grand scheme):
                 <img src="img/energy_cost_of_removal.png" alt="cost breakdown for dac" /> 
             </span>
 
-            We can now comfortably ask how much energy it would take to remove a tonne of CO2: (20 kJ/mole) / molar mass of CO2 ~ 450 MegaJoules per tonne. So to go down to 278 ppm would be ~5e20 Joules. To suck out 500 GigaTonnes would be 2.5e20 Joules.
+            We can now see that it would take <b onclick="sidebar('mj_per_tonne')" style="cursor: pointer;">~ 450 MegaJoules</b>
+            to remove a tonne of CO2. 
+            So to go down to 278 ppm would be 
+            <b onclick="sidebar('mj_to_remove_historic_emissions')" style="cursor: pointer;"> ~5e20 Joules</b>.
+            To suck out 500 GigaTonnes would be 
+            <b onclick="sidebar('mj_to_remove_500gt')" style="cursor: pointer;"> ~2.5e20 Joules</b>.
+            
             <br><br>
             (The astute Sam Rodriques points out that, although this is indeed the minimal work needed to separate out the CO2, not all of this work is necessarily ultimately lost as heat and thus unrecoverable, at least in principle.)
             <br><br>
@@ -382,7 +540,21 @@
             </p>
         </blockquote>
         <p>
-            500 MegaJoules / tonne gives 22 kJ/mole of CO2. If you suck out Lawrence’s 650 GtCO2 you get 3.25e20 Joules, or 9e20 Joules at 35% thermodynamic efficiency.
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote-reactive" id="lawrence_kj_mol">
+                <a href="https://www.wolframalpha.com/input/?i=%28500+megajoules+%2F+tonne+*+44+grams%29+in+kj">wolframalpha</a>
+                <br>
+                1 Mole of CO₂ = 44g = 4.4e-5t
+                <br>
+                500 MJ/t = 500 * 4.44e-5 MJ/mole = 0.022 MJ/mole 
+                <br>
+                0.022 MJ/mole = 22 KJ/mol
+            </span> 
+
+            500 MegaJoules / tonne gives 
+            <b onclick="sidebar('lawrence_kj_mol')" style="cursor: pointer;">22 kJ/mole</b>
+            of CO2. If you suck out Lawrence’s 650 GtCO2 you get 3.25e20 Joules, or 9e20 Joules at 35% thermodynamic efficiency.
             <br><br>
             In any case, compare our rough numbers, which are on the order of 1e21 Joules for a “full scale” sequestration of the atmosphere’s anthropogenic carbon, with the ~6e20 Joules per year total energy consumption of human civilization. We’re talking perhaps a year or two of civilization’s total current energy consumption, if we wanted to remove decades worth of CO2 emissions.
             <br><br>
@@ -499,7 +671,7 @@
         
     </section>
     </article>
-
+    </div>
     <!-- ##################### sidebar #####################-->
     <div class="sidebar">
         <ul style="list-style: none; padding: 0;">
