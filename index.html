@@ -7,21 +7,25 @@
 
     <script type="text/javascript" src="helpers.js"></script>
     <script async src="https://unpkg.com/@curvenote/article"></script>
-
-
+    <script type="module" src="https://js.withorbit.com/orbit-web-component.js"></script>
 
 
   </head>
 
   <body>    
-
-    <div class="wrapper">
-    <div class="main_content">
-
-
-    <article>
+     <nav>
+        <ul>
+            <li><div id="header_text" > Header </div></li>
+        </ul>
+        <ul>
+            <li><div id="header_menu" onclick="openNav()">&#9776;</div></li>
+        </ul>
+      </nav>
       
 
+    <div class="main_content">
+    <article>
+      
     <section id="top">
     <h1 >Climate technology primer: CO2 removal</h1>
     <p>
@@ -31,12 +35,13 @@
     </p>
 
     <p>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="cost comparison graph">
+        <label for="Hypothes.is" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="Hypothes.is" class="margin-toggle"/>
+        <span class="marginnote" id="Hypothes.is">
             Note: you can annotate this page in Hypothes.is <a href="https://via.hypothes.is/https://longitudinal.blog/co2-series-part-2-co2-removal/
             ">here</a>.
         </span>
+
     
         (Overall, these posts are focused disproportionately on CO2 removal and geo-engineering, as opposed to traditional mitigation or
         adaptation, though I did cover some cool mitigation technologies in the first post — the total set of opportunities for technology 
@@ -84,7 +89,7 @@
         <h2>Introduction</h2>
     </section>
 
-    <section id="why">
+    <section id="Why&nbsp;remove&nbsp;CO₂">
         <h3>First: Why even talk about carbon dioxide removal?</h3>
         <p>
             I’ll quote the company Stripe’s recent announcement on this (both Stripe and Shopify are committing $1M a year to kickstart industrial scaling and hence cost reduction of carbon sequestration):
@@ -124,9 +129,9 @@
             <footer>Radical Abundance</footer>
         </blockquote>
         <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="cost comparison graph">
+            <label for="co2_decay" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="co2_decay" class="margin-toggle"/>
+            <span class="marginnote" id="co2_decay">
                 <img src="img/co2_decay.png" alt="co2 decay over time" />  
                 Here is a relevant figure from MacKay
     
@@ -161,11 +166,11 @@
 
     </section>
 
-    <section id="fundamental_req">
+    <section id="Fundemental&nbsp;requirements">
         <h2>Fundamental energy and volume requirements of CDR</h2>
       
     </section>
-    <section id="how_much_to_sequester">
+    <section id="How&nbsp;much&nbsp;to&nbsp;sequester">
         <h3>How much do we need to sequester</h3>
         <p>
             The 2019 National Academies roadmap thinks we need to be sequestering ~10 GtCO2/year globally by around 2050 and ~20 GtCO2 per year by end of century, in realistic situations where we abide by the Paris Agreement targets:
@@ -184,8 +189,8 @@
             </p>
         </blockquote>
         <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_1" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 ¹ Which is <span style="font-size: small;">$650*\dfrac{12}{44}≈177Gt$ </span> of carbon, or ~83 ppm of atmospheric CO2          
             </span>
@@ -194,10 +199,10 @@
             <br><br>
             Note that, if operating at the National Academies rate of say 20 GtCO2/year sequestered, reaching the Lawrence CDRref would take on the order of 30 years. In some cases below, I consider what it would take to reach something around CDRref, say 500 GtCO2, in a decade.
             
-        </p>
+        </p>      
        
     </section>
-    <section id="energy">
+    <section id="Energy">
         <h3>Energy</h3>
         <p>
             CDR, it turns out, is amenable to an easy back of the envelope calculation in terms of its fundamental energy requirement.
@@ -207,9 +212,9 @@
             <b>Method 1:</b>
             <br>
             Here’s a simple way to estimate it: What we are asking to do is to compress a dilute gas, and doing so in this scenario requires pressure-volume work at constant temperature. If you know/remember/want to learn some physics, the energy associated with P-V work at constant temperature is given by a logarithmic formula:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="cost comparison graph">
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_2" class="margin-toggle"/>
+            <span class="marginnote" id="method_1_def">
                 n= number of moles of CO2 removed
                 <br>
                 R = gas constant
@@ -225,21 +230,21 @@
             <span style="font-size: large;">$nRT*ln(\dfrac{V_f}{V_i})$</span>
 
             <br><br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_3" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 ³ I will ignore the small differences between long, short and metric tons, i.e., tonnes     
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_4" class="margin-toggle">&#8853;</label> -->
+            <!-- <input type="checkbox" id="mn_2_4" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="co2_pressure">
                 <br>
                 <span style="font-size: small;">$ (~1 atm) * (\dfrac{400}{1e6} &nbsp;ppm) = 0.0004 atm$</span>
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_5" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="total_energy">
                 <br>
                 <a href="https://www.wolframalpha.com/input/?i=%284.2+billion+cubic+kilometers%29+*+%281+atm%29+*+%28400%2F1e6%29*Ln%5B%283000+gigatonne+%2F+%28density+of+liquid+carbon+dioxide%29%29%2F%284.2+billion+cubic+kilometers%29%5D">Wolfram Alpha</a>
@@ -260,8 +265,8 @@
             <b>Method 2:</b>
             <br>
             Klaus Lackner, one of the inventors of direct air capture of CO2, used a version of this formula in his first paper on the subject, which you can convince yourself from the ideal gas law (PV=nRT) is equivalent: the energy requirement per mole of CO2 removed is
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_6" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 $P_0$ = initial CO₂ partial pressure ~ 400/1e6 * 1 atm
                 <br>
@@ -271,8 +276,8 @@
             <span style="font-size: large;">$RT*ln \left( \dfrac{P}{P_0} \right)$ </span>
             <br><br>
             
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_7" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_7" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="kj_per_mole">
                 <a href="https://www.wolframalpha.com/input/?i=%28gas+constant%29+*+300+Kelvin+*+Ln%5B%281+atm%29+%2F+%281+atm+*+400%2F1e6%29%5D+">Wolfram Alpha</a>
                 <br><br>
@@ -282,8 +287,8 @@
                 <br><br>
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_8" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_8" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="total_energy_equivalence">
                 <a href="https://www.wolframalpha.com/input/?i=20+kJ%2Fmol*+%283000+gigatonnes+%2F+%28molar+mass+of+carbon+dioxide%29%29">Wolfram Alpha</a>
                 <br><br>
@@ -297,8 +302,8 @@
                 <br><br>
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_9" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_9" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 In reality, liquid CO₂ forms only at pressures over 5.1 atm, but this doesn’t change the answer much, 
                 <a href="https://www.wolframalpha.com/input/?i=%28gas+constant%29+*+300+Kelvin+*+Ln%5B%285.1+atm%29+%2F+%281+atm+*+400%2F1e6%29%5D">
@@ -321,8 +326,8 @@
             <br>
             A somewhat more rigorous way to arrive at this is to use the entropy of mixing, as is done here and here and here. The energy associated with the entropy of mixing is given by:
             <br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_10" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_10" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 n is now the total number of moles of all the molecules in the atmosphere
                 <br>
@@ -337,16 +342,16 @@
             <br><br>
             Let $x_1$ be the fraction of CO2, and $x_2$ be the fraction of the rest of the air. For $x_2$ close to 1.0, the $x_2$ term is negligible, which makes 
             sense: when the rest of the atmosphere expands into the tiny space formerly occupied by the CO2, its entropy doesn’t increase significantly.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_11" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_11" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 ² i.e., $x_1=\dfrac{400}{1e6}$           
             </span> 
             But for $x_1$ far from 1.0,² we have a significant contribution from the first term. So let's look at that term. 
             <br><br>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_12" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_12" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="mol_meter_cubed">
                 <a href="https://www.wolframalpha.com/input/?i=%283000+gigatonnes%29+%2F+%28molar+mass+of+carbon+dioxide%29+*+1e6%2F400+%2F+%284.2+billion+cubic+kilometers%29">Wolfram Alpha</a>
                 <br><br>
@@ -363,15 +368,15 @@
                 Mulitply this by ratio of air to CO₂, i.e <span style="font-size: small;">$  \dfrac{1e6}{400}  $</span>, ≈ 40.5 Mol/m³ of air
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_13" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_13" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="energy_method3">
                 <a href="https://www.wolframalpha.com/input/?i=1.7e20+moles+*+ideal+gas+constant+*+%28400%2F1e6%29+*+Ln%5B400%2F1e6%5D+*+%28temperature+of+Earth%27s+surface%29">wolframalpha</a>                <br><br>
                 <span style="font-size: small;">$n = 40.6&nbsp; mol/m³ * (4.2 bn&nbsp; km³)$ </span>
                 <br>
                 = 1.7e20&nbsp; moles
                 <br><br>
-                <span style="font-size: small;">$x_1=\dfrac{400}{1e6}$</span>
+                <span style="font-size: small;">$x_1=\dfrac{400}{1e6}$</span>, &nbsp;<span style="font-size: small;">$x_2 ≈ 0$</span>
                 <br><br>
                 Energy =  <span style="font-size: small;">$-nRT x_1 ln(x_1)$ </span> 
                 <br><br>
@@ -395,8 +400,8 @@
             <br>
             This entropy of mixing framework can be extended to other scenarios like ones with interactions between the molecules, desalination of liquids, and so on. It also leads to a proper calculation for the case where we only remove some of the CO2 from the atmosphere, not all of it, which is what we’d want to do in practice. On a per mole of CO2 removed basis, we have an energy cost for partial removal of:
             <br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_14" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_14" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 P1 is the initial pressure of CO2 in the atmosphere
                 <br>
@@ -405,11 +410,12 @@
                 P2 is the pressure of CO2 remaining in the atmosphere after we do our removal    
             </span>
             <br>
-            <span style="font-size: medium;">$ ∆G ≈ RT \left(ln\left(\dfrac{P_1}{P_0} \right) - \left( 1- \dfrac{P_1}{P_0} \right) \dfrac{P_2}{P_1 - P_2}ln \left( \dfrac{P_2}{P_1} \right)- \left( 1- \dfrac{P_1+P_2}{2P_0} \right) \right)$</span>
+            <span style="font-size: x-small;">$ ∆G ≈ RT \left(ln\left(\dfrac{P_1}{P_0} \right) - \left( 1- \dfrac{P_1}{P_0} \right) * \dfrac{P_2}{P_1 - P_2}ln \left( \dfrac{P_2}{P_1} \right) - \left( 1- \dfrac{P_1+P_2}{2P_0} \right) \right)$</span>
+
             <br><br>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_15" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_15" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="mixing_energy">
                 <br>
                 <a href="https://www.wolframalpha.com/input/?i=-gas+constant+*+300+kelvin+*+%28Ln%5B410%2F1e6%5D+-+%281-410%2F1e6%29*278%2F%28410-278%29*Ln%5B278%2F410%5D+%2B%28410%2B278%29%2F2e6+-+1%29+in+kj%2Fmole">Wolfram Alpha</a>
@@ -428,8 +434,8 @@
             of CO₂ removed, very similar to the above.
             <br><br>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_16" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_16" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="mj_per_tonne">
                 <a href="https://www.wolframalpha.com/input/?i=20+kJ%2Fmole+%2F+%28molar+mass+of+carbon+dioxide%29+in+megajoules+per+tonne">Wolfram Alpha</a>
                 <br>
@@ -439,8 +445,8 @@
                 <br><br>
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_17" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_17" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="mj_to_remove_historic_emissions">
                 <a href="https://www.wolframalpha.com/input/?i=7.81+*+%28410-278%29+gigatonnes+*+450+megajoules+per+tonne">Wolfram Alpha</a>
                 <br>
@@ -454,8 +460,8 @@
                 <br><br>
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_18" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_18" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="mj_to_remove_500gt">
                 <a href="https://www.wolframalpha.com/input/?i=7.81+*+%28410-278%29+gigatonnes+*+450+megajoules+per+tonne">Wolfram Alpha</a>
                 <br>
@@ -468,8 +474,8 @@
             </span> 
 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_19" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_19" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="kwh_kg_to_kj_mol">
                 0.2 kWh/kg = 0.2 * 3600 kWs/kg = 720 kWs/kg = 720KJ/kg
                 <br><br>
@@ -477,8 +483,8 @@
                 <br><br>
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_20" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_20" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 By the way, MacKay has it in his book at about <b onclick="sidebar('kwh_kg_to_kj_mol')" style="cursor: pointer;">30KJ/mole</b> for the minimum energy cost. 
                 His 0.13 in this table kWh / kg in this table is our 20 kJ/mole, and he adds an additional compression cost that adds about a third (I’m not exactly sure where this comes from, maybe he’s pushing towards dry ice densities, but in any case it doesn’t add that much in the grand scheme):
@@ -495,8 +501,8 @@
             <br><br>
             (The astute Sam Rodriques points out that, although this is indeed the minimal work needed to separate out the CO2, not all of this work is necessarily ultimately lost as heat and thus unrecoverable, at least in principle.)
             <br><br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_21" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_21" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 ³ Interestingly, this is all much less than the heat of combustion of fossil fuels per mole of CO2, on the order of 500-1000 kJ/mole. That makes sense, since we are not reversing the chemical reaction of combustion, just sequestering the released CO2 to a smaller volume 
             </span>
@@ -540,8 +546,8 @@
             </p>
         </blockquote>
         <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_22" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_22" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="lawrence_kj_mol">
                 <a href="https://www.wolframalpha.com/input/?i=%28500+megajoules+%2F+tonne+*+44+grams%29+in+kj">wolframalpha</a>
                 <br>
@@ -558,8 +564,8 @@
             <br><br>
             In any case, compare our rough numbers, which are on the order of 1e21 Joules for a “full scale” sequestration of the atmosphere’s anthropogenic carbon, with the ~6e20 Joules per year total energy consumption of human civilization. We’re talking perhaps a year or two of civilization’s total current energy consumption, if we wanted to remove decades worth of CO2 emissions.
             <br><br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <!-- <label for="mn_2_23" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_23" class="margin-toggle"/> -->
             <span class="marginnote-reactive" id="energy_to_remove_all_carbon">
                 1 Joule/second = 1 Watt 
                 <br>
@@ -589,154 +595,1346 @@
 
 
     </section>
-    <section id="volume">
-        
-    </section>
-    <section id="cost">
-        
-    </section>
-    <section id="dynamics_issues">
+    <section id="Volume">
+        <h3>Volume</h3>
+        <p>
+            If you’re worried about storage space for all that CO2 underground, there is more than enough:
+        </p>
+        <blockquote>
+            <p>
+                “The US Department of Energy publishes a national atlas of storage capacity by state. The calculations assume that even in areas that look promising for CO2 storage, only 1-4% of available geologic capacity will actually be used for CCS. Even with this limitation, the DOE still estimates overall potential for storage in the US to be at 3,600 to 12,900 billion metric tons of CO2. To put that in perspective, the United States’ current annual CO2 emissions are about 5,814 million metric tons per year.”
+
+            </p>
+        </blockquote>
+        <p>
+            A quick calculation says that, if we were to capture 400 gigatonnes carbon and pile it 100 ft high, we’d need an area maybe a couple hundred miles on a side if it was packed densely as solid carbon. 
+            <br><br>
+            This nice interview with Stephen Pacala, who chaired the aforementioned US National Academy of Science report on negative emissions, mentions approaches like injecting CO2 into saline aquifers:
+        </p>
+        <blockquote>
+            <p>
+                “It looks like it’s not a problem. I would have bet a large amount of money 20 years ago, when I first started directing a group that works on this problem at Princeton, that there wouldn’t have been enough storage capacity, but now I think there is. It just turns out that there’s a lot, like injection of CO2 into saline aquifers, which is a kind of formation of salty water deep down under the ground. It’s where you get oil and gas from. Now there are some pretty strong indications that CO2 inside the salt reacts and turns into rocks really quickly.” Pascala also mentions that CO2 injection underground is already starting to happen already at a decent scale in the context of the natural gas industry: “Carbon capture and storage has gone from, “Well, maybe it’s possible to do,” to a big business. Sixty-one million tons of CO2 are going into reservoirs and staying there this year in the Lower 48 [U.S. states] alone. That’s a big number.”
+
+            </p>
+        </blockquote>
+        <p>
+            It also seems like geological storage of captured CO2 could be robust and safe.
+            <br><br>
+            The conclusion to the NAS report summary puts it bluntly: “direct air capture and carbon mineralization have essentially unlimited capacity and are almost unexplored”.
+            <br><br>
+            The actual implementation of the burying surely adds cost, but things like the injection of CO2 underground for Enhanced Oil Recovery, or the natural gas industry use of saline aquifers just mentioned, show that the oil industry already has the general kind of technology needed. The NAS report has a chapter on this sort of thing. There are also ways of “turning captured CO2 into rock” for storage.
+        </p>
 
     </section>
-    <section id="chemical">
+    <section id="Cost">
+        <h3>Cost</h3>
+        <p>
+            The Lawrence paper also gives a cost estimate for both biomass based and industrial chemical approaches to carbon sequestration: 
+        </p>
+        <blockquote>
+            <p>
+                “Published estimates cover a similar range to the biomass-based techniques, from about ＄20/t(CO2) to over ＄1000/t(CO2)27,28,60,65. Better estimates of the costs are particularly important for DACCS, since it essentially represents the cost ceiling for viability of any CDR measure due to its potential scalability and its likely constrainable environmental impacts.”
+
+            </p>
+        </blockquote>
+        <p>
+            Quoting Stripe’s post again, for comparison:
+        </p>
+        <blockquote>
+            <p>
+                “If there was scalable, verifiable negative emissions technology available in the vicinity of $100 per tonne of CO2 (tCO2) captured, it could be a trillion dollar industry by the end of the century and complement emissions reduction in halting anthropogenic climate change.”.
+            </p>
+        </blockquote>
+        <p>
+            <b>Fundamental cost limit</b>
+            <br><br>
+            What’s the fundamental limit on cost? Let’s take our 20 kJ energy per mole of CO2 removed thermodynamic limit, and multiply that by some reasonable cost of energy per kJ. Using a ballpark cost of energy of 5 cents per kilowatt hour, we get $6 per tonne CO2 removed. Lackner in a 2013 paper also makes a point of emphasizing that the cost of (carbon-free) energy as used in a direct air capture approach need not be comparable to the cost of electricity, and indeed could potentially be much cheaper:
+
+        </p>
+        <blockquote>
+            <p>
+                “Whether the system is driven by water evaporation or by low grade heat, the cost of the thermodynamically-required energy can be as small as $1 to ＄2 per metric ton of carbon dioxide.”
+            </p>
+            <footer>Lackner KS. The thermodynamics of direct air capture of carbon dioxide. Energy. 2013 Feb 1;50:38-46.</footer>
+        </blockquote>
+        <p>
+            In practice, if someone can get it below ＄20 per tonne CO2 that would be amazing (hell, <＄50/tonne CO2 would be amazing at this point), given all the other aspects than the thermodynamically necessary minimum energy for separation per se, like the need to get enough air flow or to ultimately store the captured CO2 somewhere. This means that, if we are ultimately going to suck hundreds of gigatonnes of CO2 out of the atmosphere, via an industrial direct air capture approach, it will probably have to cost trillions of dollars to do so, although from a pure thermodynamic and energy cost limit it could theoretically cost merely hundreds of billions. It is not so bad though, if you can get near the thermodynamic limit: ＄10 per tonne * 800 GigaTonnes = ＄8 trillion, so if done over 10 years, ＄800 billion per year, which is 1% of the world GDP of ＄80 trillion.
+            <br><br>
+
+            <label for="mn_2_24" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_24" class="margin-toggle"/>
+            <span class="marginnote" id="energy_to_remove_all_carbon">
+                We’ll see later how various approaches claim they may be able to approach such cost levels.
+            </span> 
+            For enhanced weathering approaches (see below), Project Vesta estimated around ＄10 per tonne of CO2 removed, so also a trillion dollar scale project if done at the hundreds of gigatonne level. Likewise, if you want to plant a trillion trees (see below), and it costs perhaps on the order of ＄1 per tree, which is on the order of ＄5-$10 per tonne CO2, it is approaching the same scale of cost. Is there any way to break out of that roughly trillion dollar cost level? Potentially with self-replicating solar-powered microorganisms. We’ll talk about that a bit later — but suffice it to say there are some major potential caveats and difficulties there too.
+            <br><br>
+            As Michael Nielsen points out in reference to the NAS report, one could look at this in terms of fraction of GDP needed, and at historical precedents for significant fractions of GDP being spent on a single moonshot project — even at ＄50/tonne CO2, sucking out the US emissions rate would only be < 2% of US GDP. At ＄20/tonne CO2, as Nielsen mentioned, we’d be at a < 1% GDP level, perhaps roughly comparable to previous major projects such as Manhattan or Apollo, and to implementation costs for programs like the Clean Air Act that Nielsen mentions (though this might need to operate for longer than Manhattan or Apollo, and the structure of today’s economy and politics is of course very different from WWII or the early Cold War). Half of a percent of United States GDP over 10 years is a trillion dollars.
+            <br><br>
+            <label for="mn_2_25" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_25" class="margin-toggle"/>
+            <span class="marginnote" id="energy_to_remove_all_carbon">
+                Cost reduction targets for the proposed 10 year R&D program from the Energy Futures Initiative:
+            </span> 
+            <img src="img/cdr_cost_estimates.png" alt="cdr cost estimates" /> 
+
+        </p>
+
+    </section>
+    <section id="Dynamics&nbsp;issues">
+        <h3>Two climate dynamics issues to be aware of</h3>
+        <p>
+            <b> It is not instant</b>
+            <br>
+            First, it is likely much slower to take effect than albedo modification, since it would take a lot of time and energy to build the infrastructure, which then must suck out the carbon little by little… and then the climate system itself needs some time to respond vis a vis feedback effects, e.g., the atmospheric water vapor concentration will take some time to respond to the decreased CO2 just as it takes time to do so when CO2 is increasing.
+            <br><br>
+            <b> fast-acting natural sinks can turn into fast-acting natural sources in a period of declining CO2</b>
+            <br>
+
+            <label for="mn_2_26" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_26" class="margin-toggle"/>
+            <span class="marginnote" id="energy_to_remove_all_carbon">
+                <img src="img/one_time_removal.png" alt="effects of one time CO₂ removal" /> 
+            </span> 
+            Second, a paper by Ken Caldeira’s group emphasizes that a one-time removal of excess atmospheric CO2 is not enough, as more carbon will then be released from sinks like the oceans, so it would seem that there would need to be an ongoing removal project to enduringly drive down CO2 concentrations and the average surface temperature. This leads to about a factor of 2 overhead in total carbon dioxide that needs to be removed. Here is the relevant figure from Caldeira’s paper:
+            <br><br>
+            I’m not sure I understand the full implications, but the NAS report has some commentary in the introduction that may at least add some subtlety to this point, however:
+
+        </p>
+        <blockquote>
+            <p>
+                “The second misconception is that the natural sinks would reverse and become sources during a period of declining atmospheric CO2. Instead, the sinks are expected to persist for more than a century of declining CO2 because of the continued disequilibrium uptake by the long-lived carbon pools in the ocean and terrestrial biosphere. For example, to reduce atmospheric CO2 from 450 to 400 ppm, it would not be necessary to create net negative anthropogenic emissions equal to the net positive historical emissions that caused the concentration to increase from 400 to 450 ppm. The persistent disequilibrium uptake by the land and ocean carbon sinks would allow for achievement of this reduction even with net positive anthropogenic emissions during the 50 ppm decline.”
+            </p>
+        </blockquote>
+        <p>
+            I think it depends on the timescales being considered, as well. In any case, this is a complexity to be aware of but doesn’t strongly influence what we can say about the technologies below — we’re talking “orders of magnitude” here, not exact costs.
+        </p>
+
+
+    </section>
+    <section id="Chemical&nbsp;methods">
        
     </section>
-    <section id="dac">
+    <section id="DAC">
+        <h3>DAC</h3>
+        <p>
+            Trees are great and all, but planting enough trees would take up a large land area all across the world. Direct air capture using industrial facilities would have a much smaller land area footprint, and would arguably have a much smaller ecological footprint overall. Here is an image of it from the recent EFI report:
+            <img src="img/land_use.png" alt="cdr cost estimates" /> 
+            <br><br>
+            (We can do a dumb back of the envelope calculation for this. Suppose you need to capture 10 GtCO2 per year. As a mass fraction of the atmosphere, which is mostly nitrogen N2 which weighs 28 g/mol, CO2, which weights 44 g/mol, is roughly (410*44 / (1e6 * 28)) = 0.064%. So 10 Gt / (density of air * 0.00064) = 1e16 m^3 of air processed per year. If your single DAC plant processes 100 m^3 per second of air and takes up the size of a football field, then our total area of DAC plants needs to be: 5 million acres, or 6x the total area of Rhode Island. The fact that the BECCS area is a lot larger than that should be cautionary.)
+            <br><br>
+            Chemical direct air capture machines are not some crazy new technology. They have been used on submarines and space stations for quite some time, and you can even buy one (for your underground bunker or whatever).
+            <br><br>
+            The National Academies report has a detailed chapter on this.
+            <br><br>
+            The idea has a long history. A group including Freeman Dyson, from 1977, cites a 1965 proposal by Beller and Steinberg. This was an era when people were bullish on abundant nuclear energy, and they proposed to use this energy to extract CO2 from the air to produce chemical fuel such as methanol locally for the army, by reacting adsorbed CO2 with hydrogen generated electrolytically from water. They estimated a need for 5700 processing plants, each burning 1 GigaWatt, to compensate for emissions. That’s about 6 TeraWatts or about ⅓ of civilization’s current global energy consumption. (Interestingly it seems that Prometheus Fuels may have a more energy efficient way to electrolytically generate fuel, specifically for the part dealing with the separation of the generated fuel from the surrounding water — this kind of thing could be fantastic for jet fuel specifically, which is otherwise difficult to decarbonize.)
+            <br><br>
+            A later paper by Lackner gives a more modern view: Lackner, Klaus, Hans-Joachim Ziock, and Patrick Grimes. Carbon dioxide extraction from air: Is it an option?. No. LA-UR-99-583. Los Alamos National Lab., NM (US), 1999.
+            <br><br>
+            This paper covers the basic physics of carbon capture really well, e.g., how long an absorption column for CO2 needs to be, and so on. He also explains why some chemical capture approaches may be more energy efficient (not to mention much more land efficient) than biological capture approaches: “Biomass generation is, however, a very inefficient approach because it is coupled with the reduction of the carbon which requires as much energy as was released in the combustion”. (Same for any other approach that generates an energy-dense fuel.)
+            <br><br>
+            Lackner also explains where the energy requirement actually shows up (we know it must show up somewhere from the thermodynamics argument above) in these processes:
+        </p>
+        <blockquote>
+            <p>
+                “Most of the energy demand for an absorption process is in the recovery of the absorbent”.
+
+            </p>
+        </blockquote>
+        <p>
+
+            In other words, getting the CO2 back off of the thing it stuck to.
+            <br><br>
+            What is then the main reason why we can’t easily reach the ideal thermodynamic limit above? Lacker explains:
+            <br><br>
+        </p>
+        <blockquote>
+            <p>
+                “In practice, most effective absorbents will bind much more strongly then is required strictly by thermodynamic considerations.”
+            </p>
+        </blockquote>
+        <p>
+            In practice, basically one needs to heat the carbon-capturing materials to cause them to give back their captured CO2, and this heating is where the energy is needed — and, because the binding to the material is stronger than it absolutely needs to be thermodynamically, you pay extra energy for the heating. So, we have understood the fundamentals of carbon capture! 
+            <br><br>
+            In the paper, Lacker proposes industrial facilities to generate CaCO3 bricks by reacting CO2 with Ca(OH)2, which would then be recycled to continue the process. Recycling the Calcium to re-run this process then consumes much of the energy. The binding energy to the absorber is about 8 times too high in this case, compared what would be needed to approach the thermodynamic limit.
+        </p>
+
        
     </section>
-    <section id="econ_commercialization">
-       
+    <section id="Commercialization&nbsp;of&nbsp;DAC">
+        <h3>Economics and commercialization</h3>
+        <p>
+            <b>Companies and approaches</b>
+        </p>
+        <button type="button" class="collapsible"><p>Global Research Technologies</p></button>
+        <div class="content">
+            <p>
+                Lackner and Allen B. Wright have started a company called Global Research Technologies to work on this. As the Scientific American article explained, “Lackner and his partner, Allen B. Wright of Global Research Technologies (GRT) in Tucson, Ariz., have developed a proprietary plastic that grabs CO2 from the atmosphere the way flypaper grabs flies. When the CO2-enriched plastic is rinsed with water vapor, a stream of pure CO2 forms that can be sequestered underground”.
+                <br><br>
+                (Incidentally, another potential process is sodium hydroxide (NaOH) + water to absorb CO2, then recycle the alkaline NaOH by addition of lime (CaO) to make calcium carbonate, which is then heated to recycle the lime.)
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>Carbon Engineering</p></button>
+        <div class="content">
+            <p>
+                David Keith et al also have a startup on this, called Carbon Engineering. It appears they are using a refinement of the Lackner process. From a recent paper: 
+
+            </p>
+            <blockquote>
+                <p>
+                    “As with any industrial technology, there is a sharp distinction between the ease of developing “paper” designs and the difficulty of developing an operating plant. To paraphrase Rickover: an academic plant is simple, cheap, and uses off-the-shelf components; whereas, a practical plant is complicated, expensive, and “is requiring an immense amount of development on apparently trivial items.”24 [Carbon Engineering] has now spent roughly 100 person-years on such apparently trivial items to develop a process proposed almost two decades ago by Klaus Lackner and collaborators…”
+                </p>
+            </blockquote>
+    
+            <p> 
+                Their proposed 94 to 232 $/t-CO2 is very expensive, however: to do 30 gigatons per year is 3 trillion dollars per year, about 4% of world GDP. Still, this is much lower than previous estimates. 
+                
+                Where is Carbon Engineering going to get the energy inputs to this process? One option is to burn natural gas, but do so cleanly, using the same type of carbon capture chemistry they use for ambient air capture to simultaneously sequester CO2 from the burning of the natural gas and thus stay strongly net-negative. This TED talk suggests that that is what they are doing. (One recent paper proposed to derive the energy from bioenergy with carbon capture and storage (BECCS) which would make the overall process even more strongly CO2 net-negative.)
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>Global Thermostat</p></button>
+        <div class="content">
+            <p>
+                Another company in the space, called Global Thermostat, thinks they can bring it to $50 per tonne of CO2. They have some estimates online of what their system can do: “20-500 tonnes of CO2/yr/m^2 or more, depending on the embodiment used”. This is to be compared with emissions of 35.9 GtCO2 of carbon dioxide per year.  So to offset current emissions, we need, assuming an embodiment with 200 tonnes of CO2/yr/m^2, to have a total area of a square 14 kilometers on a side, or 44 km on a side if it only captures 20 tonnes CO2 per yr per m^2. Let’s call it 100 km on a side conservatively, about the area of the state of Connecticut. Here is a paper from this group, and some discussion of the economics.
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>Climeworks</p></button>
+        <div class="content">
+            <p>
+                Climeworks is another company in the space. Their site has a really nice graphic on comparison of carbon capture techs, citing this and this. It appears from Jennifer Wilcox‘s TED talk that they want to get the energy input to their process from geothermal, or from industrial waste heat. 
+                <br><br>
+                In any case, commercial efforts in this space currently seem like a way to increase the “tech readiness level” proactively, anticipating a larger-scale effort later on, for instance with policy changes that put a price on CO2 emissions and improve the economics. Richard Branson has a prize offering for a commercially viable large-scale effort in this area, which has yet to be awarded. (Back of the envelope says it is just possible. An industry roughly the size of the automotive industry would do it.)
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>Metal Organic Frameworks</p></button>
+        <div class="content">
+            <p>
+                This is one of the most impressive areas of modern atomically precise nanotechnology.
+                <br><br>
+                I can see where nano-porous solid structures like MOFs could be helpful in terms of space efficiency: we don’t want a CO2 molecule in the air to have to diffuse very far before it hits the absorbing surface. The main question I had about this at first was the feasibility of later extracting the carbon from this dense 3D environment, but reassuringly the JACS paper also observed low capacity loss (~0.2%) after 50 cycles of temperature-driven CO2 desorption. This work is being pushed forward by the company Mosaic. On their website, they point at the fundamental issue we identified above that limits energy costs for carbon capture and prevents reaching near to the thermodynamic limit — regenerating the capture material, i.e., getting the CO2 back off once it is stuck: “cooperative-binding technology allows the CO2-loaded materials to be regenerated using only moderate temperature or pressure changes, substantially increasing energy efficiency and decreasing costs”. There are other impressive companies in the MOF space as well, one of which I got to visit a year or so ago. 
+                <br><br>
+                Update 2021: New paper in Science on MOF based carbon capture
+                https://www.science.org/doi/10.1126/science.abi7281
+                <br><br>
+                “Most materials for carbon dioxide (CO2) capture of fossil fuel combustion, such as amines, rely on strong chemisorption interactions that are highly selective but can incur a large energy penalty to release CO2. Lin et al. show that a zinc-based metal organic framework material can physisorb CO2 and incurs a lower regeneration penalty.” According to my friend Pritha: “Good sign that it’s stable in flue gas and humid conditions. Some of the MOFs with Zn nodes were notoriously unstable at ambient humidity.”
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>Electro-swing adsobtion</p></button>
+        <div class="content">
+            <p>
+                Also in the realm of new approaches, instead of regenerating the adsorbent with heat, there are variants that are electrically switchable in their CO2 binding capacity. This seems to open very fertile ground for nanotechnology exploration. Electrical rather than thermal cycling could potentially be done at ambient temperature and pressure and with improved energy efficiency. I’m sure there are plenty of practical challenges but this looks super interesting.
+                <br><br>
+    
+                Re: “Penta-graphene as a promising controllable CO2 capture and separation material in an electric field”, 0.03 electric field (in atomic units) is 15 GV/m, which is above breakdown for vacuum, solid, and electrolytic capacitors (they did a density functional calculation, not an experiment). So that’s not super feasible. But adding nitrogen to the surfaces looks useful:
+                https://www.nature.com/articles/srep17636
+                https://www.sciencedirect.com/science/article/pii/S1385894717322350
+                https://onlinelibrary.wiley.com/doi/abs/10.1002/cssc.201500026
+                https://onlinelibrary.wiley.com/doi/abs/10.1002/cssc.201300624
+                These sort of of split the difference between amines and graphene, and remove the role of heating to cycle CO2 binding.
+                <br><br>
+                This looks potentially like a big step in the electrically modulated absorption field:
+                http://news.mit.edu/2019/mit-engineers-develop-new-way-remove-carbon-dioxide-air-1025
+                If their 1 GJ/ton is true, that’s perhaps $20-something/tonne CO2 captured (considering just the energy cost):
+                https://www.wolframalpha.com/input/?i=1+GJ%2Fton++5+cents%2Fkwh+in+%24%2Ftonne https://www.wolframalpha.com/input/?i=1+GJ%2Fton++44g%2Fmol
+                <br><br>
+                Only about 3x worse than the thermodynamic limit. According to their own paper, it would be about $50-$100/tCO2. Better than, say, Carbon Engineering ($100-$250/tCO2), not as good as trees or enhanced weathering. Sounds like they’ve done a separate economic analysis they’ll release at some point.
+                <br><br>
+                Here’s their paper. Here is a video about it:
+                
+            </p>
+        </div>
+        <p>
+            <b>Markets</b>
+            <br>
+            Note the economic play here, as far as the current cost of CO2 in various industries. According to this article, it could be profitable, but from this website, CO2 is often currently bought at much lower cost even than the ＄50/ton figure. The total market at the moment is < 1/100th of global emissions, and there are other low priced sources, although there was recently a shortage. It is also worth pointing out that carbon markets on average have priced CO2 at only ＄10/ton, which sets a high bar for profitability of capture approaches.
+            <br><br>
+            Most governments, it seems, aren’t propping up carbon markets successfully at this point, and most current policy interventions aren’t really carbon taxes (e.g., there is an equivalent of a ＄1000/ton CO2 subsidy for electric cars in Norway, where if you go to Oslo nearly every other car is a Tesla). As mentioned in the previous post, France had a fuel tax of about $60/ton CO2 equivalent, but when Macron tried to double that over the next 4 years, the Yellow Vest protests happened. Canada did pass a carbon tax starting at below that level and rising to near it over a few years (“start low at ＄20 per ton in 2019, rising at ＄10 per ton per year until reaching ＄50 per ton in 2022”). And see the 45Q tax credit program in the USA. So there is recent progress and I think reason for hope that the economics will work out here. 
+            <br><br>
+            New markets for carbon also seem interesting in this context, at least as a way of jump-starting the economies of scale in the field, e.g., the company Blue Planet is using captured carbon for building and highway materials. According to their marketing, “If every new building for the next 30 years was made with the resulting product, humans could erase the globe-warming pollution they’ve sent into the atmosphere, said Fiekowsky…”. This post explores some of the broader potential applications of captured carbon.
+            <br><br>
+            I’m still trying to grok the projected business models for direct air capture, and at which cost thresholds it would be able to reach which levels of scale. Perhaps if CO2 is efficiently converted to certain specific forms like fuels, and in an economic environment with appropriate taxes on carbon emissions, or specifically on dirty fuels, it could be cost competitive — this seems to be Carbon Engineering’s plan. For large-scale deployment at the scale of the overall CO2 problem, the economics is at the forefront, and the economic incentives imposed collectively by society through carbon taxes and related mechanisms would be key, but see the previous paragraph regarding recent progress on this. 
+            <br><br>
+            <label for="mn_3_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_1" class="margin-toggle"/>
+            <span class="marginnote" id="energy_to_remove_all_carbon">
+                <a href="https://docs.google.com/spreadsheets/d/1BH_B_Df_7e2l6AH8_8a0aK70nlAJXfCTwfyCgxkL5C8/edit#gid=0">Here</a> is a nice overview of most of the publically 
+            </span> 
+
+            Overall, although some have been skeptical of the cost scaling of industrial direct air capture, there is an impressive amount of startup activity in the space. The Lawrence paper points out that truly widespread use of direct air capture may not naturally be employed anytime soon, since a more efficient approach would be to do carbon capture and storage directly at the output of fossil fuel burning power plants. But this is still a good way to get the technology moving… and commitments like the one made by Stripe could help bootstrap the field.
+        </p>
+
     </section>
-    <section id="ocean_liming">
-       
+    <section id="Ocean&nbsp;liming">
+        <h3>Ocean liming</h3>
+        <p>
+            Beyond these kinds of industrial facility based direct air capture approaches, there are also other chemistry-based means of carbon capture that don’t involve much or any biology, e.g., altering ocean acidity. Per the Lawrence et al paper: 
+
+        </p>
+        <blockquote>
+            <p>
+                “Similarly, ocean alkalinization has been proposed via distribution of crushed rock into coastal surface waters53, as slowly sinking micrometre-sized silicate particles deposited onto the open-ocean sea surface54,55, or via dispersion of limestone powder into upwelling regions56. Ocean alkalinization would contribute to counteracting ocean acidification, in turn allowing more uptake of CO2 from the atmosphere into the ocean surface waters.”
+            </p>
+        </blockquote>        
+
+        <p> 
+            Weathering of rocks is indeed a key carbon sink, and this could be increased by mining large quantities of silicate materials that would then be exposed to the atmosphere and later sequestered. The Lawrence paper estimates that one could do it, but that it would require a huge effort similar in scale to that of direct air capture approaches; see the graphic on the Climeworks website for a nice comparison.
+            <br><br>
+            <label for="mn_3_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_2" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Note that probably you are not going to perfectly match the mass of weathering material to that of the CO2 captured so there should be a further markup, although this paper finds a mass ratio of about 1. We’d basically need to 1000x the olivine mining industry (~10 megatons to >10 gigatons). For comparison as far as I can tell the entire oil mining industry is only producing < 5 GigaTonnes of oil per year. The olivine mining industry that would be needed at full scale for this is on the order of the size of the existing oil mining industry.
+
+            </span> 
+
+            Weathering has the advantage that it is in some ways a simple extension of mining operations we know how to do. This also allows us to crudely back of the envelope the costs, based on the idea that, as the Lawrence paper states, “removing a certain mass of CO2 requires a similar mass of weathering material“. If a material like Olivine costs ~＄20-＄25/tonne, and we need to remove say 40 gigatonnes a year, and we assume that the overall operation here costs 4x what it costs to simply deliver you a certain quantity of olivine today, then we have ＄20*40e9*4 = ＄3 trillion dollars a year. 
+            
+        </p>
+
+        <button type="button" class="collapsible"><p>Project Vesta</p></button>
+        <div class="content">
+            <p>
+                This now allows us to talk about Project Vesta, which is covered beautifully by Eli Dourado in his post on geoengineering. To quote Dourado:
+                <br><br>
+
+                “Let’s run some numbers assuming the ＄9.04/ton figure based on Project Vesta’s estimates. Say we wanted to offset 40 gigatons of CO₂, close to the average global annual level of CO₂ emissions. Per Project Vesta’s at-scale model, that would cost around ＄360 billion. That is a lot of money, but it’s less than, say, US annual defense expenditures, around one tenth of what the US pays for healthcare annually, or 0.4% of global GDP (which is around ＄88T and growing).”
+                <br><br>
+
+                Vesta’s model thus appears to be about 10x more optimistic on costs than my crude back of the envelope estimate above of ＄3 trillion. That’s probably because I was assuming an increasing marginal operations cost at scale, e.g., if you have to mine from less favorable locations or transport larger distances or install more new capital equipment to do so, but Dourado points out that so far scale is leading to decreasing costs in Olivine mining — which makes sense given the standard notion of economies of scale. Vesta’s website points out that since the supply is in principle nearly unlimited, basic economics should tell us that we’ll have a favorable economy of scale. I’m not expert enough say whether Vesta’s estimate, or my more conservative estimate, are closer to the truth. Either way, it is still in the ＄100/tCO2 cost range cited by Stripe as potentially leading to a trillion dollar industry in practice, and perhaps in the ＄10/tCO2 range. That’s pretty exciting.
+                <br><br>
+                A few other relevant figures. Vesta points out that “in fact, in China alone, there are more people working in coal mining than would be needed for global scale olivine mining (1-1.5 million people)”, and in this post, they comment that the amount of CO2 emissions in the mining would only be about 4% of that captured, while in this post they talk more about environmental impacts. It seems that at this point they are working on measuring the kinetics on a real beach — how fast can the olivine dissolve and thus sequester its mass of carbon? Here is a paper about those kinetics in a more artificial setting:
+                <br><br>
+
+                “Our simulations showed a cumulative weathering of 4% of the olivine after the first year, 12% after 5 years, 35% after 25 years, 57% after 50 years, and 84% after 100 years (Figure​Figure55A). After 200 years, 98% of the initially applied 12 Mm3 olivine will be dissolved. These values are in accordance with those presented by Hangx and Spiers,14 in which 100 μm (median diameter: D50) olivine grains would take >100 years to dissolve… Once in the natural sediment, the olivine will be subject to very different biogeochemical and geophysical conditions. Microbial mineralization processes could greatly increase the CO2 concentration in the sediment’s pore waters,62 while benthic macrofauna process vast quantities of sediment for their sustenance and mobility.63,64 These processes are likely to speed up the dissolution process within marine sediments. Large-scale sediment transport and wave action are expected to cause constant particle abrasion and faster mechanical weathering, in turn facilitating faster chemical weathering. If ESW is ever to be applied in a geo-engineering framework, it is of paramount importance to investigate the effects of all of these natural processes on the dissolution of olivine in coastal environments.”
+                <br><br>
+
+                Vesta’s FAQ mentions full dissolution of the olivine particles over 5 years, much faster than the numbers from the start of the quote just above, and they cite the mechanical considerations of the surf as the reason. They seem to be expecting to be able to grind down only to 100 micron particle size and let mechanical action on the shore do the rest. I think it remains to be seen how well this works.
+                <br><br>
+                It also seems like there is plenty of complexity to the chemistry (thanks to Jonathan Lee on an email thread for pointing out this paper) that would actually be operating in the live ocean. For example, there is a debate in the literature as to what happens to one of the key proposed intermediates in the weathering process, silicilic acid (H4SiO4). The opponents argue that “estimates so far do not address… saturation of waters with silicic acid (H4SiO4), which would restrict further dissolution of olivine”. Vesta argues that silicilic acid will simply allow more diatoms to grow.
+            </p>
+        </div>
+
+        <p>
+            <b>Uncertainties</b>
+            <br>
+            <label for="mn_3_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_3" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                One brighter note is that while ocean pH has dropped by around 0.1 since preindustrial times. This simulation of large-scale (gigatonnes per year) olivine dissolution in the context of a complex climate model predicts only “mean sea surface pH is increased after ten years of olivine dissolution by 0.007 (figure 1(d))” which wouldn’t quite bring back the pre-industrial ocean pH but might compensate for ongoing ocean acidification to some significant degree.
+            </span> 
+
+            There is also the issue of equilibrium with pre-existing oxygen in the ocean, ocean pH buffering and the fact that there is a carbon released as CO2 for every carbon that is permanently sequestered as limestone on the sea floor. Could there also be other side reactions in the real world, e.g., microbe catalyzed, that may not be what we want? Despite these cautions, the basic idea that this type of process can sequester CO2 on a global scale and lower global temperatures seems clearly true from what seems to be the consensus understanding of what caused some of the ice ages.
+            <br><br>
+            The NAS report has a fantastic chapter on this type of approach, and similarly points out scientific uncertainties:
+        </p>
+        <blockquote>
+            <p>
+                “There is limited understanding of the kinetics of CO2 uptake, no inventory of appropriate geologic deposits and existing tailings of reactive but unreacted rock, and no technical expertise to manage tailings piles so that they effectively take up CO2. In addition, negative feedbacks cannot be predicted, nor can the long-term consequences of depositing crushed reactive minerals in agricultural soils, along the coasts, or into the shallow ocean… Finally, carbon mineralization is currently constrained by many scientific unknowns, as well as uncertainty about environmental impacts and likely cost. However, like direct air capture, carbon mineralization technologies could have very large capacity if their costs and environmental impacts could be sufficiently reduced… The costs of carbon mineralization are uncertain because the fundamental understanding of the processes and engineering systems required for effective sequestration is insufficient… “
+            </p>
+        </blockquote>
+        <p>
+            There is also the possibility of adding crushed carbon-sequestering minerals to agricultural soils: “Biogeochemical improvement of soils by adding crushed, fast-reacting silicate rocks to croplands is one… CO2-removal strategy. This approach has the potential to improve crop production, increase protection from pests and diseases, and restore soil fertility and structure. Managed croplands worldwide are already equipped for frequent rock dust additions to soils, making rapid adoption at scale feasible, and the potential benefits could generate financial incentives for widespread adoption in the agricultural sector.”
+
+        </p>
     </section>
-    <section id="capture_at_source">
-       
-    </section>
-    <section id="biological">
-       
-    </section>
-    <section id="land">
-       
-    </section>
-    <section id="beccs">
+    <section id="Electrochemistry">
+        <h3>Electro-geochemistry / electrochemically enhanced mineral weathering</h3>
+        <p>
+            <label for="mn_3_4" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_4" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Similar to the situation for direct air capture, “the process is renewable-energy intensive” and “without market incentives... the cost of H2 production here will likely be uncompetitive with conventional sources of H2 [which have large CO₂ emissions] ”. 
+            </span> 
+
+            This is kind of an intellectual hybrid between the direct air capture and rock weathering approaches, in the sense that it requires an energy input. It solves several key problems with DAC and mineral weathering by combining them. Unlike DAC, it produces hydrogen, an economically useful fuel, and unlike DAC, it doesn’t require transporting captured carbon to some underground permanent storage, instead having carbon capture characteristics closer to those of olivine weathering. Meanwhile, it creates a more optimal chemical environment for enhanced mineral weathering.
+            <br><br>
+            <label for="mn_3_5" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_5" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Here is a paper about this kind of “electrogeochemistry” approach, and a more recent evaluation by the same team. They estimated that “electrogeochemical methods could, on average, increase energy generation and carbon removal by more than 50 times relative to BECCS [bioenergy with carbon capture and storage], at equivalent or lower cost”. Here is a talk on this.
+            </span> 
+
+            Interestingly, Y Combinator proposes an enhanced version of rock weathering as a frontier research area for carbon capture — they (based on the proposal by Greg Rau and colleagues to be discussed below) propose to electrochemically generate hydrogen fuel from seawater using renewable energy, in the process enhancing the rate of mineral weathering and its associated CO2 capture and ocean de-acidification! In the proposed scheme:
+
+        </p>
+        <blockquote>
+            <p>
+                “Electro-geo-chemistry uses an electrochemical process to increase the rate of geochemical CO2 removal. This approach also produces energy in the form of hydrogen gas (H2). It uses saline water electrolysis in the presence of minerals to generate H2 while at the same time creating a highly reactive solution that acts like a chemical sponge, absorbing and converting CO2 into dissolved mineral bicarbonate. Adding this bicarbonate to the ocean not only provides long term carbon storage, but it also helps counteract ocean acidification. Thus, when powered by renewable electricity, this electro-geo-chemistry can be used to produce a non-fossil transportation fuel, H2, while simultaneously removing CO2 from the atmosphere and countering ocean acidification. The global abundances of the required materials and energy for this negative-emissions H2 process suggest that it can be done at very large scales.” 
+            </p>
+        </blockquote>
+        <p>
+            I wish that the world market for H2 were large enough to make this fully commercially viable, but — although hydrogen has major commercial and decarbonization potential in a number of sectors that are otherwise difficult to decarbonize — it seems like we can’t purely drive the emergence of this technology today on the demand for hydrogen.
+        </p>
+        <button type="button" class="collapsible"><p>Using ocean thermal gradients</p></button>
+        <div class="content">
+            <p>
+                There is also the idea of harnessing ocean thermal gradients to provide negative CO2 emissions energy while alkalinizing the ocean. This is closely related to the electrogeochemistry weathering idea — indeed, it is one particular implementation of it — and is by one of the same key authors, Greg Rau. Ocean Thermal Energy Conversion is already a thing, and this is a modification of it to induce negative emissions while also generating hydrogen fuel and countering ocean acidification. 
+                <br><br>
+                The just-linked paper from Rau says: “For each gigawatt (GW) of continuous electric power generated over one year by the preceding negative-emissions OTEC (NEOTEC), roughly 13 GW of surface ocean heat would be directly removed to deep water, while producing 1.3 × 10^5 tonnes of H2/yr (avoiding 1.1 × 10^6 tonnes of CO2 emissions/yr), and consuming and storing (as dissolved mineral bicarbonate) approximately 5 × 10^6 tonnes CO2/yr.” According to Wikipedia, “up to 88,000 TWh/yr of power could be generated from OTEC without affecting the ocean’s thermal structure [Pelc and Fujita, 2002]” — that’s more than our entire world energy consumption, which is good.
+                <br><br>
+                Currently, though, it looks like OTEC pilot plants are only operating at 100 kW scale. It may be costly and difficult to build very large-scale OTEC plants in the near future, and, given the numbers just quoted, you would need a lot of, say, 100 MW plants, to get this to a scale where it was removing gigatonnes of CO2 per year overall. This may be why Y Combinator’s site separated out the carbon sequestration part of this idea from the precise nature of the renewable energy source.
+            </p>
+        </div>
+        <p>
+            Weathering and ocean alkalinization go naturally together, as the Lawrence paper explains: 
+        </p>
+        <blockquote>
+            <p>
+                “Terrestrial enhanced weathering could also enhance ocean alkalinity, via either riverine runoff, or mechanized transport and mixing of the alkaline weathering products into the oceans, though both may vary strongly regionally. Further proposals include combining enhanced weathering and ocean alkalinisation using silicates to neutralize hydrochloric acid produced from seawater, or heating limestone to produce lime (combined with capture and storage of the by-product CO2), which has been a long-standing proposal for dispersal in the oceans to increase ocean alkalinity, in turn allowing additional CO2 uptake from the atmosphere by the ocean.”
+            </p>
+        </blockquote>
         
     </section>
-    <section id="trees">
+    <section id="Capture&nbsp;at&nbsp;Source">
+        <h3>Capturing at source</h3>
+        <p>
+            <label for="mn_3_6" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_6" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                ⁵ While CO₂ concentration is still high, can be 10%
+            </span> 
+
+            Capturing CO2 in the flue gas / smokestack at central power plants⁵, 
+            before they are released into the atmosphere (and diluted to 0.04%) is clearly energetically more favorable than direct air capture 
+            from the atmosphere. 
+            <br><br>
+            <label for="mn_3_7" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_7" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                ⁶<span style="font-size: xx-small;">$ ∆G ≈ RT \left(ln\left(\dfrac{P_1}{P_0} \right) - \left( 1- \dfrac{P_1}{P_0} \right) \dfrac{P_2}{P_1 - P_2}ln \left( \dfrac{P_2}{P_1} \right)- \left( 1- \dfrac{P_1+P_2}{2P_0} \right) \right)$</span>
+            </span> 
+            <label for="mn_3_8" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_8" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                <br><br>
+                "Air capture requires more free energy, but the difference is small. I will discuss several comparisons where the ratio in free energy demand varies between 1.06 and 2.93.”
+                " 
+                <br>- Lackner KS. The thermodynamics of direct air capture of carbon dioxide
+            </span> 
+
+            If we’re reducing flue gas from 10% concentration to 1% concentration, at roughly room temperature, then using the formula 
+            from above⁶, I get 7 kJ/mole of CO2, versus 20 kJ/mole for direct air capture in terms of thermodynamic limit. That’s only a bit better in principle. I was expecting it to be orders of magnitude better, and it may be at the present time in practice (the infrastructure required is very different for capturing from a concentrated point source), but in terms of ultimate limits it doesn’t seem to be. This is consistent with what Lackner says
+            <br><br>
+            The economics here still seem to require a government intervention to create the right incentives. I’m seeing numbers like ~60% cost increase to use carbon capture, and ＄100/ton CO2 emission avoided. From this site, for instance, “In terms of implementing CCS, Herzog estimates that the entire process could cost between ＄50 to ＄100 per ton of stored CO2. Providing a 30 percent investment tax credit and ＄50 subsidy per ton of CO2 stored, as proposed by the US Department of Energy, would likely spark the building of CCS plants, Herzog said”.
+            <br><br>
+            These are important technologies, though, and similar ones are used for instance as part of the negative emissions pipeline in a bio-energy with carbon capture and storage approach. Interestingly, the 45Q program in the US appears to provide tax credits that would come near that level. Some are concerned that widely deployed CCS at the source could diminish the cost of carbon to the point where DACCS would no longer be commercially viable, however.
+            <br><br>
+            MacKay’s comments on capture from coal plants, towards the end of his book, are interesting:
+        </p>
+        <blockquote>
+            <p>
+                “The principal problem is that carbon pollution is not priced correctly. And there is no confidence that it’s going to be priced correctly in the future. When I say “correctly,” I mean that the price of emitting carbon dioxide should be big enough such that every running coal power station has carbon capture technology fitted to it. Solving climate change is a complex topic, but in a single crude brush-stroke, here is the solution: the price of carbon dioxide must be such that people stop burning coal without capture… So what do politicians need to do? They need to ensure that all coal power stations have carbon capture fitted.”
+            </p>
+        </blockquote>
+        
        
     </section>
-    <section id="tree_adjacent">
-        
+    <section id="Biological&nbsp;methods">
+        <h2>Biological systems</h2>
+        <p>
+            Photosynthetic organisms can sequester carbon. Many sequester most of it only for a short period of time, often less than a year. Others like trees incorporate carbon into their trunks and root systems for potentially centuries or even (consider the beautiful giant sequoia) millennia. Other crops can grab large amounts of carbon quickly from the atmosphere to grow quickly and densely, like in a corn field, but the ecosystem tends to release most of it back in a short time.
+            <br><br>
+            To increase biological sequestration, one can: 
+            <br>
+            a) grow more of the organisms that naturally do a good job of sequestration (e.g., trees)
+            <br>
+            b) help existing organisms sequester more, for instance by physically sequestering some of their products (e.g., crop residue capture, bioenergy with carbon capture and storage) 
+            <br>
+            c) engineer modified organisms that sequester more. Or, one can do these in some combination. (Is there any other category of biological intervention?) In any case, we’ll consider these in turn. 
+
+        </p>
     </section>
-    <section id="topsoil">
+    <section id="Land">
+        <h2>Land</h2>
+        <p>
+            Plants sequester carbon when they grow, absorbing it from the air to form the physical makeup of their bodies. When they die, a large part of it is released back into the atmosphere. But if that biomass could be permanently sequestered, you have a form of negative emissions.
+        </p>
        
     </section>
-    <section id="biochar">
+    <section id="BECCS">
+        <h3>BECCS</h3>
+        <p>
+            One possibility is to grow plants, burn their biomass as fuels, and capture the outgoing CO2 for long term sequestration. Because plants capture CO2 into their biomass when they photosynthesize, this process removes CO2 from the atmosphere. This is called bioenergy with carbon capture and storage (BECCS).
+            <br><br>
+            Cost (current): “The estimated cost of capture and sequestration for BECCS systems that produce electricity is $70/t CO2, which is higher than costs for capture and sequestration from fossil fuel electricity. Although costs for direct air capture and BECCS may decline quickly, they are not currently competitive.”
+            <br><br>
+            IPCC scenarios for below 2C of warming are already tending to rely on bioenergy with carbon capture and storage for negative emissions. From the Lawrence paper:
+
+        </p>
+        <blockquote>
+            <p>
+                “High-end estimates for BECCS in the literature involve underlying assumptions such as the use of forestry and agriculture residues35, the transition to lower meat diets, and the diversion of over half the current nitrogen and phosphate fertilizer inputs to BECCS, resulting in an uptake of ~10 Gt(CO2)/yr by 205032,33…Various factors may reduce this, but it could also increase under the high-end assumptions mentioned above.”
+
+            </p>
+        </blockquote>
+        <p>
+            This paper argues against biomass based capture being ultimately scalable enough based on water use, land use, and similar. This seems to be a key issue. It is possible that BECCS is being over-used in some scenarios relative to its scalability and environmental impact, at least without revolutionary-level improvements in the biotechnology of plants. Here is one take on that.
+            <br><br>
+            <b>Water constraint</b>
+            <br>
+            <label for="mn_4_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_4_1" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                In practice today it seems desalinated water with current technology can sometimes be problematic for agriculture, e.g still being too salinate, build up of poisonous elements in the soil, too low mineral content. 
+            </span> 
+
+            Let’s consider water. Of course, the Earth has a lot of water. Fresh water availability in theory depends on available clean energy for desalination. 
+            <br><br>
+            Based on thermodynamics it takes about a kWh or more to desalinate a cubic meter of seawater. Assuming a water use efficiency of one CO2 captured per 5000 water molecules used, capturing 650 Gigatonnes of CO2 via biomass growth requires 1e15 m^3 of water, which if it all came from desalination would take at minimum that many kWh, or 1 million Terawatt hours, 3e21 Joules. That’s more than we needed for chemical CO2 direct air capture in the thermodynamic limit. (Even if water use efficiency is 10x better, this is still huge.)
+            <br><br>
+            So it appears desalination for agriculture for BECCS CO2 capture is not the answer here — the water would need to come from other sources, unless unused water (e.g., evaporated from the leaves) could be recycled and reused very efficiently, or plants with much higher water use efficiencies were used compared to what a quick googling suggested to me (or unless clean energy got *really* cheap). Total world fresh water reserves are 3e16 m^3, but much of it not easily accessible. 
+            <br><br>
+            <b>Land constraint</b>
+        </p>
+        <blockquote>
+            <p>
+                “Although BECCS is relatively cheap and theoretically feasible, the sheer scale at which it operates in the models alarms many researchers. In some future scenarios, BECCS would remove up to a trillion tons of CO2 from the air by the end of the century—about half of what humans have emitted since the start of the Industrial Revolution—and it would supply a third of the globe’s energy needs. Such a feat would require growing bioenergy crops over an area at least as large as India and possibly as big as Australia—half as much land as humans already farm.”
+            </p>
+        </blockquote>
+        <p>
+            The National Academies report has the following to say in their summary, and also has a full chapter that covers BECCS in more detail:
+            <br><br>
+            Land: “For example, 30 million to 43 million hectares is required to raise BECCS feedstocks per Gt/y CO2 of negative emissions. Thus, 10 Gt/y CO2 of negative emissions from BECCS requires hundreds of millions of hectares of land, which is almost 40 percent of global cropland according to some studies reviewed in IPCC (2014b).”
+            <br><br>
+            Practicality and logistics: “Many past programs to induce landowners to change forest, grazing, and cropland management were not successful… Also, approximately half the 1 Gt/y CO2 in the US and 10 Gt/y CO2 globally would be achieved with BECCS fueled exclusively with biomass waste, and would require the collection and delivery of all economically available agricultural, forestry, and municipal waste to a BECCS facility able to use that type of waste. This would be logistically challenging anywhere, and especially in countries with limited organizational capacity.”
+            <br><br>
+            The general perceptions of the feasibility of scaling up BECCS type approaches to the requisite level remain mixed at best despite their role in modeling scenarios, e.g., this article quotes David Keith as saying:
+
+        </p>
+        <blockquote>
+            <p>
+                “If moral hazard is sweeping the problem under the rug, and pushing more of it to future generations, and making it look like you are meeting the targets when you are not… that is for sure what’s happening with BECCS now.”
+            </p>
+        </blockquote>
         
     </section>
-    <section id="crop_residue">
+    <section id="Trees">
+        <h3>Trees</h3>
+        <p>
+            <label for="mn_4_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_4_2" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Some aspects of Dyson’s estimates seem a bit odd, e.g., rather than Sycamore trees, one would likely be looking at Southern Pine and Poplar, which are the commercial species for wood and paper. 50 year tree lifetime also seems long, as growth rates decrease with age and the biomass could be sequestered by other means once growth saturates.
+            </span> 
+
+            Another possibility is to aggressively grow trees, “afforestation”. This appears possible but also runs up against potential issues of fertilizers, water use, the widely distributed nature of land ownership, and damage to soil. Dyson, back in 1977 gets to a sequestration potential of 3 tons of carbon or ~11 tons of CO2 per acre of new forest per year, meaning we’d need on the order of 4 billion acres — an acre is roughly the size of a football field — to offset our current emission rates (of course we need to bring our emission rates to zero anyway, but this gives a sense of scale). He does note though that  “The availability of fertilizers will probably be the critical factor limiting the scale and speed of carbon fixation.”:
+            <br><br>
+            Here is another estimate from an early synthesis by Keith et al: 
+        </p>
+        <blockquote>
+            <p>
+                Afforestation: Large-scale afforestation is the geoengineering option most thoroughly treated in the existing literature [Dyson and Marland, 1979; NAS, 1991; OTA, 1991]. Regu- larly harvested temperate forests capture at- mospheric CO2 at a rate of ~2 t/ha-yr; inten- sively cultivated forests of fast-growing trees can capture CO2 3-5 times faster. If one-third of the current forested area (4 x 10° ha) was devoted to intensive sylviculture, then about 10 Gt/yr of CO2 could be sequestered. In or- der to remove CO2 continuously at this rate, it would be necessary to dispose of the trees sO that their carbon could not return to the atmosphere, thus necessitating the removal of tree nutrients from the soil. Intensive fer- tilization would be required, and its produc- tion could be costly [Dyson and Marland, 1979]. A key problem, so far ignored, is the long-term effect of such tree farming on soils. Since it may be argued that soil degra- dation is a more serious problem than CO2- induced climate change, this is a critical shortcoming of intensive sylviculture for car- bon sequestration.
+            </p>
+        </blockquote>
+        
+            
+        <p>
+            they come up with roughly some billions to tens of billions of hectares (a hectare is ~2.5 acres) of new forest as the benchmark for carbon removal at the scale of global emissions
+
+        </p>
+        <button type="button" class="collapsible"><p>Fertilizers and soil health</p></button>
+        <div class="content">
+            <p>
+                Note also in this context that fertilizer is a source of greenhouse gasses in itself. The papers of G. Philip Robertson study greenhouse emissions due to fertilizer in more detail and the net tradeoffs involved, for some forms of agriculture. This includes direct measurements of nitrous oxide and CO2 fluxes. (Generally, farmers over-fertilize, because it is a kind of economic insurance. Robertson found that beyond a critical fertilization level, increasing fertilizer causes a non-linear increase in N2O emissions.)
+                <br><br>
+                It is not actually clear that fertilizer must be limiting as Dyson worried, nor water. One of Robertson’s studies, for instance, states: 
+                <br><br>
+
+                “…yields of perennial biomass crops such as switchgrass, giant miscanthus (Miscanthus × giganteus), and hybrid poplar trees (Populus spp.) rival those of annual crops without the climate penalty of annual cultivation and high N fertilizer rates… some high productivity perennial crops require little if any supplemental N… Perennial vegetation, whether herbaceous grasses and dicots or short-rotation trees, offers environmental outcomes superior to those of annual crops —high net energy return on investment, greater soil C and N retention, and improved insect and wildlife habitat—with no observable impact on landscape water balances in humid temperate climates.” 
+
+                <br><br>
+                Good techniques, e.g., mixed crops, it would seem, may also be able to help somewhat with the problem of soil degradation from tree planting in general. I am not sure this deals fully with the issue of long-term soil depletion mentioned by Keith, or that the relevant conditions can apply over the large scales needed. Some trees can even grow in desert soil, and Africa’s Great Green Wall project aimed to restore land and plant 100 million hectares of trees across the entire width of Africa, although it has apparently pivoted to mostly focus on proven approaches for farmer-managed natural regeneration.
+            </p>
+        </div>
+        <p>
+            <b>Scale</b>
+            <br>
+            For comparison, the total land area of the USA is about 1e9 hectares. So if trees were constantly being grown in their peak growth phase and their carbon stored permanently, over the entire USA, that would be close to comparable to Keith’s 10 Gt CO2 per year number.
+            <br><br>
+            In any case, the scale that would need to be reached is very, very large. Consider China. From this article, “Since the 1990s, China has invested more than ＄100bn in afforestation programmes and, according to its government, planted more than 35bn trees across 12 Chinese provinces… Research estimates that, from 1973-2003, newly planted forests in China absorbed around 774m tonnes of carbon.” (Call that 3-4 gigatonnes CO2 for all those trees. I would naively have expected potentially about 10x as much sequestration based on the numbers above, closer to one tonne per tree planted— a useful note of caution.) If it already cost $100 billion, and we need to do many times that much sequestration, we start to see the magnitude of the problem. 
+            <br><br>
+            There are about 3 trillion trees on Earth in total, only ~100x what China supposedly planted there. Apparently, Ethiopia planted 350M trees in 12 hours. Also of interest: tree bombing.
+            <br><br>
+
+            <b>Available space</b>
+            <br>
+            Here is one recent take on the realistic role of tree planting. It refers to (and, like others, questions some of the stated implications from) this paper from the Crowther research group, which among other things made a map of where there is potential for increasing tree cover, taking into account local environment and removing urbanized or agricultural areas. They state:
+            <br>
+            <label for="mn_4_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_4_3" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                One key caution about planting trees in many of the areas on the above map is that trees can decrease the surface albedo, especially in areas that would otherwise be snow-covered in Winter. 
+                <br><br>
+                It would be interesting to see someone re-draw Crowther’s map above and re-weight the total sequestration potential in light of the need to avoid net warming effects. 
+                <br><br>
+                I’m not sure of the long-term follow-up on this paper’s line of reasoning overall, but this article suggests that related questions are continuing to be asked and that useful new data may soon become available. Some tropical forests are actually net sources of greenhouse gases. This all points towards potential advantages of industrial direct air capture compared with tree planting.
+            </span> 
+
+        </p>
+        <blockquote>
+            <p>
+                “Excluding existing trees and agricultural and urban areas, we found that there is room for an extra 0.9 billion hectares of canopy cover, which could store 205 gigatonnes of carbon in areas that would naturally support woodlands and forests.” 
+            </p>
+        </blockquote>
+        
+        <p>
+            <img src="img/new_canopy.png" alt="new canopy cover" /> 
+            <br><br>
+            That’s on the scale of what Dyson and Keith were talking about back in the day. Alas, as they point out, 
+
+        </p>
+        <blockquote>
+            <p>
+                “Of course, it remains unclear what proportion of this land is public or privately owned, and so we cannot identify how much land is truly available for restoration.”             
+            </p>
+        </blockquote>
+
+        <p>
+            In other words, they don’t really cover the logistical opportunity to actually plant in all those areas. But it is exciting (even if the exact numbers are off by a factor of 2 or 4, and notwithstanding land ownership issues) .
+            <br><br>
+            <b>Permanence</b>
+            <br>
+            Other key issues include the fact that trees, of course, don’t last forever — and thus to permanently sequester carbon, one will have to eventually remove the trees and bury or otherwise permanently sequester their wood’s carbon. Wildfires could also knock out a lot of your sequestered carbon in one go. One way to push this direction would be to use wood for a wider range of highly permanent applications, e.g., some are working on “wood that is stronger than steel” for architecture, and so-called “plyscrapers“.
+            <br><br>
+            What does the National Academies report say?
+
+        </p>
+        <blockquote>
+            <p>
+                “Until research proves otherwise, it is prudent to view as impractical upper bounds for afforestation/reforestation and BECCS deployment of much greater than 10 Gt/y CO2…  Because forests established at high latitudes decrease albedo, afforestation/reforestation at high latitudes would cause net warming despite the cooling caused by the forest’s CO2 uptake. In addition, forests established in regions with limited rainfall would have adverse effects on streamflow, irrigation, and groundwater resources.”
+            </p>
+        </blockquote>
+        <blockquote>
+            <p>
+                “…estimates are 0.6 Gt/y CO2 from forestland and 0.25 Gt/y CO2 in agricultural soils for the United States, and corresponding estimates of 9 and 3 Gt/y CO2 for the world. Much of this CO2 removal would be achieved for less than $50/t. If frontier NETs prove practical and economical, rates of carbon removal for both forests and agricultural soils could roughly double in size.”
+            </p>
+        </blockquote>
+
+        <button type="button" class="collapsible"><p>Ideas adjacent to afforestation</p></button>
+        <div class="content">
+            <p>
+                There are some ideas adjacent to aggressive afforestation, e.g., Drawdown lists silvopasture, i.e., “an ancient practice that integrates trees and pasture into a single system for raising livestock”, very high on its list of greenhouse gas reducing measures, and tree intercropping further down on this list; there has been some scientific study of silvopasture. Drawdown also puts afforestation high on the list. A recent article mentions more of the social and logistical aspects, including farmer-managed natural regeneration growth from seeds already present in the soil, and social and financial needs around cultivating afforestation worldwide despite widely distributed ownership of the land, as well as existing knowledge in many countries of which trees should be planted where, but this article doesn’t provide specific estimates in terms of total impact, time or cost. Of course there is also paying people not to cut down trees.
+
+            </p>
+        </div>
+
+    </section>
+    <section id="Topsoil">
+        <h3>Topsoil</h3>
+        <p>
+            <label for="mn_4_4" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_4_4" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                The Lawrence paper estimates more available capacity via soil carbon enrichment than via trees.
+                <br><br>
+                This paper by Paustian et al gives a summary of soil carbon sequestration strategies. 
+                <br><br>
+                Apparently the Crowther group is now working on a map of global soil carbon restoration potential, and they recently reviewed global soil organic carbon stocks
+                <br><br>
+                associated-particle-imaging-soil-carbon
+                soil-sensors-nitrogen-use-efficiency
+                open-sensors-bioenergy-and-agriculture-cohort
+                smartfarm-changing-whats-possible-agriculture
+                <br><br>
+                (A related biological concept in soil carbon sequestration is that of phytolith.).
+
+            </span> 
+
+            Another possibility is to grow biomass in topsoil. Dyson’s topsoil calculations are 1/100 inch per year, over 1/2 of land mass, of soil based biomass, to suck out all of the atmospheric carbon, and about 1/10 inch per year of total topsoil therefore.
+            <br><br>
+            This has the potential to capture verylarge amounts of CO₂: 
+        </p>
+        <blockquote>
+            <p>
+                “Today’s agricultural soils contain about 1% carbon content. Prior to cultivation those soils contained about 3% carbon. If we could take every cultivated acre on Earth, which is about 3.5 billion acres, and get them back from 1 to 3 percent, that would represent sequestering about 1 trillion tonnes of carbon dioxide…”
+            </p>
+            <footer>The Terraton Initiative</footer>
+        </blockquote>
+        <p>
+            The NAS report has a more conservative estimate, but it is still a lot:
+        </p>
+        <blockquote>
+            <p>
+                “3 Gt/y CO2” for world agricultural soil carbon enrichment capacity without frontier biotech (e.g., new root phenotypes), and twice that with frontier biotech. To get to 1000 GtCO2 captured would take >100 years or so at that rate at best. However, the NAS estimate may not be assuming full adoption — that’s their estimate of “practically achievable”,
+            </p>
+            <footer>NAS</footer>
+        </blockquote>
+        <p>
+            <b>Adoption</b>
+            <br>
+            The National Academies report emphasizes the difficulties of adoption of new agricultural practices that would improve soil carbon content long term, and lumps these approaches — without significant further research on new crop varieties with greater root mass and so forth — into the bucket with BECCS and afforestation, estimating that in total these can reach less that 10 GtCO2 globally per year with current technology and knowledge:
+
+        </p>
+        <blockquote>
+            <p>
+                “historical adoption rates of agricultural soil conservation and forestry management practices that would save farmers and forest landowners money have been surprisingly low, as have dietary changes, such as reduced meat consumption, that would increase health while freeing agricultural land for forestry NETs and BECCS”
+            </p>
+        </blockquote>
+        <p>
+            <b>Permanence</b>
+            <br>
+            They also note the risk that, just as wildfires or a return to burning trees as wood could un-sequester that carbon, unless buried, soil carbon enhancement could be undone by a return to heavy tilling.
+            <br><br>
+            <b>Co-benefits</b>
+            <br>
+            However they also note side benefits of these approaches for agriculture: “Approaches that enhance carbon uptake and storage in agricultural soils generally have large positive side benefits, including increased productivity, water holding capacity, stability of yields, and nitrogen use efficiency, but sometimes increase nitrous oxide emissions.”
+        </p>
+
+        <button type="button" class="collapsible"><p>Some initiatives</p></button>
+        <div class="content">
+            <p>
+                <b>Indigo Ag</b>
+                <br>
+                Indigo Ag, a company which seems to produce the Terraton Initiative, seems undeterred by the low historical adoption rates of improved agricultural practices. They are working on a number of aspects including microbial treatments for improving seed productivity, a digital marketplace that allows differentiation and selection of crops based on growing practices and uses sensor measurements to do so, and a transport/delivery system. They already have a carbon farming program that, it appears, leverages carbon credits to generate income for farmers by improving and verifying their soil sequestration: “At about $15-$20 tonne… would provide significant incentives to farmers… POTENTIAL GROSS INCOME FROM ENRICHING YOUR SOIL… $30-45 / acre / year vesting over 10 years; results may vary”.    
+                <br><br>
+                <b>ARPA-E</b>
+                <br>
+                ARPA-E also has a number of funded projects on measurement of soil carbon content as part of ROOTS as well as OPEN+ Sensors for Bioenergy and Agriculture Cohort and SMARTFARM, presumably in part to allow just this kind of marketplace and incentive structure to thrive:
+
+            </p>
+        </div>
+
+    </section>
+    <section id="Biochar">
+        <h3>Biochar</h3>
+        <p>
+            Biochar is a different but related concept, sequestering carbon from biomass through a chemical reaction called pyrolysis, which produces a form of carbon that is a useful soil additive. This does not “burn” the biomass carbon and release CO2 because the pyrolysis is an oxygen-free reaction, and the resulting pyrolyzed carbon is a nice home for soil bacteria, water, gasses and so forth, enriching soil. Pyrolyzed carbon can also be converted into energy-dense fuels. 
+            <br><br>
+            There are lots of good local applications of biochar, like “pyrolyzing poo” and improving soil quality, but the Lawrence paper suggests a carbon capture yield not big enough to single handedly wield a decisive global scale effect on atmospheric CO2: 
+        </p>
+        <blockquote>
+            <p>
+                “This results in a much lower estimated maximum removal potential for biochar, ~2–2.5 Gt(CO2)/yr28,41, or up to ~200 Gt(CO2) by 2100, although, as with BECCS, this could possibly be enhanced by additional use of residue biomass from agriculture and forestry41”. 
+            </p>
+        </blockquote>
+        <p>
+            Not an insignificant amount, but it would take a long time to suck out the reference value of 650 Gt CO2 listed by the Lawrence paper. David Keith also raises questions in this article on the relative utility of biochar compared to other uses of the same biomass. Currently, it looks like biochar costs thousands of dollars per tonne. Overall I’m not sure I have a full understanding of this area’s potential. 
+
+        </p>
+        
+    </section>
+    <section id="Crop&nbsp;Residue">
+        <h3>Crop residue sequestration</h3>
+        <p>
+            There is also an interesting proposal to sequester crop residues as a means of carbon sequestration. As the authors state,
+        </p>
+        <blockquote>
+            <p>
+                The great advantages of sequestering carbon from crop residues are that this approach: 
+                <br>
+                (a) uses biomass that is now mostly left to rot in the fields, 
+                <br>
+                (b) demands no new land, 
+                <br>
+                (c) uses residues that can be gathered and shipped with the same equipment used to bring in the crop, 
+                <br>
+                (d) requires no new technologies or transport systems to gather and ship the residues, 
+                <br>
+                (e) available crop residues scale with population growth since food production scaleswith population growth, and 
+                <br>
+                (f) is a post emission process.
+
+            </p>
+            <footer>From Metzger and Benford: “Sequestering of Atmospheric Carbon through Permanent Disposal of Crop Residue”</footer>
+        </blockquote>
+        
+        <p>
+            They estimate over a gigatonne per year globally of available crop residue carbon for sequestration. Not quite enough on its own, but could be a help. They estimate $50/ton of crop residue disposed. 
+            <br><br>
+            Drawdown also puts several agriculture-related interventions on its list, including regenerative agriculture, silvopasture, tree intercropping, conservation agriculture, managed grazing, tropical staple tree crops, multistrata agroforestry, perennial biomass for bioenergy, and plant rich diets (see also Impossible Burgers).
+
+        </p>
        
     </section>
-    <section id="algal">
+    <section id="Algal">
+        <h3>Algar Bioreactors</h3>
+        <p>
+            Of course, algal farms are also proposed as a potential carbon sequestration approach. By some estimates, they can be more area-efficient than trees. I even came across a company marketing a compact algal bioreactor that they claim can substitute for an entire acre of trees. I’m baseline skeptical of that as there has been much previous work invested in industrial photosynthesis in closed reactors and it is unclear how the full costs are going to work out given all the issues that would arise in practice.
+
+        </p>
         
     </section>
-    <section id="bio_land">
+    <section id="Bioengineering&nbsp;on&nbsp;Land">
+        <h2>Bioengineering on land</h2>
+        <p>
+            So far we’ve considered only “natural” organisms. Bioengineering on land is another possibility. 
+        </p>
        
     </section>
-    <section id="roots">
+    <section id="Roots&nbsp;and&nbsp;Shoots">
+        <h3>Root to shoot ratio</h3>
+        <p>
+            Dyson in his essays estimates best natural carbon eaters permanently sequester only 1/10 of the carbon they absorb but that this could be engineered to increase. Dyson proposes as a conceptually illustrative example the possibility of genetically engineering plants to have increased “root to shoot ratio”, a parameter that seems to be tunable by evolution if not by epigenetic regulation. 
+            <br><br>
+            <label for="mn_5_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_5_1" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                If engineering trees sounds completely fanciful, read this paper and listen to the second half of this podcast episode, the latter in which Gabriel Licina mentions combining the Miyawaki Method of tree planting which leads to fast growth, and genetic engineering.
+            </span> 
+            Dyson proposed genetically engineered trees that would sequester more carbon; he calls them “carbon eating” trees, and proposes replacing ¼ of the existing land vegetation with carbon eating tree varieties of same species, arguing that this should not impact on valuable agricultural vegetation.
+            <br><br>
+            <b>Current research</b>
+        </p>
+        <button type="button" class="collapsible"><p>Legumes</p></button>
+        <div class="content">
+            <p>
+                An eminent team of Salk Institute scientists are working on a trick not unlike the increased root to shoot idea, by selectively breeding legumes (also a great food plant) to sequester carbon in underground cork: 
+                <br><br>
+                “While plants store this carbon in the form of numerous biomolecules, almost all of these materials are degraded by animals, fungi and bacteria and the stored CO2 thereby released. The Salk team has identified one particular plant made molecule, called suberin, that is highly resistant to this degradation and can thereby remain in the soil. Suberin, better known to wine aficionados as cork, is a waxy, water-repellant and carbon-rich substance ‘We realized that a crop with a larger, suberin-dense root would capture more carbon in the ground… Roots last longer than other parts of plants, particularly in perennial plants that live multiple years. Even in dead roots, suberin decays very slowly.’” 
+                <br><br>
+                So far, this seems to involve conventional selective breeding, and scientific study, not genetic engineering per se. Plant associated microorganisms are an interesting aspect here as well. 
+                <br><br>
+                (Relatedly, converting annual food crops such as wheats into perennials can both improve the plants and increase the amount of carbon they store in roots. Also, you generally get a ~50% production gain by perennialization of crops, just due to the extended growing season.)
+                <br><br>
+                More generally, this strategy is to increase recalcitrance of biomass so that it decays slower. A common version of this is to increase the Lignin to Cellulose ratio. There’s a lively argument about whether this is a long-term path to both high quality soil and increased soil carbon. There is also a part of the community that believes that long-term soil carbon, being microbial in nature, is best increased by increasing root sugar exudates into the soil.
+
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>ARPA-E ROOTS</p></button>
+        <div class="content">
+            <p>
+                The idea of increasing root mass has been taken up by an ARPA-E program called ROOTS (“Rhizosphere Observations Optimizing Terrestrial Sequestration”) where it has been studied in more detail. A key potential of this approach would be to modify agricultural crops to increase their root mass, so that one does not compete for space, water or fertilizer with agriculture for one’s carbon sequestration: 
+                <br><br>
+                “There are numerous land management practices that can be adopted to increase soil carbon storage in agricultural soils (e.g., changes in crop rotations, tillage, fertilizer management, organic amendments, etc.) which have been extensively reviewed and assessed in the scientific literature. One of the most effective means for increasing soil C sequestration is through changing land cover, such as converting annual cropland to forest or perennial grasses, which generally contribute much more plant residue to soils. However, if widely applied, such land use conversions would have negative consequences for food and fiber production from the crops that are displaced. An option that has not yet been widely explored is to modify, through targeted breeding and plant selection, crop plants to produce more roots, deeper in the soil profile where decomposition rates are slower compared to surface horizons, as an analogous strategy to increase soil C storage.” 
+                <br><br>
+                This leads to a whole other set of technology challenges for the R&D process, like methods for imaging roots through soil, often similar to novel medical imaging approaches like photoacoustic tomography. 2. The ARPA-E program was apparently working with annual crops for research purposes due to the shorter research cycle times.
+                <br><br>
+                Also plants take a long time to engineer or do selective breeding on compared to microbes because they take, well, a “season” to grow. There is an interesting proposal to use stem cell techniques to short circuit this, such that you can do selection on genotypes or phenotypes without having to grow the plants to adulthood.
+                
+            </p>
+        </div>
+        <p>
+            <b>Potential</b>
+            <br>
+            How much carbon can this approach sequester? The ARPA-E report states, 
+
+        </p>
+        <blockquote>
+            <p>
+                “We found that around 87% of total US cropland (major annual crops plus hay/pasture land) had soils of sufficient depth and lacking major root-restricting soil layers to allow for crops with enhanced phenotypes… Based on this calculation, average annual (averaged over the initial 30 yr period) soil C accrual rates (assuming 100% adoption of improved phenotypes) ranged up to 280 Tg C per year (1026 Tg CO2eq) for the most optimistic scenario of a doubling of root C inputs and an extreme downward shift in root distributions. This is equivalent to an average rate of increase of almost 1.8 Mg C per hectare per year, similar to rates of soil C increase that have been observed with conversion of annual cropland to high productivity perennial grasses.” 
+            </p>
+        </blockquote>
+        <p>
+            That’s about a quarter of a gigatonne of carbon per year, or about 1 gigatonne CO2, for US farmland alone. Now, total world farm-land is about 8x higher, so optimistically this approach could get up to around 8 gigatonnes CO2 per year globally, using existing land, at very low cost in principle, and with other potential benefits like improved soil quality or decreased fertilizer or water use if the overall characteristics of the crop plants improved along those dimensions as well. Perhaps not a complete solution in itself, but could be a very powerful component. 
+
+        </p>
         
     </section>
-    <section id="photosynthetic">
+    <section id="Photosynthetic&nbsp;effects">
+        <h3>Photosynthetic efficiency</h3>
+        <p>
+            Plant bioengineering is also aiming to increase the efficiency of photosynthesis itself.
+            <br><br>
+            In one recent work, an improved pathway for clearing out waste products was introduced.
+            <br><br>
+            <label for="mn_5_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_5_2" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Even still, not all crop plants use the most efficient form of photosynthesis, so this leads to room for improvement, e.g., C4 rice, and one can also work on the temporal regulation of photosynthesis pathways in the plant, or increase the CO2 retention of other parts of the pathway.
+            </span> 
+
+            The Rubisco enzyme, which carries out the initial steps of photosynthesis, is strangely inefficient, and sometimes burns its substrate with oxygen rather than affixing carbon to it. Although some studies suggest Rubisco may be nearly perfectly optimized for its difficult job: “…optimizing an unusual compromise: an advanced product-like transition state for CO2 addition aids discrimination between CO2 and O2, but its strong resemblance to the subsequent six-carbon carboxyketone intermediate causes that intermediate to bind so tightly that it restricts maximum catalytic throughput”, others disagree. James Webber has a nice post on how one might go about improving cyanobacterial photosynthesis.
+            <br><br>
+            Finally, Cyanobacteria concentrate CO2 in nanoscale organelles optimized for photosynthesis, called Carboxysomes, making it more available to the Rubisco enzyme complex, and people are working toput Carboxysomes into land plants!
+            <br><br>
+            In general, there is certainly large head-room for innovation and novel bioengineering approaches in biological carbon capture, e.g., Y Combinator discusses cell-free photo-synthetic bioreactors. People have done it in the lab to some extent, though not in a self-sustaining way, as well as in artificial protocells. This also reminds me of some work from MIT professor Shuguang Zhang. My hunch is that using cells will be an advantage and not a disadvantage, though.
+
+        </p>
        
     </section>
-    <section id="ocean">
+    <section id="Ocean">
+        <h2>Ocean</h2>
         
     </section>
-    <section id="fertilization">
+    <section id="Iron&nbsp;Fertilization">
+        <h3>Iron Fertilization</h3>
+        <p>
+            <label for="mn_6_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_1" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                <!-- it looks like Mount Pinatubo’s eruption in the early 1990s may have done ocean iron fertilization naturally and thus briefly stalled CO2 accumulation in the atmosphere. Likewise, recent big Australian wildfires seem to have caused a bloom.  -->
+                Some links:
+                <br><br>
+                There is an existing regulatory framework for this called the London Protocol / London Convention:
+                https://www.epa.gov/ocean-dumping/ocean-dumping-international-treaties
+                <br><br>
+                Update 2021: After a new National Academies Report on “A Research Strategy for Ocean based Carbon Dioxide Removal” came out
+                https://www.nap.edu/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration?mc_cid=4bcc1e18a9&mc_eid=d7065642e3
+                <br><br>
+                featuring a recommended $280M investment in research into the science underlying ocean iron fertilization, Science did a news feature on the topic
+                https://www.science.org/content/article/draw-down-carbon-and-cool-planet-ocean-fertilization-gets-another-look
+                <br><br>
+                See also: OceanVisions roadmaps, which so far have mostly been on alkalinity enhancement and macro-algae, but presumably soon will extend into microalgae / OIF
+                https://www2.oceanvisions.org/roadmaps/
+                
+            </span> 
+
+            Some proposals seek to induce growth of certain phytoplankton in the ocean, by seeding with various kinds of fertilizers, e.g., iron (OIF or Ocean Iron Fertilization) 
+            <br><br>
+        </p>
+        <blockquote>
+            <p>
+                <b>Any old iron? </b>
+                <br>
+                SIR--Martin and Fitzwater suggest that the growth of phytoplankton in ocean waters at high latitudes is restricted today by the limited amount of iron available, and that during recent ice ages the carbon dioxide content of the atmosphere was reduced because there was then more dust in the air. This suggests a possible way to alleviate the anthropogenic greenhouse effect, which is at present a cause for concern. By adding iron compounds to the oceans, a 'technological fix” to remove carbon dioxide from the air might be practicable.
+
+            </p>
+            <footer>John Gribbin Nature 1988</footer>
+        </blockquote>
+        
+        <p>
+            The costs would be very favorable in theory. Say the iron costs $1000/ton and one iron atom fertilizing the ocean allows 10000 CO2 molecules to be captured into biomass. That works out to ~10 cents per tonne of CO2 fixed, 1000x smaller than the approximate theoretical best case cost for industrial direct air capture. Even if the cost were 10x higher than that, it would still be much less expensive than industrial direct air capture or ocean liming. This article suggest 30 cents per tonne CO2 captured. This low cost also means that the efficiency of permanent sequestration of the fertilized biomass needn’t be anywhere near 100%.
+            <br><br>
+            The Lawrence paper says:
+        </p>
+        <blockquote>
+            <p>
+                “while early studies indicated that CO2 removal by OIF might be capable of far exceeding CDRref, later studies showed that this neglected many limiting factors, so that the removal capacity is likely less than 400 Gt(CO2) by 210047. Furthermore, this would likely result in significant side effects in the oceans, like disruption of regional nutrient cycling, and on the atmosphere, including production of climate-relevant gases like N2O15”.
+            </p>
+        </blockquote>
+        <p>
+            
+            <b>Drawbacks</b>
+            <br>
+            This approach may have limited effects, though, because a lot of the fixed carbon would still just quickly re-enter the atmosphere
+            <br><br>
+            <label for="mn_6_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_2" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                On the other hand, this article notes some interesting paleo-climate and ecological twists on iron fertilization that suggest that perturbations to ocean iron may not be so unusual and even that ocean iron may be at lower levels than usual at present:
+
+            </span> 
+            Another worry in my mind about modifying ocean nitrates or iron or so on, though, is that it could be dangerous in terms of changing the habitats for other creatures, like the cyanobacteria, which George Church reports in his Edge essay are finnicky as to their environment. 
+            <br><br>
+            Moreover, one must be careful as to which nutrients are actually limiting or could become limiting. Ken Caldeira, in a talk, estimates that 1 additional iron atom can lead to ~50k additional carbon atoms incorporated into biomass, but within a few years this depletes P and N, and thus slows down the effect. He estimates that realistic iron seeding could not offset current emission levels.
+            <br><br>
+            Coming back to the issue of side effects, notable ones of concern would include, I think: increased nitrous oxide production by bacteria, selection for other microbes that produce greenhouse gasses once iron limitation is lifted, depletion of nutrients and oxygen that are needed by other species or that would later upwell in other locations
+            <br><br>
+            <label for="mn_6_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_3" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                It looks like Mount Pinatubo’s eruption in the early 1990s may have done ocean iron fertilization naturally and thus briefly stalled CO2 accumulation in the atmosphere. Likewise, recent big Australian wildfires seem to have caused a bloom.                 
+            </span> 
+
+            An article that lays out objections to iron seeding, including the idea that there is scale dependence and thus that you’d need to do large scale experiments that potentially themselves have side effects, in order to test for side effects in a way that’s realistic, is here
+            <br><br>
+            <b>Bioavailability</b>
+            <br>
+            It looks like glacially sourced highly bioavailable iron dust entering the southern ocean might help maintain a positive feedback that keeps things cool during glacial periods
+
+        </p>
+        <blockquote>
+            <p>
+                “Variation in the supply of bioavailable Fe to the ocean has the potential to influence the global carbon cycle by modulating primary production in the Southern Ocean. Much of the dust deposited across the Southern Ocean is sourced from South America, particularly Patagonia, where the waxing and waning of past and present glaciers generate fresh glaciogenic material that contrasts with aged and chemically weathered nonglaciogenic sediments. We show that these two potential sources of modern-day dust are mineralogically distinct, where glaciogenic dust sources contain mostly Fe(II)-rich primary silicate minerals, and nearby nonglaciogenic dust sources contain mostly Fe(III)-rich oxyhydroxide and Fe(III) silicate weathering products. In laboratory culture experiments, Phaeodactylum tricornutum, a well-studied coastal model diatom, grows more rapidly, and with higher photosynthetic efficiency, with input of glaciogenic particulates compared to that of nonglaciogenic particulates due to these differences in Fe mineralogy.”
+
+            </p>
+        </blockquote>
+        <p>
+            Key questions for this approach are: 
+            <br>
+            1) Why does iron fertilization sometimes lead to carbon drawdown and sometimes not?
+            <br>
+            2) How can any negative side effects, especially long-term, of such an approach, be mitigated?
+
+        </p>
+
+    </section>
+    <section id="Non&nbsp;Iron&nbsp;Fertilization">
+        <h3>Non-Iron Fertilization</h3>
+        <p>
+            It seems that if one were to pursue this ocean fertilization approach, one would not want to just fertilize with iron, but with a potentially dynamic and adaptive cocktail of different nutrients (note that we fertilize land plants for agriculture with nitrogen, phosphorous and potassium), and one would want to do it in an adaptive way where you were measuring, perhaps with meta-genomics, the effects on different populations of organisms when you turn it on or off and then as the populations adjust. In one paper they suggest basically this:
+
+        </p>
+        <blockquote>
+            <p>
+                “It has been proposed that fertilizer cocktails of macro- and micronutrients should be manufactured on land and transported by submarine pipe to a region significantly beyond the edge of the continental shelf. The nutrient ratios and the temporal supply rates could be controlled so that biological populations develop that optimize sequestration. Such environmental manipulation is today carried out in a sophisticated manner in terrestrial glasshouses where the physical conditions can be controlled, but, with close monitoring, there is no a priori reason why this should not also be possible in an environment such as the open ocean where control of the physical environment is unlikely to be possible.”
+
+            </p>
+        </blockquote>
+        <p>
+            <label for="mn_6_4" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_4" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                For better or worse, the coccolithophores seem to do OK with ocean acidification. On the flip side, other weird organisms can play a big role in sequestration by making and discarding “mucus houses”. Biology is crazy.  
+
+            </span> 
+
+            Sometimes, there are also counterintuitive effects of biological growth, not all of it good for carbon sequestration. The Caltech course lecture 15, for example, points out that:
+
+        </p>
+        <blockquote>
+            <p>
+                “In addition to organic carbon formed in photosynthesis, many organisms build calcium carbonate shells, CaCO3 (e.g. corals). Cocaliths (primary) and foraminifera (heterotrophs) produce large amounts of calcium carbonate and this carbon often drops to the bottom of the oceans. It is perhaps tempting to think that in forming these shells carbon is being driven out of the ocean system and that this would in turn draw down CO2. This is not the case, however. If we look at the expression for the interaction of atmospheric CO2 and DIC, we see that CO3 2- and CO2 are on the left of the expression. Le Chatelier’s principle tells us that if we remove CO3 2- (decrease alkalinity) we will drive CO2 out of the ocean. Growing corals increases atmospheric CO2. Growing cocaliths and foraminifera can pump carbon into the deep ocean depending on the ratio of organic carbon to CaCO3 in the falling matter. This ratio is known as the “rain ratio” and in the modern ocean is thought to be ~ 4.”
+
+            </p>
+        </blockquote>
+        <p>
+            <b>Nutrient upwelling</b>
+            <label for="mn_6_5" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_5" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                <img src="img/nutrient_upwelling.png" alt="nutrient upwelling area" /> 
+                Area of fertilized ocean that would be needed to neutralize Britain’s CO2 output, from withoutthehotair
+            </span> 
+
+            Increasing nutrient upwelling through wave driven pumps is another interesting approach to promote more photosynthesis in the oceans. The nutrient upwelling site also explains that primary productivity in the ocean may be in decline due to global warming that has already occurred, proposing nutrient upwelling as a way to counteract this. This also promotes food security by increasing the fish catch. See this podcast on Marine Permaculture.
+            <br><br>
+            MacKay has a nice image showing the area of fertilized ocean that would be needed to neutralize Britain’s CO2 output:
+            <br><br>
+            
+            <b>Clay minerals</b>
+            <br>
+            Mukul Sharma has an interesting approach based on clay minerals which would help biomass to sink but not necessarily stimulate and alter ecosystems in the same way as seeding iron:
+            <br><br>
+            “Sharma’s idea is to use clay minerals to reduce the efficiency with which carbon is oxidized near the ocean surface by speedily burying it to great depths. After hitting the water, the minerals, which are dense, charged, and have large surface area, would pick up organic material and then fall quickly to depths low enough to take the carbon out of circulation with the atmosphere. Depending on which minerals are used, the process might also create material that zooplankton mistake for food and then excrete.” At the same time, one has to ask for this approach: how much clay do you need to make a dent? Does this decrease the solar penetrance of the ocean via a self-shadowing effect? Does this enhanced sinking or recalcitrance mess up other food chains if you don’t add more biomass faster?
+        </p>
+
+    </section>
+    <section id="Azolla">
+        <h3>Azolla</h3>
+        <p>
+            <label for="mn_6_6" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_6" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                “Azolla is unique because it is the only known plant in which a cyanobacterial symbiont is passed to successive generations during the plant’s reproduction. The fossil record indicates that the relationship between Azolla and A. azollae was established in the mid Cretaceous, so that the two organisms have been co-evolving for about 100 million years. This has resulted in their developing highly efficient and complementary biochemistry, enabling Azolla’s phenomenal growth rate.”
+            </span> 
+
+            Beyond plankton, we shouldn’t forget about Azolla and other fast growing ocean plants, i.e., the ones that possibly once caused an ice age through their growth (albeit over a much longer timescale, perhaps hundreds of thousands of years, than we have available to us in this coming quarter to half century or so):
+            <br><br>
+            Of course, many plants get their nitrogen availability from nitrogen fixing microbes, e.g., in the soil, or inside roots themselves, which fix nitrogen from the air, but the tightly optimized 1-1 relationship here seems special.
+            <br><br>
+
+            The Azolla system is reported to be able to double its biomass in < 2 days. It does this in part by drawing nitrogen from the atmosphere. The Climate Foundation website states “Azolla can remove 6 tonnes per acre per year of carbon (1.5 kg/m²/yr)” and another website gives a similar number.⁷  
+            <label for="mn_6_7" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_7" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                ⁷ As a point of comparison, Y Combinator in its ocean cyanobacterial project example, states “We will be conservative and say that our algal beds fix 2.5 kg of C per square meter per year“.
+            </span> 
+
+            This works out to just 7 million square kilometers to remove 200 GigaTonnes of carbon (recall the Lawrence paper’s reference value of 177 Gt Carbon) in 20 years, which is half the area of the Arctic Ocean. 
+            <br><br>
+            Alas, Azolla likes fresh water, which, during the Azolla Event, apparently formed a slick, floating on top of Arctic Ocean salt water; moreover, one needs the right chemical and ecological conditions for the sinking organic material to be long-term sequestered rather than rapidly consumed, for example, by oxidative respiration, regenerating CO2.
+
+        </p>
+        
+    </section>
+    <section id="Sea&nbsp;Grass">
+        <h3>Coastal sea-grass / Coastal Blue Carbon / Kelp</h3>
+        <p>
+            The National Academies report mostly doesn’t consider ocean options (“The committee’s focus on sequestration in terrestrial and nearshore/coastal environments is not intended to undervalue the potential of technologies or practices for oceanic sequestration, but instead is a response to the Statement of Task”), but it devotes an entire chapter to research recommendations for Coastal Blue Carbon: “Land use and management practices that increase the carbon stored in living plants or sediments in mangroves, tidal marshlands, seagrass beds, and other tidal or salt-water wetlands. These approaches are sometimes called “blue carbon” even though they refer to coastal ecosystems instead of the open ocean.” Unfortunately due to the limited coastal area where this is applicable the total additional sequestration capacity appears very low — but see below re Kelp and possibly open ocean variants.
+            <br><br>
+            <b>Coastal Blue Carbon</b>
+            <br>
+            They note some advantages of Coastal Blue Carbon, such as very low cost: “Although their potential for removing carbon is lower than other negative emissions technologies, coastal blue carbon approaches warrant continued exploration and support. The cost of the carbon removal is low or zero because investments in many coastal blue carbon projects target other benefits such as ecosystem services and coastal adaptation.. If projects are implemented for purposes other than or in addition to carbon removal, then costs are reduced to the incremental cost of monitoring coastal carbon removal. 
+            <br><br>
+            Such costs approximate ＄0.75/t CO2 for tidal wetlands and ＄4/t CO2 for seagrass meadows) for all coastal blue carbon approaches, except those augmented with carbon-rich materials (estimated at $1-30/t CO2) depending on the material and construction method used.”
+            <br><br>
+            They also note the need for more fundamental research: “Understanding of the impacts of sea-level rise, coastal management, and other climate impacts on future uptake rates should be improved… many of the critical processes that govern carbon burial and sequestration in coastal ecosystems lack a mechanistic understanding of how they may change under high rates of sea-level rise and other direct and indirect impacts of climate change, and few studies have been performed on transgression of coastal wetlands inland”.
+            <br><br>
+            
+            <b>Sea grass</b>
+            <br>
+            A Salk Institute team, meanwhile, is working on increasing coastal sea-grass carbon sequestration through selective breeding: “Certain varieties of seagrass have greater carbon storage capacity… If this trait was bred into other varieties of grasses, we could sequester far more carbon in coastal ecosystems.” This is also an important environmental restoration project relevant to the food supply (fish catch), “Coastal seagrass beds store nearly twice as much carbon per acre as terrestrial forests and account for about 10 percent of the carbon stored in the ocean. Unfortunately, due to dredging and pollution, seagrass ecosystems are seriously threatened around the world. About 1.5 percent of these ecosystems disappear each year. Changing water temperatures due to global warming accelerates this decline.” Alas, the limited areal extent of coastal sea-grasses may limit the scaling potential of this approach.
+
+            <br><br>
+            <b>Macro-algae</b>
+
+        </p>
+        <blockquote>
+            <p>
+                “Unlike coastal wetland habitats, macroalgae are largely attached to rocky surfaces and do not accumulate carbon in soils with extensive root systems… An estimated 82 percent of kelp productivity becomes detritus (Krumhansl and Scheibling, 2012). Carbon sequestration can thus only occur if carbon is buried in sediments or exported into the deep ocean and sequestered long term. Most carbon from macroalgae is assumed to return to the carbon cycle through herbivory and thus extensive study on its carbon storage rate and capacity has not been conducted (Howard et al., 2017). Krause-Jensen and Duarte (2016) have synthesized data from studies of macroalgae transport and occurrence in the deep ocean to develop a rough estimate for macroalgae’s carbon removal potential. They identified potential opportunities for carbon storage through burial within the algal beds, burial in the continental shelf, export to below the mixed ocean layer, and export to the deep sea. Using an approximate global net primary production (NPP) of 1,521 TgC/y, they estimate that macrolagae may be sequestering 173 TgC/y,⁸ 
+                <label for="mn_6_8" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_6_8" class="margin-toggle"/>
+                <span class="marginnote" id="id_option">
+                    ⁸ Their 173 TgC/y is only about 0.6 GigaTonne/year, though.
+                </span> 
+                or a removal rate of 11 percent per year. Most of this is assumed to be sequestered in the deep ocean.“
+            </p>
+            <footer>NAS report</footer>
+        </blockquote>
+        <p>
+            <b>Ocean Macroalgal Afforestation</b>
+            <br>
+            But what if people deliberately made massive kelp farms out in the open ocean and vastly increased the total area of kelp forest, and also tried to ensure that the sequestered carbon from these open ocean farms indeed reached the deep ocean for ~permanent storage? 
+            <br><br>
+            <label for="mn_6_9" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_6_9" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                This doesn't seem to line up with running tide figures
+            </span> 
+            A 2012 paper proposes this. They study a scenario where 9% of the open ocean is covered with farmed kelp forests. They propose to use the kelp thus grown for biomethane production in a kind of ocean-based BECCS scheme, to recycle nutrients from the kelp as a form of fertilization, and to also use this to increase fish catch. I’m not sure about the practicality of all that, but kelp forests of that size would presumably naturally sequester a decent amount of carbon to the sea floor semi-permanently as well, at least to some extent, and this could be studied in more detail. This article covers more. As mentioned earlier, nutrient upwelling with wave driven pumps is one potential way to feed such open ocean kelp forests with sufficient nutrients: “These floating platforms use wave energy to restore nutrient upwelling to pre- global warming levels. While the nutrients encourage plankton and kelp growth, the platform provides a structure onto which kelp will attach. In essence, this forms a mini-ecosystem. The kelp forest will provide habitat for forage fish, who will feed off the replenished plankton. Game fish will, in turn, eat these forage fish, and on up the food chain to tuna and sharks. What was once an aquatic desert will thrive with life.” More on this here.
+
+        </p>
+        
        
     </section>
-    <section id="azolla">
+    <section id="Bioengineering&nbsp;the&nbsp;Ocean">
+        <p>
+            One possibility would be to engineer Phytoplankton to permanently sequester more of the carbon they photosynthesize. According to one estimate, the “oceanic annual global net primary productivity” is 48.5 Pg Carbon/year.⁹ 
+            <label for="mn_7_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_7_1" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                ⁹remember a peta-gram is a gigaton
+            </span> 
+
+            Much of this photosynthesis is done by the tiny, very abundant cyanobacteria. There is a breakdown of what this means here, including the key comment “but the vast majority of this fixed carbon is soon returned to the atmosphere following rapid viral attacks, planktonic grazing and respiration”, which they suggest happens mostly within just a few days. In other words, you’d like the carbon to settle onto the ocean floor where it won’t come back up anytime soon, but instead, there are viruses (cyanophage, or literally, “eaters of cyanobacteria”) that are wreaking havoc on many of the cyanobacteria and causing their cells to burst and release their carbon ultimately back into forms that will rapidly cycle into CO2 in the atmosphere. 
+            <br><br>
+            Indeed, these phages even hijack the cyanobacterial photosynthesis machinery to serve their own purposes during the infection. There is a huge war going on between the phages and the cyanobacteria, and this war makes the cyanobacteria less able to fix carbon: 
+        </p>
+        <blockquote>
+            <p>
+                “The team estimates that the cyanophages are preventing the fixation of between 20 million and 5.39 billion metric tons of carbon each year. At its upper end, that would be equivalent to about 10% of the carbon fixed every year by the entire ocean, or 5% of the carbon fixed globally. The true number depends on how many bacteria are infected at any one time—something scientists don’t yet have a good handle on. Previous studies indicate that anywhere from 1% to 60% of cyanobacteria in the ocean could be infected at once.”
+
+            </p>
+        </blockquote>
+        <p>
+
+            My marvelous PhD advisor George Church argues that engineering phage-resistant cyanobacteria could be part of the solution: “If all of the material that they fix didn’t turn back into carbon dioxide, we’d have solved the global warming problem in a year or two.”
+            <label for="mn_7_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_7_2" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                <!-- Before we unpack this loaded statement, recall from above that 1ppm of atmospheric CO2 is equivalent to 2.13 Gigatonnes Carbon. So pre-industrial levels of 290 ppm is 617.7 gigatonnes Carbon, whereas our current is 869.04 and doubling the CO2 involves about 1193 gigatonnes Carbon. Our emission rate is ~35.9 GtCO2 or ~9 Gton of actual Carbon used per year. So if you were somehow doing 50 Gton carbon sequestration per year, that would get us to a net of around -40 Gton carbon being sequestered, which would rapidly bring us to pre-industrial levels in just 6 or 7 years, and then we’d rapidly fall below that if it continued.  -->
+                At present, such recoded organisms are still not as functional as their normal cousins. 
+                <br><br>
+                Regardless of anything at an ecosystem level, such recoded organisms are likely to have plenty of biotech applications including potentially in a bioenergy with carbon capture setting
+            </span> 
+
+            So what George is proposing is to genetically engineer cyanobacteria to be resistant to all phages, by altering their genetic codes such that they are different than those used by the phages, preventing the phages from replicating inside them.
+            AS George puts it:
+        </p>
+        <blockquote>
+            <p>
+                “Cyanobacteria turn carbon dioxide, a global warming gas, into carbohydrates and other carbon-containing polymers, which sequester the carbon so that they’re no longer global warming gases. They turn it into their own bodies… If all of the material that they fix didn’t turn back into carbon dioxide, we’d have solved the global warming problem in a year or two. The reality, however, is that almost as soon as they divide and make baby bacteria, phages break them open, spilling their guts, and they start turning into carbon dioxide. Then all the other things around them start chomping on the bits left over from the phages.”
+            </p>
+        </blockquote>
+        <p>
+            <label for="mn_7_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_7_3" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                $^{10}$ "The team estimates that the cyanophages are preventing the fixation of between 20 million and 5.39 billion metric tons of carbon each year"
+            </span> 
+
+            If we take somewhere in between the 20 million and 5 billion metric tons numbers given above$^{10}$, say if phage prevent fixation of 200 million metric tons of carbon per year, then if the phage were out of the picture, using the above conversion 0.2 gigatonnes is around 0.1 ppm, so preventing the phage infection would not have that much effect compared to the other carbon capture programs we’ve considered. At 10x-100x higher impact of the phages, we’re becoming comparable with the prospects for very large-scale bioenergy with carbon capture and storage. George’s numbers, like up to 50 GigaTonnes of Carbon per year fixed, are a lot higher, I think at minimum a large fraction of all of the oceanic photosynthesis.
+            <br><br>
+            <label for="mn_7_4" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_7_4" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Rather than making them fully resistant to phage per se with full genomic recoding, you could also make them simply un-hackable in certain specific ways by the cyanophages in terms of their redirecting of the photosynthesis, i.e., altering the specific biochemical entry points that the phage use for this purpose. Whether this would be robust is another question.
+
+            </span> 
+
+            I’d argue that there are major risks to making cyanos phage resistant if they are ever to exist in the wild. One is related to scientific understanding — what if the phages are, in some ways, ecologically good? The lab of Andrew Millard is doing some of the science on this: “The findings… will help scientists better understand the full impact of cyanophages on the environment. While in this particular case less carbon fixation would seem to tip the scales toward more CO2 and more warming, it’s just one aspect of what viruses are doing in the ocean…”
+            <br><br>
+            <label for="mn_7_5" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_7_5" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                Note that photosynthesis in oceans is limited by nutrients such as nitrogen and phosphorus — if one creature eats too much, others that need it will get less. So this is risky to say the least and needs to be approached with great caution.
+
+            </span> 
+
+            Either way, if they were ever to be released at large in the wild, a major risk is that this kind of thing might give the engineered cyanobacteria a fitness advantage over the naturally occurring ones, with extremely worrying potential ecological consequences at best.
+        </p>
+        <button type="button" class="collapsible"><p>Biocontainment</p></button>
+        <div class="content">
+            <p>
+                George Church mentions “biocontainment” as a risk reduction strategy, and it would be very important to study the details of how that would work. There is some very cool work in this area. It is not clear to me, though, how a system contained in an industrial setting would achieve a scale of CO2 removal comparable to the world’s overall yearly photosynthesis. (But see YC’s “boat fleet” concept below, for an example of how the definition of “an industrial setting” might need some extension.)
+                <br><br>
+                To do biocontainment in the wild, you could make an organism depend for its survival on an exogenously supplied set of chemicals, and then supply that chemical in the wild — then, if humans stopped supplying the chemicals, the organism would be done for. This needs more research as far as true scalability and robustness at the levels that would be needed to impact atmospheric CO2. Importantly, our understanding of evolution as it really occurs in wild populations is still rudimentary.
+
+            </p>
+        </div>
+        <br><br>
+        <button type="button" class="collapsible"><p>Y-combinator </p></button>
+        <div class="content">
+            <p>
+                Y Combinator also extensively discusses ocean cyanobacteria or other phytoplankton as a potential carbon sequestration approach. They discuss a few options such as 
+                <br>
+                a) growing engineered algae on large boats and then inducing a state-switch such that they would produce a stable, sinking bio-film or bio-plastic which could then be dumped overboard and sink to the bottom, 
+                <br>
+                b) engineering some collective computation into the system such that they would spontaneously do this in the ocean without the boats, and 
+                <br>
+                c) making variants that are less dependent on ocean minerals such that they could proliferate more. In the boats scheme, they cleverly propose to put the boats where there is a lot of sunlight but not a lot of nutrients to support growth in the ocean itself, although those nutrients have to come from somewhere — increasing nutrient upwelling, e.g., for marine permaculture, is another option.
+                <br><br>
+                These all seem like early concepts meant to spur innovative thinking, rather than end-points of that thinking. I support and enjoy this kind of stimulation of collective thought patterns, and I put George Church’s phage resistance idea above in a similar category. 
+            </p>
+        </div>
+        <p>
+            In any case, these are early stage concepts, and I agree that cynanobacteria are industrially interesting in a variety of environmentally relevant ways, but I’m not yet seeing a clear, safe path to global-scale carbon removal with these recoding methods. Caution is warranted here.
+
+        </p>
+
+        
+
+        
+        
         
     </section>
-    <section id="sea_grass">
+    <section id="NAS&nbsp;report">
        
     </section>
-    <section id="bio_ocean">
+    <section id="Takeaways">
         
     </section>
-    <section id="nas">
-       
-    </section>
-    <section id="takeaways">
-        
-    </section>
-    </article>
-    </div>
-    <!-- ##################### sidebar #####################-->
-    <div class="sidebar">
+</article>
+</div>
+    <!-- ##################### sidebar for main #####################-->
+    <div class="sidebar_main">
+
         <ul style="list-style: none; padding: 0;">
             <li class="top active"><a href="#top" style="text-decoration:none; font-weight: bold;" >Scaling carbon removal</a></li>
             
             <li class="introduction"><a href="#introduction" style="text-decoration:none; font-weight: bold;" >Introduction</a></li>
             <ul style="list-style: none;">
-                <li class="why"><a href="#why" style="text-decoration:none" >Why even talk about this</a></li>
+                <li class="Why&nbsp;remove&nbsp;CO₂"><a href="#Why&nbsp;remove&nbsp;CO₂" style="text-decoration:none" >Why even talk about this</a></li>
             </ul>
 
-            <li class="fundamental_req"><a href="#fundamental_req" style="text-decoration:none; font-weight: bold;" >Fundamental energy and space requirements</a></li>
+            <li class="Fundemental&nbsp;requirements"><a href="#Fundemental &nbsp;equirements" style="text-decoration:none; font-weight: bold;" >Fundamental energy and space requirements</a></li>
             <ul style="list-style: none;">
-                <li class="how_much_to_sequester"><a href="#how_much_to_sequester" style="text-decoration:none" >How much do we need to sequester</a></li>
-                <li class="energy"><a href="#energy" style="text-decoration:none" >Energy</a></li>
-                <li class="volume"><a href="#volume" style="text-decoration:none" >Volume</a></li>
-                <li class="cost"><a href="#cost" style="text-decoration:none" >Cost</a></li>
-                <li class="dynamics_issues"><a href="#dynamics_issues" style="text-decoration:none" >Two climate dynamics issues to be aware of</a></li>
+                <li class="How&nbsp;much&nbsp;to&nbsp;sequester"><a href="#How&nbsp;much&nbsp;to&nbsp;sequester" style="text-decoration:none" >How much do we need to sequester</a></li>
+                <li class="Energy"><a href="#Energy" style="text-decoration:none" >Energy</a></li>
+                <li class="Volume"><a href="#Volume" style="text-decoration:none" >Volume</a></li>
+                <li class="Cost"><a href="#Cost" style="text-decoration:none" >Cost</a></li>
+                <li class="Dynamics&nbsp;issues"><a href="#Dynamics&nbsp;issues" style="text-decoration:none" >Two climate dynamics issues to be aware of</a></li>
             </ul>
 
-            <li class="chemical"><a href="#chemical" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: chemical</a></li>
+            <li class="Chemical&nbsp;methods"><a href="#Chemical&nbsp;methods" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: chemical</a></li>
             <ul style="list-style: none;">
-                <li class="dac"><a href="#dac" style="text-decoration:none" >Basics of direct air capture</a></li>
-                <li class="econ_commercialization"><a href="#econ_commercialization" style="text-decoration:none" >Economics and commercialization</a></li>
-                <li class="ocean_liming"><a href="#ocean_liming" style="text-decoration:none" >Ocean liming</a></li>
-                <li class="capture_at_source"><a href="#capture_at_source" style="text-decoration:none" >Capturing at the source</a></li>
+                <li class="DAC"><a href="#DAC" style="text-decoration:none" >Basics of direct air capture</a></li>
+                <li class="Commercialization&nbsp;of&nbsp;DAC"><a href="#Commercialization&nbsp;of&nbsp;DAC" style="text-decoration:none" >Economics and commercialization</a></li>
+                <li class="Ocean&nbsp;liming"><a href="#Ocean&nbsp;liming" style="text-decoration:none" >Ocean liming</a></li>
+                <li class="Electrochemistry"><a href="#Electrochemistry" style="text-decoration:none" >Electrochemically enhanced mineral weathering</a></li>
+
+                <li class="Capture&nbsp;at&nbsp;Source"><a href="#Capture&nbsp;at&nbsp;Source" style="text-decoration:none" >Capturing at the source</a></li>
             </ul>
 
-            <li class="biological"><a href="#biological" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: biological</a></li>
+            <li class="Biological&nbsp;methods"><a href="#Biological&nbsp;methods" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: biological</a></li>
             <ul style="list-style: none;">
-                <li class="land"><a href="#land" style="text-decoration:none; font-weight: bold;" >Land</a></li>
+                <li class="Land"><a href="#Land" style="text-decoration:none; font-weight: bold;" >Land</a></li>
                 <ul style="list-style: none;">
-                    <li class="beccs"><a href="#beccs" style="text-decoration:none" >BECCS</a></li>
-                    <li class="trees"><a href="#trees" style="text-decoration:none" >Trees</a></li>
-                    <li class="tree_adjacent"><a href="#tree_adjacent" style="text-decoration:none" >Ideas adjacent to trees</a></li>
-                    <li class="topsoil"><a href="#topsoil" style="text-decoration:none" >Topsoil</a></li>
-                    <li class="biochar"><a href="#biochar" style="text-decoration:none" >Biochar</a></li>
-                    <li class="crop_residue"><a href="#crop_residue" style="text-decoration:none" >Crop residue sequestration</a></li>
-                    <li class="algal"><a href="#algal" style="text-decoration:none" >Algal bioreactors</a></li>
+                    <li class="BECCS"><a href="#BECCS" style="text-decoration:none" >BECCS</a></li>
+                    <li class="Trees"><a href="#Trees" style="text-decoration:none" >Trees</a></li>
+                    <li class="Topsoil"><a href="#Topsoil" style="text-decoration:none" >Topsoil</a></li>
+                    <li class="Biochar"><a href="#Biochar" style="text-decoration:none" >Biochar</a></li>
+                    <li class="Crop&nbsp;Residue"><a href="#Crop&nbsp;Residue" style="text-decoration:none" >Crop residue sequestration</a></li>
+                    <li class="Algal"><a href="#Algal" style="text-decoration:none" >Algal bioreactors</a></li>
                 </ul>
 
-                <li class="bio_land"><a href="#bio_land" style="text-decoration:none; font-weight: bold;" >Bioengineering on land</a></li>
+                <li class="Bioengineering&nbsp;on&nbsp;Land"><a href="#Bioengineering&nbsp;on&nbsp;Land" style="text-decoration:none; font-weight: bold;" >Bioengineering on land</a></li>
                 <ul style="list-style: none;">
-                    <li class="roots"><a href="#roots" style="text-decoration:none" >Root to shoot ratio</a></li>
-                    <li class="photosynthetic"><a href="#photosynthetic" style="text-decoration:none" >Photosynthetic efficiency</a></li>
+                    <li class="Roots&nbsp;and&nbsp;Shoots"><a href="#Roots&nbsp;and&nbsp;Shoots" style="text-decoration:none" >Root to shoot ratio</a></li>
+                    <li class="Photosynthetic&nbsp;effects"><a href="#Photosynthetic&nbsp;effects" style="text-decoration:none" >Photosynthetic efficiency</a></li>
                 </ul>
 
-                <li class="ocean"><a href="#ocean" style="text-decoration:none; font-weight: bold;" >Ocean</a></li>
+                <li class="Ocean"><a href="#Ocean" style="text-decoration:none; font-weight: bold;" >Ocean</a></li>
                 <ul style="list-style: none;">
-                    <li class="fertilization"><a href="#fertilization" style="text-decoration:none" >Fertilization</a></li>
-                    <li class="azolla"><a href="#azolla" style="text-decoration:none" >Azolla</a></li>
-                    <li class="sea_grass"><a href="#sea_grass" style="text-decoration:none" >Sea grass</a></li>
+                    <li class="Iron&nbsp;Fertilization"><a href="#Iron&nbsp;Fertilization" style="text-decoration:none" >Iron Fertilization</a></li>
+                    <li class="Non&nbsp;Iron&nbsp;Fertilization"><a href="#Non&nbsp;Iron&nbsp;Fertilization" style="text-decoration:none" >Non-Iron Fertilization</a></li>
+
+                    <li class="Azolla"><a href="#Azolla" style="text-decoration:none" >Azolla</a></li>
+                    <li class="Sea&nbsp;Grass"><a href="#Sea&nbsp;Grass" style="text-decoration:none" >Sea grass</a></li>
                 </ul>
 
-                <li class="bio_ocean"><a href="#bio_ocean" style="text-decoration:none; font-weight: bold;" >Bioengineering in the ocean</a></li>
+                <li class="Bioengineering&nbsp;the&nbsp;Ocean"><a href="#Bioengineering&nbsp;the&nbsp;Ocean" style="text-decoration:none; font-weight: bold;" >Bioengineering in the ocean</a></li>
             </ul>
 
-            <li class="nas"><a href="#nas" style="text-decoration:none; font-weight: bold;" >On the NAS report on negative emissions</a></li>
+            <li class="NAS&nbsp;report"><a href="#NAS &nbsp;eport" style="text-decoration:none; font-weight: bold;" >On the NAS report on negative emissions</a></li>
 
-            <li class="takeaways"><a href="#takeaways" style="text-decoration:none; font-weight: bold;" >Some take-aways</a></li>
+            <li class="Takeaways"><a href="#Takeaways" style="text-decoration:none; font-weight: bold;" >Some take-aways</a></li>
             
         </ul>
               
     </div>
+
+        <!-- ##################### sidebar for thin #####################-->
+        <div id="mySidenav" class="sidebar_thin">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     
-  </div>  <!-- end of wrapper div -->
+            <ul style="list-style: none; padding: 0;" onclick="closeNav()">
+                <li class="top active"><a href="#top" style="text-decoration:none; font-weight: bold;" >Scaling carbon removal</a></li>
+                
+                <li class="introduction"><a href="#introduction" style="text-decoration:none; font-weight: bold;" >Introduction</a></li>
+                <ul style="list-style: none;">
+                    <li class="Why&nbsp;remove&nbsp;CO₂"><a href="#Why&nbsp;remove&nbsp;CO₂" style="text-decoration:none" >Why even talk about this</a></li>
+                </ul>
+    
+                <li class="Fundemental&nbsp;requirements"><a href="#Fundemental &nbsp;equirements" style="text-decoration:none; font-weight: bold;" >Fundamental energy and space requirements</a></li>
+                <ul style="list-style: none;">
+                    <li class="How&nbsp;much&nbsp;to&nbsp;sequester"><a href="#How&nbsp;much&nbsp;to&nbsp;sequester" style="text-decoration:none" >How much do we need to sequester</a></li>
+                    <li class="Energy"><a href="#Energy" style="text-decoration:none" >Energy</a></li>
+                    <li class="Volume"><a href="#Volume" style="text-decoration:none" >Volume</a></li>
+                    <li class="Cost"><a href="#Cost" style="text-decoration:none" >Cost</a></li>
+                    <li class="Dynamics&nbsp;issues"><a href="#Dynamics&nbsp;issues" style="text-decoration:none" >Two climate dynamics issues to be aware of</a></li>
+                </ul>
+    
+                <li class="Chemical&nbsp;methods"><a href="#Chemical&nbsp;methods" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: chemical</a></li>
+                <ul style="list-style: none;">
+                    <li class="DAC"><a href="#DAC" style="text-decoration:none" >Basics of direct air capture</a></li>
+                    <li class="Commercialization&nbsp;of&nbsp;DAC"><a href="#Commercialization&nbsp;of&nbsp;DAC" style="text-decoration:none" >Economics and commercialization</a></li>
+                    <li class="Ocean&nbsp;liming"><a href="#Ocean&nbsp;liming" style="text-decoration:none" >Ocean liming</a></li>
+                    <li class="Electrochemistry"><a href="#Electrochemistry" style="text-decoration:none" >Electrochemically enhanced mineral weathering</a></li>
+    
+                    <li class="Capture&nbsp;at&nbsp;Source"><a href="#Capture&nbsp;at&nbsp;Source" style="text-decoration:none" >Capturing at the source</a></li>
+                </ul>
+    
+                <li class="Biological&nbsp;methods"><a href="#Biological&nbsp;methods" style="text-decoration:none; font-weight: bold;" >Increasing CO2 uptake: biological</a></li>
+                <ul style="list-style: none;">
+                    <li class="Land"><a href="#Land" style="text-decoration:none; font-weight: bold;" >Land</a></li>
+                    <ul style="list-style: none;">
+                        <li class="BECCS"><a href="#BECCS" style="text-decoration:none" >BECCS</a></li>
+                        <li class="Trees"><a href="#Trees" style="text-decoration:none" >Trees</a></li>
+                        <li class="Topsoil"><a href="#Topsoil" style="text-decoration:none" >Topsoil</a></li>
+                        <li class="Biochar"><a href="#Biochar" style="text-decoration:none" >Biochar</a></li>
+                        <li class="Crop&nbsp;Residue"><a href="#Crop&nbsp;Residue" style="text-decoration:none" >Crop residue sequestration</a></li>
+                        <li class="Algal"><a href="#Algal" style="text-decoration:none" >Algal bioreactors</a></li>
+                    </ul>
+    
+                    <li class="Bioengineering&nbsp;on&nbsp;Land"><a href="#Bioengineering&nbsp;on&nbsp;Land" style="text-decoration:none; font-weight: bold;" >Bioengineering on land</a></li>
+                    <ul style="list-style: none;">
+                        <li class="Roots&nbsp;and&nbsp;Shoots"><a href="#Roots&nbsp;and&nbsp;Shoots" style="text-decoration:none" >Root to shoot ratio</a></li>
+                        <li class="Photosynthetic&nbsp;effects"><a href="#Photosynthetic&nbsp;effects" style="text-decoration:none" >Photosynthetic efficiency</a></li>
+                    </ul>
+    
+                    <li class="Ocean"><a href="#Ocean" style="text-decoration:none; font-weight: bold;" >Ocean</a></li>
+                    <ul style="list-style: none;">
+                        <li class="Iron&nbsp;Fertilization"><a href="#Iron&nbsp;Fertilization" style="text-decoration:none" >Iron Fertilization</a></li>
+                        <li class="Non&nbsp;Iron&nbsp;Fertilization"><a href="#Non&nbsp;Iron&nbsp;Fertilization" style="text-decoration:none" >Non-Iron Fertilization</a></li>
+    
+                        <li class="Azolla"><a href="#Azolla" style="text-decoration:none" >Azolla</a></li>
+                        <li class="Sea&nbsp;Grass"><a href="#Sea&nbsp;Grass" style="text-decoration:none" >Sea grass</a></li>
+                    </ul>
+    
+                    <li class="Bioengineering&nbsp;the&nbsp;Ocean"><a href="#Bioengineering&nbsp;the&nbsp;Ocean" style="text-decoration:none; font-weight: bold;" >Bioengineering in the ocean</a></li>
+                </ul>
+    
+                <li class="NAS&nbsp;report"><a href="#NAS &nbsp;eport" style="text-decoration:none; font-weight: bold;" >On the NAS report on negative emissions</a></li>
+    
+                <li class="Takeaways"><a href="#Takeaways" style="text-decoration:none; font-weight: bold;" >Some take-aways</a></li>
+                
+            </ul>
+                  
+        </div>
+    
+
+    
+    <script>
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "80%";
+    document.getElementById("mySidenav").style.boxShadow = "0 0 0 100vmax rgba(0,0,0,.6)";
+    document.getElementById("mySidenav").style.boxShadow = "0 0 0 1000px rgba(0,0,0,.6)";
+    }
+
+
+    function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav").style.boxShadow = "none";
+
+    }
+    </script>
+    
   <script src="./main.js"></script>
   <script src="./collapse.js"></script>
 
