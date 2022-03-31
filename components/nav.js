@@ -27,7 +27,7 @@ export default function Nav() {
       <main className={styles.main}>
       <nav>
         <ul>
-            <li style={{paddingTop: '1.5%'}}><a href="../section_1/1.0" style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >Climate Technology Primer</a></li>
+            <li style={{paddingTop: '1.5%'}}><a href="../" style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >Climate Technology Primer</a></li>
         </ul>
         <ul> 
             <li><div id="header_menu" onClick={() => openNav()}>&#9776;</div></li>
@@ -39,8 +39,8 @@ export default function Nav() {
     
             <ul style={{listStyle: 'none', padding: '0'}} onClick={() => closeNav()} >
             
-                <li className="top active"><a href="./" style={{textDecoration: 'none', fontWeight: 'bold'}} >Intro</a></li>
-                <li className="top active"><a href="./" style={{textDecoration: 'none', fontWeight: 'bold'}} >Disclaimers & Acknowledgements</a></li>
+                {/* <li className="top active"><a href="./" style={{textDecoration: 'none', fontWeight: 'bold'}} >Intro</a></li> */}
+                <li className="top active"><a href="../disclaimers" style={{textDecoration: 'none', fontWeight: 'bold'}} >Disclaimers & Acknowledgements</a></li>
 
                 <li className="introduction"><a href="#introduction" style={{textDecoration: 'none', fontWeight: 'bold'}} >Section 1: Climate overview</a></li>
                 <ul style={{listStyle: 'none'}}>
@@ -67,12 +67,13 @@ export default function Nav() {
                     <li style={{textDecoration: 'none'}}><a href="../section_2/2.4"  >2.4 Other chemical methods</a></li>
                     <li style={{textDecoration: 'none'}}><a href="../section_2/2.5"  >2.5 Biological methods - Land</a></li>
                     <li style={{textDecoration: 'none'}}><a href="../section_2/2.6"  >2.6 Bioengineering on land</a></li>
-                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.7"  >2.7 Oceans - fertilization</a></li>
-                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.8"  >2.8 Oceans - macro-algae</a></li>
-                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.9"  >2.9 Oceans - alkalinity enhancement</a></li>
-                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.10"  >2.10 Oceans - bioengineering</a></li>
-                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.11"  >2.11 The NAS report</a></li>
-                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.12"  >2.12 Some take-aways</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.7"  >2.7 Biomass burial</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.8"  >2.8 Oceans - fertilization</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.9"  >2.9 Oceans - macro-algae</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.10"  >2.10 Oceans - alkalinity enhancement</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.11"  >2.11 Oceans - bioengineering</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.12"  >2.12 The NAS report</a></li>
+                    <li style={{textDecoration: 'none'}}><a href="../section_2/2.13"  >2.13 Some take-aways</a></li>
                 </ul>
 
                 <li className="introduction"><a href="#introduction" style={{textDecoration: 'none', fontWeight: 'bold'}} >Section 3: Geoengineering</a></li>

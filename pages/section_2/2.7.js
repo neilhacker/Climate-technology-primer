@@ -25,149 +25,180 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Oceans - fertilization</h1>
-              <h2>Iron fertilization</h2>
+            <h1 >2.7 Biomass burial</h1>
+              
             <p>
+            One option that various companies are exploring is to do some form of harvesting and burying biomass. This comes up in a few different forms like burying trees on land, sinking trees in oceans, growing and sinking kelp and I’ll even include here making bio-oil to inject it back into oil wells.
+            <br></br><br></br>
+            There are some questions you might have at the moment like how expensive these methods could be, if they even work out from a life cycle analysis or how much they could scale. The answer is largely that depending on the exact form you’re talking about you can get lots of different answers to those questions. 
+            <br></br><br></br>
+            The basic idea is you grow biomass which has the advantage of using the energy input from the sun to basically suck CO₂ from the atmosphere. This is then transformed into carbon matter through photosynthesis and you then take this biomass and put it somewhere it won’t decompose and release the carbon back out again. Where you store it is kind of up to you but ideally you want a low oxygen environment and somewhere where there won’t be much bacteria which could decompose your organic matter. The two best places for this are basically deep in the ocean or in a big hole. 
+            <br></br><br></br>
+            The deep ocean is pretty great for this as it doesn’t mix with higher layers of water on any worrying timescale, maybe less than every 1000 years, and the pressure down there, as well as the lack of light and nutrients will mean the organic matter is likely to stay put and not attract any microbes which might come and decompose it. 
+            <br></br><br></br>
+            Holes are a bit trickier. You could go deep and narrow in areas that are very clay heavy as this will do a good job preventing oxygen from getting in. You could also use purpose made capsules which are sealed to prevent oxygen and other things like bacteria in. 
+            <br></br><br></br>
+            One thing that might be on your mind is whether it would not just make more sense to burn the biomass 
+            <br></br><br></br>
+            <b>Burying Trees on land</b>
+            <br></br><br></br>
+            We could start by considering how much sense it would be to bury trees in holes on land. Let’s take as an example wanting to bury enough wood to keep 0.1Mt of CO₂ out of the atmosphere. 0.1Mt of CO₂ is roughly 30,000t of Carbon which is roughly 60,000t of wood. 
+            <br></br><br></br>
+            If we go off of <a href="https://www.youtube.com/watch?v=zOO9vspK2fE&list=PL1je2pACUAbKdS4529vLLHgZR2MGk9KLm&index=3&t=361s">this video</a> it talks about using a land area of around 2,500km² to get this amount of wood. 
+            <br></br><br></br>
+            If we assume that we can use a logging truck with a maximum capacity of 40t then we would need 1,500 truckloads of wood. Assume the average distance from our site is 20km then we are looking at 1500 * 40 * 20 = 1,200,000 t-km.
+            <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
-            You might see these approaches referred to as OIF or Ocean Iron Fertilization
-            <br></br><br></br>
-            Some useful resources:
-            <br></br>
-            There is an existing <a href="https://www.epa.gov/ocean-dumping/ocean-dumping-international-treaties">regulatory framework</a> for this called the London Protocol / London Convention:
-            <br></br>
-            After a new <a href="https://www.nap.edu/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration?mc_cid=4bcc1e18a9&mc_eid=d7065642e3">National Academies Report</a> on “A Research Strategy for Ocean based Carbon Dioxide Removal” came out featuring a recommended $280M investment in research into the science underlying ocean iron fertilization, Science did a news <a href="https://www.science.org/content/article/draw-down-carbon-and-cool-planet-ocean-fertilization-gets-another-look">feature</a> on the topic
-            <br></br><br></br>
-            See also: <a href="https://www2.oceanvisions.org/roadmaps/">OceanVisions roadmaps</a>, which so far have mostly been on alkalinity enhancement and macro-algae, but presumably soon will extend into microalgae / OIF
+            The good thing here is that even if we are off by a lot we still have a hefty amount of wiggle room to get a good life cycle analysis.  
 
 			</span> 
 
-            Some proposals seek to induce growth of certain phytoplankton in the ocean, by seeding with various kinds of fertilizers, e.g., iron
+            We can ballpark emissions from travel at around 1gCO2/km so the travel part of this would emit around 1.2t CO₂. We then obviously have emissions from digging the hole,making capsules  and burial but even if we assume these add an order of magnitude we are looking at somewhere around 10t CO₂ to remove the equivalent of 100,000t in this example.
+            <br></br><br></br>
+            You might then wonder about how large the hole we have to dig is and it turns out the answer to that would be large but not crazy. Wood, let's say, has an average density of 800kg/m³ and so 60,000t of wood would take up around 75,000 m³ of storage space. Put in context this is roughly the size of a football field 13.5m deep or 30 olympic swimming pools.
+            <br></br><br></br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            You also don’t lose the land as you can just re turf the hole you dug and get back to a natural setting.
+
+			</span> 
+
+            In terms of cost if we go with a freight figure of around $0.4 t-km then we’re looking at around $240,000 which works out at just over $2 per ton of CO₂ on the travel side. Again let’s say the other costs add an order of magnitude to everything, we are still looking at something like $20-30 per ton of CO₂ which would be remarkably competitive. 
+            <br></br><br></br>
+            
+            One company starting to do this is <a href="https://www.exaquest.org/">Exaquest</a>. They store wood biomass in anoxic (oxygen free) environments on land, mainly through the use of specialized containers. They plan to obtain the biomass from forest thinning operations and state that in California alone they currently thin at least 250,000 acres of forest per year, yielding more than 20 dry tons of wood waste per acre.
+            → 5m t/yr of waste wood → (from above conversion of wood → CO₂e) 9m t/CO₂e/yr. Although again not all of this wood would be “waste” as some is used for construction and other activities.  
+            <br></br><br></br>
+            Obtaining the wood responsibly and in a way that makes the burial as additional as possible is absolutely key to this process actually delivering results. Otherwise we might find ourselves in the strange position where you could at the same time plant a forest, not cut down a forest or cut down a forest and be paid in all cases.
+
+            <br></br><br></br>
+            <b>Burying land grown biomass in the oceans </b>
+            <br></br><br></br>
+
+            The canonical <a href="https://pubs.acs.org/doi/full/10.1021/es8015556">paper</a> in this area has to do with taking crop residue from land and sinking them into the deep ocean. 
+            <br></br><br></br>
+            The paper is rather old but states: 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            <br></br><br></br>
+            Note that 1Pg = 1Gt. This would suggest that at maximum this approach couldn’t even get to a Gt scale. 
+
+			</span> 
 
             </p>
             <blockquote>
-			    	<p>
-                Any old iron? 
-                <br></br>
-                SIR--Martin and Fitzwater suggest that the growth of phytoplankton in ocean waters at high latitudes is restricted today by the limited amount of iron available, and that during recent ice ages the carbon dioxide content of the atmosphere was reduced because there was then more dust in the air. This suggests a possible way to alleviate the anthropogenic greenhouse effect, which is at present a cause for concern. By adding iron compounds to the oceans, a 'technological fix” to remove carbon dioxide from the air might be practicable. JOHN GRIBBIN
+				<p>
+                 Global large-scale agriculture produces about 2 Pg crop residues C annually. If the average fraction of above-ground crop residue that can be removed sustainably is assumed to the same as that for corn, 0.3, the global crop residue supply is about 0.6 Pg C.
 
-              </p>
-            </blockquote>
+				</p>
+			</blockquote>
             <p>
-            The costs would be very favorable in theory. Say the iron costs $1000/ton and one iron atom fertilizing the ocean allows 10,000 CO2 molecules to be captured into biomass. That works out to ~10 cents per tonne of CO2 fixed, 1000x smaller than the approximate theoretical best case cost for industrial direct air capture. Even if the cost were 10x higher than that, it would still be much less expensive than industrial direct air capture or ocean liming.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
-                  <a href="https://www.forbes.com/sites/timworstall/2012/07/19/the-cheap-way-to-deal-with-climate-change-iron-fertilisation-of-the-oceans/#35adace47c6a">This article</a> suggest 30 cents per tonne CO2 captured
-            </span> 
+            The good news is though that this really doesn’t take up much space: 
 
-            This low cost also means that the efficiency of permanent sequestration of the fertilized biomass needn’t be anywhere near 100%.
+            </p>
+            <blockquote>
+				<p>
+                If the residue were deposited on the sediment in an annual layer 4 m deep, the total sediment area required would be approximately 260 km2, about 0.02% of the area of the Gulf of Mexico.
+
+				</p>
+			</blockquote>
+            <p>
+            The paper suggests using barges to transport corn stover to deep ocean areas and then weigh them down with ballasts and comes up with a cost of around $90 per ton of CO₂ sequestered which comes from this breakdown:
             <br></br><br></br>
-            The Lawrence paper says:
+            <Collapsible trigger="You can expand this to get the cost breakdown from the paper">
+			<p>
+            Prices of corn stover bales delivered to storage depots from distances up to 180 km averaged 40 $ per dry t on
+            <br></br><br></br>
+            We estimate the cost of loading of baled crop residue onto the barges and from river barges to ocean barges would cost about 8 $/t crop residue for each lift
+            <br></br><br></br>
+            We estimated the waterborne shipping cost for baled crop residue to be 0.018 $/t/km
+            <br></br><br></br>
+            Assuming combined river and ocean shipping distance of 4000 km and ballast equal to 25% of the crop residue dry mass, the average shipping cost would be about 74 $/dry t.
+            <br></br><br></br>
+            The cost of the ballast would be about 7.75 $/t
+            <br></br><br></br>
+            Total cost would be about 135 $/t crop residue sequestered
+            <br></br><br></br>
+            The total cost of CROPS would be 340 $/t C, or 93 $/t CO2 
+
+			</p>
+			</Collapsible>
+            <br></br><br></br>
+            The main drawback with this, and indeed the main reason for a rebuttal paper, are concerns over stripping all the nutrients out of the soil. Considerations over this is why the paper only assumes you can use 30% of crop residue. There doesn’t seem to have been much rigorous to come up with a better answer here but the answer to how much crop residue you can remove is certainly &gt;0%. 
+            <br></br><br></br>
+            The only company to apply to Stripe’s request for proposals with this specific approach is <a href="https://github.com/stripe/carbon-removal-source-materials/blob/master/Project%20Applications/Spring2021/C%20Sink%20-%20Stripe%20Spring21%20CDR%20Purchase%20Application.pdf">C-Sink</a>. Their idea is to sink biomass from Turkey and Ukraine in the Black Sea which is one of the largest anoxic bodies of water. Interestingly they say that public perception is one of the larger challenges they face as some view this as a kind of “dumping”. 
+            <br></br><br></br>
+            One cool thing about C-Sink is that they propose creating a lift to move the biomass down below 30m at which point it will reliably sink without the need of a ballast which will save both cost and complexity. 
+
+            <br></br><br></br>
+            <b>Opportunity cost</b>
+            <br></br><br></br>
+            One thing you might think is that this is all a waste. If we have this biomass why not try to use it for fuel instead which we could then use to displace some fossil fuel usage. The paper addresses this and comes up with this comparison:
+            <br></br><br></br>
+            100t of crop residue used for ethanol production would avoid 35t of carbon emissions and the electricity generated from the heat from burning would be able to avoid 1.8t of fossil fuel carbon. In the end you get an efficiency of around 32% for cellulosic ethanol production meaning 100t crop residue would release 68t C back out into the atmosphere. If we simply sink our crop residue then we would see an efficiency of around 92% so we would expect only 8t C to escape back out. 
+            <br></br><br></br>
+            Basically as long as there is a fuel with a higher energy yield-to-carbon content ratio than biomass it will always be a better option to sequester it. 
+            
+            <br></br><br></br>
+            <b>Bio-oil</b>
+            <br></br><br></br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            It's probably worth mentioning that at the moment Charm is actually the company to have delivered the most permenant carbon removal tons to date. 
+			</span> 
+
+            A similar idea comes from <a href="https://charmindustrial.com/">Charm Industrial</a> who instead of burying biomass, turn biomass, like corn stover, into bio-oil via pyrolysis (basically heating them up a lot very quickly). They can then literally inject this bio-oil back into oil wells. 
+            <br></br><br></br>
+            At the moment this is very expensive ($600t) but they aim to have this down to around $50t as they scale up. The plan is to use waste residues like nut shells, corn stover, bagasse, rice straw that are generally not used as fossil fuel replacements in order to have pure additionality vs letting them rot. 
+            <br></br><br></br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            One useful thing when thinking about the CO₂ effect of bio-oil is that 1t of bio-oil ≈ 1t of CO₂e removed. This is because while the bio-oil process is only 70% efficient the ratio of bio-oil to CO₂e is 1:1.3 so these values balance out. 
+
+			</span> 
+
+            One interesting difference from the CROPS paper is their estimates on available biomass which are much higher. They have a lower bound of around 1.7Gt/yr of biomass available and an upper bound of 7Gt (and this is still using an assumption that only 20% of is available). Both of these estimates are much much higher than the 0.6Gt estimates from the CROPS paper. 
+            <br></br><br></br>
+            Another thing I think is kind of fun is that even the CROPS paper kind of says that this might well be the way to go with things if you have access to biomass rather than sinking it, at the time we just didn’t know how to do it.
            
+            <br></br><br></br>
+            <b>Sinking macroalgae in the oceans </b>
+            <br></br><br></br>
+            A slightly different approach to the ones above is to grow macroalgae (mainly kelp) and then sink that to the deep ocean. This is a pretty simple and elegant solution as it is very additional and in theory very simple and cheap. 
+            <br></br><br></br>
+            If we look just at kelp then this is approximately 30% carbon and so 1kg of kelp will have ≈ 300g of carbon which corresponds to around 1.1kg of CO₂ removed. We can round and say that each kg of kelp removes around 1kg of CO₂. Another thing is that kelp grows really quickly, you can get it to basically peak growth in around 6 months. Once it gets to the deep ocean it is under extreme pressure and given that these layers of the ocean barely mix and are very anoxic it is likely to stay down there and not leak its carbon back out. This is basically the exact process that gave us oil in the first place.
+            <br></br><br></br>
+            One company attempting to do this is <a href="https://www.runningtide.com/">Running Tide</a>. They want to grow kelp on vertical farms which will then drift out to the open ocean. When they have grown to around 72kg a biodegradable tether will break and allow the micro farm to sink to the deep ocean.
+            <br></br><br></br>
+            Just how much CO₂ can this approach remove? As mentioned above 1kg of kelp roughly sequesters 1kg of CO₂. Each micro farm grows to around 70kg so each one removes around 70kg of CO₂. Not all of these microfarms will sink successfully though and Running Tide estimates around a 75% success rate in farms sinking to &gt;1000m. 
+            <br></br><br></br>
+            In terms of density of microfarms they say this: 
+
             </p>
             <blockquote>
+				<p>
+                The final density estimates range from 1 microfarm per 16 km2 in a high-dispersion estimate (example, 200,000 microfarms released at once in the open North Atlantic) to 1 microfarms/ km2 in a low-dispersion estimate (example, 200,00 microfarms released at once into gyre conditions). In practice we will seek a mixture of these conditions.
+
+				</p>
+			</blockquote>
             <p>
-            “while early studies indicated that CO2 removal by OIF might be capable of far exceeding CDRref, later studies showed that this neglected many limiting factors, so that the removal capacity is likely less than 400 Gt(CO2) by 2100 <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR47">47</a>. Furthermore, this would likely result in significant side effects in the oceans, like disruption of regional nutrient cycling, and on the atmosphere, including production of climate-relevant gases like N2O <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR15">15”</a>.
+            We can take the geometric mean of 1 and 16 to give a rough average for density of 4 (which is also what they say would be the most likely uniform density), let’s also take the entire surface area of the world's oceans. Not all will be suitable and there would be other logistical challenges but still for our upper bound we’ll take it. This would give us a surface area of around 360 million km² of ocean at 4 microfarms per km² then that gives us ≈1.5bn microfarms. The expected CO₂ removed by a micro-farm is 70kg*0.75 ≈ 53kg. Combining these figures we get ≈80bn kg. However, we have to remember that the growing cycle is only around 6 months so we could do this all twice a year doubling our removal rate to 160bn kg or 160m tCO2.
+            <br></br><br></br>
+            I don’t know the exact reasons for their density estimates and it also seems like if you went for an approach that was more static you could maybe get much much higher densities which could massively increase this value. 
+            <br></br><br></br>
+            One current issue they, and other similar projects are having is that this approach is much more difficult to monitor than others, say where you bury trees in a capsule and then just measure carbon leakage in that capsule. This means that verification/success will likely have to use a more of a computational approach, modeling how many microfarms are likely to sink in the right places and using models of carbon leakage from sunk farms, rather than measuring each farm individually. 
+            <br></br><br></br>
+            One thing I haven't quite got clear is under which conditions some particular approach is “the best”. If you take wood, crop residue, and kelp it really does seem that under certain assumptions maybe of technology (like being able to pyrolise efficiently) there should be some dominant method from a carbon removal standpoint. 
+            <br></br><br></br>
+            It seems like tree burial and bio-oil are basically direct competitors to things like BECCS or Biochar but surely there is only one best thing to do with the organic matter? It might be that one of these is better today but let’s say charm does get to their $50t target, would it then really be better to use the crop residue for any other approach?
 
             </p>
-          </blockquote>
-          <p>
-            <b>Drawbacks</b>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
-            Something a bit like this happened <a href="https://www.newscientist.com/article/dn16842-hungry-shrimp-eat-climate-change-experiment/">here</a>, with the algae being eaten by shrimp rather than sinking down deep to sequester their carbon. A <a href="https://www.nature.com/articles/nature11229">later</a> <a href="https://www.the-scientist.com/news-opinion/lowering-carbon-with-algae-40725">study</a> circumvented this problem by operating in a region where hard-shelled diatoms were stimulated to grow, rather than normal plankton, and these were less easy for the shrimp and such to eat, and thus apparently managed to sink the carbon to the ocean floor. In <a href="https://www.biogeosciences.net/15/5847/2018/bg-15-5847-2018.pdf">experiments</a> with iron fertilization, blooms reduced the local partial pressure of CO2.
-
-            </span> 
-
-          There is some concern that the effects of this intervention may be short lived as a lot of the fixed carbon may just quickly re-enter the atmosphere
-          <br></br><br></br>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-          <span class="marginnote" id="id_option">
-          On the other hand, <a href="https://palladiummag.com/2019/01/28/ancient-upheavals-show-how-to-geoengineer-a-stable-climate/">this article</a> notes some interesting paleo-climate and ecological twists on iron fertilization that suggest that perturbations to ocean iron may not be so unusual and even that ocean iron may be at lower levels than usual at present:
-
-          </span> 
-
-          Another worry in my mind about modifying ocean nitrates or iron or so on, though, is that it <b>could be dangerous in terms of changing the habitats for other creatures</b>, like the cyanobacteria, which George Church <a href="https://www.edge.org/conversation/george_church-church-speaks">reports</a> in his Edge essay are finnicky as to their environment. 
-          <br></br><br></br>
-          Moreover, one must be careful as to which nutrients are actually limiting or could become limiting. Ken Caldeira, in a talk, estimates that 1 additional iron atom can lead to ~50k additional carbon atoms incorporated into biomass, but within a few years this depletes P and N, and thus slows down the effect. He estimates that realistic iron seeding could not offset current emission levels.
-          <br></br><br></br>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-          <span class="marginnote" id="id_option">
-          It looks like Mount Pinatubo’s eruption in the early 1990s may have done ocean iron fertilization naturally and thus briefly stalled CO2 accumulation in the atmosphere. Likewise, recent big Australian wildfires seem to have caused a bloom. 
-
-          </span> 
-
-          Coming back to the issue of side effects, notable ones of concern would include, I think increased nitrous oxide production by bacteria, selection for other microbes that produce greenhouse gasses once iron limitation is lifted, depletion of nutrients and oxygen that are needed by other species or that would later upwell in other locations
-          <br></br><br></br>
-          <a href="http://faculty.wwu.edu/shulld/ESCI%20432/Strong2009.pdf">This article</a> lays out more objections to iron seeding, including the idea that there is scale dependence and thus that you’d need to do large scale experiments that potentially themselves have side effects, in order to test for side effects in a way that’s realistic.
-          <br></br><br></br>
-          The key questions for this approach are: 
-          <ol>
-            <li>Why does iron fertilization sometimes lead to carbon drawdown and sometimes not?</li>
-            <li>How can any negative side effects, especially long-term, of such an approach, be mitigated?</li>
-          </ol>
-
-          </p>
-          <h2>Non-iron fertilization</h2>
-          <p>
-          It seems that if one were to pursue ocean fertilization, you would not want to just fertilize with iron, but with a potentially dynamic and adaptive cocktail of different nutrients and 
-          do it in an adaptive way where you were measuring, perhaps with meta-genomics, the effects on different populations of organisms when you turn it on or off and then as the populations adjust. In one <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2008.0139">paper</a> they suggest basically this:
-
-          </p>
-          <blockquote>
-				<p>
-        “It has been proposed that fertilizer cocktails of macro- and micronutrients should be manufactured on land and transported by submarine pipe to a region significantly beyond the edge of the continental shelf. The nutrient ratios and the temporal supply rates could be controlled so that biological populations develop that optimize sequestration. Such environmental manipulation is today carried out in a sophisticated manner in terrestrial glasshouses where the physical conditions can be controlled, but, with close monitoring, there is no a priori reason why this should not also be possible in an environment such as the open ocean where control of the physical environment is unlikely to be possible.”
-
-				</p>
-			</blockquote>
-      <p>
-      <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-      For better or worse, the coccolithophores seem to do OK with ocean acidification. On the flip side, other weird organisms can play a big role in sequestration by making and discarding “mucus houses”. Biology is crazy.  
-
-			</span> 
-
-      Sometimes, there are also counterintuitive effects of biological growth, not all of it good for carbon sequestration. The Caltech course <a href="http://web.gps.caltech.edu/classes/ese148a/lecture15.pdf">lecture 15</a>, for example, points out that:
-
-      </p>
-      <blockquote>
-				<p>
-        “In addition to organic carbon formed in photosynthesis, many organisms build calcium carbonate shells, CaCO3 (e.g. corals). Cocaliths (primary) and foraminifera (heterotrophs) produce large amounts of calcium carbonate and this carbon often drops to the bottom of the oceans. It is perhaps tempting to think that in forming these shells carbon is being driven out of the ocean system and that this would in turn draw down CO2. This is not the case, however. If we look at the expression for the interaction of atmospheric CO2 and DIC, we see that CO3 2- and CO2 are on the left of the expression. Le Chatelier’s principle tells us that if we remove CO3 2- (decrease alkalinity) we will drive CO2 out of the ocean. Growing corals increases atmospheric CO2. Growing cocaliths and foraminifera can pump carbon into the deep ocean depending on the ratio of organic carbon to CaCO3 in the falling matter. This ratio is known as the “rain ratio” and in the modern ocean is thought to be ~ 4.”
-
-				</p>
-			</blockquote>
-      <p>
-      Below are some different non-iron approaches we could take.
-      <br></br><br></br>
-      <b>Nutrient upwelling</b>
-      <br></br><br></br>
-      <a href="http://www.climatefoundation.org/marine-permaculture.html">Increasing nutrient upwelling</a> through <a href="https://journals.ametsoc.org/doi/abs/10.1175/2009JTECHO679.1">wave driven pumps</a> is another interesting approach to promote more photosynthesis in the oceans. The nutrient upwelling site also explains that primary productivity in the ocean may be in decline due to global warming that has already occurred, proposing nutrient upwelling as a way to counteract this. This also promotes food security by increasing the fish catch. See <a href="https://medium.com/nori-carbon-removal/five-ways-farming-at-sea-is-a-climate-game-changer-6b1e4108b2e">this podcast</a> on Marine Permaculture.
-      <br></br><br></br>
-      MacKay has a <a href="https://www.withouthotair.com/c31/page_247.shtml">nice image</a> showing the area of fertilized ocean that would be needed to neutralize Britain’s CO2 output:
-      <br></br><br></br>
-      <div style={{textAlign: 'center'}}>
-        <Image src='/img/sec2/2_nutrient_upwelling.png' alt="Scale of nutrient upwelling for UK cdr" width="500px" height="400px"/>
-        </div>
-      <br></br><br></br>
-      <b>Clay minerals</b>
-      <br></br><br></br>
-      <a href="https://home.dartmouth.edu/news/2020/04/professor-mukul-sharma-receiving-guggenheim-award">Mukul Sharma</a> has an interesting approach based on clay minerals which would help biomass to sink but not necessarily stimulate and alter ecosystems in the same way as seeding iron:
-      <br></br><br></br>
-      “Sharma’s idea is to use clay minerals to reduce the efficiency with which carbon is oxidized near the ocean surface by speedily burying it to great depths. After hitting the water, the minerals, which are dense, charged, and have large surface area, would pick up organic material and then fall quickly to depths low enough to take the carbon out of circulation with the atmosphere. Depending on which minerals are used, the process might also create material that zooplankton mistake for food and then excrete.” 
-      <br></br><br></br>
-      At the same time, one has to ask for this approach: how much clay do you need to make a dent? Does this decrease the solar penetrance of the ocean via a self-shadowing effect? Does this enhanced sinking or recalcitrance mess up other food chains if you don’t add more biomass faster?
-
-      </p>
-
-
-
-
 
           </section>
           </article>

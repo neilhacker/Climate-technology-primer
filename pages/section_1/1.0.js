@@ -28,57 +28,13 @@ export default function Home() {
             <h1 >Section 1: intro</h1>
               
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
-            Excellent documents and courses are available online on what we are doing to the climate — such as the 
-            <a href="https://www.ipcc.ch/2019/"> IPCC reports</a> or <a href="https://www.e-education.psu.edu/meteo469/">Prof. Michael Mann’s online course </a>
-            or <a href="http://web.archive.org/web/20210203213718/http://web.gps.caltech.edu/classes/ese148a/NASclimatechange.pdf"> this National Academies report</a>.
-            </span> 
- 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
-              <br></br>
-            There are integrative assessments of solutions, such as <a href="https://www.drawdown.org/">Project Drawdown</a>, and a huge proliferation of innovative technologies 
-            being proposed and developed in all sectors. There are also some 
-            <a href="http://newmaeweb.ucsd.edu/courses/MAE119/WI_2018/ewExternalFiles/Hoffert%20et%20al%20%282002%29%20Advanced%20Technology%20Paths%20to%20Global%20Cl.pdf"> superb review papers </a>
-            that treat the need for new technologies.
-            Bret Victor has a <a href="http://worrydream.com/ClimateChange/">beautiful overview</a> emphasizing the role of general design, modeling and implementation capacity, and there 
-            is now a <a href="https://github.com/ron-rivest/MIT-6.S898-climate-change/blob/master/resources.md">climate change for computer scientists course</a> at MIT. And if you 
-            want more of a quantitative look at things I can't reccommend David MacKay's <a href="https://www.withouthotair.com/">Sustainable Energy without the Hot Air</a> enough.
-            </span> 
-
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
-              <br></br>
-            Within applications of machine learning to climate, I recommend <a href="https://arxiv.org/abs/1906.05433">this paper</a> for a broader picture that spans a wider range of solution domains — such breadth serves as good food for thought for technologists interested in finding the truly most impactful areas in which they might be able to contribute
-            </span> 
-
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
-              <br></br>
-              Future posts will include a review of the science behind negative emissions technologies, as well as the science (with plenty of caveats, don’t worry) behind more controversial potential solar radiation management approaches
-            </span> 
-
-            This is the first of a series of three blog posts intended as a primer on how technology can help to address climate change. 
-            These posts have a numerical bend to them and go back to the basics to try to help build up a quantitative picture of how 
-            technology can contribute to solving our climate problems. They’re done from the perspective of a scientifically literate 
-            (PhD in Biophysics) outsider who wants to have the foundations to do some back of the envelope looking at the challenges. 
-            Hopefully they provide this, as well as links that go into even more detail. 
-
-            <br></br><br></br>
             
-            This first post aims to give an outsider’s summary of the basics of the physics/chemistry/biology of the climate system. 
+            This first section aims to give an outsider’s summary of the basics of the physics/chemistry/biology of the climate system. 
             Firstly by looking at some basic numbers, things like radiation balance and feedback effects. I then have a look at where 
             emissions are coming from with some BoTE looks at a few popular policy ideas as well as some levers we could pull to 
             accelerate emissions reductions. I take a look at some of the potential impacts of the path we’re on, 
             importantly including tipping points. I’ll end with some of my overarching takeaways.
             
-            <br></br><br></br>
-            The emphasis of these posts is more on things I perceive to be less mainstream topics, like CDR or geo-engineering. That very much doesn’t mean that the more mainstream things, like decarbonizing steel and cement production, hydrogen, adaptation to climate effects, are any less important, they might in fact be more so. It just means that these are the things I think have had less coverage than they might warrant, and they’re some of the things I find particularly interesting. 
             <br></br><br></br>
             
 

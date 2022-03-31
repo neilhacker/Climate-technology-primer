@@ -168,7 +168,17 @@ export default function Home() {
 
             New markets for carbon also seem interesting in this context, at least as a way of jump-starting the economies of scale in the field, e.g., the company <a href="http://www.blueplanet-ltd.com/">Blue Planet</a> is using captured carbon for building and highway materials. According to their marketing, “If every new building for the next 30 years was made with the resulting product, humans could erase the globe-warming pollution they’ve sent into the atmosphere, said Fiekowsky…”.
             <br></br><br></br>
-            <b>Electrofuels</b>
+            <Collapsible trigger="Electrofuels">
+			<p>
+            One potentially massive market is in making carbon neutral fuels. You remove CO₂ from from the atmosphere using DAC and then you can can combine this with hydrogen
+            to create various hydrocarbons (aka fuels) with some oxygen, and often water, as the byproducts.
+             
+            Prometheus Fuels, among others, wishes to take atmospheric CO2 all the way back into a fuel, which is going to cost an energy at least equal to the heat of combustion of the fuel, not to mention that associated with the concentration of the CO2 from the atmosphere. Still, this could be useful for fuels like jet fuel, that are otherwise difficult to decarbonize. I was a bit surprised, but it is not actually in principle crazy to make gasoline this way even with the higher say 1000 kJ/mole energy requirement: if a gallon of gas requires/releases 20 lbs of CO2, and energy cost 5 cents per kWh, then we have a cost per gallon of 20 lbs / (44 grams per mole) * (1000 kJ / mole) * 5 cents per kWh = $2.86 / gallon, which is not an unreasonable gas price, and this closely matches what was said about this project. See also here. Beyond actually making fuel from direct air captured CO2, there is also the idea of simply offsetting the use of the fuel with direct air capture. Stephen Pacala in this interview by Elizabeth Kolbert explains the rationale for this latter nicely:
+
+
+			</p>
+			</Collapsible>
+
             <br></br><br></br>
             [NEED TO ADD SECTION ON ELECTROFUELS]
             <br></br><br></br>
