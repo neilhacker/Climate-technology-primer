@@ -26,6 +26,44 @@ export default function Home() {
           <article>
           <section >
             <h1 >1.6: Emissions</h1>
+            <p>
+              I'm going to spend less time on emissions data specifically as it is something that is covered a lot by others whereas the focus of this piece is more on the less talked about technological aspects. 
+              But it would seem amis to not mention emissions data anywhere so 
+            </p>
+            <h2>By sector</h2>
+            <p>
+            <div style={{textAlign: 'center'}}>
+            <Image src='/img/sec1/1_emissions_sankey.png' alt="sankey diagram of global emissions" width="700px" height="500px"/>
+            </div> 
+
+            Above is a sankey diagram from the world resource institute showing the sectors and end uses of that lead to our emissions. 
+            Electricity is actually only ≈25% of our emissions today, we can almost certainly create this with renewables but worryingly there are many gigatonnes that we have no large-scale alternative for <a href="http://science.sciencemag.org/content/360/6396/eaas9793">today</a>, like those associated with <a href="https://www.globenewswire.com/news-release/2019/06/18/1870486/0/en/Boom-Supersonic-Partners-with-Prometheus-Fuels-to-Supply-Carbon-Neutral-Fuel-for-XB-1-its-Mach-2-2-Demonstrator-Aircraft.html">airplanes</a>, <a href="https://www.bloomberg.com/news/articles/2019-08-29/how-hydrogen-could-solve-steel-s-climate-test-and-hobble-coal">steel</a>, <a href="https://qz.com/1123875/the-material-that-built-the-modern-world-is-also-destroying-it-heres-a-fix/">cement</a>, <a href="https://www.sciencemag.org/news/2019/09/can-world-make-chemicals-it-needs-without-oil">petrochemicals</a>, and <a href="http://www.withouthotair.com/cE/page_301.shtml">seasonal</a> <a href="http://smart-cities-centre.org/wp-content/uploads/Kroposki-Seasonal_Energy_Storage.pdf">energy storage</a>.
+            <br></br><br></br>
+            A recent <a href="https://www.nature.com/articles/s41586-019-1364-3">paper</a> estimated that, to remain within a 1.5C target, not only must we curtail the building of new carbon-intensive infrastructure quickly — but also, a large amount of existing fossil fuel based infrastructure will need to be retired early and replaced with clean alternatives (assuming these exist in time, at feasible cost levels)
+            </p>
+            <h2>By country</h2>
+            <p>
+            <div style={{textAlign: 'center'}}>
+            <Image src='/img/sec1/1_country_emissions.png' alt="keeling curve" width="750px" height="460px"/>
+            </div>
+
+            While all countries will need to reduce their emissions that is not equally easy for countries to do. Many developing countries will face pressures to increase their emissions to allow their economies to grow and their population to become richer. 
+            There is a balance to be struck between allowing developing countries to grow we have to try to come up with ways to both decarbonise in the richer countries and make the growth in developing countries as low emitting as possible. 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+      If you want an optimistic note you can read more about Germany’s Renewable Energy Sources Act (EEG) which has been called “Germany’s gift to the world” for the radical effect it had on helping to reduce solar prices 
+			</span> 
+
+            Rich countries have a key role in bringing down the cost of <a href="https://science.sciencemag.org/content/355/6331/1269.full">decarbonization</a> for <a href="https://twitter.com/TheEconomist/status/1155340013640572928">poorer countries</a>, at scale, e.g., through developing and demonstrating better, cheaper technology. 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+            Ramez’s plan is very much worth reading also for its suggestions for ARPA-style agencies for agriculture/food and industry/manufacturing.
+            </span> 
+
+            Ramez Naam <a href="https://techcrunch.com/2019/02/15/how-to-decarbonize-america-and-the-world/">argues</a> that building new renewables is becoming cheaper than operating existing coal which can hopefully mean that it is actually the cheaper option for developing countries to start using renewable energy now and not get locked in to a fossil fuel dependency. 
+            </p>
               
            
 

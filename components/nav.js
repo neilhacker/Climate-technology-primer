@@ -27,7 +27,7 @@ export default function Nav() {
       <main className={styles.main}>
       <nav>
         <ul>
-            <li style={{paddingTop: '1.5%'}}><a href="../" style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >Climate Technology Primer</a></li>
+            <li  style={{paddingTop: '1.5%'}}><a href="../" className={styles.headertext} style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >Climate Technology Primer</a></li>
         </ul>
         <ul> 
             <li><div id="header_menu" onClick={() => openNav()}>&#9776;</div></li>
@@ -42,7 +42,7 @@ export default function Nav() {
                 {/* <li className="top active"><a href="./" style={{textDecoration: 'none', fontWeight: 'bold'}} >Intro</a></li> */}
                 <li className="top active"><a href="../disclaimers" style={{textDecoration: 'none', fontWeight: 'bold'}} >Disclaimers & Acknowledgements</a></li>
 
-                <li className="introduction"><a href="#introduction" style={{textDecoration: 'none', fontWeight: 'bold'}} >Section 1: Climate overview</a></li>
+                <li className="introduction" style={{ fontWeight: 'bold'}}>Section 1: Climate overview</li>
                 <ul style={{listStyle: 'none'}}>
                     <li style={{textDecoration: 'none'}}><a href="../section_1/1.0"  >1.0 Introduction</a></li>
                     <li style={{textDecoration: 'none'}}><a href="../section_1/1.1"  >1.1 Basic numbers on climate</a></li>
@@ -58,7 +58,7 @@ export default function Nav() {
                     <li style={{textDecoration: 'none'}}><a href="../section_1/1.11"  >1.11 Some take-aways</a></li>
                 </ul>
 
-                <li className="introduction"><a href="#introduction" style={{textDecoration: 'none', fontWeight: 'bold'}} >Section 2: Carbon removal</a></li>
+                <li className="introduction" style={{fontWeight: 'bold'}}>Section 2: Carbon removal</li>
                 <ul style={{listStyle: 'none'}}>
                     <li style={{textDecoration: 'none'}}><a href="../section_2/2.0"  >2.0 Introduction</a></li>
                     <li style={{textDecoration: 'none'}}><a href="../section_2/2.1"  >2.1 Fundamental energy and space requirements</a></li>
@@ -76,7 +76,7 @@ export default function Nav() {
                     <li style={{textDecoration: 'none'}}><a href="../section_2/2.13"  >2.13 Some take-aways</a></li>
                 </ul>
 
-                <li className="introduction"><a href="#introduction" style={{textDecoration: 'none', fontWeight: 'bold'}} >Section 3: Geoengineering</a></li>
+                <li className="introduction" style={{fontWeight: 'bold'}}>Section 3: Geoengineering</li>
                 <ul style={{listStyle: 'none'}}>
                     <li style={{textDecoration: 'none'}}><a href="../section_3/3.0"  >3.0 Introduction</a></li>
                     <li style={{textDecoration: 'none'}}><a href="../section_3/3.1"  >3.1 Existing interventions</a></li>

@@ -144,6 +144,17 @@ export default function Home() {
 
 			</span> 
 
+            A <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">fascinating paper</a> suggests a different primary driver of melting of Greenland, however:
+
+        </p>
+        <blockquote>
+            <p>
+            “In an analysis of recent changes over Greenland, Hofer et al. (2017) found that the substantial reduction in cloud cover over Greenland in the past 2 decades is the likeliest cause for the accelerated mass loss from the ice sheet over this period. To arrive at this result they simply calculated how much melt would result from the change in downward surface shortwave energy received over the melt season as a result of the change in cloud cover and compared this against the other contributions to melt and accumulation. <b>They find that the ∼ 10 % reduction in summer cloud cover over Greenland in the past 2 decades led to a ∼ 4000 Gt loss of mass making it the dominant driver of surface mass balance change in this period.</b>“
+
+            </p>
+        </blockquote>
+
+        <p>
             So just as a recap, it looks very possible that the melting of Greenland’s ice formations could be irreversible and that what is looking more and more likely to be a temperature path we go down (2℃) would likely be enough to trigger high enough local warming for this to happen. 
 
            </p>
@@ -184,7 +195,7 @@ export default function Home() {
 
             <h2>East Antartic</h2>
             <p>
-            If all of Antarctica, including the comparatively-likely-to-be-stable East Antarctica, melted we’d be seeing <a href="https://science.howstuffworks.com/environmental/earth/geophysics/question473.htm">perhaps > 60 meters</a> of sea level rise.
+            If all of Antarctica, including the comparatively-likely-to-be-stable East Antarctica, melted we’d be seeing <a href="https://science.howstuffworks.com/environmental/earth/geophysics/question473.htm">perhaps &gt;60 meters</a> of sea level rise.
 
             </p>
 

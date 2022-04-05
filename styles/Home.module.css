@@ -112,5 +112,29 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }  
+}
+
+@media (max-width: 850px) {
+  .headertext {
+    font-size: xx-large !important;
   }
 }
+
+@media (max-width: 650px) {
+  .headertext {
+    font-size: x-large !important;
+  }
+}
+
+@media (max-width: 550px) {
+  .headertext {
+    font-size: large !important;
+  }
+}
+
+
+
+
+
+

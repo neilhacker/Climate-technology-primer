@@ -25,9 +25,10 @@ export default function Home() {
         <div>
           <article>
           <section>
-              
+          <br></br><br></br>
+          <Image src='/img/header.png'  alt="land use of various cdr approaches" width="1250px" height="500px"/>
+
             <p>
-            <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
@@ -55,6 +56,9 @@ export default function Home() {
               <br></br>
             Within applications of machine learning to climate, I recommend <a href="https://arxiv.org/abs/1906.05433">this paper</a> for a broader picture that spans a wider range of solution domains — such breadth serves as good food for thought for technologists interested in finding the truly most impactful areas in which they might be able to contribute
             </span> 
+
+            <h2 style={{color: 'red'}}>To give feedback please visit <a href="https://docs.google.com/document/d/1QQ-HinqxZKqMhwj8-wPpFzKNp_mcs6heJjtmLnl18pg/edit?usp=sharing">this google docs page</a></h2>
+            <br></br><br></br>
             Welcome to my Climate Technology Primer. Here I try to break down in a bit more of a quantitative way what is currently happening 
             to our climate and some interesting ways technology can help address these problems. These posts have a numerical bend to them and go back to the basics to try to help build up a quantitative picture of how 
             technology can contribute to solving our climate problems. They’re done from the perspective of a scientifically literate 

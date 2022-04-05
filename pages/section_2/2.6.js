@@ -77,12 +77,48 @@ export default function Home() {
 			</blockquote>
             <p>
             That’s about a quarter of a gigatonne of carbon per year, or <b>about 1 gigatonne CO2</b>, for US farmland alone. Now, total world farm-land is about 8x higher, so optimistically this approach could get up to around 8 gigatonnes CO2 per year globally, using existing land, at very low cost in principle, and with other potential benefits like improved soil quality or decreased fertilizer or water use if the overall characteristics of the crop plants improved along those dimensions as well. Perhaps not a complete solution in itself, but could be a very powerful component. 
+            <br></br><br></br>
+            Meanwhile, a paper on a nominal “<a href="https://pubs.acs.org/doi/abs/10.1021/es502348e">theoretical upper limit to plant productivity</a>" stated: 
 
             </p>
+            <blockquote>
+              <p>
+              “…theoretical maximum NPP approached 200 tC ha–1 yr–1 at point locations, roughly 2 orders of magnitude higher than most current managed or natural ecosystems. Recalculating the upper envelope estimate of NPP limited by available water reduced it by half or more in 91% of the land area globally.”
+              </p>
+            </blockquote>
+            <p>
+
+            So, say the theoretical upper limit of any kind of bioengineering/plant approach would be 50 tC ha–1 yr–1, call it 20 even, and then compare that to the ROOTS analysis which had an optimistic figure of “equivalent to an average rate of increase of almost 1.8 Mg C ha-1 yr-1, similar to rates of soil C increase that have been observed with conversion of annual cropland to high productivity perennial grasses”. Since a Mg C is the same as a tC, the nominal theoretical upper limit is way higher even than ROOTS is contemplating.
+
+            </p>
+
             <h2>Photosynthetic efficiency</h2>
             <p>
-                Still need to add this***********
+                Plant bioengineering is also aiming to increase the <a href="https://www.annualreviews.org/doi/10.1146/annurev-arplant-042809-112206">efficiency</a> of photosynthesis itself.
+                <label for="mn-demo" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <span class="marginnote" id="id_option">
+                James Webber has a <a href="https://ja.meswebber.com/blog/fixing-carbon/">nice post</a> on how one might go about improving cyanobacterial photosynthesis.
+                </span> 
+
+                The Rubisco enzyme, which carries out the initial steps of photosynthesis, is strangely inefficient, and sometimes burns its substrate with oxygen rather than affixing carbon to it. Although some <a href="https://pubs.acs.org/doi/10.1021/acs.biochem.9b00237">studies</a> <a href="https://www.pnas.org/content/103/19/7246">suggest</a> Rubisco may be nearly perfectly optimized for its difficult job:
+                
             </p>
+            <blockquote>
+            <p> “…optimizing an unusual compromise: an advanced product-like transition state for CO2 addition aids discrimination between CO2 and O2, but its strong resemblance to the subsequent six-carbon carboxyketone intermediate causes that intermediate to bind so tightly that it restricts maximum catalytic throughput”
+            </p>
+          </blockquote>
+            <p>
+            Even still, not all crop plants use the most efficient form of photosynthesis, so this leads to room for <a href="https://blogs.plos.org/synbio/2019/09/02/building-a-co2-concentrating-mechanism/">improvement</a>, e.g., <a href="http://science.sciencemag.org/content/336/6089/1671">C4 rice</a>, and one can also work on the <a href="https://www.technologyreview.com/s/602932/super-fast-growing-gm-plants-could-yield-the-next-green-revolution/">temporal regulation</a> of photosynthesis pathways in the plant, or increase the <a href="https://www.pnas.org/content/115/49/E11455">CO2 retention</a> of other parts of the pathway.
+            <br></br><br></br>
+            Cyanobacteria concentrate CO2 in nanoscale organelles optimized for photosynthesis, called Carboxysomes, making it more available to the Rubisco enzyme complex, and people are working <a href="https://www.nature.com/articles/s41467-018-06044-0">to put</a> Carboxysomes into land plants!
+            <br></br><br></br>
+            One company that is actually pushing these ideas forward is <a href="https://www.livingcarbon.com/">living carbon</a> who are creating photosynthesis-enhanced trees. They recently published a <a href="https://www.livingcarbon.com/post/photosynthesis-enhanced-trees-grow-faster-and-capture-more-carbon">post</a> citing a "a 53% increase in the production of above ground biomass". This was in lab conditions but it is an exciting first step towards real world bioengineering. 
+            <br></br><br></br> 
+            In general, there is certainly large head-room for innovation and novel bioengineering approaches in biological carbon capture, e.g., Y Combinator discusses cell-free <a href="http://carbon.ycombinator.com/cell-free-systems/">photosynthetic bioreactors</a>. People have <a href="https://ieeexplore.ieee.org/document/7994433">done it</a> in the lab to some extent, though not in a self-sustaining way. This seems to be one of the less explored routes in the carbon removal space and one that has a lot of potential.   
+
+            </p>
+
 
           </section>
           </article>

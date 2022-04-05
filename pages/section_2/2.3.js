@@ -109,6 +109,7 @@ export default function Home() {
             <h2>Commercialization</h2>
             <p>
                 You can exapand the dropdowns below to get more details on some of the companies currently working on DAC technology.
+                <br></br><br></br>
                 <Collapsible trigger="Global Research Technologies">
                 <p>
                 Lackner and Allen B. Wright have <a href="https://www.prweb.com/releases/2007/04/prweb519808.htm">started a company</a> called Global Research Technologies to work on this. As the Scientific American article explained, “Lackner and his partner, Allen B. Wright of Global Research Technologies (GRT) in Tucson, Ariz., have developed a proprietary plastic that grabs CO2 from the atmosphere the way flypaper grabs flies. When the CO2-enriched plastic is <a href="https://www.youtube.com/watch?v=qGL21j10C8Q">rinsed with water vapor</a>, a stream of pure CO2 forms that can be sequestered underground”.
@@ -116,7 +117,7 @@ export default function Home() {
                 (Incidentally, another potential <a href="http://scholar.harvard.edu/files/davidkeith/files/51.keith_.2005.climatestratwithaircapture.e.pdf">process</a> is sodium hydroxide (NaOH) + water to absorb CO2, then recycle the alkaline NaOH by addition of lime (CaO) to make calcium carbonate, which is then heated to recycle the lime.)
                 </p>
                 </Collapsible>
-                <br></br><br></br>
+                <br></br>
                 <Collapsible trigger="Carbon Engineering">
                 <p>
                 David Keith et al also have a startup on this, called <a href="http://carbonengineering.com/">Carbon Engineering</a>. It appears they are using a refinement of the Lackner process. From a recent <a href="https://keith.seas.harvard.edu/files/tkg/files/keith_et_al._-_2018_-_a_process_for_capturing_co2_from_the_atmosphere.pdf">paper</a>: 
@@ -129,26 +130,58 @@ export default function Home() {
 
                 </p>
                 </Collapsible>
-                <br></br><br></br>
+                <br></br>
                 <Collapsible trigger="Global Thermostat">
                 <p>
                 Another company in the space, called <a href="https://globalthermostat.com/">Global Thermostat</a>, thinks they can bring it to $50 per tonne of CO2. They have some estimates online of what their system can do: “20-500 tonnes of CO2/yr/m^2 or more, depending on the embodiment used”. This is to be compared with <a href="https://www.co2.earth/global-co2-emissions">emissions</a> of 35.9 GtCO2 of carbon dioxide per year.  So to offset current emissions, we need, assuming an embodiment with 200 tonnes of CO2/yr/m^2, to have a total area of a square 14 kilometers on a side, or 44 km on a side if it only captures 20 tonnes CO2 per yr per m^2. Let’s call it 100 km on a side conservatively, about the area of the state of Connecticut. Here is a <a href="https://pubs.acs.org/doi/abs/10.1021/es102797w">paper</a> from this group, and some <a href="https://grist.org/article/direct-air-carbon-capture-global-thermostat/">discussion</a> of the economics.
                 </p>
                 </Collapsible>
-                <br></br><br></br>
+                <br></br>
                 <Collapsible trigger="Climeworks">
                 <p>
                 <a href="http://www.climeworks.com/co2-removal/">Climeworks</a> is another company in the space. Their site has a really nice graphic on comparison of carbon capture techs, citing <a href="https://www.nature.com/articles/nclimate2870">this</a> and <a href="https://iopscience.iop.org/article/10.1088/1748-9326/aabf9f/meta">this</a>. It appears from Jennifer Wilcox‘s <a href="https://www.youtube.com/watch?v=XY_lzonfE3I">TED talk</a> that they want to get the energy input to their process from geothermal, or from industrial waste heat. 
                 
                 </p>
                 </Collapsible>
-                <br></br><br></br>
+                <br></br>
                 In any case, commercial efforts in this space currently seem like a way to increase the “tech readiness level” proactively, anticipating a larger-scale effort later on, for instance with policy changes that put a price on CO2 emissions and improve the economics. Richard Branson has a <a href="https://www.virginearth.com/">prize</a> offering for a commercially viable large-scale effort in this area, which has yet to be awarded. (Back of the envelope says it is just possible. An industry roughly the size of the automotive industry would do it.)
-                <br></br><br></br>
-                <b>Metal Organic Frameworks (MOFs)</b>
-                <br></br><br></br>
+               
 
             </p>
+            <h2>Some emerging DAC technologies</h2>
+            <p>
+                <b>Metal Organic Frameworks (MOFs)</b>
+                <br></br><br></br>
+                <label for="mn-demo" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <span class="marginnote" id="id_option">
+                Here are some papers on MOFs and DAC:
+                <br></br><br></br>
+                <a href="https://www.nature.com/articles/s41467-019-08824-8">Room temperature CO2 reduction to solid carbon species on liquid metals featuring atomically thin ceria interfaces</a>
+                <br></br><br></br>
+                <a href="https://www.nature.com/articles/ncomms5228">Made-to-order metal-organic frameworks for trace carbon dioxide removal and air capture</a>
+                <br></br><br></br>
+                <a href="https://www.science.org/doi/10.1126/science.abi7281">A scalable metal-organic framework as a durable physisorbent for carbon dioxide capture</a>
+                </span> 
+
+                <a href="https://en.wikipedia.org/wiki/Metal%E2%80%93organic_framework">MOFs</a> are one of the most impressive areas of modern atomically precise nanotechnology.
+                The reason we care about them here is that they may be an alternative to some of the more traditional substances used to actually capture the CO₂ in DAC.   
+                <br></br><br></br>
+                I can see where nano-porous solid structures like MOFs could be helpful in terms of space efficiency: we don’t want a CO2 molecule in the air to have to diffuse very far before it hits the absorbing surface. The main question I had about this at first was the feasibility of later extracting the carbon from this dense 3D environment, but reassuringly this <a href="https://pubs.acs.org/doi/10.1021/ja300034j">JACS paper</a> also observed low capacity loss (~0.2%) after 50 cycles of temperature-driven CO2 desorption. This work is being pushed forward by the company <a href="https://mosaicmaterials.com/technology/">Mosaic</a>. On their website, they point at the fundamental issue we identified above that limits energy costs for carbon capture and prevents reaching near to the thermodynamic limit — regenerating the capture material, i.e., getting the CO2 back off once it is stuck: “cooperative-binding technology allows the CO2-loaded materials to be regenerated using only moderate temperature or pressure changes, substantially increasing energy efficiency and decreasing costs”. There are other impressive companies in the MOF space as well, <a href="https://www.numat-tech.com/">one of which</a> I got to visit a year or so ago. 
+                <br></br><br></br>
+                <b>Electro swing</b>
+                <br></br><br></br>
+                Also in the realm of new approaches, instead of regenerating the adsorbent with heat, there are variants that <a href="https://www.arpa-e.energy.gov/sites/default/files/documents/files/CO2_Workshop_Lehigh.pdf">are</a> <a href="https://www.sciencedirect.com/science/article/pii/S1876610209001611">electrically</a> <a href="https://www.sciencedirect.com/science/article/pii/S2212982018301847">switchable</a> in their CO2 binding capacity. This seems to open very fertile ground for <a href="https://pubmed.ncbi.nlm.nih.gov/27934987/">nanotechnology exploration</a>. Electrical rather than thermal cycling could potentially be done at ambient temperature and pressure and with improved energy efficiency. I’m sure there are plenty of practical challenges but this looks super interesting.
+                <br></br><br></br>
+                <a href="https://verdox.com/">Verdox</a> is a company founded by the authors of <a href="https://pubs.rsc.org/en/content/articlelanding/2019/ee/c9ee02412c#!divAbstract">this paper</a> which uses this electro swing approach. You can see more about how it works in this <a href="https://news.mit.edu/2019/mit-engineers-develop-new-way-remove-carbon-dioxide-air-1025">MIT news write up</a>  or in their video below:
+
+            </p>
+            <iframe src="https://player.vimeo.com/video/368583616?h=030fa4712a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <p>
+            If their 1 GJ/ton is true, that’s perhaps <a href="https://www.wolframalpha.com/input/?i=1+GJ%2Fton++5+cents%2Fkwh+in+%24%2Ftonne">$20-something/tonne</a> CO2 captured (considering just the energy cost). nly about 3x worse than the thermodynamic limit. According to their own paper, it would be about $50-$100/tCO2. Better than, say, Carbon Engineering ($100-$250/tCO2), not as good as trees or enhanced weathering. Sounds like they’ve done a separate economic analysis they’ll release at some point.
+
+            </p>
+
             <h2>Markets</h2>
             <p>
             One way emerging technologies have scaled in the past is to take on a series of niche markets that have a higher willingness to pay for some good than the average customer. By serving one niche market an industry can scale and hopefully reduce costs until it becomes attractive for other larger markets. 
@@ -170,17 +203,21 @@ export default function Home() {
             <br></br><br></br>
             <Collapsible trigger="Electrofuels">
 			<p>
-            One potentially massive market is in making carbon neutral fuels. You remove CO₂ from from the atmosphere using DAC and then you can can combine this with hydrogen
-            to create various hydrocarbons (aka fuels) with some oxygen, and often water, as the byproducts.
-             
-            Prometheus Fuels, among others, wishes to take atmospheric CO2 all the way back into a fuel, which is going to cost an energy at least equal to the heat of combustion of the fuel, not to mention that associated with the concentration of the CO2 from the atmosphere. Still, this could be useful for fuels like jet fuel, that are otherwise difficult to decarbonize. I was a bit surprised, but it is not actually in principle crazy to make gasoline this way even with the higher say 1000 kJ/mole energy requirement: if a gallon of gas requires/releases 20 lbs of CO2, and energy cost 5 cents per kWh, then we have a cost per gallon of 20 lbs / (44 grams per mole) * (1000 kJ / mole) * 5 cents per kWh = $2.86 / gallon, which is not an unreasonable gas price, and this closely matches what was said about this project. See also here. Beyond actually making fuel from direct air captured CO2, there is also the idea of simply offsetting the use of the fuel with direct air capture. Stephen Pacala in this interview by Elizabeth Kolbert explains the rationale for this latter nicely:
-
+            One thing some companies are doing is taking CO₂ removed from the air with DAC and using it to make various kinds of fuels. The basic idea is that you use a combination of DAC to get CO₂ from the air, electrolysis to get hydrogen from the air, and then combine these to generate hydrocarbons. It’s probably worth mentioning that the DAC part, while we’ve mentioned it being pretty energy intensive, is actually the least energy intensive one of these steps. 
+            <br></br><br></br>
+            <a href="https://www.prometheusfuels.com/">Prometheus Fuels</a>, for example, wishes to take atmospheric CO2 all the way back into a fuel for aircraft. This is going to cost an energy at least equal to the heat of combustion of the fuel, not to mention that associated with the concentration of the CO2 from the atmosphere. I was a bit surprised, but it is not actually in principle crazy to make gasoline this way even with the higher say 1000 kJ/mole energy requirement: if a gallon of gas requires/<a href="https://www.fueleconomy.gov/feg/contentIncludes/co2_inc.htm">releases</a> 20 lbs of CO2, and energy cost 5 cents per kWh, then we have a cost per gallon of 20 lbs / (44 grams per mole) * (1000 kJ / mole) * 5 cents per kWh = $2.86 / gallon, which is not an unreasonable gas price, and this <a href="https://news.ycombinator.com/item?id=19842905">closely matches</a> what was said about this project.
+            <br></br><br></br>
+            Another recent entry into this space is <a href="https://terraformindustries.com/">Terraform industries</a>. They position themselves as a lower capex higher opex approach than prometheus fuels. Basically, they want to use the same kind of approach (get CO₂ from DAC, get hydrogen from electrolysis, combine them to make hydrocarbons) but they aim for a lower efficiency system that has a higher percentage of costs in the energy input. This is largely a bet on the declining costs of renewables, specifically solar, if it continues to fall in price at its current rate then if most of your costs come from energy and not infrastructure you get to piggyback on that cost reduction. 
+            <br></br><br></br>
+            While these technologies don’t really exist at any real scale today they do represent potentially the largest market for captured CO₂. This can be useful as if we can find profitable ways to use CO₂ from DAC then this can create a much better business model for these technologies to grow without needing government support. This is in the carbon removal section but obviously these technologies don’t have quite the same effect as a lot of the other things mentioned as they lead to the re-release of the CO₂ not the permanent sequestration. Still I think there are two benefits to this approach even if it doesn’t lead to the permanent sequestration of ​​CO₂, firstly there are lots of areas that will be very tricky to move off hydrocarbons so a carbon neutral way of providing these is a win there. Secondly, if these technologies can be profitable then they can rapidly scale up the use of DAC which hopefully can bring the cost of DAC down a lot which would have positive spillovers for using DAC purely for removal and sequestration. 
+            <br></br><br></br>
+            The whole field is very nascent and really in the long run would only make sense to use for things where we don’t have a good electrically powered alternative. Why wouldn’t you use this for something you can power with electricity? Saul Griffith in his book points out that if you have an electric car you would store this in a battery (≈90% efficiency) and then power the car through a drivetrain (≈80% efficiency) giving you around 72% overall efficiency. If you used this to make gasoline then the process to make it would be around 50% efficient and the efficiency of then burning this gasoline would be around 20% efficient leaving you with a 10% efficiency rating on the same electricity. While it could in theory become cheaper than normal gasoline it will never be cheaper than straight up electricity. 
+            <br></br><br></br>
+            Still I think this is an interesting area that will grow rapidly in size.
 
 			</p>
 			</Collapsible>
 
-            <br></br><br></br>
-            [NEED TO ADD SECTION ON ELECTROFUELS]
             <br></br><br></br>
             <b>Market conclusions</b>
             <br></br><br></br>
