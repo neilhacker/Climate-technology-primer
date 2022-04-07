@@ -201,7 +201,8 @@ export default function Home() {
 
             New markets for carbon also seem interesting in this context, at least as a way of jump-starting the economies of scale in the field, e.g., the company <a href="http://www.blueplanet-ltd.com/">Blue Planet</a> is using captured carbon for building and highway materials. According to their marketing, “If every new building for the next 30 years was made with the resulting product, humans could erase the globe-warming pollution they’ve sent into the atmosphere, said Fiekowsky…”.
             <br></br><br></br>
-            <Collapsible trigger="Electrofuels">
+            </p>
+            <h2>Electrofuels</h2>
 			<p>
             One thing some companies are doing is taking CO₂ removed from the air with DAC and using it to make various kinds of fuels. The basic idea is that you use a combination of DAC to get CO₂ from the air, electrolysis to get hydrogen from the air, and then combine these to generate hydrocarbons. It’s probably worth mentioning that the DAC part, while we’ve mentioned it being pretty energy intensive, is actually the least energy intensive one of these steps. 
             <br></br><br></br>
@@ -216,8 +217,7 @@ export default function Home() {
             Still I think this is an interesting area that will grow rapidly in size.
 
 			</p>
-			</Collapsible>
-
+            <p>
             <br></br><br></br>
             <b>Market conclusions</b>
             <br></br><br></br>
