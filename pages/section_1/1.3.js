@@ -328,7 +328,7 @@ export default function Home() {
              
             Now, the carbon budgets I’m seeing in the IPCC <a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SR15_Chapter2_Low_Res.pdf">reports</a> for 2℃ seem a bit higher, in the range of 1200-2000 GigaTonnes, which we can get if we use  <b onClick={()=>sidebar('480ppm')} style={{cursor: 'pointer'}}>480 ppm</b> as our target for 2C instead of 450 ppm.
 
-
+            <br></br><br></br>
             </p>
 
               
@@ -336,6 +336,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.2">&#8678;</a> &nbsp; <a href="../section_1/1.4">&#8680;</a></p>
+        </div> 
 
       </main>
 

@@ -178,7 +178,7 @@ export default function Home() {
           <label for="mn-demo" class="margin-toggle">&#8853;</label>
           <input type="checkbox" id="mn-demo" class="margin-toggle"/>
           <span class="marginnote" id="id_option">
-          Update 2021: The National Ignition Facility (NIF) is <a href="https://www.llnl.gov/news/national-ignition-facility-experiment-puts-researchers-threshold-fusion-ignition">getting very close</a> to Q>1, although this inertial fusion method doesn’t lend itself to building practical reactors.
+          Update 2021: The National Ignition Facility (NIF) is <a href="https://www.llnl.gov/news/national-ignition-facility-experiment-puts-researchers-threshold-fusion-ignition">getting very close</a> to Q&gt;1, although this inertial fusion method doesn’t lend itself to building practical reactors.
 
           </span> 
 
@@ -196,7 +196,7 @@ export default function Home() {
           It seems like US fusion funding <a href="https://commons.wikimedia.org/wiki/File:U.S._historical_fusion_budget_vs._1976_ERDA_plan.png">stalled</a> in the 1990s and onward, and is only starting to be rebooted. I have no idea of whether it will indeed be possible to demonstrate a full net-positive energy gain pilot plant, let alone really commercialize, in the next 10-15 years, but it may happen if pushed very aggressively and with some luck.
 
           
-          
+          <br></br><br></br>
           </p>
 
         
@@ -205,6 +205,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.6">&#8678;</a> &nbsp; <a href="../section_1/1.8">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

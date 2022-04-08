@@ -508,21 +508,17 @@ export default function Home() {
         <div style={{textAlign: 'center'}}>
         <Image src='/img/sec2/2_cdr_funding.png' alt="future funding levels for cdr" width="500px" height="400px"/>
         </div>
-
+        <br></br><br></br>
         </p>
-
-
-
-
-
-
-            
-
 
           
           </section>
           </article>
-        </div>    
+        </div>  
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.0">&#8678;</a> &nbsp; <a href="../section_2/2.2">&#8680;</a></p>
+        </div> 
+  
 
       </main>
 

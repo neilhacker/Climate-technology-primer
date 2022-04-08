@@ -68,7 +68,7 @@ export default function Home() {
             That being the case “<a href="https://link.springer.com/article/10.1007/s10021-001-0002-7">Based on climate projections</a> derived from global climate models over the West, these projections suggest a wide range of changes in biomass area burned (from declines of 80 percent to increases of 500 percent, depending on region, climate model, and emissions scenario)” 
             <br></br><br></br>
             So while humans are definitely contributing to increases in wildfires, especially on the economic damage side of things, a warming climate is presenting a significant source of increased risk. 
-
+            <br></br><br></br>
             </p>
 
 
@@ -77,6 +77,9 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.4">&#8678;</a> &nbsp; <a href="../section_1/1.6">&#8680;</a></p>
+        </div> 
 
       </main>
 

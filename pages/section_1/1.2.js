@@ -104,7 +104,7 @@ export default function Home() {
         Dyson is <a href="https://en.wikipedia.org/wiki/Freeman_Dyson#Climate_change">known</a> as a bit of a “heretic” on climate and many other topics
         </span> 
 
-        In 1977, in a paper that will come up again for us in the context of carbon sequestration technologies, Dyson <a href="https://adamant.typepad.com/seitz/files/Dyson_Energy_1977.pdf">pointed out</a> that the yearly photosynthetic turnover of CO2, with carbon going into the bodies of plants and then being released back into the atmosphere through respiration and decay, is >10x yearly industrial emissions. The biological turnover is almost exactly in balance over a year, but not perfectly so at any location and instant of time. The slight imbalances over time give the yearly oscillation in the Keeling curve:
+        In 1977, in a paper that will come up again for us in the context of carbon sequestration technologies, Dyson <a href="https://adamant.typepad.com/seitz/files/Dyson_Energy_1977.pdf">pointed out</a> that the yearly photosynthetic turnover of CO2, with carbon going into the bodies of plants and then being released back into the atmosphere through respiration and decay, is &gt;10x yearly industrial emissions. The biological turnover is almost exactly in balance over a year, but not perfectly so at any location and instant of time. The slight imbalances over time give the yearly oscillation in the Keeling curve:
         <br></br><br></br>
         <label for="mn-demo" class="margin-toggle">&#8853;</label>
         <input type="checkbox" id="mn-demo" class="margin-toggle"/>
@@ -174,12 +174,17 @@ export default function Home() {
         </span> 
 
         Note the darker red up by the Arctic. Note also that spatial non-uniformities in temperature, between locations on the globe, as well as the temperature changes between the surface and the atmosphere, are a major driver of weather phenomena.
+        <br></br><br></br>
         </p>
 
           
           </section>
           </article>
-        </div>    
+        </div>   
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.1">&#8678;</a> &nbsp; <a href="../section_1/1.3">&#8680;</a></p>
+        </div> 
+ 
 
       </main>
 

@@ -107,7 +107,7 @@ export default function Home() {
 			</blockquote>
             <p>
             The Lawrence paper notes that <b>cost estimates for both stratospheric aerosols and Latham-Salter style cloud whitening could be &lt;$100B</b>. In other words within some people’s personal net worth. This clearly presents both positive and negative aspects.
-
+            <br></br><br></br>
             </p>
 
 
@@ -116,6 +116,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_3/3.2">&#8678;</a> &nbsp; <a href="../section_3/3.4">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

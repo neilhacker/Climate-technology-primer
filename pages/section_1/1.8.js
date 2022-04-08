@@ -159,7 +159,7 @@ export default function Home() {
             It is therefore not yet clear to me exactly how much hinges on simply bringing down the raw cost of solar or wind generation through deployment and hence economies of scale of existing technologies, versus scaling up the manufacturing and use of existing storage technologies such as lithium ion and similar batteries, versus novel R&D on storage and grid integration to solve the problems that arise once the variable renewables penetration goes above 50% or so, versus pushing existing or new nuclear, <a href="https://www.nationalgeographic.com/science/2018/08/news-yellowstone-supervolcano-geothermal-energy-debate-iceland-hawaii/">geothermal</a>, and CCS technologies. Probably a mixture makes it all more tractable.
            
             </p>
-
+            <br></br><br></br>
            
            </p>
 
@@ -170,6 +170,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.7">&#8678;</a> &nbsp; <a href="../section_1/1.9">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

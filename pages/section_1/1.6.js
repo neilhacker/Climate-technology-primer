@@ -63,15 +63,17 @@ export default function Home() {
             </span> 
 
             Ramez Naam <a href="https://techcrunch.com/2019/02/15/how-to-decarbonize-america-and-the-world/">argues</a> that building new renewables is becoming cheaper than operating existing coal which can hopefully mean that it is actually the cheaper option for developing countries to start using renewable energy now and not get locked in to a fossil fuel dependency. 
+            <br></br><br></br>
             </p>
-              
-           
-
-
+            
           
           </section>
           </article>
-        </div>    
+        </div>   
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.5">&#8678;</a> &nbsp; <a href="../section_1/1.7">&#8680;</a></p>
+        </div> 
+ 
 
       </main>
 

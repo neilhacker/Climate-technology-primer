@@ -235,7 +235,7 @@ export default function Home() {
 
 
 
-
+           <br></br><br></br>
 
             </p>
 
@@ -246,6 +246,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.8">&#8678;</a> &nbsp; <a href="../section_1/1.10">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

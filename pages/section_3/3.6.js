@@ -37,7 +37,7 @@ export default function Home() {
             Solar radiation management still seems like a <b>fraught</b> area overall — in terms of severe <a href="https://www.nap.edu/read/18988/chapter/6">governance</a> challenges, potential moral hazard issues, and the need to deal separately with ocean acidification and other non-temperature effects. That doesn’t make it unimportant to flesh out at a scientific and technical level, as an emergency adaptation strategy. But those issues are serious.
             <br></br><br></br>
             Because even solar geo-engineering <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">might not be able to</a> reverse catastrophic collapse of the Antarctic ice sheets, additional schemes to preserve the ice, or to actively lower sea level, need to be studied as a backup of the backup emergency option.
-
+            <br></br><br></br>
                      
 
             </p>
@@ -45,6 +45,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_3/3.5">&#8678;</a> &nbsp; <a href="../">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

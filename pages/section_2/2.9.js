@@ -121,12 +121,16 @@ export default function Home() {
             <br></br><br></br>
             Alas, Azolla likes fresh water, which, during the Azolla Event, <a href="https://www.reddit.com/r/todayilearned/comments/3dojw4/til_there_is_a_fern_that_has_such_a_high_level_of/">apparently</a> <a href="https://www.nature.com/articles/nature04692">formed</a> a slick, floating on top of Arctic Ocean salt water; moreover, one needs the right chemical and ecological conditions for the sinking organic material to be long-term sequestered rather than rapidly consumed, for example, by oxidative respiration, regenerating CO2.
 
-
+            <br></br><br></br>
             </p>
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.9">&#8678;</a> &nbsp; <a href="../section_2/2.10">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

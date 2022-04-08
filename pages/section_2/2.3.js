@@ -224,13 +224,17 @@ export default function Home() {
             I’m still trying to grok the projected business models for direct air capture, and at which cost thresholds it would be able to reach which levels of scale. Perhaps if CO2 is efficiently converted to certain specific forms like fuels, and in an economic environment with appropriate taxes on carbon emissions, or specifically on dirty fuels, it could be cost competitive — this seems to be Carbon Engineering’s plan. For large-scale deployment at the scale of the overall CO2 problem, the economics is at the forefront, and the economic incentives imposed collectively by society through carbon taxes and related mechanisms would be key, but see the previous paragraph regarding recent progress on this. 
             <br></br><br></br>
             Overall, although some have been <a href="https://www.pnas.org/content/108/51/20428">skeptical</a> of the cost scaling of industrial direct air capture, there is an impressive amount of startup activity in the space. The <a href="https://www.nature.com/articles/s41467-018-05938-3">Lawrence paper</a> points out that truly widespread use of direct air capture may not naturally be employed anytime soon, since a more efficient approach would be to do carbon capture and storage directly at the output of fossil fuel burning power plants. But this is still a good way to get the technology moving… and commitments like the one made by <a href="https://stripe.com/gb/blog/negative-emissions-commitment">Stripe</a> could help bootstrap the field.
-
+            <br></br><br></br>
             </p>
 
 
           </section>
           </article>
-        </div>    
+        </div>  
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.2">&#8678;</a> &nbsp; <a href="../section_2/2.4">&#8680;</a></p>
+        </div> 
+  
 
       </main>
 

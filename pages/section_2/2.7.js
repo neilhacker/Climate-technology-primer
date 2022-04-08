@@ -197,12 +197,15 @@ export default function Home() {
             One thing I haven't quite got clear is under which conditions some particular approach is “the best”. If you take wood, crop residue, and kelp it really does seem that under certain assumptions maybe of technology (like being able to pyrolise efficiently) there should be some dominant method from a carbon removal standpoint. 
             <br></br><br></br>
             It seems like tree burial and bio-oil are basically direct competitors to things like BECCS or Biochar but surely there is only one best thing to do with the organic matter? It might be that one of these is better today but let’s say charm does get to their $50t target, would it then really be better to use the crop residue for any other approach?
-
+            <br></br><br></br>
             </p>
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.6">&#8678;</a> &nbsp; <a href="../section_2/2.8">&#8680;</a></p>
+        </div> 
 
       </main>
 

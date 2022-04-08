@@ -105,12 +105,16 @@ export default function Home() {
             One framing of geoengineering is that we are playing God and intervening in ways we can’t possibly hope to understand. There are definitely worries around trying to influence global weather and climate in these kinds of ways and that is largely why we aren’t doing it at the moment. However, an alternative viewpoint <a href="https://80000hours.org/podcast/episodes/kelly-wanser-climate-interventions/">put forward by</a> Kelly Wanser is to liken the current biosphere not as pure nature but as something we have already polluted. In other settings, like oil spills, when we devastate nature even if our fixes are radical they can be justified if the damage we have done, are doing, is great enough and some would say that may well be the case with the climate as a whole today.
             <br></br><br></br>
             With that said, I’m not sure I can do better in advocacy of analyzing these potential technologies than by a) linking to a US presidential candidate <a href="https://www.yang2020.com/blog/climate-change/">already</a> <a href="https://www.theverge.com/2019/8/26/20833928/andrew-yang-climate-change-nuclear-carbon-capture-geoengineering-2020-elections">discussing</a> them (and not incoherently either) and b) emphasizing that we still don’t perfectly understand potential tipping points in climate dynamics (or for that matter global human social dynamics) that could lead to emergency scenarios where a diverse portfolio of technological options might be needed.
-
+            <br></br><br></br>
             </p>
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.13">&#8678;</a> &nbsp; <a href="../section_3/3.1">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

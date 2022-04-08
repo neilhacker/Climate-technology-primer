@@ -366,27 +366,17 @@ export default function Home() {
 			</blockquote>
             <p>
             Not an insignificant amount, but it would take a long time to suck out the reference value of 650 Gt CO2 listed by the Lawrence paper. David Keith also raises questions in this <a href="https://e360.yale.edu/features/refilling_the_carbon_sink_biochars_potential_and_pitfalls">article</a> on the relative utility of biochar compared to other uses of the same biomass. Currently, it looks like biochar costs thousands of dollars per tonne. Overall I’m not sure I have a full understanding of this area’s potential. 
-
+            <br></br><br></br>
             </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.4">&#8678;</a> &nbsp; <a href="../section_2/2.6">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

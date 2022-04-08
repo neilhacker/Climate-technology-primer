@@ -45,12 +45,16 @@ export default function Home() {
 
             been making progress¹. 
 
-
+            <br></br><br></br>
             </p>
 
           </section>
           </article>
-        </div>    
+        </div>  
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_3/3.0">&#8678;</a> &nbsp; <a href="../section_3/3.2">&#8680;</a></p>
+        </div> 
+  
 
       </main>
 

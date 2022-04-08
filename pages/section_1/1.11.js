@@ -35,6 +35,7 @@ export default function Home() {
                 <li>Heavily invest in large-scale, <a href="http://newmaeweb.ucsd.edu/courses/MAE119/WI_2018/ewExternalFiles/Hoffert%20et%20al%20%282002%29%20Advanced%20Technology%20Paths%20to%20Global%20Cl.pdf">advanced R&D</a> to bring down the cost of grid-scale energy storage, next-generation nuclear, novel clean manufacturing processes for things like <a href="https://www.gatesnotes.com/Energy/A-question-to-ask-about-every-climate-plan\">steel and cement</a>, improved agricultural technologies, smart grid-integrated buildings, and <a href="https://impossiblefoods.com/burgerking/">synthetic meat</a> (among other areas). With enough technological innovation, I hope that the cost to decarbonize could be brought lower than the estimates of those like Nordhaus.</li>
                 <li>Switch to <a href="https://www.withouthotair.com/c20/page_131.shtml">electric cars</a>. (This will impact multiple key areas.)</li>
             </ul>
+            <br></br><br></br>
             </p>
               
            
@@ -44,6 +45,9 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.10">&#8678;</a> &nbsp; <a href="../section_2/2.0">&#8680;</a></p>
+        </div> 
 
       </main>
 

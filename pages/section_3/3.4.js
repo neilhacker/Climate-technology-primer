@@ -114,12 +114,16 @@ export default function Home() {
 			</blockquote>
             <p>
             But perhaps this hasn’t been studied to its absolute logical limit — for instance, there are other <a href="http://www.niac.usra.edu/files/library/meetings/fellows/mar07/1314Crowe.pdf">cool</a> <a href="https://pdfs.semanticscholar.org/44b5/f3ec56ba36481d41ea562d3f23bac6d717de.pdf?_ga=2.30784125.335461148.1549357238-1626053982.1549037200">ideas</a> for reducing mass.
+            <br></br><br></br>
             </p>
 
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_3/3.3">&#8678;</a> &nbsp; <a href="../section_3/3.5">&#8680;</a></p>
+        </div> 
 
       </main>
 

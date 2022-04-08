@@ -27,8 +27,9 @@ export default function Nav() {
       <main className={styles.main}>
       <nav>
         <ul>
-            <li  style={{paddingTop: '1.5%'}}><a href="../" className={styles.headertext} style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >Climate Technology Primer</a></li>
+            <li  style={{paddingTop: '1.5%'}}><a href="../" className={styles.headertext} style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >CTP</a></li>
         </ul>
+        
         <ul> 
             <li><div id="header_menu" onClick={() => openNav()}>&#9776;</div></li>
         </ul>

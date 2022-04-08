@@ -27,8 +27,9 @@ export default function Home() {
           <section>
           <br></br><br></br>
           <Image src='/img/header.png'  alt="land use of various cdr approaches" width="1250px" height="500px"/>
-
+          <h1>Climate Technology Primer</h1>
             <p>
+
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
@@ -58,7 +59,7 @@ export default function Home() {
             </span> 
 
             <h2 style={{color: 'red'}}>To give feedback please visit <a href="https://docs.google.com/document/d/1QQ-HinqxZKqMhwj8-wPpFzKNp_mcs6heJjtmLnl18pg/edit?usp=sharing">this google docs page</a></h2>
-            <br></br><br></br>
+            <br></br>
             Welcome to my Climate Technology Primer. Here I try to break down in a bit more of a quantitative way what is currently happening 
             to our climate and some interesting ways technology can help address these problems. These posts have a numerical bend to them and go back to the basics to try to help build up a quantitative picture of how 
             technology can contribute to solving our climate problems. They’re done from the perspective of a scientifically literate 
@@ -66,7 +67,8 @@ export default function Home() {
             Hopefully they provide this, as well as links that go into even more detail. 
             <br></br><br></br>
             The emphasis of these posts is more on things I perceive to be less mainstream topics, like CDR or geo-engineering. That very much doesn’t mean that the more mainstream things, like decarbonizing steel and cement production, hydrogen, adaptation to climate effects, are any less important, they might in fact be more so. It just means that these are the things I think have had less coverage than they might warrant, and they’re some of the things I find particularly interesting. 
-
+            <br></br><br></br>
+            <b style={{fontSize: "xx-large"}}><a href="../section_1/1.0">Start reading → </a></b>
             </p>
 
           

@@ -130,7 +130,7 @@ export default function Home() {
 			</Collapsible>
             <br></br><br></br>
             These all seem like early concepts meant to spur innovative thinking, rather than end-points of that thinking. I support and enjoy this kind of stimulation of collective thought patterns, and I put George Church’s phage resistance idea above in a similar category. 
-
+            <br></br><br></br>
             </p>
 
 
@@ -138,6 +138,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.10">&#8678;</a> &nbsp; <a href="../section_2/2.12">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

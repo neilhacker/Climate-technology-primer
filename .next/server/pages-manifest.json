@@ -1,5 +1,10 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/_document": "pages/_document.js",
+  "/section_1/1.8": "pages/section_1/1.8.js",
+  "/section_1/1.9": "pages/section_1/1.9.js",
+  "/section_1/1.11": "pages/section_1/1.11.js",
+  "/section_1/1.10": "pages/section_1/1.10.js",
+  "/section_2/2.0": "pages/section_2/2.0.js"
 }

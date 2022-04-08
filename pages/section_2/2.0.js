@@ -149,7 +149,7 @@ export default function Home() {
             <h2>Additional resources</h2>
             <p>
             Background: I recommend John Baez’s <a href="https://johncarlosbaez.wordpress.com/2019/03/02/negative-carbon-emissions/amp/?__twitter_impression=true">blog</a> <a href="https://johncarlosbaez.wordpress.com/2019/02/19/the-cost-of-sucking/">posts</a> and the accompanying <a href="https://mobile.twitter.com/johncarlosbaez/status/1101895241760595970">thread</a> for an intro to this area. He also links to MacKay’s <a href="http://withouthotair.com/c31/page_244.shtml">discussion</a> of the topic. Y Combinator has a great introductory <a href="http://carbon.ycombinator.com/">website</a> focused on carbon removal technologies. The <a href="https://www.drawdown.org/solutions-summary-by-rank">Drawdown</a> <a href="https://twitter.com/ChadFrischmann/status/1118559236382842883">project</a> is also interesting. The National Academies has a great report on negative emissions that we will look at a bit below — I highly recommend reading that. Here is also a <a href="https://www.dropbox.com/s/2y36ngfrcbpv37f/EFI%20Clearing%20the%20Air%20Full%20Report.pdf?dl=0">nice report</a> from the <a href="https://energyfuturesinitiative.org/efi-reports">Energy Futures Initiative</a> — also highly recommended: it was released just as I was finishing this post, and it covers some closely related ground. There is also a <a href="https://www.nature.com/articles/s41586-019-1681-6">review</a> in Nature on CO2 utilization pathways.
-
+            <br></br><br></br>
             </p>
               
             
@@ -159,6 +159,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.11">&#8678;</a> &nbsp; <a href="../section_2/2.1">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

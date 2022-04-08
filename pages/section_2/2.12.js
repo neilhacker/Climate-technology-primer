@@ -53,12 +53,16 @@ export default function Home() {
             But this says little about the possibilities in a scenario where a) society considered the need to be more dire, or was richer, and thus could bear a larger economic cost, and/or b) where the technology has advanced further — indeed, they are just using this as a statement of the current state of the art, before going into a whole set of recommendations for new R&D to improve things. Everyone interested in this should read their outline of proposed research at the end of this <a href="https://www.nap.edu/read/25259/chapter/2#6">summary</a> document.
             <br></br><br></br>
             Overall, their Table S.1 pasted above deliberately undershoots — which makes sense given that it has “with current technology and understanding” in the title, and is assembled from a consensus of many expert views — what would be technically feasible with next-gen technology and research, and with realistic but aggressive deployment possibilities. That gives an optimistic picture overall, I think, if the technology development and cost reduction curves are pushed hard enough.
-
+            <br></br><br></br>
             </p>
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.11">&#8678;</a> &nbsp; <a href="../section_2/2.13">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

@@ -208,13 +208,17 @@ export default function Home() {
             <b> However, changes below the surfaces of the ocean and ice sheets may strongly limit the potential of solar geoengineering to reduce the retreat of marine glaciers… It may be that significant losses from some West Antarctic glaciers are unavoidable by simply returning climate and oceanic driving conditions to the preindustrial conditions and perhaps that even doing so would not be sufficient to arrest the retreat.</b>”
 
 
-            
+            <br></br><br></br>
             </p>
 
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_3/3.1">&#8678;</a> &nbsp; <a href="../section_3/3.3">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

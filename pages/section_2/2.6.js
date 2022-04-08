@@ -116,13 +116,17 @@ export default function Home() {
             One company that is actually pushing these ideas forward is <a href="https://www.livingcarbon.com/">living carbon</a> who are creating photosynthesis-enhanced trees. They recently published a <a href="https://www.livingcarbon.com/post/photosynthesis-enhanced-trees-grow-faster-and-capture-more-carbon">post</a> citing a "a 53% increase in the production of above ground biomass". This was in lab conditions but it is an exciting first step towards real world bioengineering. 
             <br></br><br></br> 
             In general, there is certainly large head-room for innovation and novel bioengineering approaches in biological carbon capture, e.g., Y Combinator discusses cell-free <a href="http://carbon.ycombinator.com/cell-free-systems/">photosynthetic bioreactors</a>. People have <a href="https://ieeexplore.ieee.org/document/7994433">done it</a> in the lab to some extent, though not in a self-sustaining way. This seems to be one of the less explored routes in the carbon removal space and one that has a lot of potential.   
-
+            <br></br><br></br>
             </p>
 
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.5">&#8678;</a> &nbsp; <a href="../section_2/2.7">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

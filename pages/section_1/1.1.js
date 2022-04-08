@@ -115,11 +115,19 @@ export default function Home() {
             <br></br><br></br>
             Again, this is a very limited  model, because it neglects almost all the complexities of the atmosphere and climate system, but it can be used to illustrate certain basic things. For example, if you want to keep the Earth’s temperature low, you can theoretically increase the albedo, A, to reflect a higher percentage of the incoming solar radiation back to space; this is called solar geoengineering or solar radiation management, and this formula allows to calculate crudely the kind of impact that can have. [Feel like another thing we can learn should go here otherwise I think this section is a bit lacking in conclusion]
 {/* not put in all margin notes  */}
+<br></br><br></br>
 
-            </p>          
+            </p>     
+                 
           </section>
           </article>
-        </div>    
+          
+        </div>
+
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.0">&#8678;</a> &nbsp; <a href="../section_1/1.2">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

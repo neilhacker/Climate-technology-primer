@@ -194,11 +194,15 @@ export default function Home() {
 
 				</p>
 			</blockquote>
-
+            <br></br><br></br>
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.3">&#8678;</a> &nbsp; <a href="../section_2/2.5">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

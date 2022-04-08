@@ -208,18 +208,19 @@ export default function Home() {
                 <li>West Antarctica: may not be reversible at all except by things like active snow dumping via altering air flows, or by preventing the melt through things like direct buttressing of the ice sheet</li>
                 <li>East Antarctica: let’s hope it doesn’t melt… fortunately it seems unlikely to do so</li>
             </ul>
+            <br></br><br></br>
             </p>
 
-              
-        
-
-
-          
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.3">&#8678;</a> &nbsp; <a href="../section_1/1.5">&#8680;</a></p>
+        </div> 
+
 
       </main>
+    
 
     </div>
   )

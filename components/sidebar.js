@@ -16,7 +16,7 @@ export default function sidebar(idTag) {
                     elms[i].style.margin = "1rem 2.5%"
                   } else {
                     elms[i].style.left = "none"
-                    elms[i].style.width = "50%"
+                    elms[i].style.width = "30%"
                     elms[i].style.margin = "none"
                     elms[i].style.marginRight = "-60%"
                     elms[i].style.marginTop = "0.3rem"

@@ -162,7 +162,7 @@ export default function Home() {
       “Sharma’s idea is to use clay minerals to reduce the efficiency with which carbon is oxidized near the ocean surface by speedily burying it to great depths. After hitting the water, the minerals, which are dense, charged, and have large surface area, would pick up organic material and then fall quickly to depths low enough to take the carbon out of circulation with the atmosphere. Depending on which minerals are used, the process might also create material that zooplankton mistake for food and then excrete.” 
       <br></br><br></br>
       At the same time, one has to ask for this approach: how much clay do you need to make a dent? Does this decrease the solar penetrance of the ocean via a self-shadowing effect? Does this enhanced sinking or recalcitrance mess up other food chains if you don’t add more biomass faster?
-
+      <br></br><br></br>
       </p>
 
 
@@ -172,6 +172,9 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.7">&#8678;</a> &nbsp; <a href="../section_2/2.9">&#8680;</a></p>
+        </div> 
 
       </main>
 

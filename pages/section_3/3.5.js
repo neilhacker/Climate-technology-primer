@@ -114,13 +114,17 @@ export default function Home() {
 
 			</p>
 			</Collapsible>
-
+      <br></br><br></br>
             </p>
 
 
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_3/3.4">&#8678;</a> &nbsp; <a href="../section_3/3.6">&#8680;</a></p>
+        </div> 
+
 
       </main>
 
