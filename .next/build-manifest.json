@@ -25,30 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/section_1/1.10": [
+    "/section_1/1.0": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/section_1/1.10.js"
-    ],
-    "/section_1/1.11": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/section_1/1.11.js"
+      "static/chunks/pages/section_1/1.0.js"
     ],
     "/section_1/1.8": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/section_1/1.8.js"
-    ],
-    "/section_1/1.9": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/section_1/1.9.js"
-    ],
-    "/section_2/2.0": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/section_2/2.0.js"
     ]
   },
   "ampFirstPages": []
