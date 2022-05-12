@@ -82,6 +82,8 @@ export default function Home() {
             So the process creates as much CO₂ as it removes later on but this CO₂ is easy to store, at least in principle. This suggests that one of the limiting factors to how quickly OEA could scale up is not anything to do with the ocean part, but rather the speed at which we could build CCS enabled plants to create the materials we scatter over the ocean. 
             <br></br><br></br>
             Overall it looks like a very worthy area to be looking more into, especially around the actual effects on the ocean ecosystem, but that work on CCS also needs to be done in parallel to make the whole life cycle analysis balance out. 
+            <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
             </p>
 
@@ -89,6 +91,10 @@ export default function Home() {
           </section>
           </article>
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.9">&#8678;</a> &nbsp; <a href="../section_2/2.11">&#8680;</a></p>
+        </div> 
+
 
       </main>
 

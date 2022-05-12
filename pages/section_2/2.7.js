@@ -198,6 +198,8 @@ export default function Home() {
             <br></br><br></br>
             It seems like tree burial and bio-oil are basically direct competitors to things like BECCS or Biochar but surely there is only one best thing to do with the organic matter? It might be that one of these is better today but let’s say charm does get to their $50t target, would it then really be better to use the crop residue for any other approach?
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
           </section>

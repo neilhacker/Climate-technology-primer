@@ -176,7 +176,7 @@ export default function Home() {
                 <a href="https://verdox.com/">Verdox</a> is a company founded by the authors of <a href="https://pubs.rsc.org/en/content/articlelanding/2019/ee/c9ee02412c#!divAbstract">this paper</a> which uses this electro swing approach. You can see more about how it works in this <a href="https://news.mit.edu/2019/mit-engineers-develop-new-way-remove-carbon-dioxide-air-1025">MIT news write up</a>  or in their video below:
 
             </p>
-            <iframe src="https://player.vimeo.com/video/368583616?h=030fa4712a" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/368583616?h=030fa4712a" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
             <p>
             If their 1 GJ/ton is true, that’s perhaps <a href="https://www.wolframalpha.com/input/?i=1+GJ%2Fton++5+cents%2Fkwh+in+%24%2Ftonne">$20-something/tonne</a> CO2 captured (considering just the energy cost). nly about 3x worse than the thermodynamic limit. According to their own paper, it would be about $50-$100/tCO2. Better than, say, Carbon Engineering ($100-$250/tCO2), not as good as trees or enhanced weathering. Sounds like they’ve done a separate economic analysis they’ll release at some point.
 
@@ -225,6 +225,8 @@ export default function Home() {
             <br></br><br></br>
             Overall, although some have been <a href="https://www.pnas.org/content/108/51/20428">skeptical</a> of the cost scaling of industrial direct air capture, there is an impressive amount of startup activity in the space. The <a href="https://www.nature.com/articles/s41467-018-05938-3">Lawrence paper</a> points out that truly widespread use of direct air capture may not naturally be employed anytime soon, since a more efficient approach would be to do carbon capture and storage directly at the output of fossil fuel burning power plants. But this is still a good way to get the technology moving… and commitments like the one made by <a href="https://stripe.com/gb/blog/negative-emissions-commitment">Stripe</a> could help bootstrap the field.
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
 

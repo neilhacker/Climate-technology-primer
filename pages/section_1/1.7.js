@@ -157,7 +157,7 @@ export default function Home() {
           <label for="mn-demo" class="margin-toggle">&#8853;</label>
           <input type="checkbox" id="mn-demo" class="margin-toggle"/>
           <span class="marginnote" id="id_option">
-          Tokamaks are one class of magnetic confinement system, in which the plasma, which we want to heat to >100 million degrees Celsius, follows a helical magnetic field path inside a toroidal shaped vacuum chamber
+          Tokamaks are one class of magnetic confinement system, in which the plasma, which we want to heat to &gt;100 million degrees Celsius, follows a helical magnetic field path inside a toroidal shaped vacuum chamber
           </span> 
 
           ITER is a Tokamak and is a big, long, complex international project that is deliberately distributing effort across many international organizations. It <a href="https://www.theengineer.co.uk/beyond-iter-next-steps-in-fusion-power/">extends</a> well past 2040 for its major scientific milestones, not to mention future power plant scale followups and commercialization.
@@ -182,7 +182,7 @@ export default function Home() {
 
           </span> 
 
-          That is, there are magnetic confinement fusion methods, and inertial confinement fusion methods. The magnetic confinement methods are making progress with compact versions but still have huge engineering challenges to make the overall systems low-cost, even once you get Q>1, i.e., more energy released than consumed. The inertial methods are even more stricken to large and complex experimental setups rather than economical reactors. 
+          That is, there are magnetic confinement fusion methods, and inertial confinement fusion methods. The magnetic confinement methods are making progress with compact versions but still have huge engineering challenges to make the overall systems low-cost, even once you get Q&gt;1, i.e., more energy released than consumed. The inertial methods are even more stricken to large and complex experimental setups rather than economical reactors. 
           <br></br><br></br>
           <label for="mn-demo" class="margin-toggle">&#8853;</label>
           <input type="checkbox" id="mn-demo" class="margin-toggle"/>
@@ -197,6 +197,8 @@ export default function Home() {
 
           
           <br></br><br></br>
+          <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
           </p>
 
         

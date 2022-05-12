@@ -260,7 +260,7 @@ export default function Home() {
             </span>
 
             <br></br>
-            <span style={{fontSize: 'small'}}><Latex>{'$∆G ≈ RT \\left(ln\\left(\\dfrac{P_1}{P_0} \\right) - \\left( 1- \\dfrac{P_1}{P_0} \\right) * \\dfrac{P_2}{P_1 - P_2}ln \\left( \\dfrac{P_2}{P_1} \\right) - \\left( 1- \\dfrac{P_1+P_2}{2P_0} \\right) \\right)$'}</Latex></span> 
+            <span style={{fontSize: 'x-small'}}><Latex>{'$∆G ≈ RT \\left(ln\\left(\\dfrac{P_1}{P_0} \\right) - \\left( 1- \\dfrac{P_1}{P_0} \\right) * \\dfrac{P_2}{P_1 - P_2}ln \\left( \\dfrac{P_2}{P_1} \\right) - \\left( 1- \\dfrac{P_1+P_2}{2P_0} \\right) \\right)$'}</Latex></span> 
  
             <br></br><br></br>
             <span class="marginnote-reactive" id="mixing_energy">

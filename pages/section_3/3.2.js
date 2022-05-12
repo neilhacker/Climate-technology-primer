@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Albedo modification</h1>
+            <h1 >3.2: Albedo modification</h1>
               
             <p>
             Referring to section 1.1 of this series (or to any introductory course on climate science), one possibility is to try to increase the A term in the radiation balance, i.e., the albedo, to prevent some incoming solar radiation from making it to the ground. 
@@ -209,6 +209,8 @@ export default function Home() {
 
 
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
 

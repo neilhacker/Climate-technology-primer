@@ -195,6 +195,8 @@ export default function Home() {
 				</p>
 			</blockquote>
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
 
           </section>
           </article>

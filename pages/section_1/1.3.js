@@ -137,7 +137,7 @@ export default function Home() {
             <p>
                 So what happens if we put in the missing factor of 4? Then the formula will be:
                 <br></br><br></br>
-                temperature_increase_from_preindustrial_levels = 4 * [0.3 Kelvin per (Watt per meter squared)] * (5.35 Watt per meter squared) * ln([CO2 concentration in ppm]/278)
+                temperature increase from preindustrial levels = 4 * [0.3 Kelvin per (Watt per meter squared)] * (5.35 Watt per meter squared) * ln([CO2 concentration in ppm]/278)
                 <br></br><br></br>
                 This looks like:
                 <br></br><br></br>

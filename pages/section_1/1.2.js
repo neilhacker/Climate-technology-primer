@@ -39,6 +39,7 @@ export default function Home() {
             </p>
             <h2>Water vapor</h2>
             <p>
+
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
@@ -175,6 +176,8 @@ export default function Home() {
 
         Note the darker red up by the Arctic. Note also that spatial non-uniformities in temperature, between locations on the globe, as well as the temperature changes between the surface and the atmosphere, are a major driver of weather phenomena.
         <br></br><br></br>
+        <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
         </p>
 
           

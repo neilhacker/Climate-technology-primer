@@ -81,7 +81,7 @@ export default function Home() {
             <a href="https://www.wolframalpha.com/input/?i=1.37+kW%2Fmeter%5E2+*+4%25+*+%28area+of+texas%29"> was covered</a> by 4% efficient solar collection, that would offset the entire world’s average energy consumption.)
             </span> 
 
-            <span style={{fontSize: 'medium'}}><Latex>{'$S = \\dfrac{σ*4 * π * (700\\space million\\space meters)^{2}* (5778\\space Kelvin)^{4}}{4*π* (1.5e11\\space meters)^{2}} = 1.376 kW/meter^{2}$'}</Latex></span> 
+            <span style={{fontSize: 'small'}}><Latex>{'$S = \\dfrac{ σ*4 * π * (700\\space million\\space meters)^{2}* (5778\\space Kelvin)^{4}}{4*π* (1.5e11\\space meters)^{2}} = 1.376 kW/meter^{2}$'}</Latex></span> 
             <br></br><br></br>
             We can then solve our incoming-outgoing solar energy balance for the single unknown, the equilibrium temperature T, 
             <a href="https://www.wolframalpha.com/input/?i=(1.361+kilowatts+per+square+meter+*+(1-0.3)+%2F+(4+*+5.67+x+10%5E-8+W%2F(m%5E2K%5E4)))%5E(%C2%BC)"> which comes out to</a> 255 Kelvin or so. Now this is quite cold, below zero degrees Fahrenheit, whereas the actual global mean surface temperature is much warmer that, on average around 60 degrees Fahrenheit (288K or so) — <b>the reason for this difference is the greenhouse effect</b>. 

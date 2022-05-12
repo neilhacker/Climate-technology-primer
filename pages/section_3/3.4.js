@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Space based sun-shades</h1>
+            <h1 >3.4: Space based sun-shades</h1>
               
             <p>
             Somewhat less attention has been paid to option #3 above, a space-based sun-shade. The most popular version of the idea
@@ -115,6 +115,8 @@ export default function Home() {
             <p>
             But perhaps this hasn’t been studied to its absolute logical limit — for instance, there are other <a href="http://www.niac.usra.edu/files/library/meetings/fellows/mar07/1314Crowe.pdf">cool</a> <a href="https://pdfs.semanticscholar.org/44b5/f3ec56ba36481d41ea562d3f23bac6d717de.pdf?_ga=2.30784125.335461148.1549357238-1626053982.1549037200">ideas</a> for reducing mass.
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
 

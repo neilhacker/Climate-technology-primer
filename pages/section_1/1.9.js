@@ -231,11 +231,12 @@ export default function Home() {
 
 			</span> 
 
-           Overall, for drilling, it looks like we should aim for drilling systems with rates of penetration of >100 meters per hour that can operate down to >10 kilometer depths in hot (>350 Celsius) dry rock with minimal need for drill bit replacement and the ability to drill both vertically and horizontally, for example.
+           Overall, for drilling, it looks like we should aim for drilling systems with rates of penetration of &gt;100 meters per hour that can operate down to &gt;10 kilometer depths in hot (&gt;350 Celsius) dry rock with minimal need for drill bit replacement and the ability to drill both vertically and horizontally, for example.
 
 
 
            <br></br><br></br>
+           <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
             </p>
 

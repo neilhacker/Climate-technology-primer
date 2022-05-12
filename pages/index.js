@@ -30,16 +30,16 @@ export default function Home() {
           <h1>Climate Technology Primer</h1>
             <p>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn-demo0.0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo0.0" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
             Excellent documents and courses are available online on what we are doing to the climate — such as the 
             <a href="https://www.ipcc.ch/2019/"> IPCC reports</a> or <a href="https://www.e-education.psu.edu/meteo469/">Prof. Michael Mann’s online course </a>
             or <a href="http://web.archive.org/web/20210203213718/http://web.gps.caltech.edu/classes/ese148a/NASclimatechange.pdf"> this National Academies report</a>.
             </span> 
  
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn-demo0.1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo0.1" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
               <br></br>
             There are integrative assessments of solutions, such as <a href="https://www.drawdown.org/">Project Drawdown</a>, and a huge proliferation of innovative technologies 
@@ -51,8 +51,8 @@ export default function Home() {
             want more of a quantitative look at things I can't reccommend David MacKay's <a href="https://www.withouthotair.com/">Sustainable Energy without the Hot Air</a> enough.
             </span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn-demo0.2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo0.2" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
               <br></br>
             Within applications of machine learning to climate, I recommend <a href="https://arxiv.org/abs/1906.05433">this paper</a> for a broader picture that spans a wider range of solution domains — such breadth serves as good food for thought for technologists interested in finding the truly most impactful areas in which they might be able to contribute
@@ -69,6 +69,8 @@ export default function Home() {
             The emphasis of these posts is more on things I perceive to be less mainstream topics, like CDR or geo-engineering. That very much doesn’t mean that the more mainstream things, like decarbonizing steel and cement production, hydrogen, adaptation to climate effects, are any less important, they might in fact be more so. It just means that these are the things I think have had less coverage than they might warrant, and they’re some of the things I find particularly interesting. 
             <br></br><br></br>
             <b style={{fontSize: "xx-large"}}><a href="../section_1/1.0">Start reading → </a></b>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
           

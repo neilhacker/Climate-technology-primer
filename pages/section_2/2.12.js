@@ -54,6 +54,8 @@ export default function Home() {
             <br></br><br></br>
             Overall, their Table S.1 pasted above deliberately undershoots — which makes sense given that it has “with current technology and understanding” in the title, and is assembled from a consensus of many expert views — what would be technically feasible with next-gen technology and research, and with realistic but aggressive deployment possibilities. That gives an optimistic picture overall, I think, if the technology development and cost reduction curves are pushed hard enough.
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
           </section>

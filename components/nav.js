@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 
 function openNav() {
     document.getElementById("mySidenav").style.width = "60%";
+    document.getElementById("mySidenav").style.maxWidth = "500px";
+
     document.getElementById("mySidenav").style.boxShadow = "0 0 0 10000vmax rgba(0,0,0,.6)";
     document.getElementById("mySidenav").style.boxShadow = "0 0 0 10000px rgba(0,0,0,.6)";
     }
@@ -25,7 +27,7 @@ export default function Nav() {
       </Head>
 
       <main className={styles.main}>
-      <nav>
+      <nav >
         <ul>
             <li  style={{paddingTop: '1.5%'}}><a href="../" className={styles.headertext} style={{textDecoration: 'none', fontWeight: 'bold'}} id="header_text" >CTP</a></li>
         </ul>
@@ -35,11 +37,11 @@ export default function Nav() {
         </ul>
       </nav>
 
-      <div id="mySidenav" className="sidebar">
+      <div id="mySidenav" className="sidebar" >
             <a className="closebtn" onClick={() => closeNav()} >&times;</a>
     
             <ul style={{listStyle: 'none', padding: '0'}} onClick={() => closeNav()} >
-            
+            <br></br>
                 {/* <li className="top active"><a href="./" style={{textDecoration: 'none', fontWeight: 'bold'}} >Intro</a></li> */}
                 <li className="top active"><a href="../disclaimers" style={{textDecoration: 'none', fontWeight: 'bold'}} >Disclaimers & Acknowledgements</a></li>
 

@@ -209,6 +209,8 @@ export default function Home() {
                 <li>East Antarctica: let’s hope it doesn’t melt… fortunately it seems unlikely to do so</li>
             </ul>
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
           </section>

@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Some take-aways</h1>
+            <h1 >3.6: Some take-aways</h1>
               
             <p>
             <b>Again, simply reviewing the technical literature on a topic is not an endorsement of deployment</b>, or even of serious engineering development. Nonetheless, in early-stage solar radiation management research, I was pleased to see more chemically benign particulate formulations (e.g., chalk) being researched, which might not damage the ozone.
@@ -38,7 +38,8 @@ export default function Home() {
             <br></br><br></br>
             Because even solar geo-engineering <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">might not be able to</a> reverse catastrophic collapse of the Antarctic ice sheets, additional schemes to preserve the ice, or to actively lower sea level, need to be studied as a backup of the backup emergency option.
             <br></br><br></br>
-                     
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
 
             </p>
 

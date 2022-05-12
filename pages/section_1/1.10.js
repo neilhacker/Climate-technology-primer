@@ -95,6 +95,8 @@ export default function Home() {
            <b>This brings us back to the role of technology</b>: it can reduce the cost of decarbonization, and it can mitigate tail risks from climate damage. Advanced technology is crucial to allow us to decarbonize safely and quickly, with minimal economic cost. It allows a lower self-imposed carbon price to have greater benefit, shifting the estimated-to-be-economically-optimal pathways to overlap those that strongly limit the risk of crossing catastrophic climate tipping points.
 
            <br></br><br></br>
+           <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
            </p>
 
 

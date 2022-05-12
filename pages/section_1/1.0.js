@@ -36,11 +36,9 @@ export default function Home() {
             importantly including tipping points. I’ll end with some of my overarching takeaways.
             
             <br></br><br></br>
-            
 
-            <Collapsible trigger="I mentioned that these posts have a focus on back of the envelope calculations and the main reasons for this are that being comfortable with this kind of skill can be an incredibly useful sanity checker for different policies/proposals. Is what you’re hearing definitely crazy or might it just be possible? You’ll hopefully find that knowing a few climate related facts and formulas can take you a surprisingly long way when evaluating questions like: ">
-            <p>
-              <ul>
+            I mentioned that these posts have a focus on back of the envelope calculations and the main reasons for this are that being comfortable with this kind of skill can be an incredibly useful sanity checker for different policies/proposals. Is what you’re hearing definitely crazy or might it just be possible? You’ll hopefully find that knowing a few climate related facts and formulas can take you a surprisingly long way when evaluating questions like:
+            <ul>
                 <li>
                 How can I estimate the world’s remaining carbon budget for various levels of warming? What are the uncertainties in this?
                 </li>
@@ -63,9 +61,10 @@ export default function Home() {
                 Are batteries going to be able to store all the variable renewable energy we’ll need? Is there enough Uranium obtainable to power the world with nuclear? Order of magnitude, how much would it cost to just replace our entire energy supply with nuclear?
                 </li>
               </ul>
-            </p>
-            </Collapsible>
-            <br></br><br></br>
+              {/* I hate this but it makes the width layout work */}
+              <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
+
             </p>
 
           

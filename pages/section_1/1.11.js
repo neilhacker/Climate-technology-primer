@@ -36,6 +36,8 @@ export default function Home() {
                 <li>Switch to <a href="https://www.withouthotair.com/c20/page_131.shtml">electric cars</a>. (This will impact multiple key areas.)</li>
             </ul>
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
               
            

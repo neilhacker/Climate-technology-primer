@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Other kinds of interventions</h1>
+            <h1 >3.5: Other kinds of interventions</h1>
               
             <p>
             Outside of targeting CO2 removal or solar radiation management per se, one could in theory make more local, or more effect-specific, modifications to major climate processes.
@@ -115,6 +115,8 @@ export default function Home() {
 			</p>
 			</Collapsible>
       <br></br><br></br>
+      <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
 

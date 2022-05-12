@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Existing interventions</h1>
+            <h1 >3.1: Existing interventions</h1>
               
             <p>
             Actually interfering with the climate is not necessarily a new thing, some of the approaches mentioned in this piece are and we’ll discuss why that’s important, but I was still surprised by just how many places were already tinkering with the climate. 
@@ -46,6 +46,8 @@ export default function Home() {
             been making progress¹. 
 
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
           </section>

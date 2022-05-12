@@ -163,6 +163,8 @@ export default function Home() {
       <br></br><br></br>
       At the same time, one has to ask for this approach: how much clay do you need to make a dent? Does this decrease the solar penetrance of the ocean via a self-shadowing effect? Does this enhanced sinking or recalcitrance mess up other food chains if you don’t add more biomass faster?
       <br></br><br></br>
+      <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
       </p>
 
 

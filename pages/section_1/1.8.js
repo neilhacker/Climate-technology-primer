@@ -40,7 +40,7 @@ export default function Home() {
                 <a href="https://twitter.com/ramez/status/1182212671581503493">Arguably</a>, the scenarios in integrated assessment models may not be sufficiently accounting for how fast prices can drop as technologies like solar get deployed at larger scales. Here is a <a href="https://www.forbes.com/sites/energyinnovation/2018/12/03/plunging-prices-mean-building-new-renewable-energy-is-cheaper-than-running-existing-coal/">nice article</a> from Megan Mahajan on the plunging price of renewables, building on <a href="https://www.lazard.com/perspective/levelized-cost-of-energy-2017/">studies by Lazard</a> which also had the following figure
                 <br></br><br></br>
                 <div style={{textAlign: 'center'}}>
-                <Image src='/img/sec1/1_levelised_cost.png' alt="levelised cost graph" width="500px" height="400px"/>
+                <Image src='/img/sec1/1_levelised_cost.jpg' alt="levelised cost graph" width="700px" height="400px"/>
                 </div>
                 <br></br><br></br>
                 Overall, though, variable renewables like wind and solar are still a small fraction of overall power generation. While subsidies for renewables have allowed scaling up of deployment and thus <a href="https://www.bloomberg.com/news/features/2019-09-19/solar-and-wind-power-so-cheap-they-re-outgrowing-subsidies">driven</a> <a href="https://twitter.com/ramez/status/1094132711126487040">down</a> their un-subsidized costs, there remain real obstacles to scaling them to the level of the entire power grid. 
@@ -160,7 +160,8 @@ export default function Home() {
            
             </p>
             <br></br><br></br>
-           
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
            </p>
 
           

@@ -49,11 +49,11 @@ export default function Home() {
             I’ll quote the company Stripe’s recent announcement on this:
             </p>
             <blockquote>
-				<p>
-                “Urgent global action is needed to halt greenhouse gas emissions, and it looks increasingly likely that in addition to emissions reduction, humanity will need to remove large amounts of carbon dioxide from the atmosphere. <a href="https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf">In its most recent summary report</a>, the IPCC notes that most scenarios that stay below 2°C of temperature increase involve “substantial net negative emissions by 2100, on average around 2 gigatons of CO2 per year.””
+              <p>
+                      “Urgent global action is needed to halt greenhouse gas emissions, and it looks increasingly likely that in addition to emissions reduction, humanity will need to remove large amounts of carbon dioxide from the atmosphere. <a href="https://www.ipcc.ch/site/assets/uploads/2018/02/SYR_AR5_FINAL_full.pdf">In its most recent summary report</a>, the IPCC notes that most scenarios that stay below 2°C of temperature increase involve “substantial net negative emissions by 2100, on average around 2 gigatons of CO2 per year.””
 
-				</p>
-			</blockquote>
+              </p>
+            </blockquote>
             <p>
             <a href="https://report.ipcc.ch/sr15/pdf/sr15_headline_statements.pdf">Here it is</a> directly from the IPCC, with regard to a 1.5C target:
             </p>
@@ -75,7 +75,7 @@ export default function Home() {
             <p>
             Here is a GIF from Glen Peters on how much negative emissions we need to stay under 1.5C warming, for different amounts of positive <a href="https://www.nature.com/articles/s41586-019-1364-3">emissions</a>, based on this <a href="http://folk.uio.no/roberan/t/global_mitigation_curves.shtml">work</a>:
             </p>
-            <blockquote class="twitter-tweet">
+            <blockquote class="twitter-tweet" style={{width: '50px'}}>
                 <p lang="en" dir="ltr">
                     Keeping temperature below 1.5°C requires radical short-term reductions of fossil CO₂ emissions (brown), even with large-scale CO₂ removal (negative emissions, green).<br></br><br></br>Mitigation rates are only slightly lower as the scale of CO₂ removal increases.<a href="https://t.co/6MqCxSgrau">https://t.co/6MqCxSgrau</a> <a href="https://t.co/1DqHJAcsSR">pic.twitter.com/1DqHJAcsSR</a>
                     </p>&mdash; Glen Peters (@Peters_Glen) <a href="https://twitter.com/Peters_Glen/status/1167698283503898625?ref_src=twsrc%5Etfw">August 31, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -110,7 +110,7 @@ export default function Home() {
         </div>
 			</span> 
 
-            The <a href="https://www.nap.edu/read/25259/chapter/3#31">introduction</a> to the National Academies report on negative emissions has a deeper discussion of natural versus artificial sinks on atmospheric CO2, which adds some color to this picture: they don’t claim that negative emissions are the only way to bring down atmospheric CO2 over time, but they do say that “NETs provide the only means to achieve deep (i.e., >100 ppm)… reductions, beyond the capacity of the natural sinks”.
+            The <a href="https://www.nap.edu/read/25259/chapter/3#31">introduction</a> to the National Academies report on negative emissions has a deeper discussion of natural versus artificial sinks on atmospheric CO2, which adds some color to this picture: they don’t claim that negative emissions are the only way to bring down atmospheric CO2 over time, but they do say that “NETs provide the only means to achieve deep (i.e., &gt;100 ppm)… reductions, beyond the capacity of the natural sinks”.
 
             </p>
             <h2>Issues</h2>
@@ -150,6 +150,8 @@ export default function Home() {
             <p>
             Background: I recommend John Baez’s <a href="https://johncarlosbaez.wordpress.com/2019/03/02/negative-carbon-emissions/amp/?__twitter_impression=true">blog</a> <a href="https://johncarlosbaez.wordpress.com/2019/02/19/the-cost-of-sucking/">posts</a> and the accompanying <a href="https://mobile.twitter.com/johncarlosbaez/status/1101895241760595970">thread</a> for an intro to this area. He also links to MacKay’s <a href="http://withouthotair.com/c31/page_244.shtml">discussion</a> of the topic. Y Combinator has a great introductory <a href="http://carbon.ycombinator.com/">website</a> focused on carbon removal technologies. The <a href="https://www.drawdown.org/solutions-summary-by-rank">Drawdown</a> <a href="https://twitter.com/ChadFrischmann/status/1118559236382842883">project</a> is also interesting. The National Academies has a great report on negative emissions that we will look at a bit below — I highly recommend reading that. Here is also a <a href="https://www.dropbox.com/s/2y36ngfrcbpv37f/EFI%20Clearing%20the%20Air%20Full%20Report.pdf?dl=0">nice report</a> from the <a href="https://energyfuturesinitiative.org/efi-reports">Energy Futures Initiative</a> — also highly recommended: it was released just as I was finishing this post, and it covers some closely related ground. There is also a <a href="https://www.nature.com/articles/s41586-019-1681-6">review</a> in Nature on CO2 utilization pathways.
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
               
             

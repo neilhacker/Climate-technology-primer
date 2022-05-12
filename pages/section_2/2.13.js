@@ -90,6 +90,8 @@ export default function Home() {
             <p>
             Ocean-based technology seems under-developed relative to its potential importance. As a kid, I watched the wonderful show SeaQuest, yet most of what it dreamed of hasn’t materialized. Papers like <a href="https://www.sciencedirect.com/science/article/abs/pii/S136403211830532X#!">this one</a> on electro-geochemistry represent a remarkable hybrid technology — generating useful hydrogen fuel from renewables that are uniquely abundant in the ocean, while capturing carbon and reducing ocean acidification, all without taking up space on land. They make me question how we can be more creative in our use of the open oceans. <a href="https://www.seasteading.org/videos/the-eight-great-moral-imperatives/">I’m not the first</a> to have realized this. We’ll see more <a href="http://oceanrep.geomar.de/46897/">ocean-based creativity</a> when we discuss the Latham Salter proposal.
             <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
 
           </section>
