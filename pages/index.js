@@ -17,10 +17,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Notes on How solar energy became cheap"/>
-        <meta name="twitter:site" content="https://www.scalingcarbonremoval.com/solar.html"/>
-        <meta name="twitter:description" content="How did solar energy becomes to cheap and what lessons can be learnt from this for areas like DAC?"/>
-        <meta name="twitter:image" content="https://www.scalingcarbonremoval.com/img/solar_twitter.png"/>
+        <meta name="twitter:title" content="Climate Technology Primer"/>
+        <meta name="twitter:site" content="https://www.climatetechnologyprimer.com"/>
+        <meta name="twitter:description" content="A quantitiative look at the climate and the technological solutions that can help."/>
+        <meta name="twitter:image" content="https://www.climatetechnologyprimer.com/public/img/twitter_card.png"/>
 
 
       </Head>
