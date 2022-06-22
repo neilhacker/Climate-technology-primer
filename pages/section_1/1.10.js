@@ -25,80 +25,75 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >1.10: Carbon tax</h1>
-              
-           <p>
-           Subsidizing R&D into decarbonization technologies is the key alternative suggested by <a href="http://noahpinionblog.blogspot.com/2012/06/carbon-taxes-wont-work-heres-what-will.html">Noah Smith</a> — if you get a breakthrough towards lower-cost technology, that can be adopted anywhere in the world.  <a href="https://twitter.com/ramez/status/1094380540394795008">This thread</a> has a coherent discussion about why carbon taxes can help to scale existing technologies but, for areas where truly new technologies are needed (of which there are many), targeted R&D and highly specific subsidies can be better.
-           <br></br><br></br>
-            How can rapid decarbonisation be incentivized? There are <a href="https://www.youtube.com/watch?v=sUFwwlmxRsw">powerful</a> <a href="https://www.greenbiz.com/article/packaging-carbon-tax-can-we-affect-emitter-behavior-consumer-behavior">arguments</a> in <a href="https://www.carbonpricingleadership.org/news/2017/5/25/leading-economists-a-strong-carbon-price-needed-to-drive-large-scale-climate-action">favor</a> of a carbon tax. 
-            Specifically, one can do a gradually scaled-up, revenue-neutral carbon tax that would, for instance, return the revenues back to 
-            consumers as rebates or tax reductions in other kinds of taxes — this could be important as almost any form of carbon tax would 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            ¹ see stuff on incidence of tax
-			</span> 
-
-            ultimately be passed at least in significant part onto the consumer¹, and many consumers are 
-            cash-strapped already, e.g., struggling to afford gas for their commute.
+            <h1 >1.10: Thermal storage</h1>
+            <p>
+            One thing we will need a lot more of in the future is energy storage. Solar and wind don’t produce electricity all the time and also have seasonal fluctuations in power production. If we want to provide electricity 24/7 then we’re going to need to be able to store excess energy to use later. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            the current average price of gas in the USA is around $2.50/gallon, and there is already an excise tax on it of about 1/10 that
-			</span> 
-
-            How big a carbon tax, and what effects would that have on citizens? That’s a complicated question and not one I have found a full answer to. Typical values suggest something like $10-$100 per tonne of CO2, meant to offset widely-varying estimates of the social cost of carbon. That would apparently increase, say, the gas bill for your car by <a href="https://en.wikipedia.org/wiki/Carbon_tax#Calculation">roughly</a> 10 cents to 1 dollar per gallon of gas
+            One option is batteries but these often can’t get to the energy densities needed to provide energy to things like heavy industry. An emerging solution is thermal energy storage (TES). The basic idea is that you can turn the electricity into heat and store it in some medium, say some super high temperature liquid, then, when you need electricity you can use a heat engine to effectively reverse the process. 
             <br></br><br></br>
-            Alas, consumers in the USA <a href="https://twitter.com/Noahpinion/status/1173049629723643904">seem</a> wary of changes in that range. It is unclear if they would still be wary if they were presented with a rebate (remember, the carbon tax can be revenue-neutral, or at least with significant offsets to give cash back to citizens, although some would hope to use revenues from a carbon tax to fund climate-related programs and deployments) that would on net leave most people’s bank accounts the same or fatter, not thinner.
-            <br></br><br></br>
-            A few points of comparison:
-            <ul>
-                <li>We’ll see in the next post that technologies aiming to scrub carbon from the atmosphere are shooting to get their cost of CO2 produced into this same range, say &lt;$100/tonne CO2.</li>
-                <li>If the US is currently emitting 6 GigaTonnes of CO2 and we had a $40/tonne CO2 carbon tax right now, that would presumably be something like $240 billion per year in carbon tax revenue, or a bit under 1/10 of all <a href="https://www.nationalpriorities.org/budget-basics/federal-budget-101/revenues/">US federal tax revenue</a> of ≈ $3 trillion. Could we restructure the rest of the tax code to give back 1/10 to consumers, as a rebate, so that their bank accounts (and the overall size of government) stay roughly flat? I bet we could. But this puts into perspective that, if someone is instead talking about a $400/tonne CO2 price of carbon (see the <a href="https://en.wikipedia.org/wiki/Stern_Review">Stern Review</a> item in the table below), that’s approaching the totality of all other tax revenue in the USA at current emissions levels.</li>
-                <li>That $240 billion paid against the $40/tonne carbon price is around 1.2% of US GDP of around $20 trillion.</li>
-            </ul>
+            One overarching reason this approach could be useful is economic, or as <a href="https://www.nature.com/articles/s41560-020-0675-9">this article</a> in nature notes:
 
-           </p>
-           <p>
-           There are also some arguments <a href="http://noahpinionblog.blogspot.com/2012/06/carbon-taxes-wont-work-heres-what-will.html">against</a> a carbon tax, e.g., that a carbon tax in the US doesn’t impact other countries like China and may simply shift international trade balances, or that they might be revoked, as well as the need for them to be sufficiently large and thus correspondingly painful to the consumer in order to make a difference. They are also empirically <a href="https://www.technologyreview.com/s/612392/people-will-never-vote-for-a-carbon-tax-so-lets-stop-asking/">not easy to pass</a>, and economists are <a href="https://www.taxpolicycenter.org/taxvox/why-carbon-taxes-are-so-hard-pass">studying why</a>.
-           <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            This may of course be specific to the kind of fuel tax they imposed and the particular situation there
-			</span> 
+            </p>
+            <blockquote>
+				<p>
+                Current technologies, such as pumped hydroelectricity, are geographically limited and lithium-ion batteries (~US$80–100 kWh–1 capital cost) are too expensive for the multi-day storage targets (~US$3–30 kWh–1) needed to fully decarbonize the grid….However, the key advantage for TES is its potential for low cost (&lt; US$20 kWh–1) at the gigawatt scale.
 
-           France had a fuel tax of about $60/ton CO2 equivalent, but when Macron tried to double that over the next 4 years, the <a href="https://en.wikipedia.org/wiki/Yellow_vests_movement">Yellow Vest protests</a> happened.
-           Canada <a href="https://www.theguardian.com/environment/climate-consensus-97-per-cent/2018/oct/26/canada-passed-a-carbon-tax-that-will-give-most-canadians-more-money">did</a> pass a carbon tax starting at below that level and rising to near it over a few years (“start low at $20 per ton [tonne of emitted CO2] in 2019, rising at $10 per ton per year until reaching $50 per ton in 2022”). Recently, some major fossil energy companies started <a href="https://www.bloomberg.com/news/articles/2019-05-20/oil-companies-join-corporate-lobbying-push-for-u-s-carbon-tax">lobbying in favor</a> of a carbon tax, which I found surprising — <a href="https://www.vox.com/2018/10/18/17983866/climate-change-exxon-carbon-tax-lawsuit">alas</a>, it looks like they are putting in pennies compared to their fossil-fuel-promoting endeavors, in a bid to insure themselves against future climate-related lawsuits!
-           <br></br><br></br>
-           Before we finish this first post, let’s take a look at how <a href="https://www.carbonpricingleadership.org/report-of-the-highlevel-commission-on-carbon-prices">economists</a> estimate how big a carbon tax we really should have? Consider this snippet from the <a href="https://www.nobelprize.org/uploads/2018/10/popular-economicsciencesprize2018.pdf">Nobel Prize announcement</a> for economist William Nordhaus, who <a href="http://econdse.org/wp-content/uploads/2014/02/integrated_economic_and_climate_modeling_nordhaus_ssrn_dec_2011.pdf">pioneered</a> this area:
-           <br></br><br></br>
-           <div style={{textAlign: 'center'}}>
-          <Image src='/img/sec1/1_carbon_tax.png' alt="Emission scenarios under different carbon taxes" width="500px" height="400px"/>
-          </div>
-           <br></br><br></br>
-           Nordhaus uses coupled climate + economic activity and growth models to evaluate “optimal” scenarios — ones with the maximum overall growth in the economy, factoring in the effects of damage from climate change and the costs of introducing decarbonization approaches. His optimal overall economic scenario (“Opt”) is the one shown in red in the plot above, with a global carbon tax starting at <a href="https://www.pnas.org/content/114/7/1518">$30-40/tonne CO2</a> or so (and rising to about $50/tonne by 2030 and then further afterwards, see table below). Note, though, that this pathway massively overshoots the orange and black pathways in terms of emissions — the black and orange pathways look more like the other graphs we’ve seen for full decarbonization by 2050. Here is a table from his 2017 PNAS paper with a comparison:
-           <br></br><br></br>
-           Indeed, the optimality of an Opt-like pathway is a subject of great <a href="https://www.nature.com/articles/s41586-018-0071-9">controversy</a>. Nordhaus’s “optimal” carbon pricing, in that model, would get us to a temperature rise of 3.5C (!) or so from preindustrial, while pushing to full decarbonization by 2050, in order to stay below 2C, would require roughly an order of magnitude higher carbon price. Staying below 1.5C would seem, according to such models, to imply a need for even higher carbon prices. From a <a href="https://www.annualreviews.org/doi/pdf/10.1146/annurev-environ-102017-025817">recent review</a>:
-           <br></br><br></br>
-           <div style={{textAlign: 'center'}}>
-            <Image src='/img/sec1/1_carbon_price.png' alt="carbon prices needed for different scenarios" width="500px" height="400px"/>
-            </div>
-           <br></br><br></br>
-           Now, obviously, if Nordhaus’s model had included, say, Antarctica completely melting and many major cities going completely underwater due to a series of major sea ice and other tipping points being crossed, the social cost of carbon would need to be a lot higher. So implicitly the risk of such scenarios is considered low in such models. At a more subtle level, the particulars of these optima depend on the expected cost of decarbonization (which depends on the rate of technological innovation), on the temporal discount rates used (you can see in the table above that prices rapidly rise with decreasing discount rate), and on other factors.
-           <br></br><br></br>
-           There are some good-sounding arguments for having <a href="https://www.pnas.org/content/early/2019/09/30/1817444116">carbon prices instead start high, and then decline</a>, political difficulties notwithstanding — I haven’t understood the full details, but this approach seems to focus on mitigating risk and to take into account more of the variance in scenarios and our finite but improving knowledge thereof.
-           <br></br><br></br>
-           The fact is, as the Nobel Prize announcement notes, there are huge uncertainties in what would really be optimal (even within the philosophical frame that underlies Nordhaus’s analysis, e.g., with the type and rough magnitude of the discount rate he uses, and even neglecting the politics of passing such taxes) — it depends on the cost of decarbonizing quickly, and on the climate damage cost of not decarbonizing quickly, both of which are highly uncertain at present. So we have to take a best guess — but that best guess should incorporate the uncertainty.
-           <br></br><br></br>
-           <b>This brings us back to the role of technology</b>: it can reduce the cost of decarbonization, and it can mitigate tail risks from climate damage. Advanced technology is crucial to allow us to decarbonize safely and quickly, with minimal economic cost. It allows a lower self-imposed carbon price to have greater benefit, shifting the estimated-to-be-economically-optimal pathways to overlap those that strongly limit the risk of crossing catastrophic climate tipping points.
+				</p>
+			</blockquote>
+            <p>
+            The reason TES could get so cheap is that almost all of the atoms in your storage medium are actively being used to store energy vs only a small proportion of atoms in something like a battery. Also, you are far less constrained in what materials you have to use than in something like a battery. From the same article:
+
+            </p>
+
+            <blockquote>
+				<p>
+                Since the specific heat of virtually all materials is the same on a molar basis, at high temperatures, TES can make use of extremely abundant and low-cost materials that are impure or even recycled
+
+				</p>
+			</blockquote>
+
+            <p>
+                <b>Molton salt</b>
+                <br></br><br></br>
+                One of the first types of TES was molten salt storage. Salts often have the advantageous property of having a low melting point and a high boiling point. This means that you waste less energy in phase transitions during heating and also don’t have to waste heat preventing your medium from freezing. HITEC salt used in solar plants <a href="http://large.stanford.edu/courses/2015/ph240/dodaro2/">has a</a> liquid temperature range of 149 - 538°C.
+
+                You can then take this molten salt and use it to boil water to turn a turbine when you need to convert it back into useful electricity. Molten salt storage has not massively taken off so far despite being one of the most established methods. One main reason for this is costs. The example in <a href="http://large.stanford.edu/courses/2015/ph240/dodaro2/">this course</a> roughly estimates that the end result of storage costs currently comes in far at over $100, above the useful ranges we outlined at the beginning of this section. 
+                <br></br><br></br>
+                <b>Carbon blocks</b>
+                <br></br><br></br>
+                New, lower cost, solutions to this problem are being developed. Antora is a recent company that aims to use blocks of carbon as its storage medium. Why carbon? They outline a number of reasons which broadly break down into, super cheap input, very high temperature range it can operate under (as a solid), these both contribute to a very simple and very cheap potential system.
+                <br></br><br></br>
+                On the input side carbon blocks (or prebaked consumable carbon anodes) are already created in huge volumes, and low cost, in the metals industry e.g for aluminum smelting. Using carbon blocks for TES therefore starts with a much cheaper storage medium than something like molten salt (in fact it is roughly 5-10x cheaper).
+                As we can see in <a href="https://miro.medium.com/max/1400/1*jUxOgoF_zRtPPBMolsrV7A.png">the image</a> below:
+                <div style={{textAlign: 'center'}}>
+                <Image src='/img/sec1/1_carbon_blocks.png' alt="specific heat capacity of different materials" width="500px" height="400px"/>
+                </div>
+                <br></br><br></br>
+                We can get the energy that something can store using E = m*Cp*ΔT where m = mass flow,  Cp = specific heat capacity and ΔT temperature difference. The great thing for carbon as we can see is that it has a very high specific heat capacity and it can also take much larger temperature changes than most other materials. (also note that if you are only going for low temperatures e.g up to 500℃ then molten salt has the advantage but this becomes overwhelmed by carbon’s abilities at higher temperatures.)
+                <br></br><br></br>
+                As mentioned above though what we care about ultimately is the cost per kWh of energy which we can get using Cost of storage medium / (Cp*ΔT). Given the low cost of carbon and the high energy it can store, Antora <a href="https://medium.com/antora-energy/turning-sunshine-and-wind-into-24-7-industrial-heat-and-power-cheaper-than-fossil-fuels-69355cdcde04">estimates</a> it could get the price for energy storage down to $1/kWh which would put it over 50x cheaper than lithium ion batteries.  
+                <br></br><br></br>
+                The carbon blocks can operate at over 2000℃ which creates another benefit that TES approaches like molten salt don’t have. At this temperature most of the heat energy actually comes in the form of radiation not convection or conduction. This basically means that for your heat recovery step you are dealing with very energetic light, which allows the use of a much more efficient heat engine. 
+                <br></br><br></br>
+                <b>Heat engines</b>
+                <br></br><br></br>
+                Antora <a href="https://medium.com/antora-energy/turning-sunshine-and-wind-into-24-7-industrial-heat-and-power-cheaper-than-fossil-fuels-69355cdcde04">mentions</a> that they have “developed a world-record-breaking solid-state heat engine that converts radiant heat into electricity with only a few micrometers of material and no moving parts”. While I don’t know the specifics of this system, recent <a href="https://news.mit.edu/2022/thermal-heat-engine-0413">research</a> has come out on a very similar sounding setup which is very cool.
+                <div style={{textAlign: 'center'}}>
+                <Image src='/img/sec1/1_heat_engine.png' alt="picture of heat engine" width="500px" height="400px"/>
+                </div>
+                The set up is that you have something that is akin to a solar PV cell which captures high-energy photons. Remember because of the incredibly high temperatures we are using most of the heat energy comes out as radiation i.e photons. 
+                <br></br><br></br>
+                While still experimental demonstrations have this new heat engine reaching efficiencies of up to 40%, which would put it above that of conventional steam turbines at ≈ 35%. The solid state nature is also crucial if you want to use the TES for very high temperature industrial processes as traditional turbines can’t operate above 2000℃.
+                <br></br><br></br>
+                It should be noted that the approaches above don’t solve things like seasonal changes in energy production as they have a useful lifespan on the order of hours not weeks. For durations of that length we may well need to turn to other solutions like hydro-pumping, which is already being done at some scale, or things like electrofuels which can remain untouched for long periods of time.          
 
            <br></br><br></br>
            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
-           </p>
+            </p>
 
+              
+            
 
           
           </section>

@@ -30,15 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/section_1/1.0": [
+    "/acknowledgements": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/section_1/1.0.js"
+      "static/chunks/pages/acknowledgements.js"
     ],
-    "/section_1/1.9": [
+    "/disclaimers": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/section_1/1.9.js"
+      "static/chunks/pages/disclaimers.js"
     ]
   },
   "ampFirstPages": []

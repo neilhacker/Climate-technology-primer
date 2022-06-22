@@ -47,7 +47,7 @@ export default function Home() {
 
                 </span> 
 
-                <span style={{fontSize: 'medium'}}><Latex>{' $Temp \\space increase \\space from \\space preindustrial\\space levels = [0.3 Kelvin per (Watt per meter squared)] * (5.35 Watt per meter squared) * ln([CO2 concentration in ppm]/278)$'}</Latex></span> 
+                <span style={{fontSize: 'medium'}}><Latex>{' $Temp \\space increase \\space from \\space pre-industrial\\space levels = [0.3 \\space K \\space per \\space (Watt \\space per \\space m²)] * (5.35 \\space Watt \\space per \\space m²) * ln(\\dfrac{CO2 \\space concentration \\space in \\space ppm}{278})$'}</Latex></span> 
 
             </p>
             <h2>Ignoring feedback</h2>
@@ -93,7 +93,7 @@ export default function Home() {
             <a href="https://www.wolframalpha.com/input/?i=(0.3+Kelvins+per+(watt+per+meter+squared))+*+(5.35+watts+per+meter+squared)+*+ln(408%2F279)">Plugging in </a> 
             our current 408 ppm to the above logarithmic formula, we get 0.6K of warming from pre-industrial times, versus around 1K observed in actual reality. This gives us something to compare against but is not the right curve for this relationship in reality. In addition to not including any feedback our model is also neglecting other greenhouse gasses. 
             <br></br><br></br>
-            <Collapsible trigger="You can expand this section to see some of the feedback effects missing from our model">
+            <Collapsible trigger="You can expand this section to see some of the feedback effects missing from &nbsp; our model">
             <p>
             One issue is that the absorption of infrared radiation by CO2 is associated with broad spectral bands and sidebands, and at the peaks of those absorption bands, absorption is saturated from the beginning — i.e., essentially every outgoing infrared photon from the surface with a wavelength right in the center one of these peaks will definitely be absorbed by CO2 long before it exits the atmosphere, even at pre-industrial CO2 concentrations — while regions near but not quite at the peaks may become saturated with increasing CO2 concentration. 
             <br></br><br></br>
@@ -137,7 +137,7 @@ export default function Home() {
             <p>
                 So what happens if we put in the missing factor of 4? Then the formula will be:
                 <br></br><br></br>
-                temperature increase from preindustrial levels = 4 * [0.3 Kelvin per (Watt per meter squared)] * (5.35 Watt per meter squared) * ln([CO2 concentration in ppm]/278)
+                <span style={{fontSize: 'medium'}}><Latex>{' $Temp \\space increase \\space from \\space pre-industrial\\space levels = 4 * [0.3 \\space K \\space per \\space (Watt \\space per \\space m²)] * (5.35 \\space Watt \\space per \\space m²) * ln(\\dfrac{CO2 \\space concentration \\space in \\space ppm}{278})$'}</Latex></span> 
                 <br></br><br></br>
                 This looks like:
                 <br></br><br></br>
@@ -149,14 +149,14 @@ export default function Home() {
                 Then, even at our current ~408 ppm CO2 concentration, we would <a href="https://www.wolframalpha.com/input/?i=4+*+(0.3+Kelvins+per+(watt+per+meter+squared))+*+(5.35+watts+per+meter+squared)+*+ln(408%2F279)">expect</a> 2.4℃ of warming to ultimately (once the slow feedbacks catch up) occur, relative to pre-industrial times
                 <br></br><br></br>
                 Now, this is much more warming than has occurred so far. What to make of that? 
-                Well, as mentioned above, the water-based feedback phenomena 
+                Well, as mentioned above, the water-based feedback phenomena <b>can take decades to manifest</b>
                 <label for="mn-demo" class="margin-toggle">&#8853;</label>
                 <input type="checkbox" id="mn-demo" class="margin-toggle"/>
                 <span class="marginnote" id="id_option">
                 given for instance the large heat capacity of the oceans
                 </span> 
 
-                <b>can take decades to manifest</b>, so perhaps we should not be surprised that the temperature of the Earth has not yet caught up with where it is going to be heading over the coming decades, even for a hypothetical fixed amount of CO2 from now on, according to this formula. 
+                 , so perhaps we should not be surprised that the temperature of the Earth has not yet caught up with where it is going to be heading over the coming decades, even for a hypothetical fixed amount of CO2 from now on, according to this formula. 
                 <br></br><br></br>
                 A <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013JD020184">recent paper</a> tried to pin down the magnitude of the water feedback based on more recent, rather than long-term historical, observations, including measurements of the water vapor concentration itself. They concluded that the missing feedback factor might be closer to 2, rather than the 4 above.
                 <label for="mn-demo" class="margin-toggle">&#8853;</label>
@@ -186,7 +186,7 @@ export default function Home() {
 			<span class="marginnote" id="id_option">
             As explained <a href="https://twitter.com/DoctorVive/status/1170816281794293761">here</a>
 			</span> 
-            Here is a <a href="https://twitter.com/KHayhoe/status/1104833329587806210">nice thread</a> about the significance or lack thereof of current targets like 2℃ or 1.5℃ from a tipping point perspective. Also, many tipping points would take decades or centuries to manifest their effects, giving time for response, and in some cases in principle for reversal by bringing temperature back down through negative emissions.
+            &nbsp; Here is a <a href="https://twitter.com/KHayhoe/status/1104833329587806210">nice thread</a> about the significance or lack thereof of current targets like 2℃ or 1.5℃ from a tipping point perspective. Also, many tipping points would take decades or centuries to manifest their effects, giving time for response, and in some cases in principle for reversal by bringing temperature back down through negative emissions.
 
             <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
@@ -253,7 +253,8 @@ export default function Home() {
             <p>
             What would this particular curve, with the “feedback factor” of 2.5, imply for the hypothetical scenario where we abruptly ceased emissions quite soon?
             <br></br><br></br>
-            <span style={{fontSize: 'medium'}}><Latex>{' $Temp \\space increase \\space from \\space preindustrial\\space levels = [0.3 Kelvin per (Watt per meter squared)] * (5.35 Watt per meter squared) * ln([CO2 concentration in ppm]/278)$'}</Latex></span> 
+            <span style={{fontSize: 'medium'}}><Latex>{' $Temp \\space increase \\space from \\space pre-industrial\\space levels = [0.3 \\space K \\space per \\space (Watt \\space per \\space m²)] * (5.35 \\space Watt \\space per \\space m²) * ln(\\dfrac{CO2 \\space concentration \\space in \\space ppm}{278})$'}</Latex></span> 
+
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
             <Image src='/img/sec1/1_ppm_graph3.png' alt="ppm estimation graph 3" width="500px" height="400px"/>
@@ -262,7 +263,7 @@ export default function Home() {
             <br></br><br></br>
             Per the curve, we’d still potentially be <a href="https://www.wolframalpha.com/input/?i=2.5*+0.3+*+5.35++*+Ln%28410%2F278%29">looking at </a> around 1.5C of ultimate warming (due to feedbacks), with roughly our current atmospheric CO2 levels kept constant.
             <br></br><br></br>
-            With the <a href="https://www.wolframalpha.com/input/?i=Plot+2*+0.3+*+5.35++*+Ln%28x%2F278%29+between+278+and+540">feedback factor of 2</a> instead of 2.5, we’d cross 1.5C at around 440 ppm, and our remaining carbon budget for 1.5C at the time of writing would therefore be around 2*(440-405 ppm)*7.81=547GtCO2 emitted.
+            With the <a href="https://www.wolframalpha.com/input/?i=Plot+2*+0.3+*+5.35++*+Ln%28x%2F278%29+between+278+and+540">feedback factor of 2</a> instead of 2.5, we’d cross 1.5C at around 440 ppm, and our remaining carbon budget for 1.5C at the time of writing would therefore be around 2*(440-405 ppm)*7.81=547Gt CO₂ emitted.
             <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
@@ -294,12 +295,12 @@ export default function Home() {
             This <a href="https://twitter.com/JoeriRogelj/status/1174736029678542849">recen t</a> <a href="https://www.nature.com/articles/s41586-019-1541-4.epdf">Nature </a> paper though explains the dangers of thinking this way
             </span> 
 
-            Anyway, loosely speaking,from what I’ve understood, in the absence of large-scale deployment of negative emissions technology, it seems unlikely that we have more than 10 years of emissions at current levels while still having a high likelihood of not exceeding a 1.5C peak warming, given what we know now. That’s ~400 GigaTonnes CO2 for the 10 years, versus a budget of roughly zero for a feedback factor of 2.5 and roughly 550GtCO2 for a feedback factor of 2 as estimated above. <b>There is a chance we’ve already committed to 1.5C peak warming, in the absence of large-scale negative emissions, regardless of what else we do</b>.
+            Anyway, loosely speaking,from what I’ve understood, in the absence of large-scale deployment of negative emissions technology, it seems unlikely that we have more than 10 years of emissions at current levels while still having a high likelihood of not exceeding a 1.5C peak warming, given what we know now. That’s ~400 GigaTonnes CO2 for the 10 years, versus a budget of roughly zero for a feedback factor of 2.5 and roughly 550Gt CO₂ for a feedback factor of 2 as estimated above. <b>There is a chance we’ve already committed to 1.5C peak warming, in the absence of large-scale negative emissions, regardless of what else we do</b>.
             <br></br><br></br>
-            With all that in mind, here are two snippets from the <a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SR15_Chapter2_Low_Res.pdf">IPCC report</a> on 1.5C (written over a year ago so the carbon budget is roughly 40-80 GtCO2 less now). The left hand snippet expresses the level of uncertainty in the remaining carbon budget for 1.5C, and the right snippet mentions the need for negative emissions in real-world scenarios where we stabilize to 1.5C. Their 420-580 GtCO2 budget from a year or so ago accords decently well with what we got (zero to 550 GtCO2) from the feedback factor of 2-2.5 case above.
+            With all that in mind, here are two snippets from the <a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SR15_Chapter2_Low_Res.pdf">IPCC report</a> on 1.5C (written over a year ago so the carbon budget is roughly 40-80 Gt CO₂ less now). The left hand snippet expresses the level of uncertainty in the remaining carbon budget for 1.5C, and the right snippet mentions the need for negative emissions in real-world scenarios where we stabilize to 1.5C. Their 420-580 Gt CO₂ budget from a year or so ago accords decently well with what we got (zero to 550 Gt CO₂) from the feedback factor of 2-2.5 case above.
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
-            <Image src='/img/sec1/1_role_of_CDR.png' alt="ipcc snippits on role of cdr" width="500px" height="400px"/>
+            <Image src='/img/sec1/1_role_of_CDR.png' alt="ipcc snippits on role of cdr" width="700px" height="400px"/>
             </div>
             <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
@@ -310,23 +311,22 @@ export default function Home() {
             At the time of writing, meanwhile, this calculator <a href="https://www.theguardian.com/environment/datablog/2017/jan/19/carbon-countdown-clock-how-much-of-the-worlds-carbon-budget-have-we-spent">from the Guardian</a>, gives 687 GigaTonnes, or 17 years at our current emissions rate
 			</span> 
 
-            We can also ballpark a remaining carbon budget for 2C warming using the 450 ppm ~ 2C idea. 
+            We can also ballpark a remaining carbon budget for 2℃ warming using the 450 ppm ~ 2℃ idea. 
             <br></br><br></br>
-            [NOTE THIS SHOULD BE STRUCTURED BETTER]
-            450 ppm ~ 3514 GigaTonnes of CO2 in the atmosphere, 
-            versus ~3163 (405 ppm) up there now, 
+            450 ppm ~ 3514 Gt of CO2 in the atmosphere, 
+            versus ~3163 Gt (405 ppm) up there now, 
             so we would be allowed to add around 300 or 350 more. 
             So if the oceans and land plants absorb 1/2 of what we emit (bad for ocean acidification), 
-            the maximum carbon budget for 2C in this very particular scenario is around 2*(3514-3163) GigaTonnes CO2 
+            the maximum carbon budget for 2℃ in this very particular scenario is around 2*(3514-3163) GigaTonnes CO2 
             = 702 GigaTonnes of emitted CO2 if there are no negative emissions. 
             <br></br><br></br>
             <span className="marginnote-reactive" id="480ppm">
-            2*(480-405 ppm)*7.81 GtCO2/ppm = 1171 GtCO2, 
-            <br></br><br></br>
-            Or if we use 530 ppm as our 2C target we get 2*(530-405)*7.81=1953 GtCO2
+            2*(480-405 ppm)*7.81 Gt CO₂/ppm = 1171 Gt CO₂, 
+            <br></br>
+            Or if we use 530 ppm as our 2℃ target we get 2*(530-405)*7.81=1953 Gt CO₂
             </span> 
              
-            Now, the carbon budgets I’m seeing in the IPCC <a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SR15_Chapter2_Low_Res.pdf">reports</a> for 2℃ seem a bit higher, in the range of 1200-2000 GigaTonnes, which we can get if we use  <b onClick={()=>sidebar('480ppm')} style={{cursor: 'pointer'}}>480 ppm</b> as our target for 2C instead of 450 ppm.
+            Now, the carbon budgets I’m seeing in the IPCC <a href="https://www.ipcc.ch/site/assets/uploads/sites/2/2019/02/SR15_Chapter2_Low_Res.pdf">reports</a> for 2℃ seem a bit higher, in the range of 1200-2000 GigaTonnes, which we can get if we use  <b onClick={()=>sidebar('480ppm')} style={{cursor: 'pointer'}}>480 ppm</b> as our target for 2℃ instead of 450 ppm.
 
             <br></br><br></br>
             </p>

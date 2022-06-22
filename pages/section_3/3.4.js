@@ -88,16 +88,21 @@ export default function Home() {
             Interestingly, the earlier <a href="https://pdfs.semanticscholar.org/da74/16d80a952c5713380de2264aded5eca8c82a.pdf">paper</a> with Lowell Wood proposes a potentially lower-cost variant:
             <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            Now, 1e14 grams = 1e8 tons, which is similar to the 2e7 tons for the Roger Angel proposal. But the Teller/Wood/Hyde proposal suggests 1e5 smaller mass requirement than that: see footnotes 23, 24 and 25 in that paper. So that seems more economically feasible, though I am wondering about the challenges in actually building and maintaining such a system in space.
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                  Now, 1e14 grams = 1e8 tons, which is similar to the 2e7 tons for the Roger Angel proposal. But the Teller/Wood/Hyde proposal suggests 1e5 smaller mass requirement than that: see footnotes 23, 24 and 25 in that paper. So that seems more economically feasible, though I am wondering about the challenges in actually building and maintaining such a system in space.
 
-			</span> 
+            </span> 
 
-        <div style={{textAlign: 'center'}}> 
-        <Image src='/img/sec3/3_footnote.png' alt="some text about sun shades" width="500px" height="400px"/>
-        </div>
-            <br></br><br></br>
+          </p>
+          <blockquote>
+                  <p>
+                  Positioning a sunlight-shade or Snell's Law-refractor (i.e., a 1-D Fresnel phase plate) composed of 10¹⁴ gms of lunar glass near the Earth-Sun interior Lagrange point (L1) has been suggested in Early JT, Space-Based Solar Shield To Offset Greenhouse Effect, J. Brit. Interplanet. Soc., 42, 567-9 (1989). The present proposal positions a metallic small-angle-scatterer of sunlight of comparable area but ~10⁵ -fold smaller mass Sunward of L1. A system of this type likely would be assembled quite close to the Earth, e.g., in LEO, and then rapidly "flown" into its deployment location as a solar sail, exploiting its very small mass-to-optical cross-section and its active radiation momentum management capabilities.
+
+                  </p>
+                </blockquote>
+
+          <p>
             The other idea mentioned in the above footnote is using lunar regolith as a construction material, which has a much shallower gravity well to escape versus stuff launched from Earth; granted, this approach requires moon mining and manufacturing machines, probably with regolith-to-fuel processing powered by photovoltaics, and ferry rockets!
 
             <br></br><br></br>

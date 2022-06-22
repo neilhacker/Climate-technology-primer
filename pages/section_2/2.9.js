@@ -25,106 +25,152 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >macro-algae</h1>
+            <h1 >2.9: Oceans - fertilization</h1>
+              <h2>Iron fertilization</h2>
             <p>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
-            "The committee’s focus on sequestration in terrestrial and nearshore/coastal environments is not intended to undervalue the potential of technologies or practices for oceanic sequestration, but instead is a response to the Statement of Task"
-			<br></br><br></br>
-            "Land use and management practices that increase the carbon stored in living plants or sediments in mangroves, tidal marshlands, seagrass beds, and other tidal or salt-water wetlands"
-            </span> 
-
-            The National Academies report mostly <a href="https://www.nap.edu/read/25259/chapter/3#40">doesn’t</a> consider ocean options
-            but it devotes an entire <a href="https://www.nap.edu/read/25259/chapter/4">chapter</a> to research recommendations for Coastal Blue Carbon. These approaches are sometimes called “blue carbon” even though they refer to coastal ecosystems instead of the open ocean.” Unfortunately due to the limited coastal area where this is applicable the total additional sequestration capacity appears very low — but see below re Kelp and possibly open ocean variants.
-
-            </p>
-
-            <h2>Coastal Blue Carbon</h2>
-            <p>
-            They note some advantages of Coastal Blue Carbon, such as very low cost: “Although their potential for removing carbon is lower than other negative emissions technologies, coastal blue carbon approaches warrant continued exploration and support. The cost of the carbon removal is low or zero because investments in many coastal blue carbon projects target other benefits such as ecosystem services and coastal adaptation. If projects are implemented for purposes other than or in addition to carbon removal, then costs are reduced to the incremental cost of monitoring coastal carbon removal. 
+            You might see these approaches referred to as OIF or Ocean Iron Fertilization
             <br></br><br></br>
-            Such costs approximate $0.75/t CO2 for tidal wetlands and $4/t CO2 for seagrass meadows for all coastal blue carbon approaches, except those augmented with carbon-rich materials (estimated at $1-30/t CO2) depending on the material and construction method used.”
+            Some useful resources:
+            <br></br>
+            There is an existing <a href="https://www.epa.gov/ocean-dumping/ocean-dumping-international-treaties">regulatory framework</a> for this called the London Protocol / London Convention:
+            <br></br>
+            After a new <a href="https://www.nap.edu/catalog/26278/a-research-strategy-for-ocean-based-carbon-dioxide-removal-and-sequestration?mc_cid=4bcc1e18a9&mc_eid=d7065642e3">National Academies Report</a> on “A Research Strategy for Ocean based Carbon Dioxide Removal” came out featuring a recommended $280M investment in research into the science underlying ocean iron fertilization, Science did a news <a href="https://www.science.org/content/article/draw-down-carbon-and-cool-planet-ocean-fertilization-gets-another-look">feature</a> on the topic
             <br></br><br></br>
-            They also note the need for more fundamental research: “Understanding of the impacts of sea-level rise, coastal management, and other climate impacts on future uptake rates should be improved… many of the critical processes that govern carbon burial and sequestration in coastal ecosystems lack a mechanistic understanding of how they may change under high rates of sea-level rise and other direct and indirect impacts of climate change, and few studies have been performed on transgression of coastal wetlands inland”.
+            See also: <a href="https://www2.oceanvisions.org/roadmaps/">OceanVisions roadmaps</a>, which so far have mostly been on alkalinity enhancement and macro-algae, but presumably soon will extend into microalgae / OIF
 
-            </p>
-
-            <h2>Sea Grass</h2>
-            <p>
-            A Salk Institute team, meanwhile, is <a href="https://www.salk.edu/wp-content/uploads/2017/11/Harnessing-Plants.pdf">working</a> on increasing coastal sea-grass carbon sequestration through selective breeding: “Certain varieties of seagrass have greater carbon storage capacity… If this trait was bred into other varieties of grasses, we could sequester far more carbon in coastal ecosystems.” This is also an important environmental restoration project relevant to the food supply (fish catch), “Coastal seagrass beds store nearly twice as much carbon per acre as terrestrial forests and account for about 10 percent of the carbon stored in the ocean. Unfortunately, due to dredging and pollution, seagrass ecosystems are seriously threatened around the world. About 1.5 percent of these ecosystems disappear each year. Changing water temperatures due to global warming accelerates this decline.” Alas, the limited areal extent of coastal sea-grasses may limit the scaling potential of this approach.
-
-            </p>
-
-            <h2>Macro-algae</h2>
-            <p>
-            What about Kelp / seaweed / macro-algae? The NAS report has a brief appendix on this: 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            <br></br><br></br>
-            Their 173 TgC/y is only about 0.6 GigaTonne/year, though.
-            <br></br><br></br>
-            [EXPLAIN WHAT NPP IS]
 			</span> 
+
+            Some proposals seek to induce growth of certain phytoplankton in the ocean, by seeding with various kinds of fertilizers, e.g., iron
 
             </p>
             <blockquote>
+			    	<p>
+                Any old iron? 
+                <br></br>
+                SIR--Martin and Fitzwater suggest that the growth of phytoplankton in ocean waters at high latitudes is restricted today by the limited amount of iron available, and that during recent ice ages the carbon dioxide content of the atmosphere was reduced because there was then more dust in the air. This suggests a possible way to alleviate the anthropogenic greenhouse effect, which is at present a cause for concern. By adding iron compounds to the oceans, a 'technological fix” to remove carbon dioxide from the air might be practicable. JOHN GRIBBIN
+
+              </p>
+            </blockquote>
+            <p>
+            The costs would be very favorable in theory. Say the iron costs $1000/ton and one iron atom fertilizing the ocean allows 10,000 CO2 molecules to be captured into biomass. That works out to ~10 cents per tonne of CO2 fixed, 1000x smaller than the approximate theoretical best case cost for industrial direct air capture. Even if the cost were 10x higher than that, it would still be much less expensive than industrial direct air capture or ocean liming.
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+                  <a href="https://www.forbes.com/sites/timworstall/2012/07/19/the-cheap-way-to-deal-with-climate-change-iron-fertilisation-of-the-oceans/#35adace47c6a">This article</a> suggest 30 cents per tonne CO2 captured
+            </span> 
+
+            This low cost also means that the efficiency of permanent sequestration of the fertilized biomass needn’t be anywhere near 100%.
+            <br></br><br></br>
+            The Lawrence paper says:
+           
+            </p>
+            <blockquote>
+            <p>
+            “while early studies indicated that CO2 removal by OIF might be capable of far exceeding CDRref, later studies showed that this neglected many limiting factors, so that the removal capacity is likely less than 400 Gt(CO2) by 2100 <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR47">47</a>. Furthermore, this would likely result in significant side effects in the oceans, like disruption of regional nutrient cycling, and on the atmosphere, including production of climate-relevant gases like N2O <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR15">15”</a>.
+
+            </p>
+          </blockquote>
+          <p>
+            <b>Drawbacks</b>
+            <br></br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+            Something a bit like this happened <a href="https://www.newscientist.com/article/dn16842-hungry-shrimp-eat-climate-change-experiment/">here</a>, with the algae being eaten by shrimp rather than sinking down deep to sequester their carbon. A <a href="https://www.nature.com/articles/nature11229">later</a> <a href="https://www.the-scientist.com/news-opinion/lowering-carbon-with-algae-40725">study</a> circumvented this problem by operating in a region where hard-shelled diatoms were stimulated to grow, rather than normal plankton, and these were less easy for the shrimp and such to eat, and thus apparently managed to sink the carbon to the ocean floor. In <a href="https://www.biogeosciences.net/15/5847/2018/bg-15-5847-2018.pdf">experiments</a> with iron fertilization, blooms reduced the local partial pressure of CO2.
+
+            </span> 
+
+          There is some concern that the effects of this intervention may be short lived as a lot of the fixed carbon may just quickly re-enter the atmosphere
+          <br></br><br></br>
+          <label for="mn-demo" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+          <span class="marginnote" id="id_option">
+          On the other hand, <a href="https://palladiummag.com/2019/01/28/ancient-upheavals-show-how-to-geoengineer-a-stable-climate/">this article</a> notes some interesting paleo-climate and ecological twists on iron fertilization that suggest that perturbations to ocean iron may not be so unusual and even that ocean iron may be at lower levels than usual at present:
+
+          </span> 
+
+          Another worry in my mind about modifying ocean nitrates or iron or so on, though, is that it <b>could be dangerous in terms of changing the habitats for other creatures</b>, like the cyanobacteria, which George Church <a href="https://www.edge.org/conversation/george_church-church-speaks">reports</a> in his Edge essay are finnicky as to their environment. 
+          <br></br><br></br>
+          Moreover, one must be careful as to which nutrients are actually limiting or could become limiting. Ken Caldeira, in a talk, estimates that 1 additional iron atom can lead to ~50k additional carbon atoms incorporated into biomass, but within a few years this depletes P and N, and thus slows down the effect. He estimates that realistic iron seeding could not offset current emission levels.
+          <br></br><br></br>
+          <label for="mn-demo" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+          <span class="marginnote" id="id_option">
+          It looks like Mount Pinatubo’s eruption in the early 1990s may have done ocean iron fertilization naturally and thus briefly stalled CO2 accumulation in the atmosphere. Likewise, recent big Australian wildfires seem to have caused a bloom. 
+
+          </span> 
+
+          Coming back to the issue of side effects, notable ones of concern would include, I think increased nitrous oxide production by bacteria, selection for other microbes that produce greenhouse gasses once iron limitation is lifted, depletion of nutrients and oxygen that are needed by other species or that would later upwell in other locations
+          <br></br><br></br>
+          <a href="http://faculty.wwu.edu/shulld/ESCI%20432/Strong2009.pdf">This article</a> lays out more objections to iron seeding, including the idea that there is scale dependence and thus that you’d need to do large scale experiments that potentially themselves have side effects, in order to test for side effects in a way that’s realistic.
+          <br></br><br></br>
+          The key questions for this approach are: 
+          <ol>
+            <li>Why does iron fertilization sometimes lead to carbon drawdown and sometimes not?</li>
+            <li>How can any negative side effects, especially long-term, of such an approach, be mitigated?</li>
+          </ol>
+
+          </p>
+          <h2>Non-iron fertilization</h2>
+          <p>
+          It seems that if one were to pursue ocean fertilization, you would not want to just fertilize with iron, but with a potentially dynamic and adaptive cocktail of different nutrients and 
+          do it in an adaptive way where you were measuring, perhaps with meta-genomics, the effects on different populations of organisms when you turn it on or off and then as the populations adjust. In one <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2008.0139">paper</a> they suggest basically this:
+
+          </p>
+          <blockquote>
 				<p>
-                An estimated 82 percent of kelp productivity becomes detritus (<a href="https://www.nap.edu/read/25259/chapter/13#backmatter03_ref393">Krumhansl and Scheibling, 2012</a>). <b>Carbon sequestration can thus only occur if carbon is buried in sediments or exported into the deep ocean</b> and sequestered long term. Most carbon from macroalgae is assumed to return to the carbon cycle through herbivory and thus extensive study on its carbon storage rate and capacity has not been conducted (<a href="https://www.nap.edu/read/25259/chapter/13#backmatter03_ref304">Howard et al., 2017</a>). <a href="https://royalsocietypublishing.org/doi/10.1098/rsbl.2018.0236">Krause-Jensen and Duarte (2016)</a> have synthesized data from studies of macroalgae transport and occurrence in the deep ocean to develop a rough estimate for macroalgae’s carbon removal potential. They identified potential opportunities for carbon storage through burial within the algal beds, burial in the continental shelf, export to below the mixed ocean layer, and export to the deep sea. Using an approximate global <a href="https://carboninstitute.org/kelp-and-carbon-sequestration-bringing-terrestrial-carbon-accounting-to-the-deep-sea/">net primary production</a> (NPP) of 1,521 TgC/y, <b>they estimate that macrolagae may be sequestering 173 TgC/y, or a removal rate of 11 percent per year</b>. Most of this is assumed to be sequestered in the deep ocean.“
+        “It has been proposed that fertilizer cocktails of macro- and micronutrients should be manufactured on land and transported by submarine pipe to a region significantly beyond the edge of the continental shelf. The nutrient ratios and the temporal supply rates could be controlled so that biological populations develop that optimize sequestration. Such environmental manipulation is today carried out in a sophisticated manner in terrestrial glasshouses where the physical conditions can be controlled, but, with close monitoring, there is no a priori reason why this should not also be possible in an environment such as the open ocean where control of the physical environment is unlikely to be possible.”
+
 				</p>
 			</blockquote>
-            <p>
-                <b>Ocean Macroalgal Afforestation</b>
-                <br></br><br></br>
-                But what if people deliberately made massive kelp farms out in the open ocean and vastly increased the total area of kelp forest, and also tried to ensure that the sequestered carbon from these open ocean farms indeed reached the deep ocean for ~permanent storage?
-                <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
-            We also talked about what Running Tide was doing with sinking kelp farms in section <a href="../section_2/2.7">2.7</a>
-                </span> 
-
-                A <a href="https://www.semanticscholar.org/paper/Negative-carbon-via-Ocean-Afforestation-N%E2%80%99Yeurt-Chynoweth/9fac691b576e8ce5ddf0c0fa0eabf07c758dddb2">2012 paper</a> proposes this. They study a scenario where 9% of the open ocean is covered with farmed kelp forests. They propose to use the kelp thus grown for biomethane production in a kind of ocean-based BECCS scheme, to recycle nutrients from the kelp as a form of fertilization, and to also use this to increase fish catch. They end up with a figure of around 53Gt of potential CO₂ removal per year which seems startlingly high. 
-                <br></br><br></br>
-                <a href="https://theconversation.com/how-farming-giant-seaweed-can-feed-fish-and-fix-the-climate-81761">This article</a> covers more. As mentioned earlier, nutrient upwelling with wave driven pumps is one potential way to feed such open ocean kelp forests with sufficient nutrients: 
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
-                More on this <a href="https://www.technologyreview.com/2021/09/19/1035889/kelp-carbon-removal-seaweed-sinking-climate-change/amp/?__twitter_impression=true">here</a>
-                </span> 
-
-                “These floating platforms use wave energy to restore nutrient upwelling to pre- global warming levels. While the nutrients encourage plankton and kelp growth, the platform provides a structure onto which kelp will attach. In essence, this forms a mini-ecosystem. The kelp forest will provide habitat for forage fish, who will feed off the replenished plankton. Game fish will, in turn, eat these forage fish, and on up the food chain to tuna and sharks. What was once an aquatic desert will thrive with life.”
-
-            </p>
-
-            
-            <h2>Azolla</h2>
-            <p>
-            We shouldn’t forget about <a href="https://www.scientificamerican.com/article/can-the-fern-that-cooled-the-planet-do-it-again/">Azolla</a> and other <a href="http://www.climatefoundation.org/azolla.html">fast growing ocean plants</a>, i.e., the ones that possibly once <a href="https://www.scientificamerican.com/article/can-the-fern-that-cooled-the-planet-do-it-again/">caused an ice age</a> through their growth.
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+      <p>
+      <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
-            Of course, many plants get their nitrogen availability from nitrogen fixing microbes, e.g., in the soil, or <a href="https://www.sciencedaily.com/releases/2013/07/130725125024.htm">inside</a> roots themselves, which fix nitrogen from the air, but the tightly optimized 1-1 relationship here seems special.
+      For better or worse, the coccolithophores seem to do OK with ocean acidification. On the flip side, other weird organisms can play a big role in sequestration by making and discarding “mucus houses”. Biology is crazy.  
 
 			</span> 
 
-            The Azolla system is reported to be able to double its biomass in &lt;2 days. It does this in part by drawing nitrogen from the atmosphere. The Climate Foundation <a href="http://www.climatefoundation.org/azolla.html">website</a> states “Azolla can remove 6 tonnes per acre per year of carbon (1.5 kg/m²/yr)” and another website gives a similar number
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            As a point of comparison, Y Combinator in its ocean cyanobacterial project example, <a href="http://carbon.ycombinator.com/ocean-phytoplankton/">states</a> “We will be conservative and say that our algal beds fix 2.5 kg of C per square meter per year“.
-			</span> 
+      Sometimes, there are also counterintuitive effects of biological growth, not all of it good for carbon sequestration. The Caltech course <a href="http://web.gps.caltech.edu/classes/ese148a/lecture15.pdf">lecture 15</a>, for example, points out that:
 
-            This works out to just 7 million square kilometers to remove 200 GigaTonnes of carbon (recall the Lawrence paper’s reference value of 177 Gt Carbon) in 20 years, which is half the area of the Arctic Ocean.
-            <br></br><br></br>
-            Alas, Azolla likes fresh water, which, during the Azolla Event, <a href="https://www.reddit.com/r/todayilearned/comments/3dojw4/til_there_is_a_fern_that_has_such_a_high_level_of/">apparently</a> <a href="https://www.nature.com/articles/nature04692">formed</a> a slick, floating on top of Arctic Ocean salt water; moreover, one needs the right chemical and ecological conditions for the sinking organic material to be long-term sequestered rather than rapidly consumed, for example, by oxidative respiration, regenerating CO2.
+      </p>
+      <blockquote>
+				<p>
+        “In addition to organic carbon formed in photosynthesis, many organisms build calcium carbonate shells, CaCO3 (e.g. corals). Cocaliths (primary) and foraminifera (heterotrophs) produce large amounts of calcium carbonate and this carbon often drops to the bottom of the oceans. It is perhaps tempting to think that in forming these shells carbon is being driven out of the ocean system and that this would in turn draw down CO2. This is not the case, however. If we look at the expression for the interaction of atmospheric CO2 and DIC, we see that CO3 2- and CO2 are on the left of the expression. Le Chatelier’s principle tells us that if we remove CO3 2- (decrease alkalinity) we will drive CO2 out of the ocean. Growing corals increases atmospheric CO2. Growing cocaliths and foraminifera can pump carbon into the deep ocean depending on the ratio of organic carbon to CaCO3 in the falling matter. This ratio is known as the “rain ratio” and in the modern ocean is thought to be ~ 4.”
 
-            <br></br><br></br>
-            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+				</p>
+			</blockquote>
+      <p>
+      Below are some different non-iron approaches we could take.
+      <br></br><br></br>
+      <b>Nutrient upwelling</b>
+      <br></br><br></br>
+      <a href="http://www.climatefoundation.org/marine-permaculture.html">Increasing nutrient upwelling</a> through <a href="https://journals.ametsoc.org/doi/abs/10.1175/2009JTECHO679.1">wave driven pumps</a> is another interesting approach to promote more photosynthesis in the oceans. The nutrient upwelling site also explains that primary productivity in the ocean may be in decline due to global warming that has already occurred, proposing nutrient upwelling as a way to counteract this. This also promotes food security by increasing the fish catch. See <a href="https://medium.com/nori-carbon-removal/five-ways-farming-at-sea-is-a-climate-game-changer-6b1e4108b2e">this podcast</a> on Marine Permaculture.
+      <br></br><br></br>
+      MacKay has a <a href="https://www.withouthotair.com/c31/page_247.shtml">nice image</a> showing the area of fertilized ocean that would be needed to neutralize Britain’s CO2 output:
+      <br></br><br></br>
+      <div style={{textAlign: 'center'}}>
+        <Image src='/img/sec2/2_nutrient_upwelling.png' alt="Scale of nutrient upwelling for UK cdr" width="500px" height="400px"/>
+        </div>
+      <br></br><br></br>
+      <b>Clay minerals</b>
+      <br></br><br></br>
+      <a href="https://home.dartmouth.edu/news/2020/04/professor-mukul-sharma-receiving-guggenheim-award">Mukul Sharma</a> has an interesting approach based on clay minerals which would help biomass to sink but not necessarily stimulate and alter ecosystems in the same way as seeding iron:
+      <br></br><br></br>
+      “Sharma’s idea is to use clay minerals to reduce the efficiency with which carbon is oxidized near the ocean surface by speedily burying it to great depths. After hitting the water, the minerals, which are dense, charged, and have large surface area, would pick up organic material and then fall quickly to depths low enough to take the carbon out of circulation with the atmosphere. Depending on which minerals are used, the process might also create material that zooplankton mistake for food and then excrete.” 
+      <br></br><br></br>
+      At the same time, one has to ask for this approach: how much clay do you need to make a dent? Does this decrease the solar penetrance of the ocean via a self-shadowing effect? Does this enhanced sinking or recalcitrance mess up other food chains if you don’t add more biomass faster?
+      <br></br><br></br>
+      <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
-            </p>
+      </p>
+
+
+
+
 
           </section>
           </article>
@@ -132,7 +178,6 @@ export default function Home() {
         <div class="footer">
         <p style={{fontSize: '5rem'}}><a href="../section_2/2.8">&#8678;</a> &nbsp; <a href="../section_2/2.10">&#8680;</a></p>
         </div> 
-
 
       </main>
 

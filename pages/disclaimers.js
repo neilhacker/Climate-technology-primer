@@ -27,28 +27,36 @@ export default function Home() {
           <section >
               <h2>Disclaimers</h2>
             <p>
-
-            I am not a climate scientist or an energy professional. I am just a scientifically literate lay-person on the internet, reading up in my free time. If you are looking for some climate scientists online, I recommend <a href="https://twitter.com/michael_nielsen/lists/climate/members">those that Michael Nielsen follows</a>, and <a href="https://twitter.com/khayhoe/lists/scientists-who-do-climate/members">this list</a> from <a href="https://twitter.com/khayhoe">Prof. Katharine Hayhoe</a>. Here are <a href="https://twitter.com/JKSteinberger/status/1177271291579179008">some</a> who apparently advise Greta. You should definitely read the <a href="https://www.ipcc.ch/">IPCC reports</a>, as well, and take courses by real climate scientists, like <a href="https://www.e-education.psu.edu/meteo469/">this one</a>. The National Academies and various other agencies also often have reports that can claim a much higher degree of expertise and vetting than this one.
+            This has not been written by climate scientists, rather scientifically literate lay-people on the internet, reading up in our free time. If you are looking for some climate scientists online, I recommend <a href="https://twitter.com/michael_nielsen/lists/climate/members">those that Michael Nielsen follows</a>, and <a href="https://twitter.com/khayhoe/lists/scientists-who-do-climate/members">this list</a> from <a href="https://twitter.com/khayhoe">Prof. Katharine Hayhoe</a>. Here are <a href="https://twitter.com/JKSteinberger/status/1177271291579179008">some</a> who apparently advise Greta. You should definitely read the <a href="https://www.ipcc.ch/">IPCC reports</a>, as well, and take courses by real climate scientists, like <a href="https://www.e-education.psu.edu/meteo469/">this one</a>. The National Academies and various other agencies also often have reports that can claim a much higher degree of expertise and vetting than this one.
             <br></br><br></br>
-            Any views expressed here are mine only and do not reflect any current or former employer. Any errors are also my own. This has not been peer-reviewed in any meaningful sense. If you’re an expert on one of these areas I’ll certainly appreciate and try to incorporate your suggestions or corrections.
+            Any views expressed here are the authors only and do not reflect any current or former employer. Any errors are also my ours. This has not been peer-reviewed in any meaningful sense. If you’re an expert on one of these areas we'd certainly appreciate and try to incorporate your suggestions or corrections.
             <br></br><br></br>
-            There is not really anything new here — I try to closely follow and review the published literature and the scientific consensus, so at most my breadcrumb trail may serve to make you more aware of what scientists have already told the world in the form of publications.
+            There is not really anything new here — we've try to closely follow and review the published literature and the scientific consensus, so at most my breadcrumb trail may serve to make you more aware of what scientists have already told the world in the form of publications.
             <br></br><br></br>
+            From Adam's initial blog:
+          </p>
+          <blockquote>
+            <p>
             I’m focused here on trying to understand the narrowly technical aspects, not on the political aspects, despite those being crucial. This is meant to be a review of the technical literature, not a political statement. I worried that writing a blog purely on the topic of technological intervention in the climate, without attempting or claiming to do justice to the social issues raised, would implicitly suggest that I advocate a narrowly <a href="https://radicalxchange.org/blog/posts/2019-08-19-bv61r6/">technocratic</a> or <a href="http://srconstantin.posthaven.com/against-multilateralism">unilateral</a> approach, which is not my intention. By focusing on technology, I don’t mean to detract from the importance of the social and policy aspects. I do mention the importance of carbon taxes several times, as possibly necessary to drive the development and adoption of technology. I don’t mean to imply through my emphasis that all solutions are technologically advanced — for example, <a href="https://www.wysscampaign.org/">crucial work</a> is happening on conservation of land and biodiversity. That said, I do view advanced technology as a key lever to allow solutions to scale worldwide, at the hundreds-of-gigatonnes-of-CO2 level of impact, in a cost-effective, environmentally and societally benign way. Indeed, the rights kinds of improvements to our energy system are likely one of the best ways to <a href="https://elidourado.com/blog/move-the-needle-on-progress/">spur</a> economic <a href="https://www.econtalk.org/tyler-cowen-on-stubborn-attachments-prosperity-and-the-good-society/">growth</a>.
-            <br></br><br></br>
-            Talking about emerging and future technologies doesn’t mean we shouldn’t be deploying existing decarbonization technologies now. There is a finite cumulative carbon budget to avoid unacceptable levels of warming. A perfect technology that arrives in 2050 doesn’t solve the primary problem.
-            <br></br><br></br>
-            For some of the specific technologies discussed, I will give further caveats and arguments in favor of caution in considering deployment
 
             </p>
+          </blockquote>
 
-            <h2>Acknowledgements</h2>
-            <p>
-            I got a bunch of good suggestions from friends including Brad Zamft, Sarah Sclarsic, Will Regan, David Pfau, David Brown, David Rolnick, Tom Hunt, Tony Pan, Marcus Sarofim, Michael Nielsen, Sam Rodriques, James Ough, Evan Miyazono, Nick Barry, Kevin Esvelt, Eric Drexler and George Church. 
+          <p>
+            Talking about emerging and future technologies doesn’t mean we shouldn’t be deploying existing decarbonization technologies now. There is a finite cumulative carbon budget to avoid unacceptable levels of warming. A perfect technology that arrives in 2050 doesn’t solve the primary problem.
+            <br></br><br></br>
+            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+
             </p>
           </section>
           </article>
+          
+          
         </div>    
+        <div class="footer">
+        <p style={{fontSize: '5rem'}}><a href="../acknowledgements">&#8678;</a> &nbsp; <a href="../section_1/1.0">&#8680;</a></p>
+        </div>  
+      
 
       </main>
 

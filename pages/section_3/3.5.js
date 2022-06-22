@@ -89,7 +89,6 @@ export default function Home() {
             <div style={{textAlign: 'center'}}>
             <Image src='/img/sec3/3_west_antartic_ice.png' alt="diagram of west antartic ice" width="500px" height="400px"/>
             </div>
-            <br></br><br></br>
             Because major sea level rise is a key risk area, attempting to define a backup of the backup of the backup options like this seems important. The engineering required would be fairly heroic but the stakes are very high — collapse of the Antarctic ice could lead to many tens of meters of sea level rise.
             <br></br><br></br>
             <Collapsible trigger="Some more speculative ideas">

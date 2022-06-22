@@ -96,7 +96,11 @@ export default function Home() {
             <br></br><br></br>
             We can first figure out roughly what % of the mass of a given unit of air CO₂ is. The atmosphere is mostly N2 which weighs 28 g/mol, CO2 weights 44 g/mol so at 410ppm we can roughly state that  (410*44 / (1e6 * 28)) = 0.064% of the atmosphere's mass comes from CO₂. 
             <br></br><br></br>
-            We can then use V=M/density to get that V=10Gt/(density of air*0.00064) = 1e16 m^3 of air processed per year.
+            We can then use V=M/density to get that
+            <br></br>
+            <span style={{fontSize: 'medium'}}><Latex>{'$V = \\dfrac{10Gt}{density \\space of\\space  air * 0.00064} = 1e16m³ $'}</Latex></span> 
+
+            &nbsp; of air processed per year.
             <br></br><br></br>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
@@ -218,10 +222,9 @@ export default function Home() {
 
 			</p>
             <p>
-            <br></br><br></br>
             <b>Market conclusions</b>
             <br></br><br></br>
-            I’m still trying to grok the projected business models for direct air capture, and at which cost thresholds it would be able to reach which levels of scale. Perhaps if CO2 is efficiently converted to certain specific forms like fuels, and in an economic environment with appropriate taxes on carbon emissions, or specifically on dirty fuels, it could be cost competitive — this seems to be Carbon Engineering’s plan. For large-scale deployment at the scale of the overall CO2 problem, the economics is at the forefront, and the economic incentives imposed collectively by society through carbon taxes and related mechanisms would be key, but see the previous paragraph regarding recent progress on this. 
+            Perhaps if CO2 is efficiently converted to certain specific forms like fuels, and in an economic environment with appropriate taxes on carbon emissions, or specifically on dirty fuels, it could be cost competitive — this seems to be Carbon Engineering’s plan. For large-scale deployment at the scale of the overall CO2 problem, the economics is at the forefront, and the economic incentives imposed collectively by society through carbon taxes and related mechanisms would be key, but see the previous paragraph regarding recent progress on this. 
             <br></br><br></br>
             Overall, although some have been <a href="https://www.pnas.org/content/108/51/20428">skeptical</a> of the cost scaling of industrial direct air capture, there is an impressive amount of startup activity in the space. The <a href="https://www.nature.com/articles/s41467-018-05938-3">Lawrence paper</a> points out that truly widespread use of direct air capture may not naturally be employed anytime soon, since a more efficient approach would be to do carbon capture and storage directly at the output of fossil fuel burning power plants. But this is still a good way to get the technology moving… and commitments like the one made by <a href="https://stripe.com/gb/blog/negative-emissions-commitment">Stripe</a> could help bootstrap the field.
             <br></br><br></br>

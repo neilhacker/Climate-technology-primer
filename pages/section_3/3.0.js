@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Geoengineering</h1>
+            <h1 >Section 3: Geoengineering</h1>
               
             <p>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
@@ -112,7 +112,7 @@ export default function Home() {
           </article>
         </div>    
         <div class="footer">
-        <p style={{fontSize: '5rem'}}><a href="../section_2/2.13">&#8678;</a> &nbsp; <a href="../section_3/3.1">&#8680;</a></p>
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.14">&#8678;</a> &nbsp; <a href="../section_3/3.1">&#8680;</a></p>
         </div> 
 
 

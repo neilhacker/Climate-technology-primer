@@ -50,15 +50,15 @@ export default function Home() {
             <br></br><br></br>
             Some further links:
             <br></br>
-            pnas.org/content/115/41/10293
+            <a href="https://www.pnas.org/doi/10.1073/pnas.1809868115">Earth’s outgoing longwave radiation linear due to H2O greenhouse effect</a>
             <br></br>
-            phys.org/news/2018-09-earth-space.html
+            <a href="https://phys.org/news/2018-09-earth-space.html">How Earth sheds heat into space</a>
             <br></br>
             Even weirder,
             <br></br>
-            news.mit.edu/2014/global-warming-increased-solar-radiation-1110 
+            <a href="https://news.mit.edu/2014/global-warming-increased-solar-radiation-1110">Global warming increased solar radiation</a>
             <br></br>
-            pnas.org/content/111/47/16700
+            <a href="https://www.pnas.org/doi/10.1073/pnas.1412190111">Shortwave and longwave radiative contributions to global warming under increasing CO2</a>
             </span> 
 
             Naively, if we think of the only effect of CO2 as being the absorption of some of the outgoing infrared thermal radiation 
@@ -175,6 +175,16 @@ export default function Home() {
         </span> 
 
         Note the darker red up by the Arctic. Note also that spatial non-uniformities in temperature, between locations on the globe, as well as the temperature changes between the surface and the atmosphere, are a major driver of weather phenomena.
+        </p>
+        
+        <h2>Heat stress</h2>
+        <p>
+        One worry that is a bit less about the climate and a bit more about the climate’s effects on us is heat stress. A <a href="https://www.pnas.org/doi/10.1073/pnas.0913352107">recent paper</a> takes a look at what climate scenarios might put a vast number of humans at risk. The key metric here is to look at wet bulb temperatures, this basically describes the minimum temperature a human body can get to under ambient conditions. Or put another way if you are just standing around and sweating what is the lowest your body temperature will get to. 
+        <br></br><br></br>
+        Any wet bulb temperature above 31℃ poses extreme risks to human welfare and conditions over 35℃ leads to significant risk of hyperthermia. The paper goes on to say that while these conditions do not exist in an extended way anywhere today they “would begin to occur with global-mean warming of about 7 °C, calling the habitability of some regions into question. With 11–12 °C warming, such regions would spread to encompass the majority of the human population as currently distributed”.
+        <br></br><br></br>
+        These might seem like very high levels of warming but they correspond to bad case scenarios in the IPCC report models and so are noth thought to be totally out of consideration. The paper mainly acts as a warning that the effects of the higher temperature futures might be significantly worse than people typically think. 
+
         <br></br><br></br>
         <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 

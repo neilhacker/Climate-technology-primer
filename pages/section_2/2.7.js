@@ -25,182 +25,101 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >2.7 Biomass burial</h1>
+            <h1 >2.7: Bioengineering on land</h1>
               
             <p>
-            One option that various companies are exploring is to do some form of harvesting and burying biomass. This comes up in a few different forms like burying trees on land, sinking trees in oceans, growing and sinking kelp and I’ll even include here making bio-oil to inject it back into oil wells.
-            <br></br><br></br>
-            There are some questions you might have at the moment like how expensive these methods could be, if they even work out from a life cycle analysis or how much they could scale. The answer is largely that depending on the exact form you’re talking about you can get lots of different answers to those questions. 
-            <br></br><br></br>
-            The basic idea is you grow biomass which has the advantage of using the energy input from the sun to basically suck CO₂ from the atmosphere. This is then transformed into carbon matter through photosynthesis and you then take this biomass and put it somewhere it won’t decompose and release the carbon back out again. Where you store it is kind of up to you but ideally you want a low oxygen environment and somewhere where there won’t be much bacteria which could decompose your organic matter. The two best places for this are basically deep in the ocean or in a big hole. 
-            <br></br><br></br>
-            The deep ocean is pretty great for this as it doesn’t mix with higher layers of water on any worrying timescale, maybe less than every 1000 years, and the pressure down there, as well as the lack of light and nutrients will mean the organic matter is likely to stay put and not attract any microbes which might come and decompose it. 
-            <br></br><br></br>
-            Holes are a bit trickier. You could go deep and narrow in areas that are very clay heavy as this will do a good job preventing oxygen from getting in. You could also use purpose made capsules which are sealed to prevent oxygen and other things like bacteria in. 
-            <br></br><br></br>
-            One thing that might be on your mind is whether it would not just make more sense to burn the biomass 
-            <br></br><br></br>
-            <b>Burying Trees on land</b>
-            <br></br><br></br>
-            We could start by considering how much sense it would be to bury trees in holes on land. Let’s take as an example wanting to bury enough wood to keep 0.1Mt of CO₂ out of the atmosphere. 0.1Mt of CO₂ is roughly 30,000t of Carbon which is roughly 60,000t of wood. 
-            <br></br><br></br>
-            If we go off of <a href="https://www.youtube.com/watch?v=zOO9vspK2fE&list=PL1je2pACUAbKdS4529vLLHgZR2MGk9KLm&index=3&t=361s">this video</a> it talks about using a land area of around 2,500km² to get this amount of wood. 
-            <br></br><br></br>
-            If we assume that we can use a logging truck with a maximum capacity of 40t then we would need 1,500 truckloads of wood. Assume the average distance from our site is 20km then we are looking at 1500 * 40 * 20 = 1,200,000 t-km.
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            The good thing here is that even if we are off by a lot we still have a hefty amount of wiggle room to get a good life cycle analysis.  
-
-			</span> 
-
-            We can ballpark emissions from travel at around 1gCO2/km so the travel part of this would emit around 1.2t CO₂. We then obviously have emissions from digging the hole,making capsules  and burial but even if we assume these add an order of magnitude we are looking at somewhere around 10t CO₂ to remove the equivalent of 100,000t in this example.
-            <br></br><br></br>
-            You might then wonder about how large the hole we have to dig is and it turns out the answer to that would be large but not crazy. Wood, let's say, has an average density of 800kg/m³ and so 60,000t of wood would take up around 75,000 m³ of storage space. Put in context this is roughly the size of a football field 13.5m deep or 30 olympic swimming pools.
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            You also don’t lose the land as you can just re turf the hole you dug and get back to a natural setting.
-
-			</span> 
-
-            In terms of cost if we go with a freight figure of around $0.4 t-km then we’re looking at around $240,000 which works out at just over $2 per ton of CO₂ on the travel side. Again let’s say the other costs add an order of magnitude to everything, we are still looking at something like $20-30 per ton of CO₂ which would be remarkably competitive. 
-            <br></br><br></br>
-            
-            One company starting to do this is <a href="https://www.exaquest.org/">Exaquest</a>. They store wood biomass in anoxic (oxygen free) environments on land, mainly through the use of specialized containers. They plan to obtain the biomass from forest thinning operations and state that in California alone they currently thin at least 250,000 acres of forest per year, yielding more than 20 dry tons of wood waste per acre.
-            → 5m t/yr of waste wood → (from above conversion of wood → CO₂e) 9m t/CO₂e/yr. Although again not all of this wood would be “waste” as some is used for construction and other activities.  
-            <br></br><br></br>
-            Obtaining the wood responsibly and in a way that makes the burial as additional as possible is absolutely key to this process actually delivering results. Otherwise we might find ourselves in the strange position where you could at the same time plant a forest, not cut down a forest or cut down a forest and be paid in all cases.
-
-            <br></br><br></br>
-            <b>Burying land grown biomass in the oceans </b>
-            <br></br><br></br>
-
-            The canonical <a href="https://pubs.acs.org/doi/full/10.1021/es8015556">paper</a> in this area has to do with taking crop residue from land and sinking them into the deep ocean. 
-            <br></br><br></br>
-            The paper is rather old but states: 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            <br></br><br></br>
-            Note that 1Pg = 1Gt. This would suggest that at maximum this approach couldn’t even get to a Gt scale. 
-
-			</span> 
-
+            So far we’ve considered only “natural” organisms. Bioengineering on land is another possibility. 
             </p>
-            <blockquote>
-				<p>
-                 Global large-scale agriculture produces about 2 Pg crop residues C annually. If the average fraction of above-ground crop residue that can be removed sustainably is assumed to the same as that for corn, 0.3, the global crop residue supply is about 0.6 Pg C.
-
-				</p>
-			</blockquote>
+            <h2>Root to shoot ratio</h2>
             <p>
-            The good news is though that this really doesn’t take up much space: 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            If engineering trees sounds completely fanciful, read this <a href="https://www.pnas.org/content/104/43/16816">paper</a> and listen to the second half of this <a href="https://soundcloud.com/anatomyofnext/new-world-6-crispr-fields-of-plenty">podcast episode</a>, the latter in which Gabriel Licina mentions combining the <a href="https://en.wikipedia.org/wiki/Akira_Miyawaki#Method_and_conditions_for_success">Miyawaki Method</a> of tree planting which leads to fast growth, and <a href="https://today.oregonstate.edu/archives/2013/dec/significant-advance-reported-genetically-modified-poplar-trees">genetic engineering</a>.
 
-            </p>
-            <blockquote>
-				<p>
-                If the residue were deposited on the sediment in an annual layer 4 m deep, the total sediment area required would be approximately 260 km2, about 0.02% of the area of the Gulf of Mexico.
+			</span> 
 
-				</p>
-			</blockquote>
-            <p>
-            The paper suggests using barges to transport corn stover to deep ocean areas and then weigh them down with ballasts and comes up with a cost of around $90 per ton of CO₂ sequestered which comes from this breakdown:
+            Dyson in <a href="https://www.nybooks.com/articles/2008/06/12/the-question-of-global-warming/">his</a> <a href="https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society">essays</a> estimates best natural carbon eaters permanently sequester only 1/10 of the carbon they absorb but that this could be engineered to increase. Dyson proposes as a conceptually illustrative example the possibility of <a href="https://science.sciencemag.org/content/365/6455/767.2.full">genetically engineering</a> plants to have increased “root to shoot ratio”, a parameter that seems to be tunable by evolution if not by epigenetic regulation. 
             <br></br><br></br>
-            <Collapsible trigger="You can expand this to get the cost breakdown from the paper">
+            Dyson proposed genetically engineered trees that would sequester more carbon; he calls them “carbon eating” trees, and proposes replacing ¼ of the existing land vegetation with carbon eating tree varieties of same species, arguing that this should not impact on valuable agricultural vegetation.
+            <br></br><br></br>
+            <Collapsible trigger="Legumes">
+			      <p>
+            An eminent team of Salk Institute scientists <a href="https://www.salk.edu/harnessing-plants-initiative/">are</a> <a href="https://www.salk.edu/wp-content/uploads/2017/11/Harnessing-Plants.pdf">working</a> <a href="https://medium.com/ensia/plants-are-great-at-storing-co2-these-scientists-aim-to-make-them-even-better-508cd21e1ca9">on</a> a trick not unlike the increased root to shoot idea, by selectively breeding legumes to sequester carbon in underground cork: 
+
+            <br></br><br></br>
+            “While plants store this carbon in the form of numerous biomolecules, almost all of these materials are degraded by animals, fungi and bacteria and the stored CO2 thereby released. The Salk team has identified one particular plant made molecule, called suberin, that is highly resistant to this degradation and can thereby remain in the soil. Suberin, better known to wine aficionados as cork, is a waxy, water-repellant and carbon-rich substance ‘We realized that a crop with a larger, suberin-dense root would capture more carbon in the ground… Roots last longer than other parts of plants, particularly in perennial plants that live multiple years. Even in dead roots, suberin decays very slowly.’” 
+            <br></br><br></br>
+            So far, this seems to involve conventional selective breeding, <a href="https://academic.oup.com/jxb/article/66/4/1099/593973">and</a> <a href="https://www.pnas.org/content/114/24/E4884.short">scientific</a> <a href="https://www.pnas.org/content/115/20/E4710.short">study</a>, not genetic engineering per se. Plant associated <a href="https://www.pnas.org/content/114/42/11009">microorganisms</a> are an interesting aspect here as well. 
+            <br></br><br></br>
+            Relatedly, <a href="https://civileats.com/2015/06/15/superwheat-kernza-could-save-our-soil-and-feed-us-well/">converting</a> annual food crops such as wheats into perennials can both improve the plants and increase the amount of carbon they store in roots. Also, you generally get a ~50% production gain by perennialization of crops, just due to the extended growing season.
+            <br></br><br></br>
+            More generally, this strategy is to increase recalcitrance of biomass so that it decays slower. A <a href="https://www.novapublishers.com/wp-content/uploads/2019/05/978-1-63117-452-0_ch14.pdf">common</a> version of this is to increase the <a href="https://www.sciencedirect.com/science/article/abs/pii/S0038071714001278">Lignin to Cellulose ratio</a>. There’s a lively argument about whether this is a long-term path to both high quality soil and increased soil carbon. There is also a part of the community that believes that long-term soil carbon, being microbial in nature, is best increased by increasing <a href="https://www.frontiersin.org/articles/10.3389/fenvs.2018.00140/full">root sugar exudates</a> into the soil.
+			</p>
+			      </Collapsible>
+            <br></br>
+            <Collapsible trigger="ARPA-E ROOTS">
 			<p>
-            Prices of corn stover bales delivered to storage depots from distances up to 180 km averaged 40 $ per dry t on
+            The idea of increasing root mass has been taken up by an ARPA-E program called <a href="https://arpa-e.energy.gov/?q=programs/roots">ROOTS</a> (“Rhizosphere Observations Optimizing Terrestrial Sequestration”) where <a href="https://arpa-e.energy.gov/sites/default/files/documents/files/Revised_Final_Report_to_ARPA_Bounding_Analysis.pdf">it</a> has <a href="https://arpa-e.energy.gov/?q=publications/assessment-potential-greenhouse-gas-mitigation-changes-crop-root-mass-and-architecture">been</a> <a href="https://academic.oup.com/bioscience/article/60/9/685/237929">studied</a> in more detail. A key potential of this approach would be to modify agricultural crops to increase their root mass, so that one does not compete for space, water or fertilizer with agriculture for one’s carbon sequestration: 
             <br></br><br></br>
-            We estimate the cost of loading of baled crop residue onto the barges and from river barges to ocean barges would cost about 8 $/t crop residue for each lift
-            <br></br><br></br>
-            We estimated the waterborne shipping cost for baled crop residue to be 0.018 $/t/km
-            <br></br><br></br>
-            Assuming combined river and ocean shipping distance of 4000 km and ballast equal to 25% of the crop residue dry mass, the average shipping cost would be about 74 $/dry t.
-            <br></br><br></br>
-            The cost of the ballast would be about 7.75 $/t
-            <br></br><br></br>
-            Total cost would be about 135 $/t crop residue sequestered
-            <br></br><br></br>
-            The total cost of CROPS would be 340 $/t C, or 93 $/t CO2 
+            “There are numerous land management practices that can be adopted to increase soil carbon storage in agricultural soils (e.g., changes in crop rotations, tillage, fertilizer management, organic amendments, etc.) which have been extensively reviewed and assessed in the scientific literature. One of the most effective means for increasing soil C sequestration is through changing land cover, such as converting annual cropland to forest or perennial grasses, which generally contribute much more plant residue to soils. However, if widely applied, such land use conversions would have negative consequences for food and fiber production from the crops that are displaced. An option that has not yet been widely explored is to modify, through targeted breeding and plant selection, crop plants to produce more roots, deeper in the soil profile where decomposition rates are slower compared to surface horizons, as an analogous strategy to increase soil C storage.” 
 
 			</p>
 			</Collapsible>
             <br></br><br></br>
-            The main drawback with this, and indeed the main reason for a rebuttal paper, are concerns over stripping all the nutrients out of the soil. Considerations over this is why the paper only assumes you can use 30% of crop residue. There doesn’t seem to have been much rigorous to come up with a better answer here but the answer to how much crop residue you can remove is certainly &gt;0%. 
-            <br></br><br></br>
-            The only company to apply to Stripe’s request for proposals with this specific approach is <a href="https://github.com/stripe/carbon-removal-source-materials/blob/master/Project%20Applications/Spring2021/C%20Sink%20-%20Stripe%20Spring21%20CDR%20Purchase%20Application.pdf">C-Sink</a>. Their idea is to sink biomass from Turkey and Ukraine in the Black Sea which is one of the largest anoxic bodies of water. Interestingly they say that public perception is one of the larger challenges they face as some view this as a kind of “dumping”. 
-            <br></br><br></br>
-            One cool thing about C-Sink is that they propose creating a lift to move the biomass down below 30m at which point it will reliably sink without the need of a ballast which will save both cost and complexity. 
-
-            <br></br><br></br>
-            <b>Opportunity cost</b>
-            <br></br><br></br>
-            One thing you might think is that this is all a waste. If we have this biomass why not try to use it for fuel instead which we could then use to displace some fossil fuel usage. The paper addresses this and comes up with this comparison:
-            <br></br><br></br>
-            100t of crop residue used for ethanol production would avoid 35t of carbon emissions and the electricity generated from the heat from burning would be able to avoid 1.8t of fossil fuel carbon. In the end you get an efficiency of around 32% for cellulosic ethanol production meaning 100t crop residue would release 68t C back out into the atmosphere. If we simply sink our crop residue then we would see an efficiency of around 92% so we would expect only 8t C to escape back out. 
-            <br></br><br></br>
-            Basically as long as there is a fuel with a higher energy yield-to-carbon content ratio than biomass it will always be a better option to sequester it. 
-            
-            <br></br><br></br>
-            <b>Bio-oil</b>
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            It's probably worth mentioning that at the moment Charm is actually the company to have delivered the most permenant carbon removal tons to date. 
-			</span> 
-
-            A similar idea comes from <a href="https://charmindustrial.com/">Charm Industrial</a> who instead of burying biomass, turn biomass, like corn stover, into bio-oil via pyrolysis (basically heating them up a lot very quickly). They can then literally inject this bio-oil back into oil wells. 
-            <br></br><br></br>
-            At the moment this is very expensive ($600t) but they aim to have this down to around $50t as they scale up. The plan is to use waste residues like nut shells, corn stover, bagasse, rice straw that are generally not used as fossil fuel replacements in order to have pure additionality vs letting them rot. 
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            One useful thing when thinking about the CO₂ effect of bio-oil is that 1t of bio-oil ≈ 1t of CO₂e removed. This is because while the bio-oil process is only 70% efficient the ratio of bio-oil to CO₂e is 1:1.3 so these values balance out. 
-
-			</span> 
-
-            One interesting difference from the CROPS paper is their estimates on available biomass which are much higher. They have a lower bound of around 1.7Gt/yr of biomass available and an upper bound of 7Gt (and this is still using an assumption that only 20% of is available). Both of these estimates are much much higher than the 0.6Gt estimates from the CROPS paper. 
-            <br></br><br></br>
-            Another thing I think is kind of fun is that even the CROPS paper kind of says that this might well be the way to go with things if you have access to biomass rather than sinking it, at the time we just didn’t know how to do it.
-           
-            <br></br><br></br>
-            <b>Sinking macroalgae in the oceans </b>
-            <br></br><br></br>
-            A slightly different approach to the ones above is to grow macroalgae (mainly kelp) and then sink that to the deep ocean. This is a pretty simple and elegant solution as it is very additional and in theory very simple and cheap. 
-            <br></br><br></br>
-            If we look just at kelp then this is approximately 30% carbon and so 1kg of kelp will have ≈ 300g of carbon which corresponds to around 1.1kg of CO₂ removed. We can round and say that each kg of kelp removes around 1kg of CO₂. Another thing is that kelp grows really quickly, you can get it to basically peak growth in around 6 months. Once it gets to the deep ocean it is under extreme pressure and given that these layers of the ocean barely mix and are very anoxic it is likely to stay down there and not leak its carbon back out. This is basically the exact process that gave us oil in the first place.
-            <br></br><br></br>
-            One company attempting to do this is <a href="https://www.runningtide.com/">Running Tide</a>. They want to grow kelp on vertical farms which will then drift out to the open ocean. When they have grown to around 72kg a biodegradable tether will break and allow the micro farm to sink to the deep ocean.
-            <br></br><br></br>
-            Just how much CO₂ can this approach remove? As mentioned above 1kg of kelp roughly sequesters 1kg of CO₂. Each micro farm grows to around 70kg so each one removes around 70kg of CO₂. Not all of these microfarms will sink successfully though and Running Tide estimates around a 75% success rate in farms sinking to &gt;1000m. 
-            <br></br><br></br>
-            In terms of density of microfarms they say this: 
+            How much carbon can this approach sequester? The ARPA-E report states, 
 
             </p>
             <blockquote>
 				<p>
-                The final density estimates range from 1 microfarm per 16 km2 in a high-dispersion estimate (example, 200,000 microfarms released at once in the open North Atlantic) to 1 microfarms/ km2 in a low-dispersion estimate (example, 200,00 microfarms released at once into gyre conditions). In practice we will seek a mixture of these conditions.
+                “We found that around 87% of total US cropland (major annual crops plus hay/pasture land) had soils of sufficient depth and lacking major root-restricting soil layers to allow for crops with enhanced phenotypes… Based on this calculation, average annual (averaged over the initial 30 yr period) soil C accrual rates (assuming 100% adoption of improved phenotypes) ranged up to 280 Tg C per year (<b>1026 Tg CO2eq</b>) for the most optimistic scenario of a doubling of root C inputs and an extreme downward shift in root distributions. This is equivalent to an average rate of increase of almost 1.8 Mg C per hectare per year, similar to rates of soil C increase that have been observed with conversion of annual cropland to high productivity perennial grasses.” 
 
 				</p>
 			</blockquote>
             <p>
-            We can take the geometric mean of 1 and 16 to give a rough average for density of 4 (which is also what they say would be the most likely uniform density), let’s also take the entire surface area of the world's oceans. Not all will be suitable and there would be other logistical challenges but still for our upper bound we’ll take it. This would give us a surface area of around 360 million km² of ocean at 4 microfarms per km² then that gives us ≈1.5bn microfarms. The expected CO₂ removed by a micro-farm is 70kg*0.75 ≈ 53kg. Combining these figures we get ≈80bn kg. However, we have to remember that the growing cycle is only around 6 months so we could do this all twice a year doubling our removal rate to 160bn kg or 160m tCO2.
+            That’s about a quarter of a gigatonne of carbon per year, or <b>about 1 gigatonne CO2</b>, for US farmland alone. Now, total world farm-land is about 8x higher, so optimistically this approach could get up to around 8 gigatonnes CO2 per year globally, using existing land, at very low cost in principle, and with other potential benefits like improved soil quality or decreased fertilizer or water use if the overall characteristics of the crop plants improved along those dimensions as well. Perhaps not a complete solution in itself, but could be a very powerful component. 
             <br></br><br></br>
-            I don’t know the exact reasons for their density estimates and it also seems like if you went for an approach that was more static you could maybe get much much higher densities which could massively increase this value. 
-            <br></br><br></br>
-            One current issue they, and other similar projects are having is that this approach is much more difficult to monitor than others, say where you bury trees in a capsule and then just measure carbon leakage in that capsule. This means that verification/success will likely have to use a more of a computational approach, modeling how many microfarms are likely to sink in the right places and using models of carbon leakage from sunk farms, rather than measuring each farm individually. 
-            <br></br><br></br>
-            One thing I haven't quite got clear is under which conditions some particular approach is “the best”. If you take wood, crop residue, and kelp it really does seem that under certain assumptions maybe of technology (like being able to pyrolise efficiently) there should be some dominant method from a carbon removal standpoint. 
-            <br></br><br></br>
-            It seems like tree burial and bio-oil are basically direct competitors to things like BECCS or Biochar but surely there is only one best thing to do with the organic matter? It might be that one of these is better today but let’s say charm does get to their $50t target, would it then really be better to use the crop residue for any other approach?
-            <br></br><br></br>
-            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+            Meanwhile, a paper on a nominal “<a href="https://pubs.acs.org/doi/abs/10.1021/es502348e">theoretical upper limit to plant productivity</a>" stated: 
 
             </p>
+            <blockquote>
+              <p>
+              “…theoretical maximum NPP approached 200 tC ha–1 yr–1 at point locations, roughly 2 orders of magnitude higher than most current managed or natural ecosystems. Recalculating the upper envelope estimate of NPP limited by available water reduced it by half or more in 91% of the land area globally.”
+              </p>
+            </blockquote>
+            <p>
+
+            So, say the theoretical upper limit of any kind of bioengineering/plant approach would be 50 tC ha–1 yr–1, call it 20 even, and then compare that to the ROOTS analysis which had an optimistic figure of “equivalent to an average rate of increase of almost 1.8 Mg C ha-1 yr-1, similar to rates of soil C increase that have been observed with conversion of annual cropland to high productivity perennial grasses”. Since a Mg C is the same as a tC, the nominal theoretical upper limit is way higher even than ROOTS is contemplating.
+
+            </p>
+
+            <h2>Photosynthetic efficiency</h2>
+            <p>
+                Plant bioengineering is also aiming to increase the <a href="https://www.annualreviews.org/doi/10.1146/annurev-arplant-042809-112206">efficiency</a> of photosynthesis itself.
+                <label for="mn-demo" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <span class="marginnote" id="id_option">
+                James Webber has a <a href="https://ja.meswebber.com/blog/fixing-carbon/">nice post</a> on how one might go about improving cyanobacterial photosynthesis.
+                </span> 
+
+                The Rubisco enzyme, which carries out the initial steps of photosynthesis, is strangely inefficient, and sometimes burns its substrate with oxygen rather than affixing carbon to it. Although some <a href="https://pubs.acs.org/doi/10.1021/acs.biochem.9b00237">studies</a> <a href="https://www.pnas.org/content/103/19/7246">suggest</a> Rubisco may be nearly perfectly optimized for its difficult job:
+                
+            </p>
+            <blockquote>
+            <p> “…optimizing an unusual compromise: an advanced product-like transition state for CO2 addition aids discrimination between CO2 and O2, but its strong resemblance to the subsequent six-carbon carboxyketone intermediate causes that intermediate to bind so tightly that it restricts maximum catalytic throughput”
+            </p>
+          </blockquote>
+            <p>
+            Even still, not all crop plants use the most efficient form of photosynthesis, so this leads to room for <a href="https://blogs.plos.org/synbio/2019/09/02/building-a-co2-concentrating-mechanism/">improvement</a>, e.g., <a href="http://science.sciencemag.org/content/336/6089/1671">C4 rice</a>, and one can also work on the <a href="https://www.technologyreview.com/s/602932/super-fast-growing-gm-plants-could-yield-the-next-green-revolution/">temporal regulation</a> of photosynthesis pathways in the plant, or increase the <a href="https://www.pnas.org/content/115/49/E11455">CO2 retention</a> of other parts of the pathway.
+            <br></br><br></br>
+            Cyanobacteria concentrate CO2 in nanoscale organelles optimized for photosynthesis, called Carboxysomes, making it more available to the Rubisco enzyme complex, and people are working <a href="https://www.nature.com/articles/s41467-018-06044-0">to put</a> Carboxysomes into land plants!
+            <br></br><br></br>
+            One company that is actually pushing these ideas forward is <a href="https://www.livingcarbon.com/">living carbon</a> who are creating photosynthesis-enhanced trees. They recently published a <a href="https://www.livingcarbon.com/post/photosynthesis-enhanced-trees-grow-faster-and-capture-more-carbon">post</a> citing a "a 53% increase in the production of above ground biomass". This was in lab conditions but it is an exciting first step towards real world bioengineering. 
+            <br></br><br></br> 
+            In general, there is certainly large head-room for innovation and novel bioengineering approaches in biological carbon capture, e.g., Y Combinator discusses cell-free <a href="http://carbon.ycombinator.com/cell-free-systems/">photosynthetic bioreactors</a>. People have <a href="https://ieeexplore.ieee.org/document/7994433">done it</a> in the lab to some extent, though not in a self-sustaining way. This seems to be one of the less explored routes in the carbon removal space and one that has a lot of potential.   
+            <br></br><br></br>
+            </p>
+
 
           </section>
           </article>
@@ -208,6 +127,7 @@ export default function Home() {
         <div class="footer">
         <p style={{fontSize: '5rem'}}><a href="../section_2/2.6">&#8678;</a> &nbsp; <a href="../section_2/2.8">&#8680;</a></p>
         </div> 
+
 
       </main>
 

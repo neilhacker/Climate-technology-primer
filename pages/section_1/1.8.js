@@ -100,7 +100,7 @@ export default function Home() {
             a Tesla car battery is ~60-80 kWh
 			</span> 
 
-            per person over periods on the order of 5 days
+            &nbsp; per person over periods on the order of 5 days
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">

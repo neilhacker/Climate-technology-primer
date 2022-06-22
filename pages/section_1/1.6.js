@@ -46,23 +46,23 @@ export default function Home() {
             <div style={{textAlign: 'center'}}>
             <Image src='/img/sec1/1_country_emissions.png' alt="keeling curve" width="750px" height="460px"/>
             </div>
-
-            While all countries will need to reduce their emissions that is not equally easy for countries to do. Many developing countries will face pressures to increase their emissions to allow their economies to grow and their population to become richer. 
-            There is a balance to be struck between allowing developing countries to grow we have to try to come up with ways to both decarbonise in the richer countries and make the growth in developing countries as low emitting as possible. 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-      If you want an optimistic note you can read more about Germany’s Renewable Energy Sources Act (EEG) which has been called “Germany’s gift to the world” for the radical effect it had on helping to reduce solar prices 
-			</span> 
-
-            Rich countries have a key role in bringing down the cost of <a href="https://science.sciencemag.org/content/355/6331/1269.full">decarbonization</a> for <a href="https://twitter.com/TheEconomist/status/1155340013640572928">poorer countries</a>, at scale, e.g., through developing and demonstrating better, cheaper technology. 
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
             <input type="checkbox" id="mn-demo" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
-            Ramez’s plan is very much worth reading also for its suggestions for ARPA-style agencies for agriculture/food and industry/manufacturing.
+            If you want an optimistic note you can read more about Germany’s Renewable Energy Sources Act (EEG) which has been called “Germany’s gift to the world” for the radical effect it had on helping to reduce solar prices 
             </span> 
 
-            Ramez Naam <a href="https://techcrunch.com/2019/02/15/how-to-decarbonize-america-and-the-world/">argues</a> that building new renewables is becoming cheaper than operating existing coal which can hopefully mean that it is actually the cheaper option for developing countries to start using renewable energy now and not get locked in to a fossil fuel dependency. 
+            While all countries will need to reduce their emissions that is not equally easy for countries to do. Many developing countries will face pressures to increase their emissions to allow their economies to grow and their population to become richer. 
+            There is a balance to be struck between allowing developing countries to grow we have to try to come up with ways to both decarbonise in the richer countries and make the growth in developing countries as low 
+
+            emitting as possible. Rich countries have a key role in bringing down the cost of <a href="https://science.sciencemag.org/content/355/6331/1269.full">decarbonization</a> for <a href="https://twitter.com/TheEconomist/status/1155340013640572928">poorer countries</a>, at scale, e.g., through developing and demonstrating better, cheaper 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <span class="marginnote" id="id_option">
+            ¹ Ramez’s plan is very much worth reading also for its suggestions for ARPA-style agencies for agriculture/food and industry/manufacturing.
+            </span> 
+
+            technology.  Ramez Naam¹ <a href="https://techcrunch.com/2019/02/15/how-to-decarbonize-america-and-the-world/">argues</a> that building new renewables is becoming cheaper than operating existing coal which can hopefully mean that it is actually the cheaper option for developing countries to start using renewable energy now and not get locked in to a fossil fuel dependency. 
             <br></br><br></br>
             <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 

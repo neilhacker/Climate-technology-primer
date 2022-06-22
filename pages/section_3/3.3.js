@@ -45,7 +45,6 @@ export default function Home() {
             <div style={{textAlign: 'center'}}>
             <Image src='/img/sec3/3_clouds.png' alt="effect of big and small droplets on albedo" width="500px" height="300px"/>
             </div>
-            <br></br><br></br>
             <a href="onlinelibrary.wiley.com/doi/10.1002/2017EF000601/full">One</a> <a href="atmos.washington.edu/~robwood/Geoengineering/PJR_UW_Jan2011_v2.pdf">project</a> <a href="washington.edu/news/2017/07/25/could-spraying-particles-into-marine-clouds-help-cool-the-planet/">in</a> this area is based at the University of Washington.
             From their paper, “Early studies suggest that it might be possible to offset a doubling of CO2 globally by brightening 10%–30% of marine clouds”. The scheme is also very fast to switch on and off, since any given cloud system only lasts a matter of days.
             <br></br><br></br>

@@ -25,7 +25,7 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Fundamental energy and volume requirements of CDR</h1>
+            <h1 >2.1: Fundamental energy and volume requirements of CDR</h1>
             <h2>How much do we need to sequester</h2>
             <p>
             The 2019 National Academies roadmap <a href="https://www.nap.edu/read/25259/chapter/2">thinks</a> we need to be sequestering <b>~10 GtCO2/year globally by around 2050</b> and ~20 GtCO2 per year by end of century, in realistic situations where we abide by the Paris Agreement targets:
@@ -242,7 +242,7 @@ export default function Home() {
             <b onClick={()=>sidebar('mol_meter_cubed')} style={{cursor: 'pointer'}}>That's roughly</b> 40 mol/m³ of total air in the atmosphere,
             So to un-mix all CO2 from the atmosphere it would take
             <b onClick={()=>sidebar('energy_method3')} style={{cursor: 'pointer'}}> 1.27e21 Joules</b>
-            (That’s our 1.3e21 Joules from above)
+            &nbsp; (That’s our 1.3e21 Joules from above)
 
             <br></br><br></br>
             <b>Method 4</b>
@@ -368,8 +368,8 @@ export default function Home() {
             </span> 
 
             500 MegaJoules / tonne gives 
-            <b onClick={()=>sidebar('lawrence_kj_mol')} style={{cursor: 'pointer'}}> 22 kJ/mole</b>
-            of CO2. If you suck out Lawrence’s 650 GtCO2 you get 3.25e20 Joules, or 9e20 Joules at 35% thermodynamic efficiency.
+            <b onClick={()=>sidebar('lawrence_kj_mol')} style={{cursor: 'pointer'}}> 22 kJ/mole</b> of CO2. If you suck out Lawrence’s 650 GtCO2 you get 3.25e20 Joules, or 9e20 Joules at 35% thermodynamic efficiency.
+
             <br></br><br></br>
             In any case, compare our rough numbers, which are on the order of 1e21 Joules for a “full scale” sequestration of the atmosphere’s anthropogenic carbon, with the ~6e20 Joules per year total energy consumption of human civilization. We’re talking perhaps a year or two of civilization’s total current energy consumption, if we wanted to remove decades worth of CO2 emissions.
             <br></br><br></br>

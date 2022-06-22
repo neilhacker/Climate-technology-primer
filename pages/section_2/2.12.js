@@ -25,38 +25,116 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >On the NAS report on negative emissions</h1>
+            <h1 >2.12: Bioengineering in the ocean</h1>
               
             <p>
-            As mentioned above several times, in 2018, the US National Academy of Sciences released a detailed, interesting and important <a href="https://www.nap.edu/catalog/25259/negative-emissions-technologies-and-reliable-sequestration-a-research-agenda">report</a> on negative emissions technologies which can be read in full online.
-            <br></br><br></br>
-            <b>“Safe” achievable scales &lt;$100 </b>
-            <br></br><br></br>
-            With “current technology and understanding”, they estimate a “safe” achievable scale of at best only ~10 GigaTonnes of CO2 annually around the globe across all currently available technologies, in their Table S.1:
-            <br></br><br></br>
-            <div style={{textAlign: 'center'}}>
-        <Image src='/img/sec2/2_cdr_overview_table.png' alt="table going over properties of different cdr approaches" width="500px" height="400px"/>
-        </div>
-            <br></br><br></br>
-            <b>Potentials for plant based solutions</b>
-            <br></br><br></br>
-            Of note, their Box 3.1 is more optimistic on bioengineering-enhanced plant based approaches, with potentially 11 GtCO2/yr achievable just with plant based solutions and “frontier technology”
-            <br></br><br></br>
-            [BOX 3.1]
-            <br></br><br></br>
-            The report also argues for fairly aggressive funding for the ARPA-E ROOTS program, as well as some other research. What are their projected impacts of such innovation? With “frontier technology” they estimate 0.8 GtCO2/year sequestration in the USA for agriculture. Compare this to the ROOTS <a href="https://arpa-e.energy.gov/sites/default/files/documents/files/Revised_Final_Report_to_ARPA_Bounding_Analysis.pdf">analysis</a>, which stated “Based on this calculation, average annual (averaged over the initial 30 yr period) soil C accrual rates (assuming 100% adoption of improved phenotypes) ranged up to 280 Tg C per year (1026 Tg CO2eq) for the most optimistic scenario of a doubling of root C inputs and an extreme downward shift in root distributions.” One gigatonne is 1000 teragrams, so these estimates roughly agree. So their “frontier technology” version seems to take into account potential ROOTS-related advances and significant adoption thereof.
-            <br></br><br></br>
-            <b>DAC</b>
-            <br></br><br></br>
-            The NAS report also projects ~0 safe scaling of industrial direct air capture at this moment (see Table S.1), citing economics (cost) and practical barriers for safe scale-up. I think perhaps they basically just noted that this is expensive at present, and thus could inflict an economic damage and thus not be “safe” in a broad sense.
-            <br></br><br></br>
-            But this says little about the possibilities in a scenario where a) society considered the need to be more dire, or was richer, and thus could bear a larger economic cost, and/or b) where the technology has advanced further — indeed, they are just using this as a statement of the current state of the art, before going into a whole set of recommendations for new R&D to improve things. Everyone interested in this should read their outline of proposed research at the end of this <a href="https://www.nap.edu/read/25259/chapter/2#6">summary</a> document.
-            <br></br><br></br>
-            Overall, their Table S.1 pasted above deliberately undershoots — which makes sense given that it has “with current technology and understanding” in the title, and is assembled from a consensus of many expert views — what would be technically feasible with next-gen technology and research, and with realistic but aggressive deployment possibilities. That gives an optimistic picture overall, I think, if the technology development and cost reduction curves are pushed hard enough.
-            <br></br><br></br>
-            <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
+            One possibility would be to engineer Phytoplankton to permanently sequester more of the carbon they photosynthesize. 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            We’ll see where this enthusiasm comes from below, as well as reasons for less enthusiasm 
 
+			</span> 
+
+            My marvelous PhD advisor George Church argues that engineering phage-resistant cyanobacteria could be part of the solution: “If all of the material that they fix didn’t turn back into carbon dioxide, we’d have solved the global warming problem in a year or two.”
+            <br></br><br></br>
+            According to one estimate, the “oceanic annual global net primary productivity” is 48.5 Pg Carbon/year.
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            Remember a peta-gram is a gigaton
+			</span> 
+            Much of this photosynthesis is done by the tiny, very abundant cyanobacteria and this photosynthesis, just like with normal plants, removes CO₂ from the atmosphere..
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            There is a breakdown of what this means <a href="http://book.bionumbers.org/how-many-photons-does-it-take-to-make-a-cyanobacterium/">here</a>
+			</span> 
+            However, “ the vast majority of this fixed carbon is soon returned to the atmosphere following rapid viral attacks, planktonic grazing and respiration”, typically within just a few days. In other words, you’d like the carbon to settle onto the ocean floor where it won’t come back up anytime soon, but instead, there are viruses
+            that are wreaking havoc on many of the cyanobacteria and causing their cells to burst and release their carbon ultimately back into forms that will rapidly cycle into CO2 in the atmosphere.
+            <br></br><br></br>
+            There is basically a huge war going on between the phages and the cyanobacteria, and this war makes the cyanobacteria <a href="https://www.sciencemag.org/news/2016/06/ocean-viruses-may-have-impact-earth-s-climate">less able</a> to fix carbon:             
             </p>
+            <blockquote>
+				<p>
+                “The team estimates that the <b>cyanophages are preventing the fixation of between 20 million and 5.39 billion metric tons</b> of carbon each year. At its upper end, that would be equivalent to about 10% of the carbon fixed every year by the entire ocean, or 5% of the carbon fixed globally. The true number depends on how many bacteria are infected at any one time—something scientists don’t yet have a good handle on. Previous studies indicate that anywhere from 1% to 60% of cyanobacteria in the ocean could be infected at once.”
+
+				</p>
+			</blockquote>
+            <p>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            At present, such recoded organisms are still not as functional as their normal cousins (for which every detail of the genome sequence has been optimized by evolution) but it has more or less <a href="http://science.sciencemag.org/content/353/6301/819">been</a> <a href="http://science.sciencemag.org/content/342/6156/357">done</a>. Note that regardless of anything at an ecosystem level, such recoded organisms are likely to <a href="https://www.64-x.com/">have</a> <a href="https://www.prnewswire.com/news-releases/george-church-lab-spinout-gro-biosciences-secures-21-million-in-seed-funding-300527233.html">plenty</a> of biotech applications including potentially in a bioenergy with carbon capture setting. 
+
+			</span> 
+
+            So why was George so excited? He is proposing to genetically engineer cyanobacteria to be resistant to all phages, by altering their genetic codes such that they are different than those used by the phages, preventing the phages from replicating inside them.
+            <br></br><br></br>
+            Or in his <a href="https://www.edge.org/conversation/george_church-church-speaks">words</a>:
+            </p>
+            <blockquote>
+				<p>
+                “Cyanobacteria turn carbon dioxide, a global warming gas, into carbohydrates and other carbon-containing polymers, which sequester the carbon so that they’re no longer global warming gases. They turn it into their own bodies… If all of the material that they fix didn’t turn back into carbon dioxide, we’d have solved the global warming problem in a year or two. The reality, however, is that almost as soon as they divide and make baby bacteria, phages break them open, spilling their guts, and they start turning into carbon dioxide. Then all the other things around them start chomping on the bits left over from the phages.”
+
+				</p>
+			</blockquote>
+            <p>
+            If we take somewhere in between the 20 million and 5 billion metric tons numbers given above, 
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            The team estimates that the cyanophages are preventing the fixation of between 20 million and 5.39 billion metric tons of carbon each year
+            <br></br><br></br>
+            Rather than making them fully resistant to phage per se with full genomic recoding, you could also make them simply un-hackable in certain specific ways by the cyanophages in terms of their redirecting of the photosynthesis, i.e., altering the specific biochemical entry points that the phage use for this purpose. Whether this would be robust is another question.
+
+			</span> 
+
+            say if phage prevent fixation of 200 million metric tons of carbon per year, then if the phage were out of the picture, using the above conversion 0.2 gigatonnes is around 0.1 ppm, so preventing the phage infection would not have that much effect compared to the other carbon capture programs we’ve considered. At 10x-100x higher impact of the phages, we’re becoming comparable with the prospects for very large-scale bioenergy with carbon capture and storage. George’s numbers, like up to 50 GigaTonnes of Carbon per year fixed, are a lot higher, I think at minimum a large fraction of all of the oceanic photosynthesis.
+            <br></br><br></br>
+            I’d argue that there are major risks to making cyanos phage resistant if they are ever to exist in the wild. One is related to scientific understanding — what if the phages are, in some ways, ecologically good? The <a href="http://millardlab.org/research/cyanophages/">lab</a> of Andrew Millard is doing some of the science on this: “The findings… will help scientists better understand the full impact of cyanophages on the environment. While in this particular case less carbon fixation would seem to tip the scales toward more CO2 and more warming, it’s just one aspect of what viruses are doing in the ocean…”
+            <br></br><br></br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            Today I believe that, in practice, genomically recoded organisms still tend to have a growth defect, although this is likely <a href="https://www.pnas.org/content/115/12/3090.short">solvable</a>, and even with a growth defect, they might still be able to gain an advantage if their lifetimes are much longer when phage resistant.) Note that photosynthesis in oceans is limited by nutrients such as nitrogen and phosphorus — if one creature eats too much, others that need it will get less. So this is risky to say the least and needs to be approached with great caution.
+			</span> 
+
+            Either way, if they were ever to be released at large in the wild, a major risk is that this kind of thing might give the engineered cyanobacteria a fitness advantage over the naturally occurring ones, with extremely worrying potential ecological consequences at best.
+            <br></br><br></br>
+            <b>Biocontainment</b>
+            <br></br><br></br>
+            <label for="mn-demo" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+			<span class="marginnote" id="id_option">
+            There is <a href="https://www.sciencedirect.com/science/article/pii/S2405471216302149">some</a> <a href="https://www.nature.com/articles/nature14095">very</a> <a href="https://www.nature.com/articles/s41589-018-0056-x">cool</a> <a href="https://www.nature.com/articles/nature14121">work</a> in this area. It is not clear to me, though, how a system contained in an industrial setting would achieve a scale of CO2 removal comparable to the world’s overall yearly photosynthesis. (But see YC’s “boat fleet” concept below, for an example of how the definition of “an industrial setting” might need some extension.)
+
+			</span> 
+
+            George mentions “biocontainment” as a risk reduction strategy, and it would be very important to study the details of how that would work.
+            <br></br><br></br>
+            To do biocontainment in the wild, you could make an organism <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5357788/">depend</a> <a href="https://academic.oup.com/nar/article/43/3/1945/2411250">for</a> its survival on an exogenously supplied set of chemicals, and then supply that chemical in the wild — then, if humans stopped supplying the chemicals, the organism would be done for. This needs more research as far as true scalability and robustness at the levels that would be needed to impact atmospheric CO2. Importantly, our understanding of evolution as it really occurs in wild populations is still rudimentary.
+            <br></br><br></br>
+            In any case, these are early stage concepts, and I agree that cynanobacteria are industrially interesting in a variety of environmentally relevant ways, but I’m not yet seeing a clear, safe path to global-scale carbon removal with these recoding methods. Caution is warranted here.
+            <br></br><br></br>
+            <Collapsible trigger="Y Combinator and ocean bioengineering">
+			<p>
+            Y Combinator also extensively <a href="http://carbon.ycombinator.com/ocean-phytoplankton/">discusses</a> ocean cyanobacteria or other phytoplankton as a potential carbon sequestration approach. They discuss a few options such as 
+            <br></br>
+            a) growing engineered algae on large boats and then inducing a state-switch such that they would produce a stable, sinking <a href="https://d28rz98at9flks.cloudfront.net/81091/Jou1981_v6_n4_p307.pdf">bio-film or bio-plastic</a> which could then be dumped overboard and sink to the bottom, 
+            <br></br>
+            b) engineering some collective computation into the system such that they would spontaneously do this in the ocean without the boats, and 
+            <br></br>
+            c) making variants that are less dependent on ocean minerals such that they could proliferate more. In the boats scheme, they cleverly propose to put the boats where there is a lot of sunlight but not a lot of nutrients to support growth in the ocean itself, although those nutrients have to come from somewhere — increasing <a href="http://www.climatefoundation.org/marine-permaculture.html">nutrient upwelling</a>, e.g., for marine permaculture, is another option.
+
+			</p>
+			</Collapsible>
+            <br></br>
+            These all seem like early concepts meant to spur innovative thinking, rather than end-points of that thinking. I support and enjoy this kind of stimulation of collective thought patterns, and I put George Church’s phage resistance idea above in a similar category. 
+            <br></br><br></br>
+            </p>
+
+
 
           </section>
           </article>

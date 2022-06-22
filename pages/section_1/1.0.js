@@ -25,13 +25,13 @@ export default function Home() {
         <div>
           <article>
           <section>
-            <h1 >Section 1: intro</h1>
+            <h1 >Section 1: Intro</h1>
               
             <p>
             
             This first section aims to give an outsider’s summary of the basics of the physics/chemistry/biology of the climate system. 
             Firstly by looking at some basic numbers, things like radiation balance and feedback effects. I then have a look at where 
-            emissions are coming from with some BoTE looks at a few popular policy ideas as well as some levers we could pull to 
+            emissions are coming from with some back of the envelope (BoTE) looks at a few popular policy ideas as well as some levers we could pull to 
             accelerate emissions reductions. I take a look at some of the potential impacts of the path we’re on, 
             importantly including tipping points. I’ll end with some of my overarching takeaways.
             
@@ -72,7 +72,7 @@ export default function Home() {
           </article>
         </div>    
         <div class="footer">
-        <p style={{fontSize: '5rem'}}><a href="../">&#8678;</a> &nbsp; <a href="../section_1/1.1">&#8680;</a></p>
+        <p style={{fontSize: '5rem'}}><a href="../disclaimers">&#8678;</a> &nbsp; <a href="../section_1/1.1">&#8680;</a></p>
         </div> 
 
 

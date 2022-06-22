@@ -53,7 +53,7 @@ export default function Home() {
 
            </p>
            
-           <h2>Nucelar</h2>
+           <h2>Nuclear</h2>
            <p>
            <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>

@@ -25,70 +25,35 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >Some take-aways</h1>
-              <h2>Energy</h2>
+            <h1 >2.13: On the NAS report on negative emissions</h1>
+              
             <p>
-            We need abundant cheap, clean energy: a carbon tax (perhaps a revenue-neutral one) would help us get there. These are probably the exact same things one would have said before thinking about carbon dioxide removal. But:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            As mentioned above several times, in 2018, the US National Academy of Sciences released a detailed, interesting and important <a href="https://www.nap.edu/catalog/25259/negative-emissions-technologies-and-reliable-sequestration-a-research-agenda">report</a> on negative emissions technologies which can be read in full online.
             <br></br><br></br>
-            The thermodynamic minimum energy needed for direct air carbon capture is less bad than I thought it would be, but still hefty by current standards, and reaching near that minimum is hard.
-
-			</span> 
-
-            <ul>
-                <li>We now have the added goal to generate a surplus of cheap clean energy for use in sucking carbon out of the atmosphere through industrial chemical facilities. 
-            </li>
-                <li>A carbon tax or other economic incentive seems key to driving not only increased progress in renewable energy deployments, but also to driving the economics of technologically promising large-scale direct air carbon capture schemes. 
-            </li>
-            </ul>
-
-            </p>
-            <h2>Biological solutions</h2>
-            <p>
-            Agriculture based schemes for carbon capture seem interesting to consider, through methods like improving agricultural crops by creating varieties with larger and deeper root growths, through other ways of improving soil, and through methods like physical sequestration or bioenergy with carbon capture applied to otherwise unused crop residues. 
+            <b>“Safe” achievable scales &lt;$100 </b>
             <br></br><br></br>
-            This leads to a serious biology challenge of making crop varieties with the same or better yields as we have now, but with increased root mass, and potentially with other improved properties like efficiency in their use of water or nitrogen, as pursued by ARPA-E’s ROOTS program. 
+            With “current technology and understanding”, they estimate a “safe” achievable scale of at best only ~10 GigaTonnes of CO2 annually around the globe across all currently available technologies, in their Table S.1:
             <br></br><br></br>
-            For pure agricultural bio-sequestration — via increased root masses, no-till farming, and so forth — cap-ex and op-ex are both arguably essentially zero (or a marginal increase in farm equipment and inputs needed per bushel if harvested crop yield decreases), and there are no costs for transport/burial/utilization in this scheme since the crops ideally just grow like usual.
+            <div style={{textAlign: 'center'}}>
+        <Image src='/img/sec2/2_cdr_overview_table.png' alt="table going over properties of different cdr approaches" width="700px" height="700px"/>
+        </div>
             <br></br><br></br>
-            For capture of crop residues, there is a need for transport and burial, but in a context where large-scale transport is already widely used, e.g., to bring the corn and such to the grocery store near you.
+            <b>Potentials for plant based solutions</b>
             <br></br><br></br>
-            Diverse scientists and engineers, like the Salk Institute plant biology team, or the teams supported by the ROOTS program, are getting into the game on fundamentals of improving plants and phytoplankton for improved carbon capture in conjunction with other improved properties.
+            Of note, their Box 3.1 is more optimistic on bioengineering-enhanced plant based approaches, with potentially 11 GtCO2/yr achievable just with plant based solutions and “frontier technology”
             <br></br><br></br>
-            We also need improved crops for all sorts of other reasons (including as a means of adaptation to climate change), so why not also let them sequester more carbon? 
+            <div style={{textAlign: 'center'}}>
+            <Image src='/img/sec2/2_forest_and_ag.png' alt="summary table for forest and agriculture scales" width="700px" height="350px"/>
+            </div>
+            The report also argues for fairly aggressive funding for the ARPA-E ROOTS program, as well as some other research. What are their projected impacts of such innovation? With “frontier technology” they estimate 0.8 GtCO2/year sequestration in the USA for agriculture. Compare this to the ROOTS <a href="https://arpa-e.energy.gov/sites/default/files/documents/files/Revised_Final_Report_to_ARPA_Bounding_Analysis.pdf">analysis</a>, which stated “Based on this calculation, average annual (averaged over the initial 30 yr period) soil C accrual rates (assuming 100% adoption of improved phenotypes) ranged up to 280 Tg C per year (1026 Tg CO2eq) for the most optimistic scenario of a doubling of root C inputs and an extreme downward shift in root distributions.” One gigatonne is 1000 teragrams, so these estimates roughly agree. So their “frontier technology” version seems to take into account potential ROOTS-related advances and significant adoption thereof.
             <br></br><br></br>
-            Azolla, the plant that may have caused an ice age, is inspiring here, for instance in its symbiotic relationship with a microbe to fix nitrogen directly from the air, potentially improving fertilizer-related considerations. At least one <a href="https://www.pivotbio.com/">company</a>, Pivot Bio, is looking at not-unrelated things, and the <a href="http://www.climatefoundation.org/">Climate Foundation</a> is apparently looking at Azolla itself.
-
-            </p>
-            <h2>Company formation/activity</h2>
-            <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            Some updates and further resources on this:
+            <b>DAC</b>
             <br></br><br></br>
-            Musk created a <a href="https://www.xprize.org/prizes/elonmusk">Carbon Removal X Prize</a>
+            The NAS report also projects ~0 safe scaling of industrial direct air capture at this moment (see Table S.1), citing economics (cost) and practical barriers for safe scale-up. I think perhaps they basically just noted that this is expensive at present, and thus could inflict an economic damage and thus not be “safe” in a broad sense.
             <br></br><br></br>
-            Carbonplan <a href="https://carbonplan.org/research/cdr-database">scorecards</a> here for negative emissions proposals
+            But this says little about the possibilities in a scenario where a) society considered the need to be more dire, or was richer, and thus could bear a larger economic cost, and/or b) where the technology has advanced further — indeed, they are just using this as a statement of the current state of the art, before going into a whole set of recommendations for new R&D to improve things. Everyone interested in this should read their outline of proposed research at the end of this <a href="https://www.nap.edu/read/25259/chapter/2#6">summary</a> document.
             <br></br><br></br>
-            The Stripe proposals are at <a href="https://github.com/stripe/carbon-removal-source-materials/tree/master/Project%20Applications">this repo</a>
-			</span> 
-
-            Overall, there seems to be growing activity in the carbon capture space right now, exemplified by YC’s <a href="http://carbon.ycombinator.com/">entry</a> into the space, as well as Stripe’s, by the serious startups already operating in industrial direct air capture, and by early negative emissions prototype facilities already <a href="https://qz.com/1100221/the-worlds-first-negative-emissions-plant-has-opened-in-iceland-turning-carbon-dioxide-into-stone/">open</a>.
-
-            </p>
-            
-            <h2>DAC</h2>
-            <p>
-            In direct air capture, electrically rather than thermally switchable CO2 binding <a href="https://twitter.com/pfau/status/1187789535960170496">looks</a> super interesting.
-
-            </p>
-
-            <h2>Ocean</h2>
-            <p>
-            Ocean-based technology seems under-developed relative to its potential importance. As a kid, I watched the wonderful show SeaQuest, yet most of what it dreamed of hasn’t materialized. Papers like <a href="https://www.sciencedirect.com/science/article/abs/pii/S136403211830532X#!">this one</a> on electro-geochemistry represent a remarkable hybrid technology — generating useful hydrogen fuel from renewables that are uniquely abundant in the ocean, while capturing carbon and reducing ocean acidification, all without taking up space on land. They make me question how we can be more creative in our use of the open oceans. <a href="https://www.seasteading.org/videos/the-eight-great-moral-imperatives/">I’m not the first</a> to have realized this. We’ll see more <a href="http://oceanrep.geomar.de/46897/">ocean-based creativity</a> when we discuss the Latham Salter proposal.
+            Overall, their Table S.1 pasted above deliberately undershoots — which makes sense given that it has “with current technology and understanding” in the title, and is assembled from a consensus of many expert views — what would be technically feasible with next-gen technology and research, and with realistic but aggressive deployment possibilities. That gives an optimistic picture overall, I think, if the technology development and cost reduction curves are pushed hard enough.
             <br></br><br></br>
             <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
@@ -96,11 +61,11 @@ export default function Home() {
 
           </section>
           </article>
-        </div>   
+        </div>    
         <div class="footer">
-        <p style={{fontSize: '5rem'}}><a href="../section_2/2.12">&#8678;</a> &nbsp; <a href="../section_3/3.0">&#8680;</a></p>
+        <p style={{fontSize: '5rem'}}><a href="../section_2/2.12">&#8678;</a> &nbsp; <a href="../section_2/2.14">&#8680;</a></p>
         </div> 
- 
+
 
       </main>
 

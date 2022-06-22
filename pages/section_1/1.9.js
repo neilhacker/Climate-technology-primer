@@ -73,7 +73,7 @@ export default function Home() {
             Further, and this is a bit more speculative, if you can drill really really deep into hot dry rock, ultimately down to say 10 km, much of the USA has high-temperature heat that could be used for geothermal. Therefore, the theoretically-available geothermal capacity is huge, actually larger than oil and gas combined. Anything hotter than the light orange in the below plot would be good quality heat for geothermal.
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
-            <Image src='/img/sec1/1_10_geo.png' alt="10km geothermal heat map" width="500px" height="400px"/>
+            <Image src='/img/sec1/1_10_geo.png' alt="10km geothermal heat map" width="700px" height="400px"/>
             </div>
             <br></br><br></br>
             How can we access this huge untapped capacity? There are a couple key technical issues:
@@ -93,9 +93,9 @@ export default function Home() {
             First, the drilling. From <a href="https://www.nrc.gov/docs/ML0932/ML093280492.pdf">this old MIT report</a> we have a cost model for well drilling in the geothermal and oil/gas sectors:
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
-            <Image src='/img/sec1/1_geo_drilling.jpeg' alt="cost of geothermal drilling graph" width="500px" height="400px"/>
+            <Image src='/img/sec1/1_geo_drilling.jpeg' alt="cost of geothermal drilling graph" width="600px" height="550px"/>
             </div>
-            <br></br><br></br>
+            <br></br>
             The Wellcost Lite model (solid red curve), from Sandia National Lab, suggests about $30M drilling cost for a 10 km well. In practice, most oil and gas drilling is &lt;3 km or so, which is much shallower. So most of the equipment for drilling as well as for sensors and such in the wells has not been optimized for the higher temperatures and pressures. To get to ~10 km level wells in hot dry rock, the equipment is going to need to be hardened.
             Also, there is likely room for innovation on the underlying drilling methods and costs. The company <a href="https://www.stradaglobal.com/">Strada Global</a> thinks they can do both things.
             <br></br><br></br>
@@ -116,7 +116,8 @@ export default function Home() {
 			</span> 
 
             So let’s say a reasonable cost range, which we’ll use later, could be between say $10M and $30M to drill a 10 km well into hot dry rock, if new technologies and industry learning curves start kicking in. Getting there, especially at the lower cost level, will involve a concerted amount of technology development and iteration.
-           
+            
+            <br></br><br></br>
            <b>Energy cost</b>
            <br></br><br></br>
            Second, there is what energy cost you can actually deliver. Being cost-competitive is crucial for geothermal to make sense as a business. 
@@ -128,9 +129,8 @@ export default function Home() {
            We’ve established above that it is not totally unreasonable to expect that future 10 km drilling itself could cost $30M. Let’s assume we can have that price include the steel wellbore casing, too. That presupposes some cost improvement, but it doesn’t seem crazy. What about the CAPEX costs other than the well itself, i.e., the steam turbines and cables and such. From the <a href="https://www.nrc.gov/docs/ML0932/ML093280492.pdf">old MIT report</a> we can see that, depending on flow rate, a geothermal plant operating at 350℃ can cost on the order of $1/Watt to $2/Watt, and can output tens to low hundreds of MegaWatts (MW). 
            <br></br><br></br>
            <div style={{textAlign: 'center'}}>
-            <Image src='/img/sec1/1_geo_utilization.jpeg' alt="Cost of geothermal with utilization graph" width="500px" height="400px"/>
+            <Image src='/img/sec1/1_geo_utilization.jpeg' alt="Cost of geothermal with utilization graph" width="600px" height="600px"/>
             </div>
-           <br></br><br></br>
            Anyway, let’s say it is doing 30MW, at a specific plant cost of $2/Watt. Then, adding in the well drilling cost, which is $30M for that same 30MW, and thus a $1/Watt well cost, we have a total CAPEX of around 2+1=$3/Watt. 
            <br></br><br></br>
            <label for="mn-demo" class="margin-toggle">&#8853;</label>
@@ -152,7 +152,7 @@ export default function Home() {
            <br></br><br></br>
            <span style={{fontSize: 'medium'}}><Latex>{'$CRF=\\dfrac{r(1+4)^{N}}{(1+r^{N}-1)}$'}</Latex></span> 
            <br></br><br></br>
-           This <a href="https://www.wolframalpha.com/input/?i=%28%28%243%2FWatt%29+*+0.07+*+%28%281.00%2B0.07%29%5E30%29+%2F%28%28%281.00%2B0.07%29%5E30%29+-+1%29+%2F+%288760+hours*0.7%29%29+in+cents+per+kilowatthour">gives</a> about 4 cents per kWh. Compare this with <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3015424">John Platt’s</a> “miracle” threshold of $2.2/We (baseload).
+           This <a href="https://www.wolframalpha.com/input/?i=%28%28%243%2FWatt%29+*+0.07+*+%28%281.00%2B0.07%29%5E30%29+%2F%28%28%281.00%2B0.07%29%5E30%29+-+1%29+%2F+%288760+hours*0.7%29%29+in+cents+per+kilowatthour">gives</a> about 4 cents per kWh. Compare this with <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3015424">John Platt’s</a> “miracle” threshold of $2.2/W (baseload).
            <br></br><br></br>
            Given various inefficiencies in the system depending on how much of that supposed 30MW we can actually capture as electricity using which kinds of turbines with which efficiencies, it seems we might be significantly worse than that, depending on the details, but there is clearly a lot of wiggle room.
            Although new <a href="https://climeon.com/how-it-works/">technologies</a> may allow greater efficiencies than in the past when dealing with lower temperature heat, as well, and see the notes here about use of supercritical CO2 as a working fluid.)
@@ -204,7 +204,6 @@ export default function Home() {
            <div style={{textAlign: 'center'}}>
             <Image src='/img/sec1/1_evaor.png' alt="diagram of evaor system" width="500px" height="400px"/>
             </div>
-           <br></br><br></br>
            <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">

@@ -82,7 +82,6 @@ export default function Home() {
                 <li>West Antarctic ice sheet</li>
                 <li>East Antarctic ice sheet</li>
             </ul>
-            <br></br><br></br>
             Ideally ice melt would go slowly, e.g., a century or more, giving some time to respond with things like negative emissions technologies (next post) and perhaps some temperature stabilization via solar geo-engineering (next next post). But from my understanding, it is at least conceivable that it could happen in just a couple of decades, for instance if a series of major tipping points due to in positive feedbacks are crossed, e.g., methane release en masse from the permafrost
             <br></br><br></br>
             Now, a question for each of these is whether they can be reversible, if we brought back the temperature via removal of CO2 or via solar radiation management.
@@ -174,8 +173,8 @@ export default function Home() {
             See <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">this paper</a> for more
 			</span> 
 
-            Conceivably, though not by any means with certainty from what I can tell, even solar radiation management and negative emissions, which would artificially bring the temperature back down
-            <a href="https://glacierhub.org/2018/08/16/solar-geoengineering-could-limit-sea-level-rise-from-the-cryosphere/">might not</a> be able to stop the melting when it is driven by such unstable undersea processes
+            Conceivably, though not by any means with certainty from what I can tell, even solar radiation management and negative emissions, which would artificially bring the temperature back 
+            down  <a href="https://glacierhub.org/2018/08/16/solar-geoengineering-could-limit-sea-level-rise-from-the-cryosphere/">might not</a> be able to stop the melting when it is driven by such unstable undersea processes
             <br></br><br></br>
             All is not completely lost in that case, to be sure. There are <a href="https://www.nature.com/articles/d41586-018-03036-4">at least some proposed local glacier management schemes</a> that could directly try to <a href="https://www.theatlantic.com/science/archive/2018/01/a-new-geo-engineering-proposal-to-stop-sea-level-rise/550214/">limit</a> the ice loss, including buttressing the ice sheet underwater, as well as <a href="https://advances.sciencemag.org/content/5/7/eaaw4132">spraying snow</a> on top.
             In short, given enough urgency and time humanity will likely find a way, like <a href="https://www.nybooks.com/articles/2008/09/25/the-question-of-global-warming-an-exchange/">Dyson’s sea kites</a>, that could actively reduce sea levels and counteract sea level rise regardless of its exact cause.

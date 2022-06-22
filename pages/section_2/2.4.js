@@ -25,175 +25,79 @@ export default function Home() {
         <div>
           <article>
           <section >
-            <h1 >2.4: Other chemical methods</h1>
+            <h1 >2.4: DAC + minerals</h1>
               
-            <h2>Ocean liming</h2>
+            <h2>Electrochemically enhanced mineral weathering</h2>
             <p>
             <label for="mn-demo" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
-            Update 2022: Additional Ventures is releasing <a href="https://www.additionalventures.org/initiatives/climate-action/ocean-alkalinity-enhancement-research/">RFPs</a> on ocean alkalinity enhancement here
-
-			</span> 
-
-            Beyond these kinds of industrial facility based direct air capture approaches, there are also other chemistry-based means of carbon capture that don’t involve much or any biology, e.g., <a href="https://www.hakaimagazine.com/news/end-worlds-worst-acid-trip/">altering ocean acidity</a>. Per the Lawrence et al paper:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            Ocean pH has dropped by around 0.1 since preindustrial times. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/8/1/014009">This simulation</a> of large-scale (Gt per year) olivine dissolution in the context of a complex climate model predicts only “mean sea surface pH is increased after ten years of olivine dissolution by 0.007” which wouldn’t quite bring back the pre-industrial ocean pH but might compensate for ongoing ocean acidification to some significant degree.
-
-			</span> 
-  
-            </p>
-            <blockquote>
-				<p>
-                “Similarly, ocean alkalinization has been proposed via distribution of crushed rock into coastal surface waters <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR53">53</a>, as slowly sinking micrometre-sized silicate particles deposited onto the open-ocean sea surface <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR54">54</a>,<a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR55">55</a>, or via dispersion of limestone powder into upwelling regions <a href="https://www.nature.com/articles/s41467-018-05938-3#ref-CR56">56</a>. <b>Ocean alkalinization would contribute to counteracting ocean acidification, in turn allowing more uptake of CO2 from the atmosphere into the ocean surface waters</b>.”
-				</p>
-			</blockquote>
-            <p>
-            <a href="http://www.azimuthproject.org/azimuth/show/Enhanced+weathering">Weathering of rocks</a> is indeed a key carbon sink, and this could be <a href="https://m.phys.org/news/2018-03-weathering-atmospheric-co2-limited-effect.html">increased</a> by mining large quantities of silicate materials that would then be exposed to the atmosphere and later sequestered. The Lawrence paper estimates that one could do it, but that it would require a huge effort similar in scale to that of direct air capture approaches; see the graphic on the Climeworks website for a nice comparison.
-            <br></br><br></br>
-            You are probably not going to perfectly match the mass of weathering material to that of the CO2 captured so there should be a further markup, although <a href="https://www.pnas.org/content/pnas/early/2010/11/01/1000545107.full.pdf">this paper</a> finds a mass ratio of about 1. We’d basically need to 1000x the olivine mining industry (~10 megatons to &gt;10 gigatons). For comparison as far as I can tell the entire oil mining industry is only producing &lt;5 GigaTonnes of oil per year. The olivine mining industry that would be needed at full scale for this is on the order of the size of the existing oil mining industry.
-            <br></br><br></br>
-            <a href="https://www.azimuthproject.org/azimuth/show/Enhanced+weathering">Weathering</a> has the advantage that it is in some ways a simple extension of mining operations we know how to do. This also allows us to crudely back of the envelope the costs, based on the idea that, as the Lawrence paper states, <b>"removing a certain mass of CO2 requires a similar mass of weathering material"</b>. If a material like Olivine costs ~$20-$25/tonne, and we need to remove say 40 gigatonnes a year, and we assume that the overall operation here costs 4x what it costs to simply deliver you a certain quantity of olivine today, then we have $20*40e9*4 = $3 trillion dollars a year. 
-            <br></br><br></br>
-            <Collapsible trigger="Project Vesta">
-			<p>
-            This now allows us to talk about <a href="https://www.vesta.earth/the-project">Project Vesta</a>, which is covered beautifully by Eli Dourado in his <a href="https://elidourado.com/blog/dawn-of-geoengineering/">post on geoengineering</a>. To quote Dourado:
-
-			</p>
-            <blockquote>
-				<p>
-                “Let’s run some numbers assuming the $9.04/ton figure based on Project Vesta’s estimates. Say we wanted to offset 40 gigatons of CO₂, close to the average global annual level of CO₂ emissions. Per Project Vesta’s at-scale model, that would cost around $360 billion. That is a lot of money, but it’s less than, say, US annual defense expenditures, around one tenth of what the US pays for healthcare annually, or 0.4% of global GDP (which is around $88T and growing).”
-
-				</p>
-			</blockquote>
-            <p>
-            Vesta’s model thus appears to be about 10x more optimistic on costs than my crude back of the envelope estimate above of $3 trillion. That’s probably because I was assuming an increasing marginal operations cost at scale, e.g., if you have to mine from less favorable locations or transport larger distances or install more new capital equipment to do so, but Dourado points out that so far scale is leading to decreasing costs in Olivine mining — which makes sense given the standard notion of economies of scale. Vesta’s website <a href="https://projectvesta.org/frequently-asked-questions/">points out</a> that since the supply is in principle nearly unlimited, basic economics should tell us that we’ll have a favorable economy of scale. I’m not expert enough say whether Vesta’s estimate, or my more conservative estimate, are closer to the truth. Either way, it is still in the $100/tCO2 cost range cited by Stripe as potentially leading to a trillion dollar industry in practice, and perhaps in the $10/tCO2 range. That’s pretty exciting.
-            <br></br><br></br>
-            Vesta points out that “in fact, in China alone, there are more people working in coal mining than would be needed for global scale olivine mining (1-1.5 million people)”. If you are worried about emissions from olivine mining <a href="https://news.ycombinator.com/item?id=18295857">this post</a> suggests that the amount of CO2 emissions from it  would only be about 4% of that captured. <a href="https://news.ycombinator.com/item?id=20407355">This post</a> talks more about environmental impacts.
-            <br></br><br></br>
-            It <a href="https://www.youtube.com/watch?v=b8mrL8bvTWI">seems</a> that at this point they are working on measuring the kinetics on a real beach — how fast can the olivine dissolve and thus sequester its mass of carbon? <a href="https://projectvesta.org/frequently-asked-questions/">Vesta’s FAQ</a> mentions full dissolution of the olivine particles over 5 years, much faster than <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5382570/">this paper</a> suggests. 
-            <br></br><br></br>
-            "Our simulations showed a cumulative weathering of 4% of the olivine after the first year, 12% after 5 years, 35% after 25 years, 57% after 50 years, and 84% after 100 years"
-            <br></br><br></br>
-            Vesta cites the mechanical considerations of the surf as the reason and they seem to be expecting to be able to grind down only to 100 micron particle size and let mechanical action on the shore do the rest. I think it remains to be seen how well this works.
-            <br></br><br></br>
-            It also seems like there is plenty of <a href="https://www.iaea.org/sites/default/files/18/07/oa-chemistry-dickson-050916.pdf">complexity</a> to the <a href="https://www.sciencedirect.com/science/article/pii/S0048969716319258#f0010">chemistry</a> (thanks to <a href="https://www.microsoft.com/en-us/research/people/jonatlee/">Jonathan Lee</a> on an email thread for pointing out this paper) that would actually be operating in the live ocean. For example, there is a <a href="https://www.pnas.org/content/108/12/E41#ref-1">debate</a> in the literature as to what happens to one of the key proposed intermediates in the weathering process, silicilic acid (H4SiO4). The opponents <a href="https://www.pnas.org/content/107/47/20228">argue</a> that “estimates so far do not address… saturation of waters with silicic acid (H4SiO4), which would restrict further dissolution of olivine”. Vesta argues that silicilic acid will simply allow more diatoms to grow.
-
-           </p>
-
-			</Collapsible>
-            <br></br><br></br>
-            <b>Uncertainties</b>
-            <br></br><br></br>
-            There is the issue of equilibrium with pre-existing oxygen in the ocean, ocean pH buffering and the fact that there is a carbon released as CO2 for every carbon that is permanently sequestered as limestone on the sea floor. Could there also be other side reactions in the real world, e.g., microbe catalyzed, that may not be what we want? 
-            <br></br><br></br>
-            Despite these cautions, the basic idea that this type of process can sequester CO2 on a global scale and lower global temperatures seems clearly true from what seems to be the consensus understanding of what caused some of the ice ages.
-            <br></br><br></br>
-            The NAS report has a fantastic <a href="https://www.nap.edu/read/25259/chapter/8">chapter</a> on this type of approach, and similarly points out scientific uncertainties:
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            There is also the possibility of <a href="https://www.nature.com/articles/s41477-018-0108-y">adding</a> crushed carbon-sequestering minerals to agricultural soils: “Biogeochemical improvement of soils by adding crushed, fast-reacting silicate rocks to croplands is one… CO2-removal strategy. This approach has the potential to improve crop production, increase protection from pests and diseases, and restore soil fertility and structure. Managed croplands worldwide are already equipped for frequent rock dust additions to soils, making rapid adoption at scale feasible, and the potential benefits could generate financial incentives for widespread adoption in the agricultural sector.”
-
-			</span> 
-
-            </p>
-            <blockquote>
-				<p>
-                “There is <b>limited understanding of the kinetics of CO2 uptake</b>, no inventory of appropriate geologic deposits and existing tailings of reactive but unreacted rock, and no technical expertise to manage tailings piles so that they effectively take up CO2. In addition, <b>negative feedbacks cannot be predicted</b>, nor can the long-term consequences of depositing crushed reactive minerals in agricultural soils, along the coasts, or into the shallow ocean… Finally, carbon mineralization is currently constrained by many scientific unknowns, as well as <b>uncertainty about environmental impacts and likely cost</b>. However, like direct air capture, carbon mineralization technologies could have very large capacity if their costs and environmental impacts could be sufficiently reduced… The costs of carbon mineralization are uncertain because the fundamental understanding of the processes and engineering systems required for effective sequestration is insufficient… “
-
-				</p>
-			</blockquote>
-            
-            <h2>Electro-geochemistry / electrochemically enhanced mineral weathering</h2>
-            <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            Similar to the situation for direct air capture, “the process is renewable-energy intensive” and “without market incentives such as a carbon tax or credit, the cost of H2 production here will likely be uncompetitive with conventional sources of H2, e.g., H2 production via CO2-emissions intensive methane reforming”. 
-            <br></br><br></br>
             Here is a <a href="http://homepages.ed.ac.uk/shs/Climatechange/Carbon%20sequestration/Rau_EST_08_reprint.pdf">paper</a> about this kind of “electrogeochemistry” approach, and a more recent <a href="https://www.nature.com/articles/s41558-018-0203-0">evaluation</a> by the same team. <a href="https://www.sciencedaily.com/releases/2018/06/180625192825.htm">They</a> estimated that “electrogeochemical methods could, on average, increase energy generation and carbon removal by more than 50 times relative to BECCS [bioenergy with carbon capture and storage], at equivalent or lower cost”. Here is a <a href="https://www.youtube.com/watch?v=MjlKR6gFgqQ">talk</a> on this.
+			<br></br><br></br>
+            I wish that the world market for H2 were large enough to make this fully commercially viable, but — although hydrogen has major commercial and decarbonization potential in a number of sectors that are otherwise difficult to decarbonize — it seems like we can’t purely drive the emergence of this technology today on the demand for hydrogen. Also without some market incentives like a carbon credit producing hydrogen using this method is currently not competitive with conventional sources like methane reforming.
 
-			</span> 
+            </span> 
 
             This is kind of an intellectual hybrid between the direct air capture and rock weathering approaches, in the sense that it requires an energy input. It solves several key problems with DAC and mineral weathering by combining them. Unlike DAC, it produces hydrogen, an economically useful fuel, and unlike DAC, it doesn’t require transporting captured carbon to some underground permanent storage, instead having carbon capture characteristics closer to those of olivine weathering. Meanwhile, it creates a more optimal chemical environment for enhanced mineral weathering.
             <br></br><br></br>
-            Interestingly, Y Combinator <a href="http://carbon.ycombinator.com/electro-geo-chemistry/">proposes</a> an enhanced version of rock weathering as a frontier research area for carbon capture — they propose to electrochemically generate hydrogen fuel from seawater using renewable energy, in the process enhancing the rate of mineral weathering and its associated CO2 capture and ocean de-acidification! In the proposed scheme:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            I wish that the world market for H2 were large enough to make this fully commercially viable, but — although hydrogen has major commercial and decarbonization potential in a number of sectors that are otherwise difficult to decarbonize — it <a href="https://twitter.com/gnievchenko/status/1186027815570989057">seems</a> like we can’t purely drive the emergence of this technology today on the demand for hydrogen.
-
-			</span> 
+            Interestingly, Y Combinator proposes an enhanced version of rock weathering as a frontier research area for carbon capture — they propose to electrochemically generate hydrogen fuel from seawater using renewable energy, in the process enhancing the rate of mineral weathering and its associated CO2 capture and ocean de-acidification! In the proposed scheme:I wish that the world market for H2 were large enough to make this fully commercially viable, but — although hydrogen has major commercial and decarbonization potential in a number of sectors that are otherwise difficult to decarbonize — it seems like we can’t purely drive the emergence of this technology today on the demand for hydrogen.
 
             </p>
             <blockquote>
 				<p>
-                “Electro-geo-chemistry uses an electrochemical process to increase the rate of geochemical CO2 removal. This approach also produces energy in the form of hydrogen gas (H2). It uses saline water electrolysis in the presence of minerals to generate H2 while at the same time creating a highly reactive solution that acts like a chemical sponge, absorbing and converting CO2 into dissolved mineral bicarbonate. Adding this bicarbonate to the ocean not only provides long term carbon storage, but it also helps counteract ocean acidification. Thus, when powered by renewable electricity, this electro-geo-chemistry can be used to produce a non-fossil transportation fuel, H2, while simultaneously removing CO2 from the atmosphere and countering ocean acidification. The global abundances of the required materials and energy for this negative-emissions H2 process suggest that it can be done at very large scales.” 
+                “Electro-geo-chemistry uses an electrochemical process to increase the rate of geochemical CO2 removal. This approach also produces energy in the form of hydrogen gas (H2). It uses saline water electrolysis in the presence of minerals to generate H2 while at the same time creating a highly reactive solution that acts like a chemical sponge, absorbing and converting CO2 into dissolved mineral bicarbonate. Adding this bicarbonate to the ocean not only provides long term carbon storage, but it also helps counteract ocean acidification. Thus, when powered by renewable electricity, this electro-geo-chemistry can be used to produce a non-fossil transportation fuel, H2, while simultaneously removing CO2 from the atmosphere and countering ocean acidification. The global abundances of the required materials and energy for this negative-emissions H2 process suggest that it can be done at very large scales.”
 
 				</p>
 			</blockquote>
+            <h2>Mineral looping </h2>
             <p>
-            <Collapsible trigger="You can expand this to read about some other methods including using ocean thermal gradients">
-			<p>
-            There is also the idea of <a href="https://www.sciencedirect.com/science/article/pii/S136403211830532X">harnessing ocean thermal gradients</a> to provide negative CO2 emissions energy while alkalinizing the ocean. This is closely related to the electrogeochemistry weathering idea — indeed, it is one particular implementation of it — and is by one of the same key authors, Greg Rau. Ocean Thermal Energy Conversion is <a href="https://www.makai.com/ocean-thermal-energy-conversion/">already</a> a thing, and this is a modification of it to induce negative emissions while also generating hydrogen fuel and countering ocean acidification. 
+            Instead of combining DAC and minerals in a way that simply accelerates natural weathering another option is to use minerals that naturally bind with CO₂ in the atmosphere as the actual DAC component and then heat these up to release a pure stream of CO₂, just like what occurs with normal DAC set ups.
             <br></br><br></br>
-            The just-linked paper from Rau says: “For each gigawatt (GW) of continuous electric power generated over one year by the preceding negative-emissions OTEC (NEOTEC), roughly 13 GW of surface ocean heat would be directly removed to deep water, while producing 1.3 × 10^5 tonnes of H2/yr (avoiding 1.1 × 10^6 tonnes of CO2 emissions/yr), and consuming and storing (as dissolved mineral bicarbonate) approximately 5 × 10^6 tonnes CO2/yr.” According to Wikipedia, “up to 88,000 TWh/yr of power could be generated from OTEC without affecting the ocean’s thermal structure [Pelc and Fujita, 2002]” — that’s more than our entire world energy consumption, which is good.
+            The advantage of using minerals to do this is that, if you pick the right ones, they can be abundant and hence cheap. This is in comparison to many current sorbents which can contribute up to 80% of the cost of DAC.
             <br></br><br></br>
-            Currently, though, it looks like OTEC pilot plants are only operating at 100 kW scale. It may be costly and difficult to build very large-scale OTEC plants in the near future, and, given the numbers just quoted, you would need a lot of, say, 100 MW plants, to get this to a scale where it was removing gigatonnes of CO2 per year overall. This may be why Y Combinator’s site separated out the carbon sequestration part of this idea from the precise nature of the renewable energy source.
+            The basic idea with these types of solutions is that you take some feedstock, you heat it up to release a stream of CO₂, you then take the remaining mineral, get it into a state where it will react again with CO₂ in the atmosphere, expose it to the air, and repeat. 
             <br></br><br></br>
-            Relatedly, <a href="https://www.technologyreview.com/f/611599/a-hydrogen-powered-boat-is-touring-the-worlds-oceans/">here is a boat</a> that generates hydrogen fuel from renewables for its own energy use, and here is a related negative emissions hydrogen plus ocean liming idea that also uses <a href="https://link.springer.com/article/10.1007/s11027-018-9835-7">biomass</a> as an energy input: “A preliminary cost analysis resulted in an average levelized cost of 98$ per ton of CO2 removed; when considering the revenues from the produced energy, the cost falls to 64 $/tCO2”. (p.s., you can also apparently use microbes that ingest hydrogen and fix nitrogen to make fertilizer, as they do here with a so-called <a href="https://news.harvard.edu/gazette/story/2018/01/harvards-bionic-leaf-could-help-feed-the-world/">“bionic leaf“</a>, building on the <a href="https://www.technologyreview.com/s/610177/the-race-to-invent-the-artificial-leaf/">“artificial leaf”</a> which pops out the hydrogen.)
-            <br></br><br></br>
-            The <a href="http://www.azimuthproject.org/azimuth/show/Carbon+capture+and+storage">Azimuth Project</a> also treats a few other chemical carbon storage ideas.
+            One option is to do this with magnesite as <a href="https://www.nature.com/articles/s41467-020-16510-3">this paper</a> talks about:
 
-			</p>
-			</Collapsible>
-
-            </p>
-            <h2>Capturing at the source</h2>
-            <p>
-            Capturing CO2 in the flue gas / smokestack at central power plants 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            While CO2 concentration is still high, can be 10%),
-			</span> 
-            before they are released into the atmosphere (and diluted to 0.04%) is energetically more favorable than direct air capture from the atmosphere.
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            In practice it might currently be orders of magnitude better given the larger level of investment but in terms of ultimate limits it doesn’t seem to be
-			<br></br><br></br>
-            Air capture requires more free energy, but the difference is small. I will discuss several comparisons where the ratio in free energy demand varies between 1.06 and 2.93.”
-            <br></br>
-            - klaus lackner 
-            </span> 
-
-            If we’re reducing flue gas from 10% concentration to 1% concentration, at roughly room temperature, then using the mixing formula from the DAC section
-            , I <a href="https://www.wolframalpha.com/input/?i=-gas+constant+*+300+kelvin+*+%28Ln%5B1%2F10%5D+-+%281-1%2F10%29*0.01%2F%280.1-0.01%29*Ln%5B0.01%2F0.1%5D+%2B%280.1%2B0.01%29%2F2+-+1%29+in+kj%2Fmole">get</a> 7 kJ/mole of CO2, versus 20 kJ/mole for direct air capture in terms of thermodynamic limit. That’s only a bit better in principle. I was expecting it to be orders of magnitude better
-            <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
-            Interestingly, the 45Q program in the US <a href="https://qz.com/1203803/donald-trump-signed-a-landmark-bill-to-support-carbon-capture-and-nuclear-power/">appears</a> to provide tax credits that would come near that level
-			</span> 
-
-            The economics here still seem to require government intervention to create the right incentives. I’m seeing <a href="https://hub.globalccsinstitute.com/sites/default/files/publications/201688/global-ccs-cost-updatev4.pdf">numbers</a> like ~60% cost increase to use carbon capture, and $100/ton CO2 emission avoided. From <a href="https://epic.uchicago.edu/news-events/news/carbon-capture-and-storage-crossroads">this site</a>, for instance, “In terms of implementing CCS, Herzog estimates that the entire process could cost between $50 to $100 per ton of stored CO2. <b>Providing a 30 percent investment tax credit and $50 subsidy per ton of CO2 stored, as proposed by the US Department of Energy, would likely spark the building of CCS plants</b>, Herzog said”.
-            <br></br><br></br>
-            Some are concerned that widely deployed CCS at the source <a href="https://twitter.com/gnievchenko/status/1153754998901268481">could diminish</a> the cost of carbon to the point where DACCS would no longer be commercially viable, however.
-            <br></br><br></br>
-            MacKay’s <a href="https://www.withouthotair.com/c29/page_222.shtml">comments</a> on capture from coal plants, towards the end of his book, are interesting:
             </p>
             <blockquote>
 				<p>
-                “The principal problem is that carbon pollution is not priced correctly. And there is no confidence that it’s going to be priced correctly in the future. When I say “correctly,” I mean that the price of emitting carbon dioxide should be big enough such that every running coal power station has carbon capture technology fitted to it. Solving climate change is a complex topic, but in a single crude brush-stroke, here is the solution: the price of carbon dioxide must be such that people stop burning coal without capture… So what do politicians need to do? They need to ensure that all coal power stations have carbon capture fitted.”
+                ​​Here we detail a land-based enhanced weathering cycle utilizing magnesite (MgCO3) feedstock to repeatedly capture CO2 from the atmosphere. In this process, MgCO3 is calcined, producing caustic magnesia (MgO) and high-purity CO2. This MgO is spread over land to carbonate for a year by reacting with atmospheric CO2. The carbonate minerals are then recollected and re-calcined. The reproduced MgO is spread over land to carbonate again.
 
 				</p>
 			</blockquote>
+            <p>
+            This same kind of approach is being used by Heirloom but instead of magnesite they use calcium carbonate as their feedstock.
+            
+            <div style={{textAlign: 'center'}}>
+            <Image src='/img/sec2/2_heirloom.png' alt="Heirloom mineral looping method" width="600px" height="400px"/>
+            </div>
+
+            You basically have the same process but you need to hydrate the calcium oxide after you have stripped out the CO₂. 
+            <br></br><br></br>
+            According to their <a href="https://uploads-ssl.webflow.com/6041330ff151737fb03fc474/6245ecce7b2d1b514b674816_Heirloom%20White%20Paper.pdf">white paper</a> “The fastest rate consistently achieved by our process is equivalent to 630g CO2 removed per 1m2 of exposed contactor area every 2.5 days, reaching 85% carbonation of the Ca(OH)2 utilized”. To capture 1Gt of CO₂ a year with these values you would need roughly 1e10 m², or 10,000km²,  of exposed contactor area. On the face of it this is a lot, three times the size of Rhode island. However, as Heirloom notes there is no need for these contactors to be spread out individually, instead they can be stacked on top of each other which can rapidly reduce the ground level surface area needed.
+            <br></br><br></br>
+            If we take the depth of the contactor to be 5mm then you would need 55,000,000 m³ of calcium carbonate. Given that calcium carbonate has a density of around 2,930 kg/m3 this would give us a mass of around 160,000,000t, if costs are between $10 - 50 per metric ton this gives us a price range of $1.6-8bn for the raw calcium carbonate needed to remove 1Gt a year. Actually getting this quantity though shouldn’t be a problem as CaCO3 is one of the most abundant compounds in the earth and is already mined extensively. 
+            <br></br><br></br>
+            In terms of energy the <a href="https://uploads-ssl.webflow.com/6041330ff151737fb03fc474/6245ecce7b2d1b514b674816_Heirloom%20White%20Paper.pdf">white paper</a> says:
+
+            </p>
+            <blockquote>
+				<p>
+                The decomposition of CaCO3 alone requires 1.78 GJ per metric ton of CaCO3 decomposed, or roughly 4 GJ per metric ton of CO2 captured. Since the reaction occurs at 900 ºC, there is also energy associated with elevating the material to temperature. Heirloom targets a total energy requirement of less than 1,500 kWh/tCO2 , or 5.4 GJ/tCO
+
+				</p>
+			</blockquote>
+            <p>
+            This is not an unreasonable target, it would put it just less than 3 times higher than McKay’s estimate for the best we’re going to do of 90kJ/mol of CO₂ (0.5682 kWh/kg CO₂). However, to remove 1Gt of CO₂ it would still require almost 5 times the UKs annual energy consumption from electricity.  
+            <br></br><br></br>
+            Ultimately this is still going to be an expensive operation but hopefully the use of an abundant material for the feedstock can allow the approach to scale more easily.  
+
+            </p>
+
+
+
+           
             <br></br><br></br>
             <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 

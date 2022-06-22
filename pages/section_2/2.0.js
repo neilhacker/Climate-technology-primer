@@ -86,7 +86,7 @@ export default function Home() {
             Here is a relevant figure with a schematic 2C pathway from the <a href="https://www.nap.edu/read/25259/chapter/2#3">NAS report</a>, showing a key role for large-scale negative emissions:
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
-            <Image src='/img/sec2/2_2c_pathways.png' alt="2 degrees pathways" width="500px" height="400px"/>
+            <Image src='/img/sec2/2_2c_pathways.jpeg' alt="2 degrees pathways" width="700px" height="400px"/>
             </div>
             <br></br><br></br>
             <b>Even if we managed to stop releasing any new CO2 very soon, we might still have big problems</b>, due to the carbon already up there in the atmosphere by that time.
@@ -142,7 +142,7 @@ export default function Home() {
             Different carbon removal approaches have vastly different characteristics in terms of things like land or energy use. While there is a lot of information in this <a href="https://www.globalcarbonproject.org/global/pdf/Smith_2015_Biophysical%20and%20economic%20limits%20to%20negative%20CO2%20emissions.NatureCC.pdf">summary figure</a> it gives a good overview of the types of tradeoffs we will be looking at below. E.g DAC uses very few natural resources (land, water etc) but currently has a massive cost and energy footprint, whereas something like forests use vast amounts of natural resources but have a net energy gain from their use, as well as biodiversity benefits.  
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
-        <Image src='/img/sec2/2_cdr_comparison_bars.png' alt="keeling curve" width="500px" height="400px"/>
+        <Image src='/img/sec2/2_cdr_comparison_bars.png' alt="keeling curve" width="700px" height="700px"/>
         </div>
 
             </p>
@@ -160,9 +160,10 @@ export default function Home() {
           
           </section>
           </article>
-        </div>    
+        </div>  
+          
         <div class="footer">
-        <p style={{fontSize: '5rem'}}><a href="../section_1/1.11">&#8678;</a> &nbsp; <a href="../section_2/2.1">&#8680;</a></p>
+        <p style={{fontSize: '5rem'}}><a href="../section_1/1.12">&#8678;</a> &nbsp; <a href="../section_2/2.1">&#8680;</a></p>
         </div> 
 
 
