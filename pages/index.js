@@ -19,7 +19,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Climate Technology Primer"/>
         <meta name="twitter:site" content="https://www.climatetechnologyprimer.com"/>
-        <meta name="twitter:description" content="A quantitiative look at the climate and the technological solutions that can help."/>
+        <meta name="twitter:description" content="A quantitative look at the climate and the technological solutions that can help."/>
         <meta name="twitter:image" content="https://www.climatetechnologyprimer.com/img/twitter_card.png"/>
 
 
