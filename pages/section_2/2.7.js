@@ -32,8 +32,8 @@ export default function Home() {
             </p>
             <h2>Root to shoot ratio</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             If engineering trees sounds completely fanciful, read this <a href="https://www.pnas.org/content/104/43/16816">paper</a> and listen to the second half of this <a href="https://soundcloud.com/anatomyofnext/new-world-6-crispr-fields-of-plenty">podcast episode</a>, the latter in which Gabriel Licina mentions combining the <a href="https://en.wikipedia.org/wiki/Akira_Miyawaki#Method_and_conditions_for_success">Miyawaki Method</a> of tree planting which leads to fast growth, and <a href="https://today.oregonstate.edu/archives/2013/dec/significant-advance-reported-genetically-modified-poplar-trees">genetic engineering</a>.
 
@@ -96,8 +96,8 @@ export default function Home() {
             <h2>Photosynthetic efficiency</h2>
             <p>
                 Plant bioengineering is also aiming to increase the <a href="https://www.annualreviews.org/doi/10.1146/annurev-arplant-042809-112206">efficiency</a> of photosynthesis itself.
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_2_1" class="margin-toggle"/>
                 <span class="marginnote" id="id_option">
                 James Webber has a <a href="https://ja.meswebber.com/blog/fixing-carbon/">nice post</a> on how one might go about improving cyanobacterial photosynthesis.
                 </span> 

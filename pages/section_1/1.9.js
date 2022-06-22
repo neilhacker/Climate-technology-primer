@@ -27,16 +27,16 @@ export default function Home() {
           <section >
             <h1 >1.9: Geothermal</h1>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_0">
             Eli Dourado gives a great overview of geothermal <a href="https://elidourado.com/blog/geothermal/">here</a>.
 			</span> 
 
             Geothermal energy has arguably been a kind of neglected Cinderella-like stepchild of the renewable energy space — but the fact remains, it is carbon free, baseload, and dispatchable.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_1">
             Iceland is technically “hydrothermal”, with natural permeability and replenished water close to the surface.
 			</span> 
 
@@ -51,9 +51,9 @@ export default function Home() {
             <br></br><br></br>
             A recent <a href="https://dataspace.princeton.edu/handle/88435/dsp01vt150n315">techno-economic simulation</a> from Princeton (not yet peer-reviewed) studied the effects of applying a few steps of industry “learning curve” to enhanced geothermal technology using today’s drilling costs (much reduced of late due to progress made in drilling technology during the shale boom)
             
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_2">
             <br></br><br></br>
             LCOE = levelized cost of energy, this basically refers to how much each unit of energy would have to cost to make a certain return on the building of a power plant given how long it operates for and how much energy it can extract
 			<br></br><br></br>
@@ -109,9 +109,9 @@ export default function Home() {
             <p>
             Of course, that is a startup CEO saying that, so take it with a grain of salt. But drilling this deep should likely be possible. They also say on their website they think they could reduce drilling costs by 70%, basically by drilling faster if I understand correctly. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_3">
             Metcalfe estimates a $20M, 10 km deep geothermal well in the near future in the above post.
 			</span> 
 
@@ -133,18 +133,18 @@ export default function Home() {
             </div>
            Anyway, let’s say it is doing 30MW, at a specific plant cost of $2/Watt. Then, adding in the well drilling cost, which is $30M for that same 30MW, and thus a $1/Watt well cost, we have a total CAPEX of around 2+1=$3/Watt. 
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_4">
             This interest rate accounts for the borrowing cost as well as the premium the owners hope to get over risk free assets
 			</span> 
 
            How does this work out for the consumer? We can plug K=$3/Watt into the following formulas for the levelized cost of energy (<a href="https://www.nrel.gov/analysis/tech-lcoe-documentation.html">LCOE</a>), assuming an interest rate
            of r=7%, a capacity factor of CF=70%, and N=30 year plant lifetime:
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_5" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_5">
             CRF is the capital recovery factor which basically aims to give us the present value of a set of cashflows 
 			</span> 
 
@@ -157,9 +157,9 @@ export default function Home() {
            Given various inefficiencies in the system depending on how much of that supposed 30MW we can actually capture as electricity using which kinds of turbines with which efficiencies, it seems we might be significantly worse than that, depending on the details, but there is clearly a lot of wiggle room.
            Although new <a href="https://climeon.com/how-it-works/">technologies</a> may allow greater efficiencies than in the past when dealing with lower temperature heat, as well, and see the notes here about use of supercritical CO2 as a working fluid.)
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_6" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_6">
             <a href="https://web.archive.org/web/20210515234454/https://www.heatbeat.energy/post/how-will-you-market-geothermal-energy">Metcalfe</a> talks about cost innovation potentially getting the field to 1 cent per kWh:
 
 			</span> 
@@ -182,18 +182,18 @@ export default function Home() {
            <br></br><br></br>
            Is there any possibility to avoid “well stimulation” entirely? To allow this, people are developing “closed loop” geothermal systems. To explain this a bit, in a normal geothermal system today, you need to create a loop where cold fluid goes into one vertical well and comes out another. To connect the two wells, one creates a fracture network in the rock between them. 
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_7" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_7">
             Quoting from the DOE website, they indeed define the technology as involving fracking: “During EGS development, the injection of fluid into the hot rock enhances the size and connectivity of fluid pathways by re-opening fractures.”
 
 			</span> 
 
            This is what so-called Enhanced Geothermal Systems (EGS) generally do. They randomly frack and try to make a circulating flow of water from cold to hot, with access via two vertical wells. The US Department of Energy (DOE) has put in a lot of effort towards incrementally improving and widening the scope of utility of such systems, e.g., through the <a href="https://www.energy.gov/eere/geothermal/what-forge">FORGE project</a>
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_8" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_8" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_8">
             Fervo Energy is a cool company <a href="https://m.youtube.com/watch?v=YkbIZb99TT8">pursuing</a> that, funded by Breakthrough Energy. It’s a smaller and more controlled perturbation to the rock, but still a perturbation. (Incidentally, Fervo is also <a href="https://arpa-e.energy.gov/technologies/projects/solve-egs-surface-orbital-vibrator-evaluation-enhanced-geothermal-systems">using</a> distributed fiber optic sensing, something Rodriques and I <a href="https://arxiv.org/abs/1506.01033">suggested</a> for another application — the brain.
 			</span> 
 
@@ -204,9 +204,9 @@ export default function Home() {
            <div style={{textAlign: 'center'}}>
             <Image src='/img/sec1/1_evaor.png' alt="diagram of evaor system" width="500px" height="400px"/>
             </div>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_9" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_9" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_9">
             In the geothermal space another super interesting effort is <a href="https://www.engine.xyz/founders/quaise/">Quaise</a>. They are doing a new type of drilling that uses electromagnetic waves produced by plasma to blast through rock. It emerged from the work of Paul Woskov at MIT Plasma Science and Fusion Center. Here is a paper on <a href="https://www.researchgate.net/profile/Pp-Woskov/publication/286571247_Penetrating_rock_with_intense_millimeter-waves/links/59d78047458515db19cb9f21/Penetrating-rock-with-intense-millimeter-waves.pdf">“Penetrating rock with intense millimeter-waves“</a>. They are talking about going to 20 km deep. That makes things very hot and would really change what one can do.
 
 			</span> 
@@ -223,9 +223,9 @@ export default function Home() {
            technology breakthrough allowing full closed loop systems with no well stimulation to access much larger surface areas for 
            heat exchange without massively increasing drilling costs, but it seems unclear as of yet what this will be.
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_10" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_10" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_10">
             For further reading, David Roberts <a href="https://www.vox.com/energy-and-environment/2020/10/21/21515461/renewable-energy-geothermal-egs-ags-supercritical">recently covered</a> this space in an excellent article:
 
 			</span> 

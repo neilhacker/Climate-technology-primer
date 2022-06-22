@@ -27,9 +27,9 @@ export default function Home() {
           <section >
             <h1 >1.5: Impacts - fires</h1>
               <p>
-              <label for="mn-demo" class="margin-toggle">&#8853;</label>
-              <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-              <span class="marginnote" id="id_option">
+              <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+              <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+              <span class="marginnote" id="mn_1_0">
           For a great look specifically at wildfires in California check out <a href="https://nintil.com/wildfires-california/">this pieces</a> by <a href="https://twitter.com/ArtirKel">José Luis Ricón Fernández de la Puente</a>
               </span> 
 
@@ -59,9 +59,9 @@ export default function Home() {
             <p>
             There is a somewhat subtle point, especially when looking at Californian fires, which is that climate change is likely making conditions more conducive to fires than it has been in the past but a large chunk of the uptick in devastation of fires is likely from more local reasons, such as population changes and fire exclusion practices. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_1">
             i.e There is less certainty on severity as this is more down to management
             </span> 
 

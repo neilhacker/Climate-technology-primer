@@ -31,9 +31,9 @@ export default function Home() {
                 — this is fantastic, as it means everyone, no matter how self-interested they are, now has the incentive to massively build these system out. 
                 As I mentioned in the disclaimers, deploying existing technology now is important as there is a tightly limited feasible carbon budget in the coming few decades and we can’t afford to wait to curb emissions if we want to limit the peak CO2 concentration reached.
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
+                <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+                <span class="marginnote" id="mn_1_0">
                 You can find more studies <a href="https://en.wikipedia.org/wiki/Cost_of_electricity_by_source#Current_global_studies">here</a>.
                 </span> 
 
@@ -55,9 +55,9 @@ export default function Home() {
                  In a system nearing 100% variable renewable energy without storage, the control architecture of the power grid has to change, because existing control strategies rely heavily on the mechanical inertia of the large spinning turbines in conventional power plants — the current small percentage of variable renewables in the grid is able to integrate by following the patterns established by these large non-variable sources, and by being smoothed out by conventional fossil fuel sources. 
                  <br></br><br></br>
                  The Stanford roadmap makes reference to a separate <a href="https://www.pnas.org/content/112/49/15060">study</a> where they did detailed simulations of variability based on weather, and incorporated the use of various existing storage technologies to allow grid integration. A <a href="https://www.pnas.org/content/114/26/6722">paper was published</a> in PNAS, however, questioning their assumptions and arguing:           
-                 <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
+                 <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+                <span class="marginnote" id="mn_1_1">
                 The post from Uhlik in the nuclear section on thorium reactors also contains a quantitative <a href="https://atomicinsights.com/thorium-2/">critique</a> of the assumptions of the Jacobson wind-water-solar roadmap.
                 <br></br><br></br>
                 I would be remiss not to mention the Stanford group’s <a href="https://www.pnas.org/content/114/26/E5021">reply</a> which among other things states: “Clack et al. (1) assert that underground thermal energy storage (UTES) can’t be expanded nationally, but we disagree. UTES is a form of district heating, which is already used worldwide (e.g., 60% of Denmark); UTES is technologically mature and inexpensive; moreover, hot-water storage or heat pumps can substitute for UTES. Similarly, molten salt can substitute for phase change materials in CSP storage.”
@@ -74,9 +74,9 @@ export default function Home() {
 			</blockquote>
 
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_2">
             However, the paper just mentioned also pointed out that, if you only need to be 95% based on variable renewables, then the storage cost target is significantly less stringent.
 			</span> 
 
@@ -86,32 +86,32 @@ export default function Home() {
         <Image src='/img/sec1/1_cost_curves.jpeg' alt="energy cost curve graph" width="500px" height="400px"/>
         </div>
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_3">
             Ramez Naam gives some explanation <a href="http://rameznaam.com/2016/01/31/how-far-can-renewables-go-pretty-darn-far/">here</a> and <a href="http://rameznaam.com/2015/10/14/how-cheap-can-energy-storage-get/">here</a>.
 			</span> 
 
             Can we ballpark why these kinds of optimistic numbers could make some intuitive sense?
             Building on Naam and MacKay: Suppose your lithium ion battery costs $100 per kWh of capacity (which will be true in a few years) and can be charged/discharged 1000 times. That’s 10 cents to charge/discharge a kWh of battery each time — you can see that’s the range in the middle of Ramez Naam’s curve above. Now, that’s comparable to the raw electricity cost, so if you needed to be constantly charging and discharging the battery to supply every kWh of electricity that you use, you’d be doubling your energy cost. But ideally you only need to use the battery infrequently. Let’s say that a person in a rich country needs to be able to store 20 kWh
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_4">
             a Tesla car battery is ~60-80 kWh
 			</span> 
 
             &nbsp; per person over periods on the order of 5 days
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_5" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_5">
             This last number is <a href="https://www.withouthotair.com/c26/page_189.shtml">from</a> MacKay for the case of wind power in England
 			</span> 
 
             Your 20 kWh charge/discharge costs $2, and let’s say you have to do this once a week. That’s $104 dollars a year on your energy bill due to the battery, likely only a fraction of your total electricity cost if you’re in a rich country.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_6" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_6">
             Another cool possibility is <a href="https://www.cell.com/joule/pdfExtended/S2542-4351(20)30235-X">extraction of lithium from seawater</a>.
 			</span> 
 
@@ -139,17 +139,17 @@ export default function Home() {
             <p>
             While it seems possible to achieve a nearly 100% variable renewables grid with massive deployment of conventional batteries and/or lots and lots of electric cars, 
             <a href="https://techcrunch.com/2018/12/24/alphabet-spins-off-moonshot-project-malta-with-backing-from-gatess-bev-fund/?guccounter=1">achieving</a> <a href="https://aip.scitation.org/doi/10.1063/1.4994054">breakthroughs</a> <a href="https://www.greentechmedia.com/articles/read/lightsail-energy-could-make-compressed-air-grid-scale-storage-work#gs.fx5hw3Uk">in</a> <a href="https://www.sciencemag.org/news/2018/10/new-generation-flow-batteries-could-eventually-sustain-grid-powered-sun-and-wind">other</a> forms of ultra-low-cost <a href="https://energyvault.com/">renewables</a> <a href="http://rameznaam.com/2015/10/14/how-cheap-can-energy-storage-get/">storage</a> — with longer working lifetimes, simpler manufacturing, less stringent materials requirements, higher capacities and lower costs than batteries when used at grid scale
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_7" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_7">
             e.g., Laughlin’s <a href="https://aip.scitation.org/doi/10.1063/1.4994054">paper</a> on molten salt suggests a marginal cost of $13/kWh
 			</span> 
 
             — would make the grid integration and stability problems simpler and cheaper to deal with.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_8" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_8" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_8">
             This <a href="https://twitter.com/JesseJenkins/status/1072600428188192768?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1072600428188192768%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Flongitudinal.blog%2Fco2-series-part-1-review-of-basics%2F">Twitter thread</a> and the associated paper strongly agree with that notion that a mixture including “firm” sources is most achievable:
 			<br></br><br></br>
             In addition to storage per se, surplus energy generated when supply is high but demand is low may also be used for applications like <a href="https://twitter.com/perrymetzger/status/1186627944648773632">desalination</a> of water or hydrogen fuel production <a href="https://twitter.com/gnievchenko/status/1176451011600441344">via electrolysis</a>; hydrogen in turn has a number of <a href="https://www.iea.org/hydrogen2019/">applications</a> to decarbonizing <a href="https://thebreakthrough.org/issues/energy/dont-electrify-everything">other</a> sectors.

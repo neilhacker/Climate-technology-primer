@@ -29,9 +29,9 @@ export default function Home() {
               
             <p>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_0">
             Of a type first <a href="http://www.rsc.org/images/Arrhenius1896_tcm18-173546.pdf">done</a> by Svante Arrhenius in 1896, 
             who got the modern numbers <a href="https://www.theguardian.com/environment/2005/jun/30/climatechange.climatechangeenvironment2">basically right</a>
             </span> 
@@ -46,9 +46,9 @@ export default function Home() {
             An ideal <a href="https://en.wikipedia.org/wiki/Black-body_radiation">black body radiator</a> (e.g., a very idealized Planet Earth), with no greenhouse effect, would radiate an energy flux:
             <br></br><br></br>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_1">
             <span style={{fontSize: 'small'}}><Latex>{'$σ = 5.67*10^{-8}Watts/meter^{2}/Kelvin^{4}$'}</Latex></span> 
             <br></br>
             This is the Stefan-Boltzmann constant, and T is the temperature in Kelvin
@@ -74,9 +74,9 @@ export default function Home() {
             which is then by the time it reaches the Earth spread over a sphere of radius given by the Sun-Earth distance of 1.5e11 meters, so the solar flux per unit area is 
             <br></br><br></br>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_2">
             (That’s a lot of solar flux. If the area of Texas 
             <a href="https://www.wolframalpha.com/input/?i=1.37+kW%2Fmeter%5E2+*+4%25+*+%28area+of+texas%29"> was covered</a> by 4% efficient solar collection, that would offset the entire world’s average energy consumption.)
             </span> 
@@ -88,9 +88,9 @@ export default function Home() {
             <br></br><br></br>
             The greenhouse-gas-warmed situation that we find ourselves in is also simple to model at a crude level, but complex to model at a more accurate level.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_3">
             e.g., by its energy being converted into intra-molecular vibrations and rotations in the CO2 molecules in the atmosphere
             <br></br><br></br>
             A more complete explanation is in the lead-up to equation 1.15 <a href="http://assets.press.princeton.edu/chapters/s9636.pdf">here</a>, or <a href="https://www.e-education.psu.edu/meteo469/node/198">here</a>
@@ -98,9 +98,9 @@ export default function Home() {
 
             At the crudest level, if a certain fraction ε of outgoing infrared radiation is absorbed by the atmosphere on the way out and then re-emitted, then we can calculate the resulting ground temperature
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_4">
             <br></br>
             f is the fraction of incoming solar radiation absorbed by the atmosphere before making it to the surface. I’ve seen f = 0.08 (the atmosphere absorbs very little, less than 10%, of the incoming solar radiation
             <br></br><br></br> 

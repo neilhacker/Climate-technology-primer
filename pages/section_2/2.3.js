@@ -28,8 +28,8 @@ export default function Home() {
             <h1 >2.3: DAC</h1>
               
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             The National Academies report has a detailed <a href="https://www.nap.edu/read/25259/chapter/7">chapter</a> on DAC if you want to read more.
 
@@ -37,8 +37,8 @@ export default function Home() {
 
             Chemical direct air capture machines are not some crazy new technology. They have been used on submarines and space stations for quite some time, and you can even <a href="https://www.environmental-expert.com/products/carbon-dioxide-co2-air-scrubbers-314565">buy one</a> (for your underground bunker or whatever).
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Interestingly it <a href="https://elidourado.com/blog/dawn-of-geoengineering/">seems</a> that <a href="https://www.prometheusfuels.com/">Prometheus Fuels</a> may have a more energy efficient way to electrolytically generate fuel, specifically for the part dealing with the separation of the generated fuel from the surrounding water — this kind of thing could be fantastic for jet fuel specifically, which is otherwise difficult to decarbonize.)
 			</span> 
@@ -46,8 +46,8 @@ export default function Home() {
             The idea has a long history. A group including Freeman Dyson, from <a href="https://www.osti.gov/servlets/purl/6385084#page=121">1977</a>, cites a <a href="https://www.osti.gov/servlets/purl/4580336">1965</a> proposal by Beller and Steinberg. This was an era when people were <b>bullish on abundant nuclear energy, and they proposed to use this energy to extract CO2 from the air to produce chemical fuel such as methanol locally for the army</b>, by reacting adsorbed CO2 with hydrogen generated electrolytically from water. They estimated a need for 5700 processing plants, each burning 1 GigaWatt, to compensate for emissions. That’s about 6 TeraWatts or about ⅓ of civilization’s current global energy consumption.
             <br></br><br></br>
             This <a href="https://www.osti.gov/servlets/purl/770509">paper</a>, by Klaus Lackner, covers the basic physics of carbon capture really well, e.g., how long an absorption column for CO2 needs to be, and so on. He also explains why some chemical capture approaches may be more energy efficient (not to mention much more land efficient) than biological capture approaches: 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Same for any other approach that generates an energy-dense fuel
 			</span> 
@@ -74,8 +74,8 @@ export default function Home() {
 				</p>
 			</blockquote>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             In the paper, Lacker proposes industrial facilities to generate CaCO3 bricks by reacting CO2 with Ca(OH)2, which would then be recycled to continue the process. Recycling the Calcium to re-run this process then consumes much of the energy. The binding energy to the absorber is about 8 times too high in this case, compared what would be needed to approach the thermodynamic limit.
 
@@ -102,8 +102,8 @@ export default function Home() {
 
             &nbsp; of air processed per year.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             The fact that the BECCS area is a lot larger than that should be cautionary
 			</span> 
@@ -156,8 +156,8 @@ export default function Home() {
             <p>
                 <b>Metal Organic Frameworks (MOFs)</b>
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_2_5" class="margin-toggle"/>
                 <span class="marginnote" id="id_option">
                 Here are some papers on MOFs and DAC:
                 <br></br><br></br>
@@ -196,8 +196,8 @@ export default function Home() {
             <br></br><br></br>
             Most governments, it seems, aren’t propping up carbon markets successfully at this point, and most current policy interventions aren’t really carbon taxes (e.g., there is an equivalent of a $1000/ton CO2 subsidy for electric cars in Norway, where if you go to Oslo nearly every other car is a Tesla). As mentioned in the previous post, France had a fuel tax of about $60/ton CO2 equivalent, but when Macron tried to double that over the next 4 years, the Yellow Vest protests happened. Canada <a href="https://www.theguardian.com/environment/climate-consensus-97-per-cent/2018/oct/26/canada-passed-a-carbon-tax-that-will-give-most-canadians-more-money">did</a> pass a carbon tax starting at below that level and rising to near it over a few years (“start low at $20 per ton in 2019, rising at $10 per ton per year until reaching $50 per ton in 2022”). And see the <a href="https://www.greentechmedia.com/articles/read/can-updated-tax-credits-make-carbon-capture-mainstream#gs.IF0YsSYw">45Q</a> tax credit program in the USA. So there is recent progress and I think reason for hope that the economics will work out here. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_6" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             <a href="https://www.diamandis.com/blog/direct-air-capture">This post</a> explores some of the broader potential applications of captured carbon.
 

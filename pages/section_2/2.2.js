@@ -34,9 +34,9 @@ export default function Home() {
             <h2>Natural sinks turning to natural sources</h2>
             <p>
             Fast-acting natural sinks can turn into fast-acting natural sources in a period of declining CO2.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_0">
       <div style={{textAlign: 'center'}}>
         <Image src='/img/sec2/2_co2_lifespan.png' alt="graph of carbon decay over time" width="500px" height="400px"/>
         </div>
@@ -46,9 +46,9 @@ export default function Home() {
             <br></br><br></br>
             I’m not sure I understand the full implications, but the NAS report has some <a href="https://www.nap.edu/read/25259/chapter/3#31">commentary in the introduction</a> that may at least add some subtlety to this point, however:
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_1">
             <br></br><br></br>
             I think it depends on the timescales being considered, as well. In any case, this is a complexity to be aware of but doesn’t strongly influence what we can say about the technologies below — we’re talking “orders of magnitude” here, not exact costs.
 

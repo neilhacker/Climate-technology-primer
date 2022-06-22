@@ -31,8 +31,8 @@ export default function Home() {
             Referring to section 1.1 of this series (or to any introductory course on climate science), one possibility is to try to increase the A term in the radiation balance, i.e., the albedo, to prevent some incoming solar radiation from making it to the ground. 
             <br></br><br></br>
             How much would one theoretically want to change the albedo, to achieve a given temperature reduction? The standard number, used in many geo-engineering papers, corresponds to 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Which we must of course fight to avoid facing in the future by other urgent means
 			</span> 
@@ -94,8 +94,8 @@ export default function Home() {
 
             <h2>Aerosols in the stratosphere</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             David Keith has an <a href="https://www.youtube.com/watch?v=y4XIee6I86E">excellent talk</a> that covers other aspects, including potential local effects on precipitation and temperature <a href="https://link.springer.com/article/10.1007/s10584-011-0103-z">across</a> the <a href="http://iopscience.iop.org/article/10.1088/1748-9326/5/3/034009/meta">world</a>, early stage <a href="https://www.researchgate.net/publication/253465544_Efficient_formation_of_stratospheric_aerosol_for_climate_engineering_by_emission_of_condensible_vapor_from_aircraft">ideas</a> about how to properly engineer the particles to maintain the right sizes, <a href="https://www.pnas.org/content/107/38/16428">lifetimes</a> and distributions, the need for microphysics <a href="http://adsabs.harvard.edu/abs/2017AGUFMGC43H1162K">experiments</a> to constrain the particle design, and many important policy related aspects. 
 
@@ -110,8 +110,8 @@ export default function Home() {
 				</p>
 			</blockquote>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Arguably none of the other approaches discussed here are within 2-orders-of-magnitude of the economic cost of the aerosol method
 			</span> 
@@ -128,14 +128,14 @@ export default function Home() {
             <br></br><br></br>
             The idea is to recreate the atmospheric effect of such an event a few times a decade.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             ¹ However it is more uniform than other altitudes and so has that advantage when trying to model effects.
 			</span> 
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Some have <a href="https://www.sciencemag.org/news/2018/03/dusting-salt-could-cool-planet">proposed</a> putting the particles in the high troposphere where they would, assuming they stay there, not have as much opportunity to do much damage.
 			</span> 
@@ -144,16 +144,16 @@ export default function Home() {
             There is also the risk that putting material into the stratosphere might actually increase heating at this altitude which could change circulation patterns in it.
             <br></br><br></br>
             Recently, Keith at Harvard and other researchers have been studying some of the chemically most benign <a href="https://phys.org/news/2016-12-mitigating-geoengineering-aerosols-cool-planet.html">possibilities</a>, namely using tiny particles of calcium carbonate, better known as “chalk” or calcite. This was highlighted by Danny Hillis in his <a href="https://www.ted.com/talks/danny_hillis_exploring_options_for_solar_geoengineering?language=en">TED talk</a>, where he emphasized that only 10 teragrams a year of chalk (about twice the mass of the great Pyramid of Giza) would need to be injected into the upper atmosphere to undo the warming effects of the CO2 we already have put in. Hillis points out that this is “a handful of chalk in every olympic swimming pool of rain”, and that the volumetric throughput required to deliver it to the atmosphere would be quite tractable, 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_5" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             The definition of a “firehose” I found online lists up to 200kg/sec. This calculation is similar to the one Hillis shows on a literal back of the envelope in his TED talk, in which he explains this firehose analogy
 			</span> 
 
             equivalent to continuously running just one or a few firehoses.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_6" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Note that the positive radiative forcing from the CO2 we have now is calculated to be roughly around (5.35 Watt per meter squared) * ln(408/278) = 2 Watt/meter^2, while the reference radiative forcing in the Lawrence paper was RFGref ≈ 0.6 Watt/meter^2.
 
@@ -188,8 +188,8 @@ export default function Home() {
             Changes the light scattering by the atmosphere in a way that may impact ecosystems, in particular making the sunlight slightly more diffuse rather than direct. This will have an impact on the “canopy structure” of forests and other ecosystems. Caldeira seemed to indicate in a talk that he thought experiments to study these effects might be worthwhile at some point in the future. Keith indicated in a talk that overall productivity could increase due to this scattering, as the sunlight is now coming in from a (very slightly) broader range of angles and thus is less shaded in its direct path.
             <br></br><br></br>
             Depending on how and when it would be done, it <a href="https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2013GL058731">may</a> <a href="https://www.the-cryosphere.net/12/3355/2018/tc-12-3355-2018.pdf">not</a> fully mitigate sea ice loss. 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_7" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             IAGP also has an integrated <a href="https://royalsocietypublishing.org/doi/full/10.1098/rsta.2012.0188">simulation</a> of solar radiation management combined with carbon capture and emissions reductions. Interestingly, solar radiation management itself causes some decrease in atmospheric CO2 in that situation through effects mediated by the biosphere.
 
@@ -198,8 +198,8 @@ export default function Home() {
             &nbsp;IAGP has a nice <a href="http://www.iagp.ac.uk/news/could-we-restore-arctic-sea-ice-geoengineering.html">integrated</a> <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL062240">simulation</a>, in which they simulate effects such as the difficulty of hypothetical future climate engineers in measuring the extent to which solar radiation management is working, if at all.
             <br></br><br></br>
             In the end the simulated world manages to control the loss of sea ice. But in the case of the Antarctic, things appear complicated. While the ice on Greenland is mostly atop land, in Antarctica melting is heavily driven by processes occurring deep under water. As <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">this detailed paper</a> explains, “Solar geoengineering may be more effective at reducing surface melt than a reduction in greenhouse forcing that produces the same global-average temperature response. Studies of natural analogues and model simulations support this conclusion. 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_8" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_8" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             We will discuss below some more specific localized engineering <a href="https://www.the-cryosphere.net/12/2955/2018/tc-12-2955-2018.pdf">approaches</a> that might be able to help where solar geoengineering might not cut it.
 

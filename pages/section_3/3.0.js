@@ -28,8 +28,8 @@ export default function Home() {
             <h1 >Section 3: Geoengineering</h1>
               
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_0" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
 	        
             <ul>
@@ -85,8 +85,8 @@ export default function Home() {
                 <br></br><br></br>
                 These are separate questions from whether the technology is going to be effective, safe, equitable, controllable, localized, and so on. I don’t have an answer for it, but I will point out the following. The lack of a viable solar radiation management approach should ideally not need to be a necessary weapon against excuses from fossil fuel emitters to keep emitting — we should have a whole arsenal deployed, like carbon taxes, fines, and crucially lower cost carbon-free alternatives. Would we need to postpone development of solar radiation management technologies if we had a strong carbon tax or cap in place already? What if renewables + storage + a bit of small modular nuclear was at 1/10 the price of coal for grid-scale electricity (and we had cost effective carbon-free versions of steel and cement manufacturing and so forth)?
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_3_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Alas, we don’t have a trillion dollar entrenched industrial base trying to start fires… in that case, we’d sadly have to ask about the net benefit of bringing about the potential arrival of fire extinguishers sooner versus later.)
 			</span> 

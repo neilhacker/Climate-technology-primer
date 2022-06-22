@@ -66,8 +66,8 @@ export default function Home() {
             <p>
                 <b>Water constraint</b>
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Total world fresh water reserves are 3e16 m^3, but much of it not easily accessible.
             <br></br><br></br>
@@ -75,8 +75,8 @@ export default function Home() {
 			</span> 
 
                 Let’s consider water. Of course, the Earth has a lot of water. Fresh water availability in theory depends on available clean energy for <a href="https://www.technologyreview.com/s/534996/megascale-desalination/">desalination</a>.
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Even if water use efficiency is <a href="https://link.springer.com/article/10.1023/A:1026141220731">10x better</a>, this is still huge
 			</span> 
@@ -132,8 +132,8 @@ export default function Home() {
             <p>
             Another possibility is to aggressively grow trees aka “afforestation”. This appears possible but also runs up against potential issues of fertilizers, water use, the widely distributed nature of land ownership, and damage to soil. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Some aspects of Dyson’s estimates seem a bit odd, e.g., rather than Sycamore trees, one would likely be looking at Southern Pine and Poplar, which are the commercial species for wood and paper. 50 year tree lifetime also seems long, as growth rates decrease with age and the biomass could be sequestered by other means once growth saturates.
 
@@ -179,8 +179,8 @@ export default function Home() {
             <br></br><br></br>
             <a href="https://link.springer.com/article/10.1007/s11769-010-0401-9">Research</a> suggests that between 1970-2003 planted forest area grew by 14.5x10⁶ hectares and the carbon stored in Chinese forests grew by 0.58Gt Cand had an average uptake of around around 0.022Gt C a year. If we convert these values from C to CO₂ then we’re looking at around 2.1Gt removed in the 30ish years and an average rate of 0.08Gt a year. (this roughly works out to an average of 9t CO₂ per h per year which is better than some of our earlier estimates.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             There are about <a href="https://www.nature.com/articles/nature14967">3 trillion trees</a> on Earth in total, only ~100x what China supposedly planted there. Apparently, <a href="https://www.insider.com/ethiopia-beats-goal-plants-350-million-trees-in-12-hours-2019-7">Ethiopia</a> planted 350M trees in 12 hours. Also of interest: <a href="https://lemelson.mit.edu/resources/moshe-alamaro">tree bombing</a>.
 
@@ -192,8 +192,8 @@ export default function Home() {
             <br></br><br></br>
             <a href="https://twitter.com/hausfath/status/1147190442145898496">Here is</a> one recent take on the realistic role of tree planting. It refers to (and, like <a href="https://twitter.com/Peters_Glen/status/1188401955233660929">others</a>, questions some of the stated implications from) <a href="http://www.fieraboster.it/docs/BOSTER%202019/The-global-tree-restoration-potential.pdf">this paper</a> from the <a href="https://www.nature.com/articles/d41586-019-02846-4">Crowther research group</a>, which among other things made a map of where there is potential for increasing tree cover, taking into account local environment and removing urbanized or agricultural areas. They state:
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             One key caution about planting trees in many of the areas on the above map is that trees can decrease the surface albedo, especially in areas that would otherwise be snow-covered in Winter. 
             This was pointed out by Caldeira and colleagues in this <a href="https://www.pnas.org/content/104/16/6550">paper</a> in <a href="https://www.nytimes.com/2007/01/16/opinion/16caldeira.html">2007</a>. It would be interesting to see someone re-draw Crowther’s map above and re-weight the total sequestration potential in light of the need to avoid net warming effects. 
@@ -204,8 +204,8 @@ export default function Home() {
             </div>
             I’m not sure of the long-term follow-up on this paper’s line of reasoning overall, but <a href="https://www.nature.com/articles/d41586-019-00122-z">this article</a> suggests that related questions are continuing to be asked and that useful new data may soon become available. Some tropical forests are actually <a href="https://twitter.com/GlobalChangeBio/status/1118254997626662912">net sources</a> of greenhouse gases. This all points towards potential advantages of industrial direct air capture compared with tree planting.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_5" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             This is about the same area as all of America
 			</span> 
@@ -248,8 +248,8 @@ export default function Home() {
 			</p>
 			</Collapsible>
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_6" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             This would be like foresting all the land in the entire USA and then cutting it all down every few decades.
             <br></br><br></br>
@@ -262,8 +262,8 @@ export default function Home() {
 
             <h2>Topsoil</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_7" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             The <a href="https://www.nature.com/articles/s41467-018-05938-3">Lawrence paper</a> estimates more available capacity via soil carbon enrichment than via trees.
             <br></br><br></br>

@@ -28,9 +28,9 @@ export default function Home() {
           <section>
             <h1 >1.2: Climate sensitivity</h1>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_0">
             ¹ effective ε and A (and f) in the above formula
             </span> 
 
@@ -40,9 +40,9 @@ export default function Home() {
             <h2>Water vapor</h2>
             <p>
 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_1">
             ² i.e more absorbed outgoing radiation
             <br></br><br></br>
             If you just consider clouds per se, it looks like they on average cool the Earth, from an experiment described 
@@ -82,9 +82,9 @@ export default function Home() {
 
         <h2>Ocean biology effects</h2>
         <p>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="id_option">
+        <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+        <span class="marginnote" id="mn_1_2">
         It isn’t quite as clear cut as this though as the magnitude of this effect is hard to pin down, even whether it always leads to less CO₂ drawdown is an open question. 
 
         </span> 
@@ -99,17 +99,17 @@ export default function Home() {
         <p>
         There are also <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2006GL026972">terrestrial biological effects</a>.
         <br></br><br></br>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="id_option">
+        <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+        <span class="marginnote" id="mn_1_3">
         Dyson is <a href="https://en.wikipedia.org/wiki/Freeman_Dyson#Climate_change">known</a> as a bit of a “heretic” on climate and many other topics
         </span> 
 
         In 1977, in a paper that will come up again for us in the context of carbon sequestration technologies, Dyson <a href="https://adamant.typepad.com/seitz/files/Dyson_Energy_1977.pdf">pointed out</a> that the yearly photosynthetic turnover of CO2, with carbon going into the bodies of plants and then being released back into the atmosphere through respiration and decay, is &gt;10x yearly industrial emissions. The biological turnover is almost exactly in balance over a year, but not perfectly so at any location and instant of time. The slight imbalances over time give the yearly oscillation in the Keeling curve:
         <br></br><br></br>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="id_option">
+        <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+        <span class="marginnote" id="mn_1_4">
         Recently, <a href="https://www.nature.com/articles/nature10421">this paper</a> measured the specifics on land, concluding “150–175 petagrams of carbon per year” of photosynthesis, whereas global emissions are roughly ~10 petagrams (gigatonnes) of carbon each year (~40 of CO2).
         </span> 
 
@@ -118,9 +118,9 @@ export default function Home() {
         </div>
 
         <br></br><br></br>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="id_option">
+        <label for="mn_1_5" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn_1_5" class="margin-toggle"/>
+        <span class="marginnote" id="mn_1_5">
         Dyson <a href="https://www.edge.org/conversation/freeman_dyson-heretical-thoughts-about-science-and-society">goes </a> <a href="https://www.nybooks.com/articles/2008/06/12/the-question-of-global-warming/">on</a> to discuss potential ways to tip the balance of this large swing towards net fixation, rather than full turnover, which he suggests to do via a plant growing program — we’ll discuss this in relation to biology-based carbon sequestration concepts later on.
 
         </span> 
@@ -142,9 +142,9 @@ export default function Home() {
 
         <h2>Permafrost</h2>
         <p>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="id_option">
+        <label for="mn_1_6" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn_1_6" class="margin-toggle"/>
+        <span class="marginnote" id="mn_1_6">
         Eli Dourado <a href="https://elidourado.com/blog/dawn-of-geoengineering/">covers </a> the fascinating Pleistocene Park project which aims to influence this. There are also surprisingly <a href="https://twitter.com/gcarbonproject/status/1157546641865543680">wildfire risks</a> to these areas.
         </span>
 
@@ -167,9 +167,9 @@ export default function Home() {
         <Image src='/img/sec1/1_local_warming.jpeg' alt="local warming map" width="600px" height="300px"/>
         </div>
         <br></br><br></br>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-        <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-        <span class="marginnote" id="id_option">
+        <label for="mn_1_7" class="margin-toggle">&#8853;</label>
+        <input type="checkbox" id="mn_1_7" class="margin-toggle"/>
+        <span class="marginnote" id="mn_1_7">
         Michael Mann’s online course has a nice <a href="https://www.e-education.psu.edu/meteo469/node/212">lecture</a> on a simple model of the climate system that includes a latitude axis.
 
         </span> 

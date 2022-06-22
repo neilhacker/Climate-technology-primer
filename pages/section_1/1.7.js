@@ -28,18 +28,18 @@ export default function Home() {
             <h1 >1.7: Carbon free grid and Nuclear</h1>
               
            <p>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_0">
             I won’t talk much about clean energy generation here, instead pointing readers to David MacKay’s <a href="https://www.withouthotair.com/">amazing book</a> and this <a href="https://sci-hub.tw/10.1016/j.joule.2018.11.013">review paper</a>.
 			</span> 
 
            This section is going to primarily look at some specific technologies and the costs we might face to get these technologies to the scale we need.
            <br></br><br></br>
            Firstly let’s quickly try to ballpark the cost of switching over to a fully carbon free grid.
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-          <span class="marginnote" id="id_option">
+           <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+          <span class="marginnote" id="mn_1_1">
           <div style={{textAlign: 'center'}}>
             <Image src='/img/sec1/1_construction_cost.png' alt="Construction costs for different generator types" width="500px" height="400px"/>
             </div>
@@ -55,18 +55,18 @@ export default function Home() {
            
            <h2>Nuclear</h2>
            <p>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_2">
       ¹ <a href="https://www.helionenergy.com/">Including</a> probably <a href="https://cfs.energy/">fusion</a>, long term, which we’ll discuss below
 			</span> 
 
            The details <a href="https://foundersfund.com/2016/06/new-atomic-age-need/">are</a> <a href="https://www.greenbiz.com/article/bill-gates-quixotic-quest-revive-nuclear-power">continually</a> <a href="https://www.nytimes.com/2019/01/17/opinion/green-new-deal-climate-change.html">vigorously</a> <a href="https://cleantechnica.com/2019/01/24/why-excluding-nuclear-fossils-with-carbon-capture-biofuels-from-the-green-new-deal-makes-financial-climate-sense-realitycheck/">debated</a>, but aggressive development and deployment of <a href="https://www.knowablemagazine.org/article/technology/2019/nuclear-goes-retro-much-greener-outlook">improved</a> <a href="http://www.withouthotair.com/c24/page_169.shtml">nuclear</a> <a href="https://www.forbes.com/sites/energysource/2012/02/16/the-thing-about-thorium-why-the-better-nuclear-fuel-may-not-get-a-chance/#7175fe991d80">power</a> <a href="https://terrapower.com/">systems</a>
            <a href="http://www.azimuthproject.org/azimuth/show/Nuclear+power"> seems¹</a> like an important component, at least in some countries. It is worth reading David MacKay’s <a href="https://www.theguardian.com/environment/2016/may/03/idea-of-renewables-powering-uk-is-an-appalling-delusion-david-mackay">blunt comments</a> on the subject, as it applies to the UK specifically, just before his untimely death.
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_3">
             Steven Chu has stated on a podcast that one decent possibility would be a factory to repeatedly and certifiably crank out lots of small modular reactors in the way Boeing cranks out airplanes.
 			</span> 
 
@@ -75,9 +75,9 @@ export default function Home() {
            <br></br><br></br>
            Nuclear <a href="https://en.wikipedia.org/wiki/Nuclear_power_in_France">is</a> the largest single source of energy in France with 58 reactors — although the just-linked post points out that the French nuclear industry is in financial trouble. In this <a href="https://bravenewclimate.com/2011/01/21/the-cost-of-ending-global-warming-a-calculation/">blog post</a> Chris Uhlik calculates what 
            it would take to scale up nuclear technologies at current cost levels, and concludes the following: 
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_4">
             He also mentions some alternative assumptions that could drives this down by over 50%
 			</span> 
 
@@ -92,26 +92,26 @@ export default function Home() {
             </ul>
            </p>
            <p>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_5" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_5">
             You might thus not be surprised that Uhlik is involved in <a href="https://atomicinsights.com/thorium-2/">thorium reactor projects</a> — indeed I think his post should be understood in the context of scaling up thorium reactors, not existing uranium light water reactors.
 			</span> 
 
            As far as availability, <a href="http://newmaeweb.ucsd.edu/courses/MAE119/WI_2018/ewExternalFiles/Hoffert%20et%20al%20%282002%29%20Advanced%20Technology%20Paths%20to%20Global%20Cl.pdf">this review paper</a> suggests that getting enough for traditional U235 reactors to completely power the planet for decades may be a stretch. They suggest either using <a href="https://en.wikipedia.org/wiki/Breeder_reactor">breeder reactors</a>, such as <a href="https://en.wikipedia.org/wiki/Thorium-based_nuclear_power">thorium reactors</a>, or getting fusion to work, to get around this.
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_6" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_6">
             Beyond thorium per se, though, <a href="https://www.world-nuclear.org/information-library/current-and-future-generation/molten-salt-reactors.aspx">there are </a> <a href="https://www.businessinsider.com/bill-gates-terrapower-molten-salt-nuclear-reactor-2018-10">many other</a> apparently promising types of molten salt reactors.
 
 			</span> 
 
            Thorium is still at an <a href="https://www.quora.com/Does-the-functional-prototype-of-thorium-reactor-exist">early</a> stage of development, although some <a href="http://thorconpower.com/">companies</a> are trying to scale up the existing experiments. For two contrary perspectives on thorium, see <a href="https://www.ucsusa.org/sites/default/files/legacy/assets/documents/nuclear_power/thorium-reactors-statement.pdf">here</a> and <a href="https://thebulletin.org/2018/08/thorium-power-has-a-protactinium-problem/#">here</a>.        
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_7" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_7">
             Here’s something cool a company <a href="http://www.world-nuclear-news.org/Articles/Moltex-Energy-raises-USD7-5-million-through-crowdf">making</a> a <a href="https://www.moltexenergy.com/">nuclear reactor</a> that runs on existing stockpiles of spent nuclear fuel and that is expressly designed to provide tunable output to be used to buffer variability in renewables and thus speed the integration of renewables into the grid.
 
 			</span> 
@@ -154,9 +154,9 @@ export default function Home() {
           </p>
           <h3>ITER</h3>
           <p>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-          <span class="marginnote" id="id_option">
+          <label for="mn_1_8" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn_1_8" class="margin-toggle"/>
+          <span class="marginnote" id="mn_1_8">
           Tokamaks are one class of magnetic confinement system, in which the plasma, which we want to heat to &gt;100 million degrees Celsius, follows a helical magnetic field path inside a toroidal shaped vacuum chamber
           </span> 
 
@@ -175,18 +175,18 @@ export default function Home() {
           <br></br><br></br>
           The company General Fusion appears to be pursuing something along those lines, and the company Helion was in the ALPHA portfolio according to the just-linked retrospective.
           <br></br><br></br>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-          <span class="marginnote" id="id_option">
+          <label for="mn_1_9" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn_1_9" class="margin-toggle"/>
+          <span class="marginnote" id="mn_1_9">
           Update 2021: The National Ignition Facility (NIF) is <a href="https://www.llnl.gov/news/national-ignition-facility-experiment-puts-researchers-threshold-fusion-ignition">getting very close</a> to Q&gt;1, although this inertial fusion method doesn’t lend itself to building practical reactors.
 
           </span> 
 
           That is, there are magnetic confinement fusion methods, and inertial confinement fusion methods. The magnetic confinement methods are making progress with compact versions but still have huge engineering challenges to make the overall systems low-cost, even once you get Q&gt;1, i.e., more energy released than consumed. The inertial methods are even more stricken to large and complex experimental setups rather than economical reactors. 
           <br></br><br></br>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-          <span class="marginnote" id="id_option">
+          <label for="mn_1_10" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn_1_10" class="margin-toggle"/>
+          <span class="marginnote" id="mn_1_10">
           Todd Rider, circa 1990s, has lots of broader <a href="http://fuelrfuture.com/pdfs/FusionRoute.pdf">ideas</a> and <a href="https://dspace.mit.edu/handle/1721.1/29869">critiques</a> of the <a href="https://dspace.mit.edu/handle/1721.1/11412">fusion field</a>, which may have pointed to a need for more novel designs.
 
           </span> 

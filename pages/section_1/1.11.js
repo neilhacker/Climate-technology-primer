@@ -33,18 +33,18 @@ export default function Home() {
             How can rapid decarbonisation be incentivized? There are <a href="https://www.youtube.com/watch?v=sUFwwlmxRsw">powerful</a> <a href="https://www.greenbiz.com/article/packaging-carbon-tax-can-we-affect-emitter-behavior-consumer-behavior">arguments</a> in <a href="https://www.carbonpricingleadership.org/news/2017/5/25/leading-economists-a-strong-carbon-price-needed-to-drive-large-scale-climate-action">favor</a> of a carbon tax. 
             Specifically, one can do a gradually scaled-up, revenue-neutral carbon tax that would, for instance, return the revenues back to 
             consumers as rebates or tax reductions in other kinds of taxes — this could be important as almost any form of carbon tax would 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_0">
                   ¹ see stuff on <a href="https://www.investopedia.com/terms/t/tax_incidence.asp#:~:text=%22Tax%20incidence%22%20(or%20incidence,elasticity%20of%20supply%20and%20demand.">incidence of tax</a>
             </span> 
 
       &nbsp; ultimately be passed at least in significant part onto the consumer¹, and many consumers are 
             cash-strapped already, e.g., struggling to afford gas for their commute.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_1">
             The current average price of gas in the USA is around $2.50/gallon, and there is already an excise tax on it of about 1/10 that
 			</span> 
 
@@ -63,9 +63,9 @@ export default function Home() {
            <p>
            There are also some arguments <a href="http://noahpinionblog.blogspot.com/2012/06/carbon-taxes-wont-work-heres-what-will.html">against</a> a carbon tax, e.g., that a carbon tax in the US doesn’t impact other countries like China and may simply shift international trade balances, or that they might be revoked, as well as the need for them to be sufficiently large and thus correspondingly painful to the consumer in order to make a difference. They are also empirically <a href="https://www.technologyreview.com/s/612392/people-will-never-vote-for-a-carbon-tax-so-lets-stop-asking/">not easy to pass</a>, and economists are <a href="https://www.taxpolicycenter.org/taxvox/why-carbon-taxes-are-so-hard-pass">studying why</a>.
            <br></br><br></br>
-           <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+           <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_2">
             This may of course be specific to the kind of fuel tax they imposed and the particular situation there
 			</span> 
 

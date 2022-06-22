@@ -27,8 +27,8 @@ export default function Home() {
           <section >
             <h1 >2.10: Macro-algae</h1>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             "The committee’s focus on sequestration in terrestrial and nearshore/coastal environments is not intended to undervalue the potential of technologies or practices for oceanic sequestration, but instead is a response to the Statement of Task"
 			<br></br><br></br>
@@ -59,8 +59,8 @@ export default function Home() {
             <h2>Macro-algae</h2>
             <p>
             What about Kelp / seaweed / macro-algae? The NAS report has a brief appendix on this: 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             <br></br><br></br>
             Their 173 TgC/y is only about 0.6 GigaTonne/year, though.
@@ -79,8 +79,8 @@ export default function Home() {
                 <br></br><br></br>
                 But what if people deliberately made massive kelp farms out in the open ocean and vastly increased the total area of kelp forest, and also tried to ensure that the sequestered carbon from these open ocean farms indeed reached the deep ocean for ~permanent storage?
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_2_2" class="margin-toggle"/>
                 <span class="marginnote" id="id_option">
             We also talked about what Running Tide was doing with sinking kelp farms in section <a href="../section_2/2.7">2.7</a>
                 </span> 
@@ -88,8 +88,8 @@ export default function Home() {
                 A <a href="https://www.semanticscholar.org/paper/Negative-carbon-via-Ocean-Afforestation-N%E2%80%99Yeurt-Chynoweth/9fac691b576e8ce5ddf0c0fa0eabf07c758dddb2">2012 paper</a> proposes this. They study a scenario where 9% of the open ocean is covered with farmed kelp forests. They propose to use the kelp thus grown for biomethane production in a kind of ocean-based BECCS scheme, to recycle nutrients from the kelp as a form of fertilization, and to also use this to increase fish catch. They end up with a figure of around 53Gt of potential CO₂ removal per year which seems startlingly high. 
                 <br></br><br></br>
                 <a href="https://theconversation.com/how-farming-giant-seaweed-can-feed-fish-and-fix-the-climate-81761">This article</a> covers more. As mentioned earlier, nutrient upwelling with wave driven pumps is one potential way to feed such open ocean kelp forests with sufficient nutrients: 
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_2_3" class="margin-toggle"/>
                 <span class="marginnote" id="id_option">
                 More on this <a href="https://www.technologyreview.com/2021/09/19/1035889/kelp-carbon-removal-seaweed-sinking-climate-change/amp/?__twitter_impression=true">here</a>
                 </span> 
@@ -103,16 +103,16 @@ export default function Home() {
             <p>
             We shouldn’t forget about <a href="https://www.scientificamerican.com/article/can-the-fern-that-cooled-the-planet-do-it-again/">Azolla</a> and other <a href="http://www.climatefoundation.org/azolla.html">fast growing ocean plants</a>, i.e., the ones that possibly once <a href="https://www.scientificamerican.com/article/can-the-fern-that-cooled-the-planet-do-it-again/">caused an ice age</a> through their growth.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Of course, many plants get their nitrogen availability from nitrogen fixing microbes, e.g., in the soil, or <a href="https://www.sciencedaily.com/releases/2013/07/130725125024.htm">inside</a> roots themselves, which fix nitrogen from the air, but the tightly optimized 1-1 relationship here seems special.
 
 			</span> 
 
             The Azolla system is reported to be able to double its biomass in &lt;2 days. It does this in part by drawing nitrogen from the atmosphere. The Climate Foundation <a href="http://www.climatefoundation.org/azolla.html">website</a> states “Azolla can remove 6 tonnes per acre per year of carbon (1.5 kg/m²/yr)” and another website gives a similar number
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_5" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             As a point of comparison, Y Combinator in its ocean cyanobacterial project example, <a href="http://carbon.ycombinator.com/ocean-phytoplankton/">states</a> “We will be conservative and say that our algal beds fix 2.5 kg of C per square meter per year“.
 			</span> 

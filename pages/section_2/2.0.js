@@ -27,9 +27,9 @@ export default function Home() {
           <section >
             <h1 >Section 2: Carbon removal</h1>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_0" class="margin-toggle"/>
+            <span class="marginnote" id="mn_2_0">
               Some further resources on CDR:
               <br></br><br></br>
               <a href="https://www.amazon.com/Carbon-Capture-Jennifer-Wilcox/dp/1461422140">This book</a> by Prof. Jennifer Wilcox at Stanford
@@ -100,9 +100,9 @@ export default function Home() {
 				</p>
 			</blockquote>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_1">
             Here is a relevant figure from MacKay:
             <br></br><br></br>
             <div style={{textAlign: 'center'}}>
@@ -161,7 +161,7 @@ export default function Home() {
           </section>
           </article>
         </div>  
-          
+
         <div class="footer">
         <p style={{fontSize: '5rem'}}><a href="../section_1/1.12">&#8678;</a> &nbsp; <a href="../section_2/2.1">&#8680;</a></p>
         </div> 

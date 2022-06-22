@@ -28,8 +28,8 @@ export default function Home() {
             <h1 >2.11: Ocean alkalinity enhancement</h1>
               
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
                 CaCO₃ + CO₂ + H₂0 - Ca²+   2HCO₃- 
 
@@ -37,8 +37,8 @@ export default function Home() {
 
             The ocean is a massive carbon sink, containing more than 50 times more CO₂ than the atmosphere. Much of this CO₂ is dissolved in the water and if we raise the alkalinity of this water the dissolved CO₂ becomes bicarbonate and carbonate ions. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             There is also the, not small, additional benefit of directly lowering the pH of the ocean itself as the name suggests.
 			</span> 
@@ -46,8 +46,8 @@ export default function Home() {
             The basic idea is to add crushed minerals to the surface of the ocean/or in seawater reactors, to accelerate this natural process. Turning CO₂ into bicarbonate and carbonate ions means that it won’t be able to be released again back into the atmosphere and the reaction is also incredibly unlikely to reverse so we get permanent carbon removal by doing this.
             <br></br><br></br>
             This approach has not had any large scale trials run¹,
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             ¹ Although there is a very recent <a href="https://www.additionalventures.org/initiatives/climate-action/ocean-alkalinity-enhancement-research-program/">research program</a> that just started
 			</span> 
@@ -59,8 +59,8 @@ export default function Home() {
             <br></br><br></br>
             Estimated costs are in the range of around $100 per ton of CO₂ removed, most of this coming from the energy needed to make the reagent i.e crushing minerals. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             For example, if alkalinity rises too much then this might promote a reversal of the equation at the beginning (as well as other similar biological carbonate formation). This is more of a dampening effect than a true issue but it does make the carbon accounting more difficult.
 			</span> 

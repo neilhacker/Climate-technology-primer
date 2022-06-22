@@ -28,17 +28,17 @@ export default function Home() {
             <h1>1.4: Impacts - sea levels</h1>
             <h2>Some baseline scenarios for sea level rise</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_0">
             For more general reading on climate impacts I reccommend the <a href="https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_TS_FINAL.pdf">IPCC technical summary</a>, <a href="http://web.gps.caltech.edu/classes/ese148a/NASclimatechange.pdf">NAS report on climate</a>, and a summary of the <a href="https://www.carbonbrief.org/in-depth-qa-the-ipccs-special-report-on-the-ocean-and-cryosphere">IPCC report on the oceans</a>.
 
 			</span> 
 
             Before we look at the sea level projections I just want to show some graphs that explain what the different scenarios it refers to are. RCP stands for Representative Concentration Pathway, with higher numbers being a higher emission pathway. The IPCC report looks mainly at these four RCP’s, and below are the PgC/yr, the ppm and the estimated temperature changes associated with these pathways.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_1">
             <Image src='/img/sec1/1_emissions_and_ppm.png' alt="emissions and ppm" width="300px" height="600px"/>
 			</span> 
 
@@ -86,9 +86,9 @@ export default function Home() {
             <br></br><br></br>
             Now, a question for each of these is whether they can be reversible, if we brought back the temperature via removal of CO2 or via solar radiation management.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_2">
             This seems to be a concept used frequently in popular discussions of this topic, i.e., people ask “is it already too late to stop sea level rise by limiting emissions
 			</span> 
 
@@ -104,9 +104,9 @@ export default function Home() {
             We are already seeing significant <a href="https://en.wikipedia.org/wiki/Arctic_sea_ice_decline">loss of summer sea ice</a> 
             in the Arctic. In Antarctica, the sea ice normally <a href="https://www.pnas.org/content/106/49/20590">doesn’t survive in summer</a>, but loss of the winter sea ice could significantly disrupt ocean circulation.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_3">
             Another paper called <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2011GL048739">“The reversibility of sea ice loss in a state-of-the-art climate model“</a>, concludes similarly suggests its model implies that “future sea ice loss will occur only insofar as global warming continues, and may be fully reversible”
 			</span> 
 
@@ -136,9 +136,9 @@ export default function Home() {
             <br></br><br></br>
             Especially worryingly they also note that: “In this context, it should be noted that the local warming needed to slowly melt the Greenland ice sheet is estimated by some authors to be as low as 2.7° C warming above preindustrial temperatures (<a href="https://www.pnas.org/content/106/49/20590#ref-64">64</a>, <a href="https://www.pnas.org/content/106/49/20590#ref-65">65</a>). This amount of local warming is likely to be reached for a global warming of less than 2°C (<a href="https://www.pnas.org/content/106/49/20590#ref-39">39</a>).”
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_4">
             There is some slightly more hopeful, or terrifying, <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">research</a> suggesting <a href="https://iopscience.iop.org/article/10.1088/1748-9326/4/4/045109">that</a> solar geoengineering could be very useful in slowing or preventing the collapse of Greenland’s ice sheet. 
 
 			</span> 
@@ -167,9 +167,9 @@ export default function Home() {
             <br></br><br></br>
             In particular, the West Antarctic Ice Sheet is vulnerable to a so-called <a href="https://en.wikipedia.org/wiki/Marine_ice_sheet_instability">Marine Ice Sheet Instability</a>, which some suggest may already be occurring, and which depends on the specific inward-sloping geometry of the land underlying that ice formation. It is possible that this dynamic is already starting to happen.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_5" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_5">
             See <a href="https://geoengineering.environment.harvard.edu/files/sgrp/files/the-cryosphere.pdf">this paper</a> for more
 			</span> 
 
@@ -181,9 +181,9 @@ export default function Home() {
             <br></br><br></br>
             But seriously, we want to avoid major tipping points in the climate system. If we cross major tipping points in sea or land ice melt, it will be very challenging to deal with at best.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_6" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_6">
             Let me know if you have something really good on this
 			</span> 
 

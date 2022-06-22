@@ -29,16 +29,16 @@ export default function Home() {
               
             <h2>Ocean liming</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Update 2022: Additional Ventures is releasing <a href="https://www.additionalventures.org/initiatives/climate-action/ocean-alkalinity-enhancement-research/">RFPs</a> on ocean alkalinity enhancement here
 
 			</span> 
 
             Beyond these kinds of industrial facility based direct air capture approaches, there are also other chemistry-based means of carbon capture that don’t involve much or any biology, e.g., <a href="https://www.hakaimagazine.com/news/end-worlds-worst-acid-trip/">altering ocean acidity</a>. Per the Lawrence et al paper:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Ocean pH has dropped by around 0.1 since preindustrial times. <a href="https://iopscience.iop.org/article/10.1088/1748-9326/8/1/014009">This simulation</a> of large-scale (Gt per year) olivine dissolution in the context of a complex climate model predicts only “mean sea surface pH is increased after ten years of olivine dissolution by 0.007” which wouldn’t quite bring back the pre-industrial ocean pH but might compensate for ongoing ocean acidification to some significant degree.
 
@@ -93,8 +93,8 @@ export default function Home() {
             <br></br><br></br>
             The NAS report has a fantastic <a href="https://www.nap.edu/read/25259/chapter/8">chapter</a> on this type of approach, and similarly points out scientific uncertainties:
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             There is also the possibility of <a href="https://www.nature.com/articles/s41477-018-0108-y">adding</a> crushed carbon-sequestering minerals to agricultural soils: “Biogeochemical improvement of soils by adding crushed, fast-reacting silicate rocks to croplands is one… CO2-removal strategy. This approach has the potential to improve crop production, increase protection from pests and diseases, and restore soil fertility and structure. Managed croplands worldwide are already equipped for frequent rock dust additions to soils, making rapid adoption at scale feasible, and the potential benefits could generate financial incentives for widespread adoption in the agricultural sector.”
 
@@ -110,8 +110,8 @@ export default function Home() {
             
             <h2>Electro-geochemistry / electrochemically enhanced mineral weathering</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Similar to the situation for direct air capture, “the process is renewable-energy intensive” and “without market incentives such as a carbon tax or credit, the cost of H2 production here will likely be uncompetitive with conventional sources of H2, e.g., H2 production via CO2-emissions intensive methane reforming”. 
             <br></br><br></br>
@@ -122,8 +122,8 @@ export default function Home() {
             This is kind of an intellectual hybrid between the direct air capture and rock weathering approaches, in the sense that it requires an energy input. It solves several key problems with DAC and mineral weathering by combining them. Unlike DAC, it produces hydrogen, an economically useful fuel, and unlike DAC, it doesn’t require transporting captured carbon to some underground permanent storage, instead having carbon capture characteristics closer to those of olivine weathering. Meanwhile, it creates a more optimal chemical environment for enhanced mineral weathering.
             <br></br><br></br>
             Interestingly, Y Combinator <a href="http://carbon.ycombinator.com/electro-geo-chemistry/">proposes</a> an enhanced version of rock weathering as a frontier research area for carbon capture — they propose to electrochemically generate hydrogen fuel from seawater using renewable energy, in the process enhancing the rate of mineral weathering and its associated CO2 capture and ocean de-acidification! In the proposed scheme:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             I wish that the world market for H2 were large enough to make this fully commercially viable, but — although hydrogen has major commercial and decarbonization potential in a number of sectors that are otherwise difficult to decarbonize — it <a href="https://twitter.com/gnievchenko/status/1186027815570989057">seems</a> like we can’t purely drive the emergence of this technology today on the demand for hydrogen.
 
@@ -156,15 +156,15 @@ export default function Home() {
             <h2>Capturing at the source</h2>
             <p>
             Capturing CO2 in the flue gas / smokestack at central power plants 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_5" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             While CO2 concentration is still high, can be 10%),
 			</span> 
             before they are released into the atmosphere (and diluted to 0.04%) is energetically more favorable than direct air capture from the atmosphere.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_6" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             In practice it might currently be orders of magnitude better given the larger level of investment but in terms of ultimate limits it doesn’t seem to be
 			<br></br><br></br>
@@ -176,8 +176,8 @@ export default function Home() {
             If we’re reducing flue gas from 10% concentration to 1% concentration, at roughly room temperature, then using the mixing formula from the DAC section
             , I <a href="https://www.wolframalpha.com/input/?i=-gas+constant+*+300+kelvin+*+%28Ln%5B1%2F10%5D+-+%281-1%2F10%29*0.01%2F%280.1-0.01%29*Ln%5B0.01%2F0.1%5D+%2B%280.1%2B0.01%29%2F2+-+1%29+in+kj%2Fmole">get</a> 7 kJ/mole of CO2, versus 20 kJ/mole for direct air capture in terms of thermodynamic limit. That’s only a bit better in principle. I was expecting it to be orders of magnitude better
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_7" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Interestingly, the 45Q program in the US <a href="https://qz.com/1203803/donald-trump-signed-a-landmark-bill-to-support-carbon-capture-and-nuclear-power/">appears</a> to provide tax credits that would come near that level
 			</span> 

@@ -46,9 +46,9 @@ export default function Home() {
             <div style={{textAlign: 'center'}}>
             <Image src='/img/sec1/1_country_emissions.png' alt="keeling curve" width="750px" height="460px"/>
             </div>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_0">
             If you want an optimistic note you can read more about Germany’s Renewable Energy Sources Act (EEG) which has been called “Germany’s gift to the world” for the radical effect it had on helping to reduce solar prices 
             </span> 
 
@@ -56,9 +56,9 @@ export default function Home() {
             There is a balance to be struck between allowing developing countries to grow we have to try to come up with ways to both decarbonise in the richer countries and make the growth in developing countries as low 
 
             emitting as possible. Rich countries have a key role in bringing down the cost of <a href="https://science.sciencemag.org/content/355/6331/1269.full">decarbonization</a> for <a href="https://twitter.com/TheEconomist/status/1155340013640572928">poorer countries</a>, at scale, e.g., through developing and demonstrating better, cheaper 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_1">
             ¹ Ramez’s plan is very much worth reading also for its suggestions for ARPA-style agencies for agriculture/food and industry/manufacturing.
             </span> 
 

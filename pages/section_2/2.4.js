@@ -29,8 +29,8 @@ export default function Home() {
               
             <h2>Electrochemically enhanced mineral weathering</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Here is a <a href="http://homepages.ed.ac.uk/shs/Climatechange/Carbon%20sequestration/Rau_EST_08_reprint.pdf">paper</a> about this kind of “electrogeochemistry” approach, and a more recent <a href="https://www.nature.com/articles/s41558-018-0203-0">evaluation</a> by the same team. <a href="https://www.sciencedaily.com/releases/2018/06/180625192825.htm">They</a> estimated that “electrogeochemical methods could, on average, increase energy generation and carbon removal by more than 50 times relative to BECCS [bioenergy with carbon capture and storage], at equivalent or lower cost”. Here is a <a href="https://www.youtube.com/watch?v=MjlKR6gFgqQ">talk</a> on this.
 			<br></br><br></br>

@@ -28,8 +28,8 @@ export default function Home() {
             <h1 >2.9: Oceans - fertilization</h1>
               <h2>Iron fertilization</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             You might see these approaches referred to as OIF or Ocean Iron Fertilization
             <br></br><br></br>
@@ -56,8 +56,8 @@ export default function Home() {
             </blockquote>
             <p>
             The costs would be very favorable in theory. Say the iron costs $1000/ton and one iron atom fertilizing the ocean allows 10,000 CO2 molecules to be captured into biomass. That works out to ~10 cents per tonne of CO2 fixed, 1000x smaller than the approximate theoretical best case cost for industrial direct air capture. Even if the cost were 10x higher than that, it would still be much less expensive than industrial direct air capture or ocean liming.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_1" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
                   <a href="https://www.forbes.com/sites/timworstall/2012/07/19/the-cheap-way-to-deal-with-climate-change-iron-fertilisation-of-the-oceans/#35adace47c6a">This article</a> suggest 30 cents per tonne CO2 captured
             </span> 
@@ -76,8 +76,8 @@ export default function Home() {
           <p>
             <b>Drawbacks</b>
             <br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_2" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
             Something a bit like this happened <a href="https://www.newscientist.com/article/dn16842-hungry-shrimp-eat-climate-change-experiment/">here</a>, with the algae being eaten by shrimp rather than sinking down deep to sequester their carbon. A <a href="https://www.nature.com/articles/nature11229">later</a> <a href="https://www.the-scientist.com/news-opinion/lowering-carbon-with-algae-40725">study</a> circumvented this problem by operating in a region where hard-shelled diatoms were stimulated to grow, rather than normal plankton, and these were less easy for the shrimp and such to eat, and thus apparently managed to sink the carbon to the ocean floor. In <a href="https://www.biogeosciences.net/15/5847/2018/bg-15-5847-2018.pdf">experiments</a> with iron fertilization, blooms reduced the local partial pressure of CO2.
 
@@ -85,8 +85,8 @@ export default function Home() {
 
           There is some concern that the effects of this intervention may be short lived as a lot of the fixed carbon may just quickly re-enter the atmosphere
           <br></br><br></br>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+          <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn_2_3" class="margin-toggle"/>
           <span class="marginnote" id="id_option">
           On the other hand, <a href="https://palladiummag.com/2019/01/28/ancient-upheavals-show-how-to-geoengineer-a-stable-climate/">this article</a> notes some interesting paleo-climate and ecological twists on iron fertilization that suggest that perturbations to ocean iron may not be so unusual and even that ocean iron may be at lower levels than usual at present:
 
@@ -96,8 +96,8 @@ export default function Home() {
           <br></br><br></br>
           Moreover, one must be careful as to which nutrients are actually limiting or could become limiting. Ken Caldeira, in a talk, estimates that 1 additional iron atom can lead to ~50k additional carbon atoms incorporated into biomass, but within a few years this depletes P and N, and thus slows down the effect. He estimates that realistic iron seeding could not offset current emission levels.
           <br></br><br></br>
-          <label for="mn-demo" class="margin-toggle">&#8853;</label>
-          <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+          <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+          <input type="checkbox" id="mn_2_4" class="margin-toggle"/>
           <span class="marginnote" id="id_option">
           It looks like Mount Pinatubo’s eruption in the early 1990s may have done ocean iron fertilization naturally and thus briefly stalled CO2 accumulation in the atmosphere. Likewise, recent big Australian wildfires seem to have caused a bloom. 
 
@@ -127,8 +127,8 @@ export default function Home() {
 				</p>
 			</blockquote>
       <p>
-      <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+      <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_5" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
       For better or worse, the coccolithophores seem to do OK with ocean acidification. On the flip side, other weird organisms can play a big role in sequestration by making and discarding “mucus houses”. Biology is crazy.  
 

@@ -28,8 +28,8 @@ export default function Home() {
             <h1 >3.3: Cloud whitening & brightening</h1>
               
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Australia is <a href="https://www.straitstimes.com/asia/australianz/cloud-brightening-sun-shields-to-save-great-barrier-reef"></a>apparently considering some local testing of the idea. 
             <br></br><br></br>
@@ -51,8 +51,8 @@ export default function Home() {
             The authors emphasize that preliminary studies of such “Marine Stratus Brightening” (MSB) could also serve to help pin down key parameters involved in aerosol-cloud interactions, which are a key uncertainty in climate models generally. Thus research in this area is valuable for the fundamentals of climate science even without reference to geoengineering per se. 
             <br></br><br></br>
             The Lawrence paper concludes that this science is needed:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             <br></br><br></br>
             Or in other words, we don’t really know how Marine Stratus Brightening will go but it seems likely that it would lead to cooling above our target for radiative forcing geoengineering of 0.6 W/m^2 
@@ -89,8 +89,8 @@ export default function Home() {
             </blockquote>
             <p>
             The 2015 National Academies report on solar radiation management <a href="https://www.nap.edu/read/18988/chapter/5#127">concluded</a> the following in terms research needs and potential problems, but overall seemed to judge it feasible that it could make a sufficiently large impact on the planet’s energy balance if this research is resolved:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_2" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
                   <br></br><br></br>
                   Or briefly, we know very very little about how any of this would work in real life in terms of feedback effects or second order consequences 

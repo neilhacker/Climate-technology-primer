@@ -48,8 +48,8 @@ export default function Home() {
             <br></br><br></br>
             If we assume that we can use a logging truck with a maximum capacity of 40t then we would need 1,500 truckloads of wood. Assume the average distance from our site is 20km then we are looking at 1500 * 40 * 20 = 1,200,000 t-km.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             The good thing here is that even if we are off by a lot we still have a hefty amount of wiggle room to get a good life cycle analysis.  
 
@@ -59,8 +59,8 @@ export default function Home() {
             <br></br><br></br>
             You might then wonder about how large the hole we have to dig is and it turns out the answer to that would be large but not crazy. Wood, let's say, has an average density of 800kg/m³ and so 60,000t of wood would take up around 75,000 m³ of storage space. Put in context this is roughly the size of a football field 13.5m deep or 30 olympic swimming pools.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             You also don’t lose the land as you can just re turf the hole you dug and get back to a natural setting.
 
@@ -81,8 +81,8 @@ export default function Home() {
             The canonical <a href="https://pubs.acs.org/doi/full/10.1021/es8015556">paper</a> in this area has to do with taking crop residue from land and sinking them into the deep ocean. 
             <br></br><br></br>
             The paper is rather old but states: 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             <br></br><br></br>
             Note that 1Pg = 1Gt. This would suggest that at maximum this approach couldn’t even get to a Gt scale. 
@@ -146,8 +146,8 @@ export default function Home() {
             <br></br><br></br>
             <b>Bio-oil</b>
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             It's probably worth mentioning that at the moment Charm is actually the company to have delivered the most permenant carbon removal tons to date. 
 			</span> 
@@ -156,8 +156,8 @@ export default function Home() {
             <br></br><br></br>
             At the moment this is very expensive ($600t) but they aim to have this down to around $50t as they scale up. The plan is to use waste residues like nut shells, corn stover, bagasse, rice straw that are generally not used as fossil fuel replacements in order to have pure additionality vs letting them rot. 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             One useful thing when thinking about the CO₂ effect of bio-oil is that 1t of bio-oil ≈ 1t of CO₂e removed. This is because while the bio-oil process is only 70% efficient the ratio of bio-oil to CO₂e is 1:1.3 so these values balance out. 
 

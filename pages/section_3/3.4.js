@@ -29,15 +29,15 @@ export default function Home() {
               
             <p>
             Somewhat less attention has been paid to option #3 above, a space-based sun-shade. The most popular version of the idea
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Although to be clear, no version of this idea is particularly popular
 			</span> 
  
             appears to be a version by Roger Angel proposing to deliver sun shades to the 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Did you know that we have a spacecraft <a href="https://sohowww.nascom.nasa.gov/about/orbit.html">at L1</a> already.
             <br></br>
@@ -87,8 +87,8 @@ export default function Home() {
             <br></br><br></br>
             Interestingly, the earlier <a href="https://pdfs.semanticscholar.org/da74/16d80a952c5713380de2264aded5eca8c82a.pdf">paper</a> with Lowell Wood proposes a potentially lower-cost variant:
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_3_2" class="margin-toggle"/>
             <span class="marginnote" id="id_option">
                   Now, 1e14 grams = 1e8 tons, which is similar to the 2e7 tons for the Roger Angel proposal. But the Teller/Wood/Hyde proposal suggests 1e5 smaller mass requirement than that: see footnotes 23, 24 and 25 in that paper. So that seems more economically feasible, though I am wondering about the challenges in actually building and maintaining such a system in space.
 

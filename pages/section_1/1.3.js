@@ -36,9 +36,9 @@ export default function Home() {
                 I'm going to put below the equation we're working towards, don't worry if it looks like a lot we're going to go through the derivations
                 in more detail below: 
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
+                <label for="mn_1_0" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_1_0" class="margin-toggle"/>
+                <span class="marginnote" id="mn_1_0">
                 Interestingly, the logarithmic dependence of ΔF on CO₂ concentration is predicted from complex global simulations, 
                 but the basic physical <a href="agupubs.onlinelibrary.wiley.com/doi/10.1029/98GL01908 lam.mycpanel.princeton.edu/documents/LamAug07bs.pdf">reasons </a> 
                 <a href="clivebest.com/blog/?p=4697">do </a> 
@@ -52,9 +52,9 @@ export default function Home() {
             </p>
             <h2>Ignoring feedback</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_1">
             This section was inspired by <a href="https://www.acs.org/content/acs/en/climatescience/atmosphericwarming/climatsensitivity.html">this</a> site.
             </span> 
 
@@ -62,9 +62,9 @@ export default function Home() {
             From a simple calculation using the radiation balance physics we’ve discussed already the change in 
             temperature for a given amount of radiative forcing is:
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_1_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_1_2" class="margin-toggle"/>
+            <span class="marginnote" id="mn_1_2">
             ΔF is the radiative forcing from additional greenhouse gasses relative to those in pre-industrial times
             <br></br>
             Tp is the planetary surface temperature prior to additional greenhouse gasses being added ~ 288 Kelvin
@@ -119,9 +119,9 @@ export default function Home() {
             However, importantly, the formula we just used, which doesn’t take into account any kind of water vapor or biological feedbacks, not to mention many others, <b>underestimates certain longer-timescale historical data</b>, taken from a <a href="http://science.sciencemag.org/content/291/5501/112">record</a> that spans over tens of thousands of years, by about a factor of about 4.
             <br></br><br></br>
             As the ACS website puts it:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_3" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_3">
             <br></br><br></br>
             The sensitivity factor this talks about is the term out front of the logarithmic expression for temperature change versus CO2 concentration
 			</span> 
@@ -150,18 +150,18 @@ export default function Home() {
                 <br></br><br></br>
                 Now, this is much more warming than has occurred so far. What to make of that? 
                 Well, as mentioned above, the water-based feedback phenomena <b>can take decades to manifest</b>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
+                <label for="mn_1_4" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_1_4" class="margin-toggle"/>
+                <span class="marginnote" id="mn_1_4">
                 given for instance the large heat capacity of the oceans
                 </span> 
 
                  , so perhaps we should not be surprised that the temperature of the Earth has not yet caught up with where it is going to be heading over the coming decades, even for a hypothetical fixed amount of CO2 from now on, according to this formula. 
                 <br></br><br></br>
                 A <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2013JD020184">recent paper</a> tried to pin down the magnitude of the water feedback based on more recent, rather than long-term historical, observations, including measurements of the water vapor concentration itself. They concluded that the missing feedback factor might be closer to 2, rather than the 4 above.
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-                <input type="checkbox" id="mn-demo" class="margin-toggle"/>
-                <span class="marginnote" id="id_option">
+                <label for="mn_1_5" class="margin-toggle">&#8853;</label>
+                <input type="checkbox" id="mn_1_5" class="margin-toggle"/>
+                <span class="marginnote" id="mn_1_5">
                 They do add the caveat that they because of the shortness of their observations, 7 years, there is some inevitable confidence intervals around this value.
                 </span> 
                 &nbsp;Either of these values still means though that unless the ppm of CO₂ in the atmosphere falls quickly things are not looking good
@@ -171,9 +171,9 @@ export default function Home() {
 
             <h2>Potential tipping points</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_6" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_6">
             Some have <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0081648">argued</a> that a nominal 2C target, given comparatively fast feedbacks like water vapor, actually corresponds to a nearly inexorable push to 3C or higher long-term when slower feedbacks are taken into account.
 
 			</span> 
@@ -181,17 +181,17 @@ export default function Home() {
             Alas, fitting historical or even quite recent data for the “missing feedback factor” isn’t really fully predictive either, even if we had enough of that data, due to abrupt phase transitions or <a href="https://en.wikipedia.org/wiki/Tipping_points_in_the_climate_system">tipping points</a> which can occur at different temperatures. For example, rapid one-time arctic methane release from the permafrost, or ocean albedo decrease brought on by sea ice melting.
             <br></br><br></br>
             To be sure, many seem to disagree that the relevant tipping points are likely to be around 2C, as opposed to higher.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_7" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_7" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_7">
             As explained <a href="https://twitter.com/DoctorVive/status/1170816281794293761">here</a>
 			</span> 
             &nbsp; Here is a <a href="https://twitter.com/KHayhoe/status/1104833329587806210">nice thread</a> about the significance or lack thereof of current targets like 2℃ or 1.5℃ from a tipping point perspective. Also, many tipping points would take decades or centuries to manifest their effects, giving time for response, and in some cases in principle for reversal by bringing temperature back down through negative emissions.
 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_8" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_8" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_8">
             We should probably also worry about nonlinear effects that would depend on the rate of change or the variance of of climate variables. For instance if ecologies can adapt to a given change over long timescales but struggle to do so over short timescales
 			</span> 
 
@@ -202,9 +202,9 @@ export default function Home() {
 
             <h2>A middle of the road climate sensitivity</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_9" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_9" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_9">
             For comparison, using <a href="https://link.springer.com/article/10.1007/s10584-009-9792-y">sophisticated climate models</a>, plus models of the human activity, IPCC projects 2-4℃K of warming by 2100
 
 			</span> 
@@ -230,9 +230,9 @@ export default function Home() {
 			</Collapsible>
 
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_10" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_10" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_10">
             TRCE stands for the transient climate response to cumulative carbon emissions, which is the ​​ratio of global average surface temperature change per unit of CO₂ emitted
 			</span> 
 
@@ -265,9 +265,9 @@ export default function Home() {
             <br></br><br></br>
             With the <a href="https://www.wolframalpha.com/input/?i=Plot+2*+0.3+*+5.35++*+Ln%28x%2F278%29+between+278+and+540">feedback factor of 2</a> instead of 2.5, we’d cross 1.5C at around 440 ppm, and our remaining carbon budget for 1.5C at the time of writing would therefore be around 2*(440-405 ppm)*7.81=547Gt CO₂ emitted.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_11" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_11" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_11">
             See slide 15 there
             <br></br><br></br>
             For more good discussion <a href="https://twitter.com/KenCaldeira/status/1031706974361010176">here</a> and <a href="https://twitter.com/Peters_Glen/status/1185632577316634625">here</a>
@@ -286,9 +286,9 @@ export default function Home() {
 			</blockquote>
 
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_12" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_12" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_12">
             See <a href="https://www.carbonbrief.org/analysis-how-much-carbon-budget-is-left-to-limit-global-warming-to-1-5c">here</a> for a much better analysis
 			<br></br><br></br>
             Even some of the scenarios that target 1.5C set that as an ultimate target for the end of the century, and actually slightly <a href="https://twitter.com/Peters_Glen/status/1174955265679953921">exceed</a> that target between now and then, relying on negative emissions to bring it down afterwards. 
@@ -303,9 +303,9 @@ export default function Home() {
             <Image src='/img/sec1/1_role_of_CDR.png' alt="ipcc snippits on role of cdr" width="700px" height="400px"/>
             </div>
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_1_13" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_1_13" class="margin-toggle"/>
+			<span class="marginnote" id="mn_1_13">
             Again, subject to all the caveats about the notion of carbon budgets here, not to mention our crappiest of models.
             <br></br><br></br>
             At the time of writing, meanwhile, this calculator <a href="https://www.theguardian.com/environment/datablog/2017/jan/19/carbon-countdown-clock-how-much-of-the-worlds-carbon-budget-have-we-spent">from the Guardian</a>, gives 687 GigaTonnes, or 17 years at our current emissions rate

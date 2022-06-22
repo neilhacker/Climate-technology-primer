@@ -37,17 +37,17 @@ export default function Home() {
           <h1>Climate Technology Primer</h1>
             <p>
 
-            <label for="mn-demo0.0" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo0.0" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_0_0" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_0_0" class="margin-toggle"/>
+            <span class="marginnote" id="mn_0_0">
             Excellent documents and courses are available online on what we are doing to the climate — such as the 
             <a href="https://www.ipcc.ch/2019/"> IPCC reports</a> or <a href="https://www.e-education.psu.edu/meteo469/">Prof. Michael Mann’s online course </a>
             or <a href="http://web.archive.org/web/20210203213718/http://web.gps.caltech.edu/classes/ese148a/NASclimatechange.pdf"> this National Academies report</a>.
             </span> 
  
-            <label for="mn-demo0.1" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo0.1" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_0_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_0_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_0_1">
               <br></br>
             There are integrative assessments of solutions, such as <a href="https://www.drawdown.org/">Project Drawdown</a>, and a huge proliferation of innovative technologies 
             being proposed and developed in all sectors. There are also some 
@@ -58,9 +58,9 @@ export default function Home() {
             want more of a quantitative look at things I can't reccommend David MacKay's <a href="https://www.withouthotair.com/">Sustainable Energy without the Hot Air</a> enough.
             </span> 
 
-            <label for="mn-demo0.2" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn-demo0.2" class="margin-toggle"/>
-            <span class="marginnote" id="id_option">
+            <label for="mn_0_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_0_2" class="margin-toggle"/>
+            <span class="marginnote" id="mn_0_2">
               <br></br>
             Within applications of machine learning to climate, I recommend <a href="https://arxiv.org/abs/1906.05433">this paper</a> for a broader picture that spans a wider range of solution domains — such breadth serves as good food for thought for technologists interested in finding the truly most impactful areas in which they might be able to contribute
             </span> 

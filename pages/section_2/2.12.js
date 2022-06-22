@@ -29,8 +29,8 @@ export default function Home() {
               
             <p>
             One possibility would be to engineer Phytoplankton to permanently sequester more of the carbon they photosynthesize. 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             We’ll see where this enthusiasm comes from below, as well as reasons for less enthusiasm 
 
@@ -39,14 +39,14 @@ export default function Home() {
             My marvelous PhD advisor George Church argues that engineering phage-resistant cyanobacteria could be part of the solution: “If all of the material that they fix didn’t turn back into carbon dioxide, we’d have solved the global warming problem in a year or two.”
             <br></br><br></br>
             According to one estimate, the “oceanic annual global net primary productivity” is 48.5 Pg Carbon/year.
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Remember a peta-gram is a gigaton
 			</span> 
             Much of this photosynthesis is done by the tiny, very abundant cyanobacteria and this photosynthesis, just like with normal plants, removes CO₂ from the atmosphere..
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_2" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             There is a breakdown of what this means <a href="http://book.bionumbers.org/how-many-photons-does-it-take-to-make-a-cyanobacterium/">here</a>
 			</span> 
@@ -62,8 +62,8 @@ export default function Home() {
 				</p>
 			</blockquote>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_3" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             At present, such recoded organisms are still not as functional as their normal cousins (for which every detail of the genome sequence has been optimized by evolution) but it has more or less <a href="http://science.sciencemag.org/content/353/6301/819">been</a> <a href="http://science.sciencemag.org/content/342/6156/357">done</a>. Note that regardless of anything at an ecosystem level, such recoded organisms are likely to <a href="https://www.64-x.com/">have</a> <a href="https://www.prnewswire.com/news-releases/george-church-lab-spinout-gro-biosciences-secures-21-million-in-seed-funding-300527233.html">plenty</a> of biotech applications including potentially in a bioenergy with carbon capture setting. 
 
@@ -81,8 +81,8 @@ export default function Home() {
 			</blockquote>
             <p>
             If we take somewhere in between the 20 million and 5 billion metric tons numbers given above, 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_4" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             The team estimates that the cyanophages are preventing the fixation of between 20 million and 5.39 billion metric tons of carbon each year
             <br></br><br></br>
@@ -94,8 +94,8 @@ export default function Home() {
             <br></br><br></br>
             I’d argue that there are major risks to making cyanos phage resistant if they are ever to exist in the wild. One is related to scientific understanding — what if the phages are, in some ways, ecologically good? The <a href="http://millardlab.org/research/cyanophages/">lab</a> of Andrew Millard is doing some of the science on this: “The findings… will help scientists better understand the full impact of cyanophages on the environment. While in this particular case less carbon fixation would seem to tip the scales toward more CO2 and more warming, it’s just one aspect of what viruses are doing in the ocean…”
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_5" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Today I believe that, in practice, genomically recoded organisms still tend to have a growth defect, although this is likely <a href="https://www.pnas.org/content/115/12/3090.short">solvable</a>, and even with a growth defect, they might still be able to gain an advantage if their lifetimes are much longer when phage resistant.) Note that photosynthesis in oceans is limited by nutrients such as nitrogen and phosphorus — if one creature eats too much, others that need it will get less. So this is risky to say the least and needs to be approached with great caution.
 			</span> 
@@ -104,8 +104,8 @@ export default function Home() {
             <br></br><br></br>
             <b>Biocontainment</b>
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_6" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             There is <a href="https://www.sciencedirect.com/science/article/pii/S2405471216302149">some</a> <a href="https://www.nature.com/articles/nature14095">very</a> <a href="https://www.nature.com/articles/s41589-018-0056-x">cool</a> <a href="https://www.nature.com/articles/nature14121">work</a> in this area. It is not clear to me, though, how a system contained in an industrial setting would achieve a scale of CO2 removal comparable to the world’s overall yearly photosynthesis. (But see YC’s “boat fleet” concept below, for an example of how the definition of “an industrial setting” might need some extension.)
 

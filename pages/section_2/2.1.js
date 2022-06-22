@@ -47,9 +47,9 @@ export default function Home() {
 				</p>
 			</blockquote>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_0">
             650 Gt of CO2 is ~83 ppm of atmospheric CO2
             <br></br><br></br>
             ¹ Which would be …. Ppm lower than where we currently are
@@ -74,9 +74,9 @@ export default function Home() {
             <b>Method 1</b>
             <br></br><br></br>
             Here’s a simple way to estimate it: What we are asking to do is to compress a dilute gas, and doing so in this scenario requires pressure-volume work at constant temperature. If you know/remember/want to learn some physics, the energy associated with P-V work at constant temperature is given by a logarithmic formula:
-            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_2" class="margin-toggle"/>
-            <span class="marginnote" id="method_1_def">
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_1" class="margin-toggle"/>
+            <span class="marginnote" id="mn_2_1">
                 n= number of moles of CO2 removed
                 <br></br>
                 R = gas constant
@@ -89,8 +89,8 @@ export default function Home() {
             </span>
             <span style={{fontSize: 'medium'}}><Latex>{'$nRT*ln(\\dfrac{V_f}{V_i})$'}</Latex></span> 
 
-            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_3" class="margin-toggle"/>
+            <label for="mn_2_2" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_2" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 ³ I will ignore the small differences between long, short and metric tons, i.e., tonnes     
             </span> 
@@ -119,8 +119,8 @@ export default function Home() {
             <b>Method 2</b>
             <br></br><br></br>
             <a href="https://en.wikipedia.org/wiki/Klaus_Lackner">Klaus Lackner</a>, one of the inventors of direct air capture of CO2, used a <a href="https://www.osti.gov/biblio/770509">version</a> of this formula in his first paper on the subject, which you can convince yourself from the ideal gas law (PV=nRT) is equivalent: the energy requirement per mole of CO2 removed is
-            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_6" class="margin-toggle"/>
+            <label for="mn_2_3" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_3" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 P0 = initial CO₂ partial pressure ~ 400/1e6 * 1 atm
                 <br></br>
@@ -152,8 +152,8 @@ export default function Home() {
                 <br></br><br></br>
             </span> 
 
-            <label for="mn_2_9" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_9" class="margin-toggle"/>
+            <label for="mn_2_4" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_4" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 In reality, liquid CO₂ forms only at pressures over 5.1 atm, but this doesn’t change the answer much, 
                 <a href="https://www.wolframalpha.com/input/?i=%28gas+constant%29+*+300+Kelvin+*+Ln%5B%285.1+atm%29+%2F+%281+atm+*+400%2F1e6%29%5D">
@@ -176,8 +176,8 @@ export default function Home() {
             <br></br><br></br>
             A somewhat more rigorous way to arrive at this is to use the <a href="https://en.wikipedia.org/wiki/Entropy_of_mixing">entropy of mixing</a>, as is done <a href="https://www.pnas.org/content/108/51/20428">here</a> and <a href="https://blogs.scientificamerican.com/guest-blog/post-combustion-co2-capture-to-mitigate-climate-change-separation-costs-energy/">here</a> and <a href="https://www.sciencedirect.com/science/article/abs/pii/S0360544212006901">here</a>. The energy associated with the entropy of mixing is given by:
             <br></br><br></br>
-            <label for="mn_2_10" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_10" class="margin-toggle"/>
+            <label for="mn_2_5" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_5" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 n is now the total number of moles of all the molecules in the atmosphere
                 <br></br>
@@ -191,8 +191,8 @@ export default function Home() {
             Let x1 be the fraction of CO2, and x2 be the fraction of the rest of the air. For x2 close to 1.0, the x2 term is negligible, which makes 
             sense: when the rest of the atmosphere expands into the tiny space formerly occupied by the CO2, its entropy doesn’t increase significantly.
             
-            <label for="mn_2_11" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_11" class="margin-toggle"/>
+            <label for="mn_2_6" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_6" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
             ² i.e., <span style={{fontSize: 'small'}}><Latex>{'$x_1=\\dfrac{400}{1e6}$'}</Latex></span> 
 
@@ -249,8 +249,8 @@ export default function Home() {
             <br></br><br></br>
             This entropy of mixing framework can be extended to other scenarios like ones with interactions between the molecules, desalination of liquids, and so on. It also leads to a proper calculation for the case where we only remove some of the CO2 from the atmosphere, not all of it, which is what we’d want to do in practice. On a per mole of CO2 removed basis, we have an energy cost for partial removal of:
             <br></br>
-            <label for="mn_2_14" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_14" class="margin-toggle"/>
+            <label for="mn_2_7" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_7" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 P1 is the initial pressure of CO2 in the atmosphere
                 <br></br>
@@ -320,8 +320,8 @@ export default function Home() {
                 <br></br><br></br>
             </span> 
 
-            <label for="mn_2_20" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_20" class="margin-toggle"/>
+            <label for="mn_2_8" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_8" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 By the way, MacKay has it in his book at about <b onClick={()=>sidebar('kwh_kg_to_kj_mol')} style={{cursor: 'pointer'}}>30KJ/mole</b> for the minimum energy cost. 
                 His 0.13 in this table kWh / kg in this table is our 20 kJ/mole, and he adds an additional compression cost that adds about a third (I’m not exactly sure where this comes from, maybe he’s pushing towards dry ice densities, but in any case it doesn’t add that much in the grand scheme):
@@ -338,8 +338,8 @@ export default function Home() {
             <b onClick={()=>sidebar('mj_to_remove_500gt')} style={{cursor: 'pointer'}}> ~2.5e20 Joules</b>.
             <br></br><br></br>
             (The astute Sam Rodriques points out that, although this is indeed the minimal work needed to separate out the CO2, not all of this work is necessarily ultimately lost as heat and thus unrecoverable, at least in principle.)
-            <label for="mn_2_21" class="margin-toggle">&#8853;</label>
-            <input type="checkbox" id="mn_2_21" class="margin-toggle"/>
+            <label for="mn_2_9" class="margin-toggle">&#8853;</label>
+            <input type="checkbox" id="mn_2_9" class="margin-toggle"/>
             <span class="marginnote" id="cost comparison graph">
                 ³ Interestingly, this is all much less than the heat of combustion of fossil fuels per mole of CO2, on the order of 500-1000 kJ/mole. That makes sense, since we are not reversing the chemical reaction of combustion, just sequestering the released CO2 to a smaller volume 
             </span>
@@ -388,9 +388,9 @@ export default function Home() {
             This is arguably not that much energy in the grand scheme. Even if we assume we need to do it basically twice to compensate for outgassing of CO2 by the oceans (see below), it is still on the order of 5e20 Joules to remove 500 GigaTons, 
             <span onClick={()=>sidebar('energy_to_remove_all_carbon')} style={{cursor: 'pointer', fontWeight: 'bold'}}>which works out to 1.5 TeraWatts running continuously over 10 years</span>, which is about 1/10th of civilization’s energy consumption if we were to do it over 10 years. Significant, yes, indeed huge, but not impossibly so. We’re talking on the order of solar panels covering a US state.
             <br></br><br></br>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+            <label for="mn_2_10" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_10" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_10">
             Note that not all of the schemes we’ll consider require paying this energy “out of pocket”, as it were: for instance, biology-based schemes rely on the energy of the sun for photosynthesis to do the work, and mineral weathering schemes like Project Vesta rely on chemical free energy in the minerals they harvest.
 
 			</span> 
@@ -451,9 +451,9 @@ export default function Home() {
 
         <p>
         For enhanced weathering approaches (see below), <a href="https://projectvesta.org/">Project Vesta</a> estimated around $10 per tonne of CO2 removed, so also a trillion dollar scale project if done at the hundreds of gigatonne level. Likewise, if you want to plant a trillion trees (see below), and it costs perhaps on the order of $1 per tree, which is on the order of $5-$10 per tonne CO2, it is approaching the same scale of cost. Is there any way to break out of that roughly trillion dollar cost level?
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+        <label for="mn_2_11" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_11" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_11">
             Potentially with self-replicating solar-powered microorganisms
 			</span> 
             We’ll talk about that a bit later — but suffice it to say there are some major potential caveats and difficulties there too
@@ -492,9 +492,9 @@ export default function Home() {
         <p>
         In practice, if someone can get it below $20 per tonne CO2 that would be amazing (hell, &lt;$50/tonne CO2 would be amazing at this point), given all the other aspects than the thermodynamically necessary minimum energy for separation per se, like the need to get enough air flow or to ultimately store the captured CO2 somewhere. This means that, if we are ultimately going to suck hundreds of gigatonnes of CO2 out of the atmosphere, via an industrial direct air capture approach, it will <b>probably have to cost trillions of dollars</b> to do so, although from a pure thermodynamic and energy cost limit it could theoretically cost merely hundreds of billions.
         <br></br><br></br>
-        <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
-			<span class="marginnote" id="id_option">
+        <label for="mn_2_12" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_12" class="margin-toggle"/>
+			<span class="marginnote" id="mn_2_12">
             Though this might need to operate for longer than Manhattan or Apollo, and the structure of today’s economy and politics is of course very different from WWII or the early Cold War). Half of a percent of United States GDP over 10 years is a trillion dollars.
 			</span> 
 

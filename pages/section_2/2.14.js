@@ -29,8 +29,8 @@ export default function Home() {
               <h2>Energy</h2>
             <p>
             We need abundant cheap, clean energy: a carbon tax (perhaps a revenue-neutral one) would help us get there. These are probably the exact same things one would have said before thinking about carbon dioxide removal. But:
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             <br></br><br></br>
             The thermodynamic minimum energy needed for direct air carbon capture is less bad than I thought it would be, but still hefty by current standards, and reaching near that minimum is hard.
@@ -64,8 +64,8 @@ export default function Home() {
             </p>
             <h2>Company formation/activity</h2>
             <p>
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_2_1" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_2_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Some updates and further resources on this:
             <br></br><br></br>
