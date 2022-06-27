@@ -37,8 +37,8 @@ export default function Home() {
             It is not just China though, <a href="https://www.thejakartapost.com/news/2020/05/28/indonesia-starts-cloud-seeding-to-keep-forest-fires-at-bay.html">Indonesia</a> have tried injecting particles into clouds offshore to try to get them to rain before getting to land and causing floods. Colorado is also using similar methods to try to increase their snowpack. 
             <br></br><br></br>
             The UAE is trying something slightly different, the approaches above focus on stimulating rain from pre existing clouds whereas they are trying to induce cloud formation in the first place. They have a $400 million fund and have 
-            <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+            <label for="mn_3_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             ¹ <a href="https://wired.me/science/environment/cloud-seeding-uae-dubai-rain-floods/">In some cases</a> maybe too much progress
 			</span> 

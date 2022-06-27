@@ -36,8 +36,8 @@ export default function Home() {
                 <br></br><br></br>
                 Freeman Dyson <a href="https://www.nybooks.com/articles/2008/06/12/the-question-of-global-warming/">proposed</a>, as a zany conceptual sketch illustrating a space of possibility, kites or balloons to modify the air flow over the coast of East Antarctica — to dump more snow on comparatively-stable East Antarctica, potentially sucking out from the ocean sea water released by melting of Greenland and/or West Antarctica, and thus lowering sea levels:
                 <br></br><br></br>
-                <label for="mn-demo" class="margin-toggle">&#8853;</label>
-			<input type="checkbox" id="mn-demo" class="margin-toggle"/>
+                <label for="mn_3_0" class="margin-toggle">&#8853;</label>
+			<input type="checkbox" id="mn_3_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Or more briefly, if Greenland and West Antarctica completely melt this could lead to a 15m sea level rise which would be terrible. East Antarctica is not in danger of melting and we could try moving the current anticyclone that is over this region towards West Antarctica. The could be done with a giant series of kits along one side of this anticyclone which would push it towards West Antarctica which would suck up more moist air and create snowfall over East Antarctica. This could counteract sea level rises due to West Antarctica and Greenland melting. 
 

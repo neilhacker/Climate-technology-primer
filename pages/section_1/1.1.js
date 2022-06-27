@@ -113,7 +113,7 @@ export default function Home() {
             <br></br><br></br>
             If you <a href="https://www.wolframalpha.com/input/?i=((2-0.08)+*+1.361+kilowatts+per+square+meter+*+(1-0.3)+%2F+((2-0.8)+*+4+*+5.67+x+10%5E-8+W%2F(m%5E2K%5E4)))%5E(%C2%BC)">plug the values</a> of f and ε from the margin note in you get a ground temperature of 286 Kelvin or so, which is pretty close to our actual global mean surface temperature of around 288 Kelvin
             <br></br><br></br>
-            Again, this is a very limited  model, because it neglects almost all the complexities of the atmosphere and climate system, but it can be used to illustrate certain basic things. For example, if you want to keep the Earth’s temperature low, you can theoretically increase the albedo, A, to reflect a higher percentage of the incoming solar radiation back to space; this is called solar geoengineering or solar radiation management, and this formula allows to calculate crudely the kind of impact that can have. [Feel like another thing we can learn should go here otherwise I think this section is a bit lacking in conclusion]
+            Again, this is a very limited  model, because it neglects almost all the complexities of the atmosphere and climate system, but it can be used to illustrate certain basic things. For example, if you want to keep the Earth’s temperature low, you can theoretically increase the albedo, A, to reflect a higher percentage of the incoming solar radiation back to space; this is called solar geoengineering or solar radiation management, and this formula allows to calculate crudely the kind of impact that can have.
 {/* not put in all margin notes  */}
 <br></br><br></br>
 
