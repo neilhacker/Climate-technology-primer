@@ -28,14 +28,14 @@ export default function Home() {
             <h1 >3.4: Space based sun-shades</h1>
               
             <p>
-            Somewhat less attention has been paid to option #3 above, a space-based sun-shade. The most popular version of the idea
+            Somewhat less attention has been paid to a space-based sun-shade. The most popular version of the idea
             <label for="mn_3_0" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn_3_0" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
             Although to be clear, no version of this idea is particularly popular
 			</span> 
  
-            appears to be a version by Roger Angel proposing to deliver sun shades to the 
+      &nbsp; appears to be a version by Roger Angel proposing to deliver sun shades to the 
             <label for="mn_3_1" class="margin-toggle">&#8853;</label>
 			<input type="checkbox" id="mn_3_1" class="margin-toggle"/>
 			<span class="marginnote" id="id_option">
@@ -45,19 +45,19 @@ export default function Home() {
             <Image src='/img/sec3/3_l1.jpeg' alt="diagram of L1 orbit point" width="500px" height="400px"/>
             </div>
 			</span> 
-            L1 Lagrange Point, a point which remains at a constant relative position in between the Earth and Sun as they orbit. Angel’s paper proposes three things:
+      &nbsp; L1 Lagrange Point, a point which remains at a constant relative position in between the Earth and Sun as they orbit. Angel’s <a href="https://www.pnas.org/doi/full/10.1073/pnas.0608163103">paper</a> proposes three things:
             <br></br><br></br>
             <ol>
                 <li>
-                “First is an optical design for a very thin refractive screen with low reflectivity, leading to a total sunshade mass of 20 million tons.” 
+                "An optical design for a very thin refractive screen with low reflectivity, leading to a total sunshade mass of 20 million tons.” 
 
                 </li>
                 <li>
-                “Second is a concept aimed at reducing transportation cost to $50/kg by using electromagnetic acceleration to escape Earth’s gravity, followed by ion propulsion.” (Hmm…)
+                “A concept aimed at reducing transportation cost to $50/kg by using electromagnetic acceleration to escape Earth’s gravity, followed by ion propulsion.” (Hmm…)
 
                 </li>
                 <li>
-                “Third is an implementation of the sunshade as a cloud of many spacecraft, autonomously stabilized by modulating solar radiation pressure.”
+                "An implementation of the sunshade as a cloud of many spacecraft, autonomously stabilized by modulating solar radiation pressure.”
 
                 </li>
 
@@ -120,6 +120,8 @@ export default function Home() {
             <p>
             But perhaps this hasn’t been studied to its absolute logical limit — for instance, there are other <a href="http://www.niac.usra.edu/files/library/meetings/fellows/mar07/1314Crowe.pdf">cool</a> <a href="https://pdfs.semanticscholar.org/44b5/f3ec56ba36481d41ea562d3f23bac6d717de.pdf?_ga=2.30784125.335461148.1549357238-1626053982.1549037200">ideas</a> for reducing mass.
             <br></br><br></br>
+            MIT seems to <a href="https://senseable.mit.edu/space-bubbles/">have taken up</a> the research on this area. You'd still construct your sun shade at the L1 point but this time instead of a screen in the more normal sense of the word they propose to use types of bubbles to do the same kind of job. 
+            One big benefit of this type of approach is that if decide you want to stop the effect you can simply burst the bubbles. This is still very much in the research stage but with launch costs falling and falling it is starting to look less completely crazy. 
             <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
             </p>
