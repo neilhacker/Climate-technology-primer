@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 function openNav() {
-    document.getElementById("mySidenav").style.width = "60%";
+    document.getElementById("mySidenav").style.width = "70%";
     document.getElementById("mySidenav").style.maxWidth = "520px";
 
     document.getElementById("mySidenav").style.boxShadow = "0 0 0 10000vmax rgba(0,0,0,.6)";
