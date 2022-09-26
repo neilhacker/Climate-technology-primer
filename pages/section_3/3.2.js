@@ -206,8 +206,58 @@ export default function Home() {
 			</span> 
 
             <b> However, changes below the surfaces of the ocean and ice sheets may strongly limit the potential of solar geoengineering to reduce the retreat of marine glaciers… It may be that significant losses from some West Antarctic glaciers are unavoidable by simply returning climate and oceanic driving conditions to the preindustrial conditions and perhaps that even doing so would not be sufficient to arrest the retreat.</b>”
+        </p>
 
+        <h2>Subpolar-focused stratospheric aerosol injection</h2>
+        <p>
 
+        One potential approach that is less intense than global aerosol injection is to focus the <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3">injections in the subpolar regions</a>, i.e the Artic and Antarctic. 
+        <br></br><br></br>
+        These areas face local warming much more intense than the rest of the planet and the consequences of these areas warming can also be much more destabilising such as accelerated sea level rises. 
+        <br></br><br></br>
+        Deploying stratospheric aerosol injections at just the polar regions has a number of benefits. Firstly, the altitude needed for deployment is lower "Because the tropopause is considerably lower at high latitudes, aerosols or their precursors would not need to be lofted as high, reducing the engineering challenges relative to a global deployment".
+        <br></br><br></br>
+        Instead of the 20km altitude needed for injections closer to the equator you would only need to reach heights of around 13km if you do you injections at the polar regions. This only simplifies things a bit though, in response to the potential question of whether current aircraft could be used the authors say "after consideration, the simple but surprising answer is—only poorly, and therefore, likely not at all.... a purpose-built aircraft would still be warranted for this mission".
+        <br></br><br></br>
+        A second benefit is that the actual amount of SO2 you need to release is much smaller (roughly 1/3) compared to if you were trying to have global effects. Not only are you using less material but the effects would be more extreme, for the same set or reasons currently contributing to the polar regions facing accelerated local warming. 
+        </p>
+        <blockquote>
+				<p>
+                (Lee et al <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3#ercac8cd3bib32">2021</a>) estimates that a 12 Tg-SO2/yr spring deployment at 60°N would force a −3.7 °C annualized average surface temperature anomaly in the region north of 60°N. This estimate was made with a background RCP 8.5 °C scenario but should not be strongly dependent upon the specific scenario.
+
+				</p>
+			</blockquote>
+
+        <p> 
+        The program is also, potentially, a very cost effective way of reducing polar warming. The authors stress that this could not be a full replacement for actual mitigation and removal strategies but on a per dollar basis it could be very useful at stopping some of the worst damage caused by polar warming. 
+        <br></br><br></br>
+        The costs are mainly comprised of having to develop a new aircraft design and then running a fleet of over 100 of these models. There would also be the cost of the SO2 used and a fuel surcharge of $0.5/gallon is used to approximate a $50/t cost of carbon. The order of magnitude costs for this program come out at $10bn/yr
+        <br></br><br></br>
+        There are still severe issues with this approach. As mentioned above no current aircraft would be suitable for this operation and so a new design would be needed and this would then need to be manufactured over 100 times to create a large enough fleet. This fleet would do something like ≈175,000 runs a year or roughly equivalent to the air traffic out of Atlanta's Hartsfield-Jackson Airport, the worlds busiest airport by passenger volume. 
+        <br></br><br></br>
+        Both the creation of these planes a the building out of capacity in the northern and southern hemisphere would take considerable time. The paper estimates something like 15 years meaning this is by no means a quick climate fix. Or in their words:
+        </p>
+        <blockquote>
+				<p>
+                "The design and build-out of both the flight and ground infrastructure would require more than a decade, such that a large subpolar SAI program is not a feasible emergency response to acute climate stress."
+
+				</p>
+		</blockquote>
+
+        <p>        
+        The scheme would also need to be balanced between the two hemispheres otherwise "Arctic SAI has been expected to shift the ITCZ southward, with potentially serious implications for the distribution of tropical precipitation (Robock et al <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3#ercac8cd3bib45">[2008]</a>, MacCracken et al <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3#ercac8cd3bib34">[2013]</a>, Nalam et al <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3#ercac8cd3bib38">[2018]</a>, Lee et al <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3#ercac8cd3bib31">[2020]</a>). Balancing the Arctic injection with an Antarctic injection is expected to nearly nullify such a shift (Nalam et al <a href="https://iopscience.iop.org/article/10.1088/2515-7620/ac8cd3#ercac8cd3bib38">[2018]</a>)." Or in other words if the hemispheres don't receive the same amount of injections global rain patterns could shift. 
+        <br></br><br></br>
+        There are also the traditional governance challenges and public opposition to any scheme involving aerosol injection. Public opposition is so strong to these techniques that in 2021 an experiment in Sweden that was just to test flight equipment was cancelled after public objections. So even though &lt;1% of the worlds population would live in the areas SO2 is being released in public opposition would likely still be a massively difficult barrier to overcome.  
+
+        </p>
+        <blockquote>
+				<p>
+                "subpolar deployment seems unlikely to bypass the awesome governance challenges that would confront any SAI program, though this would seem to be a crucial avenue for subsequent social science research"
+
+				</p>
+		</blockquote>
+
+        <p> 
             <br></br><br></br>
             <span style={{fontSize: 'medium', color: 'white'}}><Latex>{' $ ____________________________________________ $'}</Latex></span> 
 
